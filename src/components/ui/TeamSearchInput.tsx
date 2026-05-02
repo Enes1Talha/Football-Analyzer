@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef, useCallback } from "react";
 import Image from "next/image";
-import { Search, X } from "lucide-react";
+import { Search, X, ChevronDown } from "lucide-react";
 
 interface TeamResult {
   id: number;
@@ -11,35 +11,68 @@ interface TeamResult {
   country: string;
 }
 
+// Popüler takımlar — API çağrısı gerekmez
+const POPULAR_TEAMS: TeamResult[] = [
+  { id: 50,  name: "Manchester City",  logo: "", country: "England" },
+  { id: 42,  name: "Arsenal",          logo: "", country: "England" },
+  { id: 40,  name: "Liverpool",        logo: "", country: "England" },
+  { id: 49,  name: "Chelsea",          logo: "", country: "England" },
+  { id: 33,  name: "Manchester United",logo: "", country: "England" },
+  { id: 47,  name: "Tottenham",        logo: "", country: "England" },
+  { id: 541, name: "Real Madrid",      logo: "", country: "Spain" },
+  { id: 529, name: "FC Barcelona",     logo: "", country: "Spain" },
+  { id: 530, name: "Atletico Madrid",  logo: "", country: "Spain" },
+  { id: 157, name: "Bayern Munich",    logo: "", country: "Germany" },
+  { id: 165, name: "Borussia Dortmund",logo: "", country: "Germany" },
+  { id: 489, name: "AC Milan",         logo: "", country: "Italy" },
+  { id: 496, name: "Juventus",         logo: "", country: "Italy" },
+  { id: 505, name: "Inter Milan",      logo: "", country: "Italy" },
+  { id: 85,  name: "Paris Saint-Germain", logo: "", country: "France" },
+  { id: 645, name: "Galatasaray",      logo: "", country: "Turkey" },
+  { id: 630, name: "Fenerbahçe",       logo: "", country: "Turkey" },
+  { id: 641, name: "Beşiktaş",         logo: "", country: "Turkey" },
+  { id: 601, name: "Trabzonspor",      logo: "", country: "Turkey" },
+];
+
 interface TeamSearchInputProps {
   label: string;
   onSelect: (team: TeamResult) => void;
-  defaultTeam?: TeamResult;
   accentColor?: string;
 }
 
 export default function TeamSearchInput({
   label,
   onSelect,
-  defaultTeam,
   accentColor = "#39FF14",
 }: TeamSearchInputProps) {
-  const [query, setQuery] = useState(defaultTeam?.name ?? "");
-  const [results, setResults] = useState<TeamResult[]>([]);
-  const [selected, setSelected] = useState<TeamResult | null>(defaultTeam ?? null);
+  const [query, setQuery] = useState("");
+  const [apiResults, setApiResults] = useState<TeamResult[]>([]);
+  const [selected, setSelected] = useState<TeamResult | null>(null);
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const wrapperRef = useRef<HTMLDivElement>(null);
 
-  const search = useCallback(async (q: string) => {
-    if (q.length < 2) { setResults([]); return; }
+  // Popüler takımları query'ye göre filtrele
+  const filteredPopular = query.length === 0
+    ? POPULAR_TEAMS
+    : POPULAR_TEAMS.filter((t) =>
+        t.name.toLowerCase().includes(query.toLowerCase()) ||
+        t.country.toLowerCase().includes(query.toLowerCase())
+      );
+
+  const displayResults = apiResults.length > 0 ? apiResults : filteredPopular;
+
+  const searchApi = useCallback(async (q: string) => {
+    if (q.length < 2) { setApiResults([]); return; }
     setLoading(true);
     try {
       const res = await fetch(`/api/football/search-teams?q=${encodeURIComponent(q)}`);
       const data = await res.json();
-      setResults(data.results ?? []);
-      setOpen(true);
+      if (data.results?.length > 0) setApiResults(data.results);
+      else setApiResults([]);
+    } catch {
+      setApiResults([]);
     } finally {
       setLoading(false);
     }
@@ -48,9 +81,9 @@ export default function TeamSearchInput({
   useEffect(() => {
     if (selected) return;
     if (timer.current) clearTimeout(timer.current);
-    timer.current = setTimeout(() => search(query), 400);
+    timer.current = setTimeout(() => searchApi(query), 500);
     return () => { if (timer.current) clearTimeout(timer.current); };
-  }, [query, search, selected]);
+  }, [query, searchApi, selected]);
 
   useEffect(() => {
     function handleClick(e: MouseEvent) {
@@ -66,14 +99,14 @@ export default function TeamSearchInput({
     setSelected(team);
     setQuery(team.name);
     setOpen(false);
-    setResults([]);
+    setApiResults([]);
     onSelect(team);
   }
 
   function handleClear() {
     setSelected(null);
     setQuery("");
-    setResults([]);
+    setApiResults([]);
     setOpen(false);
   }
 
@@ -84,21 +117,18 @@ export default function TeamSearchInput({
       </label>
 
       <div
-        className="flex items-center gap-2 bg-pitch-dark border border-pitch-border rounded px-3 py-2 transition-colors focus-within:border-zinc-600"
+        className="flex items-center gap-2 bg-pitch-dark border border-pitch-border rounded px-3 py-2 transition-colors focus-within:border-zinc-600 cursor-text"
         style={selected ? { borderColor: `${accentColor}40` } : {}}
+        onClick={() => !selected && setOpen(true)}
       >
-        {selected?.logo ? (
-          <Image src={selected.logo} alt={selected.name} width={16} height={16} unoptimized className="object-contain flex-shrink-0" />
-        ) : (
-          <Search size={13} className="text-zinc-600 flex-shrink-0" />
-        )}
+        <Search size={13} className="text-zinc-600 flex-shrink-0" />
 
         <input
           type="text"
           value={query}
-          onChange={(e) => { setQuery(e.target.value); setSelected(null); }}
-          onFocus={() => results.length > 0 && setOpen(true)}
-          placeholder="Takım ara..."
+          onChange={(e) => { setQuery(e.target.value); setSelected(null); setOpen(true); }}
+          onFocus={() => setOpen(true)}
+          placeholder="Takım adı yaz veya seç..."
           className="bg-transparent text-sm font-mono text-white placeholder-zinc-600 focus:outline-none w-full"
         />
 
@@ -109,41 +139,51 @@ export default function TeamSearchInput({
           </svg>
         )}
 
-        {selected && (
+        {selected ? (
           <button onClick={handleClear} className="text-zinc-600 hover:text-zinc-400 flex-shrink-0">
             <X size={13} />
           </button>
+        ) : (
+          <ChevronDown size={13} className="text-zinc-600 flex-shrink-0" />
         )}
       </div>
 
-      {/* Selected badge */}
       {selected && (
         <p className="mt-1 text-[10px] font-mono tracking-wider" style={{ color: accentColor }}>
-          ID: {selected.id} · {selected.country}
+          ✓ {selected.country} · ID: {selected.id}
         </p>
       )}
 
       {/* Dropdown */}
-      {open && results.length > 0 && (
-        <div className="absolute z-50 top-full mt-1 w-full bg-pitch-card border border-pitch-border rounded-lg shadow-xl overflow-hidden">
-          {results.map((team) => (
+      {open && !selected && (
+        <div className="absolute z-50 top-full mt-1 w-full bg-pitch-card border border-pitch-border rounded-lg shadow-xl overflow-hidden max-h-64 overflow-y-auto">
+          {query.length === 0 && (
+            <p className="px-3 py-2 text-[10px] font-mono text-zinc-500 tracking-widest uppercase border-b border-pitch-border">
+              Popüler Takımlar
+            </p>
+          )}
+          {displayResults.length === 0 && (
+            <p className="px-3 py-3 text-sm font-mono text-zinc-500 text-center">Takım bulunamadı</p>
+          )}
+          {displayResults.map((team) => (
             <button
               key={team.id}
               onClick={() => handleSelect(team)}
-              className="flex items-center gap-3 w-full px-3 py-2.5 text-left hover:bg-pitch-muted transition-colors"
+              className="flex items-center gap-3 w-full px-3 py-2.5 text-left hover:bg-pitch-muted transition-colors border-b border-pitch-border/50 last:border-0"
             >
               {team.logo ? (
-                <Image src={team.logo} alt={team.name} width={20} height={20} unoptimized className="object-contain flex-shrink-0" />
+                <Image src={team.logo} alt={team.name} width={18} height={18} unoptimized className="object-contain flex-shrink-0" />
               ) : (
-                <div className="w-5 h-5 rounded-full bg-pitch-muted flex-shrink-0" />
+                <div
+                  className="w-4 h-4 rounded-full flex-shrink-0"
+                  style={{ backgroundColor: `${accentColor}20`, border: `1px solid ${accentColor}30` }}
+                />
               )}
-              <div>
-                <p className="text-sm font-mono text-white leading-tight">{team.name}</p>
-                {team.country && (
-                  <p className="text-[10px] text-zinc-500">{team.country}</p>
-                )}
+              <div className="flex-1 min-w-0">
+                <p className="text-sm font-mono text-white leading-tight truncate">{team.name}</p>
+                <p className="text-[10px] text-zinc-500">{team.country}</p>
               </div>
-              <span className="ml-auto text-[10px] font-mono text-zinc-600">#{team.id}</span>
+              <span className="text-[10px] font-mono text-zinc-600 flex-shrink-0">#{team.id}</span>
             </button>
           ))}
         </div>
