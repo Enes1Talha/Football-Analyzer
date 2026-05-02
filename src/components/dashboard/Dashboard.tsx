@@ -9,10 +9,6 @@ import ErrorBanner from "./ErrorBanner";
 import Spinner from "@/components/ui/Spinner";
 import { ComparisonData } from "@/types/football";
 
-const DEFAULT_TEAM_A = process.env.NEXT_PUBLIC_DEFAULT_TEAM_A ?? "50";
-const DEFAULT_TEAM_B = process.env.NEXT_PUBLIC_DEFAULT_TEAM_B ?? "42";
-const DEFAULT_LEAGUE = process.env.NEXT_PUBLIC_DEFAULT_LEAGUE ?? "39";
-const DEFAULT_SEASON = process.env.NEXT_PUBLIC_DEFAULT_SEASON ?? "2023";
 
 interface ApiError {
   error: string;
@@ -104,12 +100,6 @@ export default function Dashboard() {
       <div className="max-w-7xl mx-auto px-4 pb-16 space-y-6">
         {/* Team selector */}
         <TeamSelector
-          labelA="Team A"
-          labelB="Team B"
-          teamA={DEFAULT_TEAM_A}
-          teamB={DEFAULT_TEAM_B}
-          league={DEFAULT_LEAGUE}
-          season={DEFAULT_SEASON}
           onSearch={fetchData}
           loading={loading}
         />
@@ -119,7 +109,7 @@ export default function Dashboard() {
           <div className="flex flex-col items-center justify-center py-24 gap-4">
             <Spinner size={40} />
             <p className="text-zinc-500 font-mono text-sm animate-pulse">
-              Fetching live data from API-Football...
+              Veri çekiliyor...
             </p>
           </div>
         )}

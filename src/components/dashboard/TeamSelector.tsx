@@ -2,105 +2,124 @@
 
 import { useState } from "react";
 import { Search } from "lucide-react";
+import TeamSearchInput from "@/components/ui/TeamSearchInput";
+
+interface TeamResult {
+  id: number;
+  name: string;
+  logo: string;
+  country: string;
+}
+
+const POPULAR_LEAGUES = [
+  { id: 39, name: "Premier League" },
+  { id: 140, name: "La Liga" },
+  { id: 78, name: "Bundesliga" },
+  { id: 135, name: "Serie A" },
+  { id: 61, name: "Ligue 1" },
+  { id: 2, name: "Champions League" },
+  { id: 203, name: "Süper Lig" },
+  { id: 94, name: "Primeira Liga" },
+];
+
+const SEASONS = [2024, 2023, 2022, 2021, 2020];
 
 interface TeamSelectorProps {
-  labelA: string;
-  labelB: string;
-  teamA: string;
-  teamB: string;
-  league: string;
-  season: string;
   onSearch: (teamA: string, teamB: string, league: string, season: string) => void;
   loading: boolean;
 }
 
-export default function TeamSelector({
-  labelA,
-  labelB,
-  teamA,
-  teamB,
-  league,
-  season,
-  onSearch,
-  loading,
-}: TeamSelectorProps) {
-  const [a, setA] = useState(teamA);
-  const [b, setB] = useState(teamB);
-  const [l, setL] = useState(league);
-  const [s, setS] = useState(season);
+export default function TeamSelector({ onSearch, loading }: TeamSelectorProps) {
+  const [teamA, setTeamA] = useState<TeamResult | null>(null);
+  const [teamB, setTeamB] = useState<TeamResult | null>(null);
+  const [league, setLeague] = useState("39");
+  const [season, setSeason] = useState("2023");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const selectCls =
+    "bg-pitch-dark border border-pitch-border rounded px-3 py-2 text-sm font-mono text-white focus:outline-none focus:border-zinc-600 transition-colors w-full appearance-none";
+
+  function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    onSearch(a, b, l, s);
-  };
+    if (!teamA || !teamB) return;
+    onSearch(String(teamA.id), String(teamB.id), league, season);
+  }
 
-  const inputCls =
-    "bg-pitch-dark border border-pitch-border rounded px-3 py-2 text-sm font-mono text-white placeholder-zinc-600 focus:outline-none focus:border-neon-green/50 transition-colors w-full";
+  const ready = teamA && teamB && !loading;
 
   return (
-    <form onSubmit={handleSubmit} className="card-glow p-4">
-      <p className="section-label mb-4">Configure Match-up</p>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+    <form onSubmit={handleSubmit} className="card-glow p-4 space-y-4">
+      <p className="section-label">Karşılaşma Seç</p>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <TeamSearchInput
+          label="Ev Sahibi Takım"
+          onSelect={setTeamA}
+          accentColor="#39FF14"
+        />
+        <TeamSearchInput
+          label="Deplasman Takımı"
+          onSelect={setTeamB}
+          accentColor="#00FFFF"
+        />
+      </div>
+
+      <div className="grid grid-cols-2 gap-4">
         <div>
           <label className="block text-[10px] font-mono text-zinc-500 mb-1 tracking-widest uppercase">
-            {labelA} ID
+            Lig
           </label>
-          <input
-            type="number"
-            value={a}
-            onChange={(e) => setA(e.target.value)}
-            placeholder="e.g. 50"
-            className={inputCls}
-          />
+          <select
+            value={league}
+            onChange={(e) => setLeague(e.target.value)}
+            className={selectCls}
+          >
+            {POPULAR_LEAGUES.map((l) => (
+              <option key={l.id} value={l.id} className="bg-pitch-dark">
+                {l.name}
+              </option>
+            ))}
+          </select>
         </div>
+
         <div>
           <label className="block text-[10px] font-mono text-zinc-500 mb-1 tracking-widest uppercase">
-            {labelB} ID
+            Sezon
           </label>
-          <input
-            type="number"
-            value={b}
-            onChange={(e) => setB(e.target.value)}
-            placeholder="e.g. 42"
-            className={inputCls}
-          />
-        </div>
-        <div>
-          <label className="block text-[10px] font-mono text-zinc-500 mb-1 tracking-widest uppercase">
-            League ID
-          </label>
-          <input
-            type="number"
-            value={l}
-            onChange={(e) => setL(e.target.value)}
-            placeholder="e.g. 39"
-            className={inputCls}
-          />
-        </div>
-        <div>
-          <label className="block text-[10px] font-mono text-zinc-500 mb-1 tracking-widest uppercase">
-            Season
-          </label>
-          <input
-            type="number"
-            value={s}
-            onChange={(e) => setS(e.target.value)}
-            placeholder="e.g. 2023"
-            className={inputCls}
-          />
+          <select
+            value={season}
+            onChange={(e) => setSeason(e.target.value)}
+            className={selectCls}
+          >
+            {SEASONS.map((s) => (
+              <option key={s} value={s} className="bg-pitch-dark">
+                {s}/{String(s + 1).slice(2)}
+              </option>
+            ))}
+          </select>
         </div>
       </div>
-      <div className="mt-4 flex justify-end">
+
+      {(!teamA || !teamB) && (
+        <p className="text-[11px] font-mono text-zinc-600">
+          {!teamA && !teamB
+            ? "Her iki takımı da seç"
+            : !teamA
+            ? "Ev sahibi takımı seç"
+            : "Deplasman takımını seç"}
+        </p>
+      )}
+
+      <div className="flex justify-end">
         <button
           type="submit"
-          disabled={loading}
+          disabled={!ready}
           className="flex items-center gap-2 px-5 py-2 rounded font-mono text-sm font-bold tracking-wider uppercase transition-all
             bg-neon-green/10 text-neon-green border border-neon-green/30
             hover:bg-neon-green/20 hover:border-neon-green/60
-            disabled:opacity-40 disabled:cursor-not-allowed"
+            disabled:opacity-30 disabled:cursor-not-allowed"
         >
           <Search size={14} />
-          {loading ? "Loading..." : "Analyze"}
+          {loading ? "Yükleniyor..." : "Analiz Et"}
         </button>
       </div>
     </form>
