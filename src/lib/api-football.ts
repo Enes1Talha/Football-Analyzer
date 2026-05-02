@@ -1,6 +1,4 @@
 import {
-  ApiFootballFixtureResponse,
-  ApiFootballPlayerResponse,
   TeamFormData,
   TeamMidfieldStats,
   Fixture,
@@ -21,6 +19,7 @@ function buildHeaders() {
   return {
     "X-RapidAPI-Key": key,
     "X-RapidAPI-Host": RAPIDAPI_HOST,
+    "Content-Type": "application/json",
   };
 }
 
@@ -31,74 +30,155 @@ async function apiFetch<T>(endpoint: string): Promise<T> {
   });
 
   if (!res.ok) {
-    throw new Error(`API-Football responded ${res.status}: ${await res.text()}`);
+    throw new Error(`API responded ${res.status}: ${await res.text()}`);
   }
 
   return res.json() as Promise<T>;
 }
 
+// ── Types matching Free API Live Football Data response format ──────────────
+
+interface RawMatch {
+  id?: number;
+  match_id?: number;
+  date?: string;
+  match_date?: string;
+  home_team?: string;
+  hometeam?: string;
+  home_team_id?: number;
+  hometeam_id?: number;
+  home_team_logo?: string;
+  away_team?: string;
+  awayteam?: string;
+  away_team_id?: number;
+  awayteam_id?: number;
+  away_team_logo?: string;
+  home_score?: number | null;
+  away_score?: number | null;
+  match_hometeam_score?: number | null;
+  match_awayteam_score?: number | null;
+  status?: string;
+  match_status?: string;
+  league_name?: string;
+  round?: string;
+  [key: string]: unknown;
+}
+
+interface RawPlayer {
+  id?: number;
+  player_id?: number;
+  name?: string;
+  player_name?: string;
+  number?: number;
+  position?: string;
+  photo?: string;
+  player_image?: string;
+  pass_accuracy?: number | string;
+  tackles?: number;
+  interceptions?: number;
+  key_passes?: number;
+  duels_won?: number;
+  dribbles?: number;
+  [key: string]: unknown;
+}
+
+function extractArray(data: unknown): unknown[] {
+  if (Array.isArray(data)) return data;
+  if (data && typeof data === "object") {
+    const obj = data as Record<string, unknown>;
+    for (const key of ["response", "matches", "fixtures", "data", "result", "results"]) {
+      if (Array.isArray(obj[key])) return obj[key] as unknown[];
+    }
+    // Try first array value found
+    for (const val of Object.values(obj)) {
+      if (Array.isArray(val)) return val;
+    }
+  }
+  return [];
+}
+
 function deriveResult(
   teamId: number,
   homeId: number,
-  awayId: number,
-  homeGoals: number | null,
-  awayGoals: number | null
+  homeScore: number | null,
+  awayScore: number | null,
+  isHome: boolean
 ): MatchResult {
-  if (homeGoals === null || awayGoals === null) return "D";
-  const isHome = teamId === homeId;
-  const scored = isHome ? homeGoals : awayGoals;
-  const conceded = isHome ? awayGoals : homeGoals;
+  if (homeScore === null || awayScore === null) return "D";
+  void teamId; void homeId;
+  const scored = isHome ? homeScore : awayScore;
+  const conceded = isHome ? awayScore : homeScore;
   if (scored > conceded) return "W";
   if (scored < conceded) return "L";
   return "D";
 }
+
+function safeNum(n: unknown): number {
+  const v = Number(n);
+  return isNaN(v) ? 0 : v;
+}
+
+// ── Team Form ───────────────────────────────────────────────────────────────
 
 export async function fetchTeamForm(
   teamId: number,
   leagueId: number,
   season: number
 ): Promise<TeamFormData> {
-  const data = await apiFetch<ApiFootballFixtureResponse>(
-    `/football-get-matches-by-league?leagueid=${leagueId}&season=${season}`
+  void season; // this API filters by league only
+
+  const raw = await apiFetch<unknown>(
+    `/football-get-all-matches-by-league?leagueid=${leagueId}`
   );
 
-  const fixtures: Fixture[] = data.response.map((item) => {
-    const isHome = item.teams.home.id === teamId;
-    const result = deriveResult(
-      teamId,
-      item.teams.home.id,
-      item.teams.away.id,
-      item.goals.home,
-      item.goals.away
-    );
+  const allMatches = extractArray(raw) as RawMatch[];
+
+  // Filter by team and only finished matches, then take last 5
+  const teamMatches = allMatches
+    .filter((m) => {
+      const hId = m.home_team_id ?? m.hometeam_id ?? 0;
+      const aId = m.away_team_id ?? m.awayteam_id ?? 0;
+      const status = (m.status ?? m.match_status ?? "").toLowerCase();
+      const finished = status === "ft" || status === "finished" || status === "match finished";
+      return (hId === teamId || aId === teamId) && finished;
+    })
+    .slice(-5);
+
+  const fixtures: Fixture[] = teamMatches.map((m) => {
+    const homeId = m.home_team_id ?? m.hometeam_id ?? 0;
+    const awayId = m.away_team_id ?? m.awayteam_id ?? 0;
+    const isHome = homeId === teamId;
+    const homeScore = safeNum(m.home_score ?? m.match_hometeam_score) ?? null;
+    const awayScore = safeNum(m.away_score ?? m.match_awayteam_score) ?? null;
+    const result = deriveResult(teamId, homeId, homeScore, awayScore, isHome);
 
     return {
-      id: item.fixture.id,
-      date: item.fixture.date,
+      id: m.id ?? m.match_id ?? Math.random(),
+      date: m.date ?? m.match_date ?? "",
       homeTeam: {
-        id: item.teams.home.id,
-        name: item.teams.home.name,
-        logo: item.teams.home.logo,
+        id: homeId,
+        name: m.home_team ?? m.hometeam ?? "Home",
+        logo: m.home_team_logo ?? "",
       },
       awayTeam: {
-        id: item.teams.away.id,
-        name: item.teams.away.name,
-        logo: item.teams.away.logo,
+        id: awayId,
+        name: m.away_team ?? m.awayteam ?? "Away",
+        logo: m.away_team_logo ?? "",
       },
-      score: { home: item.goals.home, away: item.goals.away },
+      score: { home: homeScore, away: awayScore },
       result,
       isHome,
-      leagueName: item.league.name,
-      leagueLogo: item.league.logo,
-      round: item.league.round,
+      leagueName: m.league_name ?? "",
+      leagueLogo: "",
+      round: m.round ?? "",
     };
   });
 
-  const teamInfo = fixtures[0]
+  const teamName = fixtures[0]
     ? fixtures[0].isHome
-      ? fixtures[0].homeTeam
-      : fixtures[0].awayTeam
-    : { id: teamId, name: "Unknown", logo: "" };
+      ? fixtures[0].homeTeam.name
+      : fixtures[0].awayTeam.name
+    : "Unknown";
 
   const wins = fixtures.filter((f) => f.result === "W").length;
   const draws = fixtures.filter((f) => f.result === "D").length;
@@ -108,18 +188,13 @@ export async function fetchTeamForm(
   let goalsConceded = 0;
   fixtures.forEach((f) => {
     if (f.score.home !== null && f.score.away !== null) {
-      if (f.isHome) {
-        goalsScored += f.score.home;
-        goalsConceded += f.score.away;
-      } else {
-        goalsScored += f.score.away;
-        goalsConceded += f.score.home;
-      }
+      goalsScored += f.isHome ? f.score.home : f.score.away;
+      goalsConceded += f.isHome ? f.score.away : f.score.home;
     }
   });
 
   return {
-    team: teamInfo,
+    team: { id: teamId, name: teamName, logo: "" },
     fixtures,
     formString: fixtures.map((f) => f.result),
     wins,
@@ -130,63 +205,45 @@ export async function fetchTeamForm(
   };
 }
 
-function parseAccuracy(raw: string | null | undefined): number {
-  if (!raw) return 0;
-  const n = parseFloat(raw.replace("%", ""));
-  return isNaN(n) ? 0 : n;
-}
-
-function safeNum(n: number | null | undefined): number {
-  return n ?? 0;
-}
+// ── Midfield Stats ──────────────────────────────────────────────────────────
 
 export async function fetchTeamMidfieldStats(
   teamId: number,
   leagueId: number,
   season: number
 ): Promise<TeamMidfieldStats> {
-  // Fetch midfielders for the team
-  const data = await apiFetch<ApiFootballPlayerResponse>(
-    `/players?team=${teamId}&league=${leagueId}&season=${season}&page=1`
+  void leagueId; void season;
+
+  const raw = await apiFetch<unknown>(
+    `/football-get-players-list-all-by-teamid?teamid=${teamId}`
   );
 
-  const allPlayers = data.response;
+  const allPlayers = extractArray(raw) as RawPlayer[];
 
-  // Filter to midfielders (position "M") or typical mid numbers 6, 8, 10
-  const midfielders = allPlayers.filter((p) => {
-    const stats = p.statistics[0];
-    if (!stats) return false;
-    const pos = stats.games.position ?? "";
-    const num = stats.games.number ?? 0;
-    return pos === "M" || [6, 8, 10].includes(num);
+  // Prefer midfielders, fallback to first 6
+  const mids = allPlayers.filter((p) => {
+    const pos = (p.position ?? "").toLowerCase();
+    const num = safeNum(p.number);
+    return pos.includes("mid") || pos === "m" || [6, 8, 10].includes(num);
   });
 
-  // Fallback: use first 3 available players if no midfielders found
-  const targets =
-    midfielders.length > 0 ? midfielders.slice(0, 6) : allPlayers.slice(0, 3);
-
-  const teamRef = allPlayers[0]?.statistics[0]?.team ?? {
-    id: teamId,
-    name: "Unknown",
-    logo: "",
-  };
+  const targets = mids.length > 0 ? mids.slice(0, 6) : allPlayers.slice(0, 6);
 
   const players = targets.map((p) => {
-    const s = p.statistics[0];
     const metrics: MidfieldMetrics = {
-      passAccuracy: parseAccuracy(s?.passes?.accuracy),
-      tackles: safeNum(s?.tackles?.total),
-      interceptions: safeNum(s?.tackles?.interceptions),
-      keyPasses: safeNum(s?.passes?.key),
-      duelsWon: safeNum(s?.duels?.won),
-      dribbles: safeNum(s?.dribbles?.success),
+      passAccuracy: safeNum(p.pass_accuracy),
+      tackles: safeNum(p.tackles),
+      interceptions: safeNum(p.interceptions),
+      keyPasses: safeNum(p.key_passes),
+      duelsWon: safeNum(p.duels_won),
+      dribbles: safeNum(p.dribbles),
     };
     return {
-      id: p.player.id,
-      name: p.player.name,
-      number: s?.games?.number ?? 0,
-      position: s?.games?.position ?? "M",
-      photo: p.player.photo,
+      id: safeNum(p.id ?? p.player_id),
+      name: p.name ?? p.player_name ?? "Unknown",
+      number: safeNum(p.number),
+      position: p.position ?? "M",
+      photo: p.photo ?? p.player_image ?? "",
       metrics,
     };
   });
@@ -199,11 +256,7 @@ export async function fetchTeamMidfieldStats(
   };
 
   return {
-    team: {
-      id: teamRef.id,
-      name: teamRef.name,
-      logo: teamRef.logo,
-    },
+    team: { id: teamId, name: "", logo: "" },
     players,
     averageMetrics: {
       passAccuracy: avg("passAccuracy"),
