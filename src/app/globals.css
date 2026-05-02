@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Film grain overlay ─────────────────────────────── */
+@layer base {
+  :root {
+    --grain-opacity: 0.035;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-pitch-black text-white antialiased;
+    background-color: #050505;
+  }
+
+  *::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+  *::-webkit-scrollbar-track {
+    background: #0d0d0d;
+  }
+  *::-webkit-scrollbar-thumb {
+    background: #2a2a2a;
+    border-radius: 2px;
+  }
+}
+
+/* ── Grain pseudo-element ───────────────────────────── */
+@layer components {
+  .film-grain::after {
+    content: "";
+    position: fixed;
+    inset: -200%;
+    width: 400%;
+    height: 400%;
+    pointer-events: none;
+    z-index: 9999;
+    opacity: var(--grain-opacity);
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+    background-repeat: repeat;
+    background-size: 256px 256px;
+    animation: filmGrain 0.15s steps(1) infinite;
+  }
+
+  .neon-text-green {
+    color: #39ff14;
+    text-shadow:
+      0 0 7px #39ff14,
+      0 0 10px #39ff14,
+      0 0 21px #39ff14;
+  }
+
+  .neon-text-cyan {
+    color: #00ffff;
+    text-shadow:
+      0 0 7px #00ffff,
+      0 0 10px #00ffff,
+      0 0 21px #00ffff;
+  }
+
+  .neon-border-green {
+    border-color: #39ff14;
+    box-shadow:
+      0 0 5px #39ff14,
+      inset 0 0 5px rgba(57, 255, 20, 0.1);
+  }
+
+  .neon-border-cyan {
+    border-color: #00ffff;
+    box-shadow:
+      0 0 5px #00ffff,
+      inset 0 0 5px rgba(0, 255, 255, 0.1);
+  }
+
+  .card-glow {
+    @apply bg-pitch-card border border-pitch-border rounded-lg;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .card-glow:hover {
+    border-color: #1e1e1e;
+    box-shadow: 0 0 20px rgba(57, 255, 20, 0.04);
+  }
+
+  .stat-badge {
+    @apply inline-flex items-center justify-center rounded font-mono text-xs font-bold tracking-widest uppercase;
+  }
+
+  .badge-win {
+    @apply stat-badge bg-neon-green/10 text-neon-green border border-neon-green/30;
+  }
+
+  .badge-draw {
+    @apply stat-badge bg-neon-yellow/10 text-neon-yellow border border-neon-yellow/30;
+  }
+
+  .badge-loss {
+    @apply stat-badge bg-neon-red/10 text-neon-red border border-neon-red/30;
+  }
+
+  .section-label {
+    @apply text-xs font-mono tracking-[0.25em] uppercase text-zinc-500;
+  }
+}
+
+/* ── Recharts dark theme overrides ──────────────────── */
+.recharts-polar-grid-angle line,
+.recharts-polar-grid-concentric circle,
+.recharts-polar-grid-concentric path {
+  stroke: #1e1e1e !important;
+}
+
+.recharts-radar-polygon {
+  fill-opacity: 0.15 !important;
+}
+
+.recharts-text {
+  fill: #6b7280 !important;
+  font-family: monospace;
+  font-size: 11px !important;
+}
+
+.recharts-legend-item-text {
+  color: #9ca3af !important;
+}

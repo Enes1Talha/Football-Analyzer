@@ -1,0 +1,54 @@
+name: CI — Build & Lint
+
+on:
+  push:
+    branches: [main, master, "claude/**"]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  build:
+    name: Next.js Build
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [20.x]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Type check
+        run: npx tsc --noEmit
+
+      - name: Build
+        env:
+          # Provide a dummy key so the build doesn't fail on missing env var.
+          # Real API calls are never made during next build (no runtime fetch).
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY || 'ci-placeholder-key' }}
+          NEXT_PUBLIC_DEFAULT_TEAM_A: "50"
+          NEXT_PUBLIC_DEFAULT_TEAM_B: "42"
+          NEXT_PUBLIC_DEFAULT_LEAGUE: "39"
+          NEXT_PUBLIC_DEFAULT_SEASON: "2023"
+        run: npm run build
+
+      - name: Upload build artifact (optional)
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nextjs-build
+          path: .next/
+          retention-days: 7
