@@ -8,7 +8,8 @@ import {
   MidfieldMetrics,
 } from "@/types/football";
 
-const BASE_URL = "https://api-football-v1.p.rapidapi.com/v3";
+const BASE_URL = "https://free-api-live-football-data.p.rapidapi.com";
+const RAPIDAPI_HOST = "free-api-live-football-data.p.rapidapi.com";
 
 function buildHeaders() {
   const key = process.env.RAPIDAPI_KEY;
@@ -19,7 +20,7 @@ function buildHeaders() {
   }
   return {
     "X-RapidAPI-Key": key,
-    "X-RapidAPI-Host": "api-football-v1.p.rapidapi.com",
+    "X-RapidAPI-Host": RAPIDAPI_HOST,
   };
 }
 
@@ -58,7 +59,7 @@ export async function fetchTeamForm(
   season: number
 ): Promise<TeamFormData> {
   const data = await apiFetch<ApiFootballFixtureResponse>(
-    `/fixtures?team=${teamId}&league=${leagueId}&season=${season}&status=FT&last=5`
+    `/football-get-matches-by-league?leagueid=${leagueId}&season=${season}`
   );
 
   const fixtures: Fixture[] = data.response.map((item) => {
