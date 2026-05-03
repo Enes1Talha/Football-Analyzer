@@ -29,11 +29,19 @@ async function apiFetch<T>(endpoint: string): Promise<T> {
     next: { revalidate: 300 },
   });
 
-  if (!res.ok) {
-    throw new Error(`API responded ${res.status}: ${await res.text()}`);
+  const json = await res.json();
+
+  // API returns 200 but with error body when limit exceeded
+  if (json && typeof json === "object" && "error" in json) {
+    const msg = (json as Record<string, string>).message ?? (json as Record<string, string>).error;
+    throw new Error(`usage_exceeded: ${msg}`);
   }
 
-  return res.json() as Promise<T>;
+  if (!res.ok) {
+    throw new Error(`API responded ${res.status}`);
+  }
+
+  return json as T;
 }
 
 // ── Types matching Free API Live Football Data response format ──────────────
