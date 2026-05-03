@@ -48,13 +48,6 @@ export async function GET(request: NextRequest) {
   } catch (err: unknown) {
     const message = err instanceof Error ? err.message : "Unknown error";
 
-    // API limit veya hata durumunda mock'a düş
-    if (message.includes("429") || message.includes("usage_exceeded")) {
-      return NextResponse.json(
-        getMockComparison(teamA, teamB, teamAName, teamBName)
-      );
-    }
-
     if (message.includes("RAPIDAPI_KEY")) {
       return NextResponse.json(
         { error: "API key not configured", hint: "Copy .env.example to .env.local and add your RapidAPI key." },
@@ -62,9 +55,7 @@ export async function GET(request: NextRequest) {
       );
     }
 
-    return NextResponse.json(
-      { error: "Failed to fetch football data", detail: message },
-      { status: 502 }
-    );
+    // Tüm API hatalarında (429, usage_exceeded, 404 vb.) mock'a düş
+    return NextResponse.json(getMockComparison(teamA, teamB, teamAName, teamBName));
   }
 }
