@@ -215,7 +215,7 @@ export async function fetchTeamMidfieldStats(
   void leagueId; void season;
 
   const raw = await apiFetch<unknown>(
-    `/football-get-players-list-all-by-teamid?teamid=${teamId}`
+    `/football-get-list-player?teamid=${teamId}`
   );
 
   const allPlayers = extractArray(raw) as RawPlayer[];
