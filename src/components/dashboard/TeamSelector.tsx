@@ -25,7 +25,7 @@ const POPULAR_LEAGUES = [
 const SEASONS = [2024, 2023, 2022, 2021, 2020];
 
 interface TeamSelectorProps {
-  onSearch: (teamA: string, teamB: string, league: string, season: string) => void;
+  onSearch: (teamA: string, teamB: string, league: string, season: string, teamAName: string, teamBName: string) => void;
   loading: boolean;
 }
 
@@ -41,7 +41,7 @@ export default function TeamSelector({ onSearch, loading }: TeamSelectorProps) {
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!teamA || !teamB) return;
-    onSearch(String(teamA.id), String(teamB.id), league, season);
+    onSearch(String(teamA.id), String(teamB.id), league, season, teamA.name, teamB.name);
   }
 
   const ready = teamA && teamB && !loading;

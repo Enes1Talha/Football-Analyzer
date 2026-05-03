@@ -1,6 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
 import { fetchTeamForm, fetchTeamMidfieldStats } from "@/lib/api-football";
+import { getMockComparison } from "@/lib/mock-data";
 import { ComparisonData } from "@/types/football";
+
+// Set to false when real API is stable
+const USE_MOCK = process.env.USE_MOCK_DATA === "true";
 
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
@@ -9,12 +13,18 @@ export async function GET(request: NextRequest) {
   const teamB = parseInt(searchParams.get("teamB") ?? "42");
   const league = parseInt(searchParams.get("league") ?? "39");
   const season = parseInt(searchParams.get("season") ?? "2023");
+  const teamAName = searchParams.get("teamAName") ?? "Team A";
+  const teamBName = searchParams.get("teamBName") ?? "Team B";
 
   if (isNaN(teamA) || isNaN(teamB) || isNaN(league) || isNaN(season)) {
     return NextResponse.json(
-      { error: "Invalid query parameters. Expected: teamA, teamB, league, season (all numbers)." },
+      { error: "Invalid query parameters." },
       { status: 400 }
     );
+  }
+
+  if (USE_MOCK) {
+    return NextResponse.json(getMockComparison(teamA, teamB, teamAName, teamBName));
   }
 
   try {
@@ -33,20 +43,21 @@ export async function GET(request: NextRequest) {
     };
 
     return NextResponse.json(payload, {
-      headers: {
-        "Cache-Control": "s-maxage=300, stale-while-revalidate=600",
-      },
+      headers: { "Cache-Control": "s-maxage=300, stale-while-revalidate=600" },
     });
   } catch (err: unknown) {
     const message = err instanceof Error ? err.message : "Unknown error";
 
+    // API limit veya hata durumunda mock'a düş
+    if (message.includes("429") || message.includes("usage_exceeded")) {
+      return NextResponse.json(
+        getMockComparison(teamA, teamB, teamAName, teamBName)
+      );
+    }
+
     if (message.includes("RAPIDAPI_KEY")) {
       return NextResponse.json(
-        {
-          error: "API key not configured",
-          detail: message,
-          hint: "Copy .env.example to .env.local and add your RapidAPI key.",
-        },
+        { error: "API key not configured", hint: "Copy .env.example to .env.local and add your RapidAPI key." },
         { status: 503 }
       );
     }

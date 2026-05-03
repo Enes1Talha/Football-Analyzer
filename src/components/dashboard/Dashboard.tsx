@@ -23,12 +23,12 @@ export default function Dashboard() {
   const [hasFetched, setHasFetched] = useState(false);
 
   const fetchData = useCallback(
-    async (teamA: string, teamB: string, league: string, season: string) => {
+    async (teamA: string, teamB: string, league: string, season: string, teamAName = "Team A", teamBName = "Team B") => {
       setLoading(true);
       setError(null);
 
       try {
-        const params = new URLSearchParams({ teamA, teamB, league, season });
+        const params = new URLSearchParams({ teamA, teamB, league, season, teamAName, teamBName });
         const res = await fetch(`/api/football/comparison?${params}`);
         const json = await res.json();
 
