@@ -7,6 +7,7 @@ import MidfieldRadar from "./MidfieldRadar";
 import TeamSelector from "./TeamSelector";
 import ErrorBanner from "./ErrorBanner";
 import Spinner from "@/components/ui/Spinner";
+import Footer from "@/components/ui/Footer";
 import { ComparisonData } from "@/types/football";
 
 
@@ -178,13 +179,7 @@ export default function Dashboard() {
         )}
       </div>
 
-      {/* ── Footer ── */}
-      <footer className="border-t border-pitch-border py-6">
-        <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs font-mono text-zinc-600">
-          <span>Football Analyzer — built with Next.js &amp; API-Football</span>
-          <span>Data provided by RapidAPI · API-Football</span>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

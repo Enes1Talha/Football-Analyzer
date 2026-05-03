@@ -26,7 +26,7 @@ function buildHeaders() {
 async function apiFetch<T>(endpoint: string): Promise<T> {
   const res = await fetch(`${BASE_URL}${endpoint}`, {
     headers: buildHeaders(),
-    next: { revalidate: 300 },
+    next: { revalidate: 86400 }, // 24 saat cache — günlük limit koruması
   });
 
   const json = await res.json();
