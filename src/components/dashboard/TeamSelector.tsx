@@ -22,7 +22,7 @@ const POPULAR_LEAGUES = [
   { id: 94, name: "Primeira Liga" },
 ];
 
-const SEASONS = [2024, 2023, 2022, 2021, 2020];
+const SEASONS = [2025, 2024, 2023, 2022, 2021, 2020];
 
 interface TeamSelectorProps {
   onSearch: (teamA: string, teamB: string, league: string, season: string, teamAName: string, teamBName: string) => void;
