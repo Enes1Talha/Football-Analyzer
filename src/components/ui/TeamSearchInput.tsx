@@ -11,27 +11,28 @@ interface TeamResult {
   country: string;
 }
 
-// Popüler takımlar — API çağrısı gerekmez
+const L = (id: number) => `https://media.api-sports.io/football/teams/${id}.png`;
+
 const POPULAR_TEAMS: TeamResult[] = [
-  { id: 50,  name: "Manchester City",  logo: "", country: "England" },
-  { id: 42,  name: "Arsenal",          logo: "", country: "England" },
-  { id: 40,  name: "Liverpool",        logo: "", country: "England" },
-  { id: 49,  name: "Chelsea",          logo: "", country: "England" },
-  { id: 33,  name: "Manchester United",logo: "", country: "England" },
-  { id: 47,  name: "Tottenham",        logo: "", country: "England" },
-  { id: 541, name: "Real Madrid",      logo: "", country: "Spain" },
-  { id: 529, name: "FC Barcelona",     logo: "", country: "Spain" },
-  { id: 530, name: "Atletico Madrid",  logo: "", country: "Spain" },
-  { id: 157, name: "Bayern Munich",    logo: "", country: "Germany" },
-  { id: 165, name: "Borussia Dortmund",logo: "", country: "Germany" },
-  { id: 489, name: "AC Milan",         logo: "", country: "Italy" },
-  { id: 496, name: "Juventus",         logo: "", country: "Italy" },
-  { id: 505, name: "Inter Milan",      logo: "", country: "Italy" },
-  { id: 85,  name: "Paris Saint-Germain", logo: "", country: "France" },
-  { id: 645, name: "Galatasaray",      logo: "", country: "Turkey" },
-  { id: 630, name: "Fenerbahçe",       logo: "", country: "Turkey" },
-  { id: 641, name: "Beşiktaş",         logo: "", country: "Turkey" },
-  { id: 601, name: "Trabzonspor",      logo: "", country: "Turkey" },
+  { id: 50,  name: "Manchester City",   logo: L(50),  country: "England" },
+  { id: 42,  name: "Arsenal",           logo: L(42),  country: "England" },
+  { id: 40,  name: "Liverpool",         logo: L(40),  country: "England" },
+  { id: 49,  name: "Chelsea",           logo: L(49),  country: "England" },
+  { id: 33,  name: "Manchester United", logo: L(33),  country: "England" },
+  { id: 47,  name: "Tottenham",         logo: L(47),  country: "England" },
+  { id: 541, name: "Real Madrid",       logo: L(541), country: "Spain" },
+  { id: 529, name: "FC Barcelona",      logo: L(529), country: "Spain" },
+  { id: 530, name: "Atletico Madrid",   logo: L(530), country: "Spain" },
+  { id: 157, name: "Bayern Munich",     logo: L(157), country: "Germany" },
+  { id: 165, name: "Borussia Dortmund", logo: L(165), country: "Germany" },
+  { id: 489, name: "AC Milan",          logo: L(489), country: "Italy" },
+  { id: 496, name: "Juventus",          logo: L(496), country: "Italy" },
+  { id: 505, name: "Inter Milan",       logo: L(505), country: "Italy" },
+  { id: 85,  name: "Paris Saint-Germain", logo: L(85), country: "France" },
+  { id: 645, name: "Galatasaray",       logo: L(645), country: "Turkey" },
+  { id: 630, name: "Fenerbahçe",        logo: L(630), country: "Turkey" },
+  { id: 641, name: "Beşiktaş",          logo: L(641), country: "Turkey" },
+  { id: 601, name: "Trabzonspor",       logo: L(601), country: "Turkey" },
 ];
 
 interface TeamSearchInputProps {
