@@ -5,6 +5,7 @@ import { Activity, Zap, Github } from "lucide-react";
 import TeamFormPanel from "./TeamFormPanel";
 import MidfieldRadar from "./MidfieldRadar";
 import FanPulse from "./FanPulse";
+import TacticalBoard from "./TacticalBoard";
 import TeamSelector from "./TeamSelector";
 import ErrorBanner from "./ErrorBanner";
 import Spinner from "@/components/ui/Spinner";
@@ -187,6 +188,19 @@ export default function Dashboard() {
               <FanPulse
                 teamA={{ id: data.teamA.team.id, name: data.teamA.team.name }}
                 teamB={{ id: data.teamB.team.id, name: data.teamB.team.name }}
+              />
+            </div>
+
+            {/* Taktik Tahtası */}
+            <div>
+              <div className="flex items-center gap-2 mb-4">
+                <div className="h-px flex-1 bg-pitch-border" />
+                <span className="section-label px-3">Taktik Tahtası</span>
+                <div className="h-px flex-1 bg-pitch-border" />
+              </div>
+              <TacticalBoard
+                teamAName={data.teamA.team.name}
+                teamBName={data.teamB.team.name}
               />
             </div>
           </>
