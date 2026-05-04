@@ -57,11 +57,44 @@ export interface TeamFormData {
   goalsConceded: number;
 }
 
+export interface H2HMatch {
+  date: string;
+  homeTeam: string;
+  awayTeam: string;
+  homeId: number;
+  awayId: number;
+  homeScore: number;
+  awayScore: number;
+}
+
+export interface StandingRow {
+  rank: number;
+  teamId: number;
+  teamName: string;
+  teamLogo: string;
+  played: number;
+  won: number;
+  drawn: number;
+  lost: number;
+  gf: number;
+  ga: number;
+  points: number;
+}
+
+export interface StandingsData {
+  leagueName: string;
+  leagueLogo: string;
+  season: number;
+  rows: StandingRow[];
+}
+
 export interface ComparisonData {
   teamA: TeamFormData;
   teamB: TeamFormData;
   midfieldA: TeamMidfieldStats;
   midfieldB: TeamMidfieldStats;
+  h2h: H2HMatch[];
+  standings: StandingsData;
 }
 
 export interface ApiFootballFixtureResponse {

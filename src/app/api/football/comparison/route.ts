@@ -25,11 +25,15 @@ export async function GET(request: NextRequest) {
       fetchTeamMidfieldStats(teamB, league, season),
     ]);
 
+    // Use mock h2h and standings until real API endpoints are integrated
+    const mock = getMockComparison(teamA, teamB, teamAName, teamBName);
     const payload: ComparisonData = {
       teamA: formA,
       teamB: formB,
       midfieldA: midA,
       midfieldB: midB,
+      h2h: mock.h2h,
+      standings: mock.standings,
     };
 
     return NextResponse.json(payload, {

@@ -11,6 +11,8 @@ import TeamSelector from "./TeamSelector";
 import ErrorBanner from "./ErrorBanner";
 import Spinner from "@/components/ui/Spinner";
 import Footer from "@/components/ui/Footer";
+import HeadToHead from "./HeadToHead";
+import Standings from "./Standings";
 import { ComparisonData } from "@/types/football";
 
 
@@ -185,6 +187,36 @@ export default function Dashboard() {
                 teamA={data.midfieldA}
                 teamB={data.midfieldB}
               />
+            </div>
+
+            {/* Head to Head + Standings */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+              <div>
+                <div className="flex items-center gap-2 mb-4">
+                  <div className="h-px flex-1 bg-pitch-border" />
+                  <span className="section-label px-3">Head to Head</span>
+                  <div className="h-px flex-1 bg-pitch-border" />
+                </div>
+                <HeadToHead
+                  teamA={data.teamA.team}
+                  teamB={data.teamB.team}
+                  matches={data.h2h}
+                />
+              </div>
+              <div>
+                <div className="flex items-center gap-2 mb-4">
+                  <div className="h-px flex-1 bg-pitch-border" />
+                  <span className="section-label px-3">Puan Durumu</span>
+                  <div className="h-px flex-1 bg-pitch-border" />
+                </div>
+                <Standings
+                  leagueName={data.standings.leagueName}
+                  leagueLogo={data.standings.leagueLogo}
+                  season={data.standings.season}
+                  rows={data.standings.rows}
+                  highlightIds={[data.teamA.team.id, data.teamB.team.id]}
+                />
+              </div>
             </div>
 
             {/* Fan Pulse */}
