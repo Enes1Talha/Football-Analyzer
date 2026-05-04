@@ -27,14 +27,28 @@ const METRIC_LABELS: Record<string, string> = {
   dribbles: "Dribbles",
 };
 
+// Her metrik için max değer — normalize için
+const METRIC_MAX: Record<string, number> = {
+  passAccuracy: 100,
+  tackles: 10,
+  interceptions: 10,
+  keyPasses: 10,
+  duelsWon: 10,
+  dribbles: 10,
+};
+
 const COLOR_A = "#39FF14";
 const COLOR_B = "#00FFFF";
 
 export default function MidfieldRadar({ teamA, teamB }: MidfieldRadarProps) {
+  // 0-100 arasına normalize et
+  const normalize = (key: string, val: number) =>
+    Math.round((val / (METRIC_MAX[key] ?? 100)) * 100);
+
   const radarData = Object.entries(METRIC_LABELS).map(([key, label]) => ({
     metric: label,
-    [teamA.team.name]: teamA.averageMetrics[key as keyof typeof teamA.averageMetrics],
-    [teamB.team.name]: teamB.averageMetrics[key as keyof typeof teamB.averageMetrics],
+    [teamA.team.name]: normalize(key, teamA.averageMetrics[key as keyof typeof teamA.averageMetrics]),
+    [teamB.team.name]: normalize(key, teamB.averageMetrics[key as keyof typeof teamB.averageMetrics]),
   }));
 
   return (

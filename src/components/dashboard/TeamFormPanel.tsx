@@ -54,7 +54,7 @@ export default function TeamFormPanel({
           className={`flex items-center gap-2 ${isRight ? "flex-row-reverse justify-end" : ""}`}
         >
           {data.formString.map((r, i) => (
-            <ResultBadge key={i} result={r} size="lg" />
+            <ResultBadge key={i} result={r} size="lg" index={i} />
           ))}
           {data.formString.length === 0 && (
             <span className="text-zinc-600 text-sm font-mono">No data</span>

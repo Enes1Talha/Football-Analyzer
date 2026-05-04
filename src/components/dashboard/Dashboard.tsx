@@ -4,6 +4,7 @@ import { useState, useCallback } from "react";
 import { Activity, Zap, Github } from "lucide-react";
 import TeamFormPanel from "./TeamFormPanel";
 import MidfieldRadar from "./MidfieldRadar";
+import VsHeader from "./VsHeader";
 import FanPulse from "./FanPulse";
 import TacticalBoard from "./TacticalBoard";
 import TeamSelector from "./TeamSelector";
@@ -83,7 +84,7 @@ export default function Dashboard() {
       </header>
 
       {/* ── Hero ── */}
-      <div className="max-w-7xl mx-auto px-4 pt-12 pb-8">
+      <div className="max-w-7xl mx-auto px-4 pt-8 pb-6 sm:pt-12 sm:pb-8">
         <div className="flex items-start gap-4 mb-2">
           <Zap size={28} className="text-neon-green mt-1 flex-shrink-0" />
           <div>
@@ -100,7 +101,7 @@ export default function Dashboard() {
       </div>
 
       {/* ── Main content ── */}
-      <div className="max-w-7xl mx-auto px-4 pb-16 space-y-6">
+      <div className="max-w-7xl mx-auto px-3 sm:px-4 pb-16 space-y-4 sm:space-y-6">
         {/* Team selector */}
         <TeamSelector
           onSearch={fetchData}
@@ -144,6 +145,14 @@ export default function Dashboard() {
         {/* Data panels */}
         {!loading && data && (
           <>
+            {/* VS Header */}
+            <VsHeader
+              teamA={data.teamA.team}
+              teamB={data.teamB.team}
+              leagueName={data.teamA.fixtures[0]?.leagueName}
+              leagueLogo={data.teamA.fixtures[0]?.leagueLogo}
+            />
+
             {/* Form comparison */}
             <div>
               <div className="flex items-center gap-2 mb-4">
