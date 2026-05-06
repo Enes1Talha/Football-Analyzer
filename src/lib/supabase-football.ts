@@ -110,16 +110,18 @@ export async function fetchTeamFormFromSupabase(
     };
   });
 
-  const wins        = fixtures.filter((f) => f.result === "W").length;
-  const draws       = fixtures.filter((f) => f.result === "D").length;
-  const losses      = fixtures.filter((f) => f.result === "L").length;
-  const goalsScored   = fixtures.reduce((s, f) => s + (f.isHome ? (f.score.home ?? 0) : (f.score.away ?? 0)), 0);
-  const goalsConceded = fixtures.reduce((s, f) => s + (f.isHome ? (f.score.away ?? 0) : (f.score.home ?? 0)), 0);
+  const last5 = fixtures.slice(0, 5);
+
+  const wins        = last5.filter((f) => f.result === "W").length;
+  const draws       = last5.filter((f) => f.result === "D").length;
+  const losses      = last5.filter((f) => f.result === "L").length;
+  const goalsScored   = last5.reduce((s, f) => s + (f.isHome ? (f.score.home ?? 0) : (f.score.away ?? 0)), 0);
+  const goalsConceded = last5.reduce((s, f) => s + (f.isHome ? (f.score.away ?? 0) : (f.score.home ?? 0)), 0);
 
   return {
     team,
-    fixtures: fixtures.slice(0, 5),
-    formString: fixtures.slice(0, 5).map((f) => f.result),
+    fixtures: last5,
+    formString: last5.map((f) => f.result),
     wins, draws, losses,
     goalsScored, goalsConceded,
   };
