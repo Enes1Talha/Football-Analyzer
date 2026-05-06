@@ -24,10 +24,11 @@ export async function GET(request: NextRequest) {
   // ── Supabase path ─────────────────────────────────────────────────────────
   if (hasSupabase) {
     try {
-      // "2024" → "2024/25"
       const sl = `${season}/${String(parseInt(season) + 1).slice(-2)}`;
       const csvA = toCsvName(teamAName);
       const csvB = toCsvName(teamBName);
+
+      console.log(`[comparison] Supabase ON — teams: "${csvA}" vs "${csvB}", season: "${sl}"`);
 
       const [formA, formB, h2h, standings] = await Promise.all([
         fetchTeamFormFromSupabase(csvA, sl, 10),
@@ -35,6 +36,8 @@ export async function GET(request: NextRequest) {
         fetchH2HFromSupabase(csvA, csvB, 6),
         fetchStandingsFromSupabase(sl),
       ]);
+
+      console.log(`[comparison] formA fixtures: ${formA.fixtures.length}, formB: ${formB.fixtures.length}`);
 
       // Midfield stats not in CSV — use mock values keyed to real team names
       const mock = getMockComparison(teamA, teamB, teamAName, teamBName);
@@ -52,11 +55,14 @@ export async function GET(request: NextRequest) {
         headers: { "Cache-Control": "s-maxage=3600, stale-while-revalidate=3600" },
       });
     } catch (err) {
-      console.error("[comparison] Supabase error, falling back to mock:", err);
+      console.error("[comparison] Supabase error:", JSON.stringify(err));
     }
+  } else {
+    console.warn("[comparison] Supabase env vars missing — using mock");
   }
 
   // ── Mock fallback ─────────────────────────────────────────────────────────
+  console.log("[comparison] Returning MOCK data");
   return NextResponse.json(
     getMockComparison(teamA, teamB, teamAName, teamBName),
     { headers: { "Cache-Control": "no-store" } }
