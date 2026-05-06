@@ -4,6 +4,7 @@ import {
   fetchTeamFormFromSupabase,
   fetchH2HFromSupabase,
   fetchStandingsFromSupabase,
+  toCsvName,
 } from "@/lib/supabase-football";
 import { ComparisonData } from "@/types/football";
 
@@ -23,14 +24,15 @@ export async function GET(request: NextRequest) {
   // ── Supabase path ─────────────────────────────────────────────────────────
   if (hasSupabase) {
     try {
-      const seasonLabel = `20${season.slice(-2).padStart(2, "0")}/20${String(parseInt(season) + 1).slice(-2)}`;
-      // e.g. "2024" → "2024/25", "2023" → "2023/24"
+      // "2024" → "2024/25"
       const sl = `${season}/${String(parseInt(season) + 1).slice(-2)}`;
+      const csvA = toCsvName(teamAName);
+      const csvB = toCsvName(teamBName);
 
       const [formA, formB, h2h, standings] = await Promise.all([
-        fetchTeamFormFromSupabase(teamAName, sl, 10),
-        fetchTeamFormFromSupabase(teamBName, sl, 10),
-        fetchH2HFromSupabase(teamAName, teamBName, 6),
+        fetchTeamFormFromSupabase(csvA, sl, 10),
+        fetchTeamFormFromSupabase(csvB, sl, 10),
+        fetchH2HFromSupabase(csvA, csvB, 6),
         fetchStandingsFromSupabase(sl),
       ]);
 
