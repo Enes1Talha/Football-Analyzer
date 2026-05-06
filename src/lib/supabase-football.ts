@@ -40,7 +40,6 @@ const TEAM_LOGOS: Record<string, number> = {
 const NAME_MAP: Record<string, string> = {
   "Manchester City": "Man City",
   "Manchester United": "Man United",
-  "Tottenham": "Spurs",
   "Wolverhampton": "Wolves",
   "Nottingham Forest": "Nottm Forest",
   "Newcastle United": "Newcastle",
@@ -48,6 +47,7 @@ const NAME_MAP: Record<string, string> = {
   "Brighton & Hove Albion": "Brighton",
   "West Bromwich Albion": "West Brom",
   "Sheffield United": "Sheffield Utd",
+  "Tottenham Hotspur": "Tottenham",
 };
 
 export function toCsvName(name: string): string {
