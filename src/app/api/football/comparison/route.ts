@@ -55,7 +55,8 @@ export async function GET(request: NextRequest) {
         headers: { "Cache-Control": "s-maxage=3600, stale-while-revalidate=3600" },
       });
     } catch (err) {
-      console.error("[comparison] Supabase error:", JSON.stringify(err));
+      const msg = err instanceof Error ? err.message : JSON.stringify(err);
+      console.error("[comparison] Supabase error:", msg);
     }
   } else {
     console.warn("[comparison] Supabase env vars missing — using mock");
