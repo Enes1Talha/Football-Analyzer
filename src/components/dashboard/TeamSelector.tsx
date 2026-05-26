@@ -33,7 +33,7 @@ export default function TeamSelector({ onSearch, loading }: TeamSelectorProps) {
   const [teamA, setTeamA] = useState<TeamResult | null>(null);
   const [teamB, setTeamB] = useState<TeamResult | null>(null);
   const [league, setLeague] = useState("39");
-  const [season, setSeason] = useState("2023");
+  const [season, setSeason] = useState("2024");
 
   const selectCls =
     "bg-pitch-dark border border-pitch-border rounded px-3 py-2 text-sm font-mono text-white focus:outline-none focus:border-zinc-600 transition-colors w-full appearance-none";

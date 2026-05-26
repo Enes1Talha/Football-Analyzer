@@ -76,13 +76,13 @@ export async function fetchTeamFormFromSupabase(
     .from("matches")
     .select("Season,MatchDate,HomeTeam,AwayTeam,FullTimeHomeGoals,FullTimeAwayGoals,FullTimeResult")
     .or(`HomeTeam.eq.${teamName},AwayTeam.eq.${teamName}`)
-    .not("FullTimeResult", "is", null)
-    .order("MatchDate", { ascending: false })
-    .limit(limit);
+    .not("FullTimeResult", "is", null);
 
   if (season) query = query.eq("Season", season);
 
-  const { data, error } = await query;
+  const { data, error } = await query
+    .order("MatchDate", { ascending: false })
+    .limit(limit);
   if (error) throw new Error(error.message);
 
   const rows = (data ?? []) as MatchRow[];
