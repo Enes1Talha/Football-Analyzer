@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ActivityIndicator, Platform, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
 import { StatusBar } from "expo-status-bar";
 import type { ComparisonData, H2HMatch, StandingsData, TeamFormData } from "./types/football";
@@ -6,9 +6,55 @@ import type { ComparisonData, H2HMatch, StandingsData, TeamFormData } from "./ty
 const apiBase = (process.env.EXPO_PUBLIC_API_BASE_URL ||
   (Platform.OS === "android" ? "http://10.0.2.2:3000" : "http://localhost:3000")).replace(/\/+$/, "");
 const season = "2024";
-const demoTeamIds: Record<string, string> = { Arsenal: "42", "Man City": "50", "Manchester City": "50" };
 const resultColors = { W: "#86efac", D: "#fde68a", L: "#fda4af" };
 const resultLabels = { W: "Galibiyet", D: "Beraberlik", L: "Mağlubiyet" };
+
+type SearchTeam = ComparisonData["teamA"]["team"];
+
+function TeamSuggestions({ query, onSelect }: {
+  query: string;
+  onSelect: (team: SearchTeam) => void;
+}) {
+  const [results, setResults] = useState<SearchTeam[]>([]);
+  const [status, setStatus] = useState<"loading" | "ready" | "error">("loading");
+
+  useEffect(() => {
+    const controller = new AbortController();
+    const timer = setTimeout(async () => {
+      try {
+        const response = await fetch(`${apiBase}/api/football/search-teams?q=${encodeURIComponent(query)}`, {
+          signal: controller.signal,
+        });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const { results }: { results: SearchTeam[] } = await response.json();
+        if (controller.signal.aborted) return;
+        setResults(results);
+        setStatus("ready");
+      } catch {
+        if (!controller.signal.aborted) setStatus("error");
+      }
+    }, 300);
+
+    return () => {
+      clearTimeout(timer);
+      controller.abort();
+    };
+  }, [query]);
+
+  return (
+    <View style={styles.card}>
+      {status === "loading" && <Text style={styles.muted}>Takımlar aranıyor…</Text>}
+      {status === "error" && <Text style={styles.warning}>Takım araması şu an kullanılamıyor. Takım adını elle girebilirsin.</Text>}
+      {status === "ready" && results.length === 0 && <Text style={styles.muted}>Takım bulunamadı.</Text>}
+      {results.map((team) => (
+        <Pressable key={team.name} accessibilityRole="button"
+          style={styles.suggestion} onPress={() => onSelect(team)}>
+          <Text style={styles.text}>{team.name}</Text>
+        </Pressable>
+      ))}
+    </View>
+  );
+}
 
 function TeamForm({ data }: { data: TeamFormData }) {
   return (
@@ -96,12 +142,16 @@ function StandingsSection({ standings, teamA, teamB }: {
 export default function App() {
   const [teamA, setTeamA] = useState("Arsenal");
   const [teamB, setTeamB] = useState("Man City");
+  const [teamAId, setTeamAId] = useState<string>();
+  const [teamBId, setTeamBId] = useState<string>();
+  const [searching, setSearching] = useState<"a" | "b" | null>(null);
   const [data, setData] = useState<ComparisonData | null>(null);
   const [demo, setDemo] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
   async function compare() {
+    setSearching(null);
     const first = teamA.trim();
     const second = teamB.trim();
     setData(null);
@@ -114,8 +164,8 @@ export default function App() {
     setLoading(true);
     try {
       const query = new URLSearchParams({ teamAName: first, teamBName: second, season });
-      query.set("teamA", demoTeamIds[first] ?? "0");
-      query.set("teamB", demoTeamIds[second] ?? "0");
+      query.set("teamA", teamAId ?? "0");
+      query.set("teamB", teamBId ?? "0");
       const response = await fetch(`${apiBase}/api/football/comparison?${query}`);
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const comparison: ComparisonData = await response.json();
@@ -135,10 +185,26 @@ export default function App() {
         <Text style={styles.eyebrow}>PREMIER LEAGUE · 2024/25</Text>
         <Text style={styles.title}>Takım Karşılaştırma</Text>
         <Text style={styles.muted}>Seçilen sezondaki son 5 lig maçı</Text>
-        <TextInput accessibilityLabel="Birinci takım" value={teamA} onChangeText={setTeamA}
+        <TextInput accessibilityLabel="Birinci takım" value={teamA} onFocus={() => setSearching("a")}
+          onChangeText={(value) => { setTeamA(value); setTeamAId(undefined); setSearching("a"); }}
           editable={!loading} autoCorrect={false} style={styles.input} />
-        <TextInput accessibilityLabel="İkinci takım" value={teamB} onChangeText={setTeamB}
+        {searching === "a" && teamA.trim().length >= 2 && (
+          <TeamSuggestions key={teamA.trim()} query={teamA.trim()} onSelect={(team) => {
+            setTeamA(team.name);
+            setTeamAId(String(team.id));
+            setSearching(null);
+          }} />
+        )}
+        <TextInput accessibilityLabel="İkinci takım" value={teamB} onFocus={() => setSearching("b")}
+          onChangeText={(value) => { setTeamB(value); setTeamBId(undefined); setSearching("b"); }}
           editable={!loading} autoCorrect={false} style={styles.input} />
+        {searching === "b" && teamB.trim().length >= 2 && (
+          <TeamSuggestions key={teamB.trim()} query={teamB.trim()} onSelect={(team) => {
+            setTeamB(team.name);
+            setTeamBId(String(team.id));
+            setSearching(null);
+          }} />
+        )}
         <Pressable accessibilityRole="button" disabled={loading} onPress={compare}
           style={[styles.button, loading && styles.disabled]}>
           <Text style={styles.buttonText}>Karşılaştır</Text>
@@ -175,6 +241,7 @@ const styles = StyleSheet.create({
   badges: { flexDirection: "row", flexWrap: "wrap", gap: 8 },
   badge: { backgroundColor: "#1e2b3c", borderRadius: 6, padding: 8, fontWeight: "700" },
   match: { borderTopWidth: 1, borderTopColor: "#263448", paddingTop: 8, gap: 3 },
+  suggestion: { paddingVertical: 8, gap: 3 },
   tableRow: { flexDirection: "row", alignItems: "center", paddingVertical: 8, borderTopWidth: 1, borderTopColor: "#263448" },
   tableNumber: { minWidth: 34, textAlign: "center", fontVariant: ["tabular-nums"] },
   tableTeam: { flex: 1, paddingHorizontal: 4 },
