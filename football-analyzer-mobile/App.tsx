@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ActivityIndicator, Platform, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
 import { StatusBar } from "expo-status-bar";
-import type { ComparisonData, TeamFormData } from "./types/football";
+import type { ComparisonData, H2HMatch, StandingsData, TeamFormData } from "./types/football";
 
 const apiBase = (process.env.EXPO_PUBLIC_API_BASE_URL ||
   (Platform.OS === "android" ? "http://10.0.2.2:3000" : "http://localhost:3000")).replace(/\/+$/, "");
@@ -33,6 +33,62 @@ function TeamForm({ data }: { data: TeamFormData }) {
           </Text>
         </View>
       ))}
+    </View>
+  );
+}
+
+function H2HSection({ matches }: { matches: H2HMatch[] }) {
+  return (
+    <View style={styles.card}>
+      <Text accessibilityRole="header" style={styles.heading}>İkili Karşılaşmalar</Text>
+      {matches.length === 0 && <Text style={styles.muted}>Karşılaşma kaydı bulunamadı.</Text>}
+      {matches.map((match) => (
+        <View key={`${match.date}-${match.homeTeam}-${match.awayTeam}`} style={styles.match}>
+          <Text style={styles.muted}>{match.date.slice(0, 10)}</Text>
+          <Text style={styles.text}>
+            {match.homeTeam} {match.homeScore} : {match.awayScore} {match.awayTeam}
+          </Text>
+        </View>
+      ))}
+    </View>
+  );
+}
+
+function StandingsSection({ standings, teamA, teamB }: {
+  standings: StandingsData;
+  teamA: string;
+  teamB: string;
+}) {
+  return (
+    <View style={styles.card}>
+      <Text accessibilityRole="header" style={styles.heading}>Puan Durumu</Text>
+      {standings.rows.length === 0 ? (
+        <Text style={styles.muted}>Bu sezon için puan durumu bulunamadı.</Text>
+      ) : (
+        <>
+          <View style={styles.tableRow}>
+            <Text style={[styles.muted, styles.tableNumber]}>#</Text>
+            <Text style={[styles.muted, styles.tableTeam]}>Takım</Text>
+            <Text accessibilityLabel="Oynanan maç" style={[styles.muted, styles.tableNumber]}>O</Text>
+            <Text accessibilityLabel="Averaj" style={[styles.muted, styles.tableNumber]}>Av.</Text>
+            <Text accessibilityLabel="Puan" style={[styles.muted, styles.tableNumber]}>P</Text>
+          </View>
+          {standings.rows.map((row) => {
+            const highlighted = row.teamName === teamA || row.teamName === teamB;
+            return (
+              <View key={row.teamName} style={[styles.tableRow, highlighted && styles.highlightedRow]}>
+                <Text style={[styles.text, styles.tableNumber]}>{row.rank}</Text>
+                <Text style={[styles.text, styles.tableTeam, highlighted && styles.highlightedTeam]}>
+                  {row.teamName}
+                </Text>
+                <Text style={[styles.text, styles.tableNumber]}>{row.played}</Text>
+                <Text style={[styles.text, styles.tableNumber]}>{row.gf - row.ga}</Text>
+                <Text style={[styles.text, styles.tableNumber]}>{row.points}</Text>
+              </View>
+            );
+          })}
+        </>
+      )}
     </View>
   );
 }
@@ -94,6 +150,8 @@ export default function App() {
             {demo && <Text style={styles.warning}>Örnek veri · Gerçek maç verisi alınamadı.</Text>}
             <TeamForm data={data.teamA} />
             <TeamForm data={data.teamB} />
+            <H2HSection matches={data.h2h} />
+            <StandingsSection standings={data.standings} teamA={data.teamA.team.name} teamB={data.teamB.team.name} />
           </>
         )}
       </ScrollView>
@@ -117,5 +175,10 @@ const styles = StyleSheet.create({
   badges: { flexDirection: "row", flexWrap: "wrap", gap: 8 },
   badge: { backgroundColor: "#1e2b3c", borderRadius: 6, padding: 8, fontWeight: "700" },
   match: { borderTopWidth: 1, borderTopColor: "#263448", paddingTop: 8, gap: 3 },
+  tableRow: { flexDirection: "row", alignItems: "center", paddingVertical: 8, borderTopWidth: 1, borderTopColor: "#263448" },
+  tableNumber: { minWidth: 34, textAlign: "center", fontVariant: ["tabular-nums"] },
+  tableTeam: { flex: 1, paddingHorizontal: 4 },
+  highlightedRow: { backgroundColor: "#193328" },
+  highlightedTeam: { color: "#86efac", fontWeight: "700" },
   warning: { color: "#fde68a" },
 });
