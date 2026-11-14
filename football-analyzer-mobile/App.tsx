@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { ActivityIndicator, Platform, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
+import { ActivityIndicator, Image, Keyboard, Platform, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
 import { StatusBar } from "expo-status-bar";
-import type { ComparisonData, H2HMatch, StandingsData, TeamFormData } from "./types/football";
+import type { ComparisonData, H2HMatch, MatchResult, StandingsData, TeamFormData } from "./types/football";
 
 const apiBase = (process.env.EXPO_PUBLIC_API_BASE_URL ||
   (Platform.OS === "android" ? "http://10.0.2.2:3000" : "http://localhost:3000")).replace(/\/+$/, "");
@@ -10,6 +10,19 @@ const resultColors = { W: "#86efac", D: "#fde68a", L: "#fda4af" };
 const resultLabels = { W: "Galibiyet", D: "Beraberlik", L: "Mağlubiyet" };
 
 type SearchTeam = ComparisonData["teamA"]["team"];
+
+type MatchSplit = { wins: number; draws: number; losses: number };
+type TeamSummary = {
+  team: SearchTeam;
+  season: string;
+  played: number;
+  points: number;
+  winRate: number;
+  home: MatchSplit;
+  away: MatchSplit;
+  form5: MatchResult[];
+  lastMatch: { date: string; home: string; away: string; score: string } | null;
+};
 
 function TeamSuggestions({ query, onSelect }: {
   query: string;
@@ -56,18 +69,117 @@ function TeamSuggestions({ query, onSelect }: {
   );
 }
 
+function FormBadges({ results }: { results: MatchResult[] }) {
+  return (
+    <View style={styles.badges}>
+      {results.map((result, index) => (
+        <Text key={index} accessibilityLabel={resultLabels[result]}
+          style={[styles.badge, { color: resultColors[result] }]}>
+          {result}
+        </Text>
+      ))}
+    </View>
+  );
+}
+
+function TodayScreen({ favorite, onSelect }: {
+  favorite: SearchTeam | null;
+  onSelect: (team: SearchTeam) => void;
+}) {
+  const [query, setQuery] = useState("");
+  const [summary, setSummary] = useState<TeamSummary | null>(null);
+  const [error, setError] = useState("");
+  const [attempt, setAttempt] = useState(0);
+
+  useEffect(() => {
+    if (!favorite) return;
+    const controller = new AbortController();
+    async function load(team: SearchTeam) {
+      const params = new URLSearchParams({ team: team.name, season });
+      try {
+        const response = await fetch(`${apiBase}/api/football/team-summary?${params}`, {
+          signal: controller.signal,
+        });
+        if (response.status === 404) {
+          if (!controller.signal.aborted) setError("Bu takım için 2024/25 sezon kaydı bulunamadı.");
+          return;
+        }
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data: TeamSummary = await response.json();
+        if (!controller.signal.aborted) setSummary(data);
+      } catch {
+        if (!controller.signal.aborted) setError("Takım özeti yüklenemedi.");
+      }
+    }
+    void load(favorite);
+    return () => controller.abort();
+  }, [favorite, attempt]);
+
+  const search = query.trim();
+  const logo = summary?.team.logo || favorite?.logo;
+  return (
+    <>
+      <Text style={styles.title}>Bugün</Text>
+      <Text style={styles.muted}>Favori takımının 2024/25 lig özeti</Text>
+      <TextInput accessibilityLabel="Favori takım ara" placeholder="Favori takım ara"
+        placeholderTextColor="#a9b8cb" value={query} onChangeText={setQuery}
+        autoCorrect={false} style={styles.input} />
+      {search.length >= 2 && (
+        <TeamSuggestions key={search} query={search} onSelect={(team) => {
+          Keyboard.dismiss();
+          setQuery("");
+          if (favorite?.name === team.name && summary) return;
+          setSummary(null);
+          setError("");
+          onSelect(team);
+        }} />
+      )}
+      {favorite && (
+        <View style={styles.card}>
+          <View style={styles.teamHeader}>
+            {!!logo && <Image source={{ uri: logo }} style={styles.teamLogo} />}
+            <Text style={[styles.heading, styles.teamTitle]}>{summary?.team.name ?? favorite.name}</Text>
+          </View>
+          {!summary && !error && <ActivityIndicator color="#86efac" accessibilityLabel="Özet yükleniyor" />}
+          {!!error && (
+            <>
+              <Text accessibilityRole="alert" style={styles.warning}>{error}</Text>
+              <Pressable accessibilityRole="button" style={styles.suggestion} onPress={() => {
+                setError("");
+                setAttempt((value) => value + 1);
+              }}>
+                <Text style={styles.text}>Tekrar dene</Text>
+              </Pressable>
+            </>
+          )}
+          {summary && (
+            <>
+              <Text style={styles.text}>{summary.played} Maç · {summary.points} Puan · %{summary.winRate} kazanma</Text>
+              <Text style={styles.muted}>Son 5 lig maçı</Text>
+              <FormBadges results={summary.form5} />
+              {summary.lastMatch && (
+                <View style={styles.match}>
+                  <Text style={styles.muted}>Son maç · {summary.lastMatch.date.slice(0, 10)}</Text>
+                  <Text style={styles.text}>{summary.lastMatch.home} {summary.lastMatch.score} {summary.lastMatch.away}</Text>
+                </View>
+              )}
+              <View style={styles.match}>
+                <Text style={styles.text}>Ev: {summary.home.wins}G {summary.home.draws}B {summary.home.losses}M</Text>
+                <Text style={styles.text}>Deplasman: {summary.away.wins}G {summary.away.draws}B {summary.away.losses}M</Text>
+              </View>
+            </>
+          )}
+        </View>
+      )}
+    </>
+  );
+}
+
 function TeamForm({ data }: { data: TeamFormData }) {
   return (
     <View style={styles.card}>
       <Text style={styles.heading}>{data.team.name}</Text>
-      <View style={styles.badges}>
-        {data.formString.map((result, index) => (
-          <Text key={index} accessibilityLabel={resultLabels[result]}
-            style={[styles.badge, { color: resultColors[result] }]}>
-            {result}
-          </Text>
-        ))}
-      </View>
+      <FormBadges results={data.formString} />
       {data.fixtures.length === 0 && (
         <Text style={styles.muted}>Bu adla sezon kaydı bulunamadı. Takım adını kontrol et.</Text>
       )}
@@ -140,6 +252,8 @@ function StandingsSection({ standings, teamA, teamB }: {
 }
 
 export default function App() {
+  const [tab, setTab] = useState<"compare" | "today">("compare");
+  const [favorite, setFavorite] = useState<SearchTeam | null>(null);
   const [teamA, setTeamA] = useState("Arsenal");
   const [teamB, setTeamB] = useState("Man City");
   const [teamAId, setTeamAId] = useState<string>();
@@ -181,7 +295,20 @@ export default function App() {
   return (
     <View style={styles.screen}>
       <StatusBar style="light" />
-      <ScrollView contentContainerStyle={styles.content} keyboardShouldPersistTaps="handled">
+      <ScrollView key={tab} contentContainerStyle={styles.content} keyboardShouldPersistTaps="handled">
+        <View style={styles.tabs}>
+          <Pressable accessibilityRole="tab" accessibilityState={{ selected: tab === "compare" }}
+            onPress={() => { setSearching(null); setTab("compare"); }}
+            style={[styles.tab, tab === "compare" && styles.activeTab]}>
+            <Text style={styles.text}>Karşılaştır</Text>
+          </Pressable>
+          <Pressable accessibilityRole="tab" accessibilityState={{ selected: tab === "today" }}
+            onPress={() => setTab("today")} style={[styles.tab, tab === "today" && styles.activeTab]}>
+            <Text style={styles.text}>Bugün</Text>
+          </Pressable>
+        </View>
+        {tab === "today" ? <TodayScreen favorite={favorite} onSelect={setFavorite} /> : (
+        <>
         <Text style={styles.eyebrow}>PREMIER LEAGUE · 2024/25</Text>
         <Text style={styles.title}>Takım Karşılaştırma</Text>
         <Text style={styles.muted}>Seçilen sezondaki son 5 lig maçı</Text>
@@ -220,6 +347,8 @@ export default function App() {
             <StandingsSection standings={data.standings} teamA={data.teamA.team.name} teamB={data.teamB.team.name} />
           </>
         )}
+        </>
+        )}
       </ScrollView>
     </View>
   );
@@ -231,6 +360,12 @@ const styles = StyleSheet.create({
   eyebrow: { color: "#67e8f9", fontWeight: "700", letterSpacing: 1 },
   title: { color: "#f8fafc", fontSize: 30, fontWeight: "800" },
   heading: { color: "#f8fafc", fontSize: 20, fontWeight: "700" },
+  tabs: { flexDirection: "row", gap: 8 },
+  tab: { flex: 1, alignItems: "center", padding: 10, borderRadius: 8, backgroundColor: "#152030" },
+  activeTab: { backgroundColor: "#193328", borderWidth: 1, borderColor: "#86efac" },
+  teamHeader: { flexDirection: "row", alignItems: "center", gap: 10 },
+  teamLogo: { width: 40, height: 40, resizeMode: "contain" },
+  teamTitle: { flex: 1 },
   muted: { color: "#a9b8cb", fontSize: 14 },
   text: { color: "#f8fafc", fontSize: 15 },
   input: { backgroundColor: "#152030", color: "#f8fafc", padding: 14, borderRadius: 10, fontSize: 16 },
