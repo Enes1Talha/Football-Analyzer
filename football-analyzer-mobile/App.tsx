@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { ActivityIndicator, Image, Keyboard, Platform, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
 import { StatusBar } from "expo-status-bar";
+import GameScreen from "./game/GameScreen";
 import type { ComparisonData, H2HMatch, MatchResult, StandingsData, TeamFormData } from "./types/football";
 
 const apiBase = (process.env.EXPO_PUBLIC_API_BASE_URL ||
@@ -252,7 +253,7 @@ function StandingsSection({ standings, teamA, teamB }: {
 }
 
 export default function App() {
-  const [tab, setTab] = useState<"compare" | "today">("compare");
+  const [tab, setTab] = useState<"compare" | "today" | "play">("play");
   const [favorite, setFavorite] = useState<SearchTeam | null>(null);
   const [teamA, setTeamA] = useState("Arsenal");
   const [teamB, setTeamB] = useState("Man City");
@@ -306,8 +307,12 @@ export default function App() {
             onPress={() => setTab("today")} style={[styles.tab, tab === "today" && styles.activeTab]}>
             <Text style={styles.text}>Bugün</Text>
           </Pressable>
+          <Pressable accessibilityRole="tab" accessibilityState={{ selected: tab === "play" }}
+            onPress={() => setTab("play")} style={[styles.tab, tab === "play" && styles.activeTab]}>
+            <Text style={styles.text}>Oyna</Text>
+          </Pressable>
         </View>
-        {tab === "today" ? <TodayScreen favorite={favorite} onSelect={setFavorite} /> : (
+        {tab === "play" ? <GameScreen /> : tab === "today" ? <TodayScreen favorite={favorite} onSelect={setFavorite} /> : (
         <>
         <Text style={styles.eyebrow}>PREMIER LEAGUE · 2024/25</Text>
         <Text style={styles.title}>Takım Karşılaştırma</Text>
