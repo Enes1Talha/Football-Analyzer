@@ -46,6 +46,7 @@ export default function Duel({ room, host, onExit }: { room: string; host: boole
     if (!url || !key) { setError("Oda bağlantısı yapılandırılmamış."); return; }
     let active = true;
     let subscribed = false;
+    const joinedAt = Date.now();
     const client = createClient(url, key, { auth: { persistSession: false, autoRefreshToken: false, detectSessionInUrl: false } });
     const channel = client.channel("football-duel-" + room, { config: { broadcast: { self: false } } });
     send.current = () => {
@@ -59,6 +60,7 @@ export default function Duel({ room, host, onExit }: { room: string; host: boole
       own.current.peer = next.id;
       remote.current = next;
       lastSeen.current = Date.now();
+      setError("");
       setPeerReady(Boolean(next.commitment));
       if (host && own.current.commitment && next.commitment && next.peer === own.current.id && !own.current.startsAt) {
         own.current.startsAt = Date.now() + 3000;
@@ -91,6 +93,9 @@ export default function Duel({ room, host, onExit }: { room: string; host: boole
         }
       }
       if (lastSeen.current && Date.now() - lastSeen.current > 12000) setError("Rakibin bağlantısı kesilmiş olabilir. Yeniden bağlanması bekleniyor.");
+      if (!host && subscribed && !lastSeen.current && Date.now() - joinedAt > 12000) {
+        setError("Oda sahibi bulunamadı. Kodu kontrol et; oda sahibinin sayfası açık olmalı.");
+      }
       send.current();
     }, 500);
     return () => { active = false; clearInterval(timer); send.current = () => {}; void client.removeChannel(channel); };
@@ -123,12 +128,16 @@ export default function Duel({ room, host, onExit }: { room: string; host: boole
         <button onClick={onExit} className="hover:text-white">Odadan çık</button>
       </div>
       {host && !open && (
-        <button className="w-full rounded-lg border border-neon-cyan/30 p-3 font-mono text-sm text-neon-cyan" onClick={async () => {
-          try { await navigator.clipboard.writeText(location.origin + "/oyna?room=" + room); setCopied(true); }
-          catch { setError("Bağlantı kopyalanamadı. Aşağıdaki bağlantıyı paylaşabilirsin."); }
-        }}>{copied ? "Davet bağlantısı kopyalandı" : "Arkadaşını davet et"}</button>
+        <div className="rounded-xl border border-neon-cyan/30 p-5 text-center space-y-3">
+          <p className="font-mono text-xs text-zinc-400">ODA KODU</p>
+          <p className="break-all font-mono text-3xl font-bold tracking-widest text-neon-cyan">{room}</p>
+          <button className="font-mono text-sm text-neon-cyan" onClick={async () => {
+            try { await navigator.clipboard.writeText(room); setCopied(true); }
+            catch { setError("Kod kopyalanamadı. Ekrandaki kodu arkadaşına iletebilirsin."); }
+          }}>{copied ? "Kod kopyalandı" : "Kodu kopyala"}</button>
+          <p className="text-sm text-zinc-400">Arkadaşın Odaya katıl bölümüne bu kodu yazsın.</p>
+        </div>
       )}
-      {host && !open && <input aria-label="Davet bağlantısı" readOnly className={input + " text-xs"} value={typeof window === "undefined" ? "" : location.origin + "/oyna?room=" + room} />}
       {!open && remaining === null && (
         <>
           <h2 className="text-xl font-black tracking-tight">Takımını gizli seç</h2>
