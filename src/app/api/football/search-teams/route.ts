@@ -59,7 +59,7 @@ export async function GET(request: NextRequest) {
     for (const r of homeRows ?? []) names.add(r.HomeTeam);
     for (const r of awayRows ?? []) names.add(r.AwayTeam);
 
-    const results = [...names].slice(0, 10).map((name) => ({
+    const results = Array.from(names).slice(0, 10).map((name) => ({
       id: TEAM_LOGOS[name] ?? 0,
       name,
       logo: teamLogo(name),

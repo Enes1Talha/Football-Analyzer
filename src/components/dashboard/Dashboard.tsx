@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useCallback } from "react";
+import Link from "next/link";
 import { Activity, Zap, Github } from "lucide-react";
 import TeamFormPanel from "./TeamFormPanel";
 import MidfieldRadar from "./MidfieldRadar";
@@ -59,6 +60,7 @@ export default function Dashboard() {
       {/* ── Top nav ── */}
       <header className="border-b border-pitch-border bg-pitch-dark/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 h-14 flex items-center justify-between">
+          <Link href="/oyna" className="rounded-lg bg-neon-green px-4 py-2 text-black font-bold">Oyna</Link>
           <div className="flex items-center gap-3">
             <div className="relative">
               <Activity size={20} className="text-neon-green" />
