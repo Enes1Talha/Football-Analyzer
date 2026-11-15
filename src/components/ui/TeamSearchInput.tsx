@@ -30,14 +30,14 @@ const POPULAR_TEAMS: TeamResult[] = [
   { id: 505, name: "Inter Milan",       logo: L(505), country: "Italy" },
   { id: 85,  name: "Paris Saint-Germain", logo: L(85), country: "France" },
   { id: 645, name: "Galatasaray",       logo: L(645), country: "Turkey" },
-  { id: 630, name: "Fenerbahçe",        logo: L(630), country: "Turkey" },
+  { id: 611, name: "Fenerbahçe",        logo: L(611), country: "Turkey" },
   { id: 641, name: "Beşiktaş",          logo: L(641), country: "Turkey" },
   { id: 601, name: "Trabzonspor",       logo: L(601), country: "Turkey" },
 ];
 
 interface TeamSearchInputProps {
   label: string;
-  onSelect: (team: TeamResult) => void;
+  onSelect: (team: TeamResult | null) => void;
   accentColor?: string;
 }
 
@@ -53,6 +53,7 @@ export default function TeamSearchInput({
   const [loading, setLoading] = useState(false);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const wrapperRef = useRef<HTMLDivElement>(null);
+  const searchVersion = useRef(0);
 
   // Popüler takımları query'ye göre filtrele
   const filteredPopular = query.length === 0
@@ -65,17 +66,19 @@ export default function TeamSearchInput({
   const displayResults = apiResults.length > 0 ? apiResults : filteredPopular;
 
   const searchApi = useCallback(async (q: string) => {
-    if (q.length < 2) { setApiResults([]); return; }
+    const version = ++searchVersion.current;
+    if (q.length < 2) { setApiResults([]); setLoading(false); return; }
     setLoading(true);
     try {
       const res = await fetch(`/api/football/search-teams?q=${encodeURIComponent(q)}`);
       const data = await res.json();
-      if (data.results?.length > 0) setApiResults(data.results);
+      if (version !== searchVersion.current) return;
+      if (data.results?.length > 0) setApiResults(data.results.map((team: TeamResult) => ({ ...team, country: team.country || "England" })));
       else setApiResults([]);
     } catch {
-      setApiResults([]);
+      if (version === searchVersion.current) setApiResults([]);
     } finally {
-      setLoading(false);
+      if (version === searchVersion.current) setLoading(false);
     }
   }, []);
 
@@ -97,6 +100,8 @@ export default function TeamSearchInput({
   }, []);
 
   function handleSelect(team: TeamResult) {
+    searchVersion.current++;
+    setLoading(false);
     setSelected(team);
     setQuery(team.name);
     setOpen(false);
@@ -105,6 +110,9 @@ export default function TeamSearchInput({
   }
 
   function handleClear() {
+    searchVersion.current++;
+    setLoading(false);
+    onSelect(null);
     setSelected(null);
     setQuery("");
     setApiResults([]);
@@ -127,7 +135,7 @@ export default function TeamSearchInput({
         <input
           type="text"
           value={query}
-          onChange={(e) => { setQuery(e.target.value); setSelected(null); setOpen(true); }}
+          onChange={(e) => { searchVersion.current++; setApiResults([]); setQuery(e.target.value); setSelected(null); onSelect(null); setOpen(true); }}
           onFocus={() => setOpen(true)}
           placeholder="Takım adı yaz veya seç..."
           className="bg-transparent text-sm font-mono text-white placeholder-zinc-600 focus:outline-none w-full"
@@ -141,7 +149,7 @@ export default function TeamSearchInput({
         )}
 
         {selected ? (
-          <button onClick={handleClear} className="text-zinc-600 hover:text-zinc-400 flex-shrink-0">
+          <button type="button" onClick={handleClear} className="text-zinc-600 hover:text-zinc-400 flex-shrink-0">
             <X size={13} />
           </button>
         ) : (
@@ -151,7 +159,7 @@ export default function TeamSearchInput({
 
       {selected && (
         <p className="mt-1 text-[10px] font-mono tracking-wider" style={{ color: accentColor }}>
-          ✓ {selected.country} · ID: {selected.id}
+          ✓ {selected.name}
         </p>
       )}
 
@@ -168,7 +176,8 @@ export default function TeamSearchInput({
           )}
           {displayResults.map((team) => (
             <button
-              key={team.id}
+              type="button"
+              key={team.name}
               onClick={() => handleSelect(team)}
               className="flex items-center gap-3 w-full px-3 py-2.5 text-left hover:bg-pitch-muted transition-colors border-b border-pitch-border/50 last:border-0"
             >

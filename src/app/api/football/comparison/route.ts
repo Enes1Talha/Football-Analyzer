@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getMockComparison } from "@/lib/mock-data";
 import {
   fetchTeamFormFromSupabase,
   fetchH2HFromSupabase,
@@ -18,8 +17,13 @@ export async function GET(request: NextRequest) {
   const teamAName = searchParams.get("teamAName") ?? "Manchester City";
   const teamBName = searchParams.get("teamBName") ?? "Arsenal";
   const season    = searchParams.get("season") ?? "2024";
-  const teamA     = parseInt(searchParams.get("teamA") ?? "50");
-  const teamB     = parseInt(searchParams.get("teamB") ?? "42");
+  const league = searchParams.get("league") ?? "39";
+  if (league !== "39") {
+    return NextResponse.json({ error: "Bu ligin maç verileri henüz yüklenmedi.", detail: "Şu anda karşılaştırma verisi yalnızca Premier League için mevcut." }, { status: 422 });
+  }
+  if (!/^\d{4}$/.test(season) || toCsvName(teamAName) === toCsvName(teamBName)) {
+    return NextResponse.json({ error: "İki farklı takım ve geçerli bir sezon seç." }, { status: 400 });
+  }
 
   // ── Supabase path ─────────────────────────────────────────────────────────
   if (hasSupabase) {
@@ -39,14 +43,15 @@ export async function GET(request: NextRequest) {
 
       console.log(`[comparison] formA fixtures: ${formA.fixtures.length}, formB: ${formB.fixtures.length}`);
 
-      // Midfield stats not in CSV — use mock values keyed to real team names
-      const mock = getMockComparison(teamA, teamB, teamAName, teamBName);
+      if (!formA.fixtures.length || !formB.fixtures.length) {
+        return NextResponse.json({ error: "Seçilen takım veya sezon için maç verisi bulunamadı.", detail: "Veri kapsamı Premier League ile sınırlı. Başka bir sezon veya takım seç." }, { status: 404 });
+      }
 
       const payload: ComparisonData = {
         teamA: formA,
         teamB: formB,
-        midfieldA: { ...mock.midfieldA, team: formA.team },
-        midfieldB: { ...mock.midfieldB, team: formB.team },
+        midfieldA: null,
+        midfieldB: null,
         h2h,
         standings,
       };
@@ -59,13 +64,11 @@ export async function GET(request: NextRequest) {
       console.error("[comparison] Supabase error:", msg);
     }
   } else {
-    console.warn("[comparison] Supabase env vars missing — using mock");
+    console.warn("[comparison] Supabase env vars missing");
   }
 
-  // ── Mock fallback ─────────────────────────────────────────────────────────
-  console.log("[comparison] Returning MOCK data");
   return NextResponse.json(
-    getMockComparison(teamA, teamB, teamAName, teamBName),
-    { headers: { "Cache-Control": "no-store" } }
+    { error: "Maç verileri şu anda alınamıyor.", detail: "Lütfen biraz sonra tekrar dene." },
+    { status: 503, headers: { "Cache-Control": "no-store" } }
   );
 }

@@ -1,10 +1,10 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useRef } from "react";
 import Link from "next/link";
 import { Activity, Zap, Github } from "lucide-react";
 import TeamFormPanel from "./TeamFormPanel";
-import MidfieldRadar from "./MidfieldRadar";
+
 import VsHeader from "./VsHeader";
 import FanPulse from "./FanPulse";
 import TacticalBoard from "./TacticalBoard";
@@ -28,16 +28,28 @@ export default function Dashboard() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<ApiError | null>(null);
   const [hasFetched, setHasFetched] = useState(false);
+  const requestVersion = useRef(0);
+
+  function clearComparison() {
+    requestVersion.current++;
+    setData(null);
+    setError(null);
+    setLoading(false);
+    setHasFetched(false);
+  }
 
   const fetchData = useCallback(
     async (teamA: string, teamB: string, league: string, season: string, teamAName = "Team A", teamBName = "Team B") => {
+      const version = ++requestVersion.current;
       setLoading(true);
       setError(null);
+      setData(null);
 
       try {
         const params = new URLSearchParams({ teamA, teamB, league, season, teamAName, teamBName });
         const res = await fetch(`/api/football/comparison?${params}`);
         const json = await res.json();
+        if (version !== requestVersion.current) return;
 
         if (!res.ok) {
           setError(json as ApiError);
@@ -46,10 +58,12 @@ export default function Dashboard() {
           setData(json as ComparisonData);
         }
       } catch {
-        setError({ error: "Network error", detail: "Could not reach the API." });
+        if (version === requestVersion.current) setError({ error: "Bağlantı kurulamadı", detail: "Lütfen tekrar dene." });
       } finally {
-        setLoading(false);
-        setHasFetched(true);
+        if (version === requestVersion.current) {
+          setLoading(false);
+          setHasFetched(true);
+        }
       }
     },
     []
@@ -72,7 +86,7 @@ export default function Dashboard() {
           </div>
           <div className="flex items-center gap-4">
             <span className="hidden sm:block section-label">
-              Powered by API-Football
+              Maç verileri
             </span>
             <a
               href="https://github.com"
@@ -98,7 +112,7 @@ export default function Dashboard() {
               <span className="neon-text-green">&amp; FORM ANALYZER</span>
             </h1>
             <p className="text-zinc-500 text-sm font-mono mt-2">
-              Real-time team form · Midfield engine comparison · Last 5 results
+              Takım formu · Son 5 lig maçı · İkili karşılaşmalar
             </p>
           </div>
         </div>
@@ -110,6 +124,7 @@ export default function Dashboard() {
         <TeamSelector
           onSearch={fetchData}
           loading={loading}
+          onSelectionChange={clearComparison}
         />
 
         {/* Loading state */}
@@ -135,13 +150,10 @@ export default function Dashboard() {
           <div className="card-glow p-12 text-center">
             <Activity size={48} className="mx-auto mb-4 text-pitch-muted" />
             <p className="text-zinc-500 font-mono text-sm">
-              Enter two team IDs and click{" "}
-              <span className="text-neon-green font-bold">Analyze</span> to
-              load the dashboard.
+              İki takım seçip <span className="text-neon-green font-bold">Analiz Et</span> düğmesine bas.
             </p>
             <p className="text-zinc-600 text-xs font-mono mt-2">
-              Default: Man City (50) vs Arsenal (42) · Premier League (39) ·
-              2023/24
+              Şu anda Premier League arşivi kullanılabilir. Sezon başında son 5 maçtan daha az sonuç olabilir.
             </p>
           </div>
         )}
@@ -176,19 +188,6 @@ export default function Dashboard() {
                   side="right"
                 />
               </div>
-            </div>
-
-            {/* Midfield comparison */}
-            <div>
-              <div className="flex items-center gap-2 mb-4">
-                <div className="h-px flex-1 bg-pitch-border" />
-                <span className="section-label px-3">Midfield Engine</span>
-                <div className="h-px flex-1 bg-pitch-border" />
-              </div>
-              <MidfieldRadar
-                teamA={data.midfieldA}
-                teamB={data.midfieldB}
-              />
             </div>
 
             {/* Head to Head + Standings */}

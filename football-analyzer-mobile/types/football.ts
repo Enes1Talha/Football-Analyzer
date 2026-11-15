@@ -91,8 +91,8 @@ export interface StandingsData {
 export interface ComparisonData {
   teamA: TeamFormData;
   teamB: TeamFormData;
-  midfieldA: TeamMidfieldStats;
-  midfieldB: TeamMidfieldStats;
+  midfieldA: TeamMidfieldStats | null;
+  midfieldB: TeamMidfieldStats | null;
   h2h: H2HMatch[];
   standings: StandingsData;
 }
