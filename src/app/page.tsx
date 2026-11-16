@@ -1,5 +1,5 @@
-import Dashboard from "@/components/dashboard/Dashboard";
+import PlayPage from "./oyna/page";
 
 export default function Home() {
-  return <Dashboard />;
+  return <PlayPage />;
 }
