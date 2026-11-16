@@ -75,7 +75,7 @@ export default function Dashboard() {
       {/* ── Top nav ── */}
       <header className="border-b border-pitch-border bg-pitch-dark/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 h-14 flex items-center justify-between">
-          <Link href="/oyna" className="flex items-center gap-2 rounded-lg bg-neon-green px-4 py-2 text-black font-bold"><GameMark monochrome className="h-6 w-6 shrink-0" /> Oyna</Link>
+          <Link href="/oyna" className="group flex items-center gap-2 rounded-xl border border-neon-green/60 bg-pitch-dark px-3 py-1.5 font-bold text-white shadow-[0_0_16px_rgba(57,255,20,0.12)] transition-colors hover:border-neon-cyan hover:bg-neon-green/5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neon-cyan focus-visible:ring-offset-2 focus-visible:ring-offset-pitch-black sm:gap-3 sm:px-4"><GameMark className="h-9 w-9 shrink-0 drop-shadow-[0_0_5px_rgba(57,255,20,0.3)]" /><span className="transition-colors group-hover:text-neon-green">Oyna</span></Link>
           <div className="flex items-center gap-3">
             <div className="relative">
               <Activity size={20} className="text-neon-green" />
