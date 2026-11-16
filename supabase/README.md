@@ -3,6 +3,7 @@
 `migrations/202611150001_game_accounts.sql` Supabase SQL Editor'de bir kez çalıştırılır.
 2026-11-15 tarihinde `football_data` projesinde uygulandı. Futbol maçları tablosunu değiştirmez.
 Yeni kurulumda dosyanın tamamı tek işlem olarak uygulanmalıdır.
+`migrations/202611160001_expand_game_players.sql` 2026-11-16 tarihinde aynı projede uygulandı; canlı havuz 12 oyuncu olarak doğrulandı.
 
 ## Giriş
 
@@ -25,14 +26,16 @@ Yeni kurulumda dosyanın tamamı tek işlem olarak uygulanmalıdır.
 - Seviye 1–10 toplam galibiyet eşikleri: 0, 1, 3, 5, 10, 20, 35, 50, 75, 100.
 - Sıralama: galibiyet azalan, mağlubiyet artan, kullanıcı adı. İlk 50 gösterilir.
 - Arkadaş rekabeti, birlikte tamamlanan oyunlardan oluşur; ayrı arkadaşlık isteği sistemi yoktur.
-- Oyuncu havuzu hâlâ prototipteki 5 kişidir. Liste büyütülürken `game_players` ve istemcinin `football-analyzer-mobile/game/data.ts` havuzu birlikte güncellenmelidir.
+- Oyuncu havuzu 12 kişidir; Galatasaray, Fenerbahçe, Beşiktaş ve Trabzonspor bağlantıları dahildir. Bunlar kaynakla doğrulanmış kulüp bağlantılarıdır, eksiksiz kariyer veya tüm futbolcular listesi değildir.
+- Kaynak havuz `football-analyzer-mobile/game/data.ts` dosyasıdır. Yeni veri için `npx tsx scripts/generate-game-catalog.ts supabase/migrations/TIMESTAMP_name.sql` ile yeni bir migration oluşturun. Uygulanmış migration dosyalarını değiştirmeyin. Sunucu güncellemesini istemci yayınından önce uygulayın; test, sunucu ve istemci havuzlarının birebir aynı olduğunu denetler.
 - Oyun cevapları sunucuda doğrulanır, ancak bu küçük ve açık oyuncu havuzu otomatik cevap veren istemcilere karşı rekabetçi bir hile önleme sistemi değildir.
 
 ## Doğrulama
 
 ```
 npm install --prefix node_modules/.cache/game-tests @electric-sql/pglite
-node scripts/test-game-db.mjs
+npx tsx scripts/test-game-db.mjs
+npx tsx scripts/test-game-state.ts
 npm run build
 ```
 

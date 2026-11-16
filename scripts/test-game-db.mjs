@@ -1,7 +1,8 @@
 // Isolated PostgreSQL engine; no network and no production data.
 // Install test engine: npm install --prefix node_modules/.cache/game-tests @electric-sql/pglite
 import { PGlite } from '../node_modules/.cache/game-tests/node_modules/@electric-sql/pglite/dist/index.js';
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
+import { players, pairs, answersFor, normalizeName } from '../football-analyzer-mobile/game/data.ts';
 import assert from 'node:assert/strict';
 const db = new PGlite();
 await db.exec(`create role anon; create role authenticated; create schema auth;
@@ -9,7 +10,17 @@ create table auth.users(id uuid primary key);
 create function auth.uid() returns uuid language sql as $$ select nullif(current_setting('request.jwt.claim.sub',true),'')::uuid $$;
 grant usage on schema auth to authenticated,anon;
 grant execute on function auth.uid() to authenticated,anon;`);
-await db.exec(readFileSync(new URL('../supabase/migrations/202611150001_game_accounts.sql', import.meta.url),'utf8'));
+const migrations = new URL('../supabase/migrations/', import.meta.url);
+for (const file of readdirSync(migrations).filter((name) => name.endsWith('.sql')).sort()) {
+  await db.exec(readFileSync(new URL(file, migrations), 'utf8'));
+}
+const catalog = await db.query('select id,name,clubs from public.game_players order by id');
+assert.deepEqual(catalog.rows, players.map(({id,name,clubs}) => ({id,name,clubs:[...clubs]})).sort((a,b) => a.id.localeCompare(b.id)));
+assert.equal(new Set(players.map(p => p.id)).size, players.length);
+for (const pair of pairs) assert.ok(answersFor(pair).length > 0);
+assert.equal(normalizeName('BEŞİKTAŞ'), normalizeName('besiktas'));
+assert.equal(normalizeName('Burak Yılmaz'), normalizeName('burak yilmaz'));
+assert.deepEqual(answersFor(['Galatasaray','Fenerbahçe']).map(p => p.id).sort(), ['burak','emre']);
 const users=['00000000-0000-0000-0000-000000000001','00000000-0000-0000-0000-000000000002','00000000-0000-0000-0000-000000000003'];
 for(const u of users) await db.query('insert into auth.users values($1)',[u]);
 async function as(i) { await db.exec('reset role'); await db.query("select set_config('request.jwt.claim.sub',$1,false)",[users[i] || '']); await db.exec('set role authenticated'); }
@@ -55,6 +66,10 @@ await as(0); room=await rpc('create'); await db.exec('reset role');
 await db.query("update public.game_rooms set created_at=now()-interval '25 hours' where code=$1",[room.code]);
 await as(1); await assert.rejects(rpc('join',room.code), /dolu/);
 await as(0); assert.equal((await rpc('state',room.code)).status,'void');
+// A new Turkish-club answer is accepted by the same authoritative scoring path.
+await as(0); room=await rpc('create'); await rpc('ready',room.code,'Galatasaray');
+await as(1); await rpc('join',room.code); await rpc('ready',room.code,'Fenerbahçe'); await start(room.code);
+room=await rpc('answer',room.code,'emre'); assert.equal(room.won,true); assert.equal(room.answer,'Emre Belözoğlu');
 await db.exec('reset role; set role anon'); await assert.rejects(db.query('select public.game_dashboard()'),/permission denied/);
 await as(-1); await assert.rejects(rpc('create'),/giriş/);
 console.log('PASS: hidden choices, countdown, auth, membership, RLS, answer validation, cooldown, single winner, idempotency, void rounds, surrender, expiry, stats and streak.');

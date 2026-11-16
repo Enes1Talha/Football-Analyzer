@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import { normalizeName, players } from "../../../football-analyzer-mobile/game/data";
 import { roomAction, RoomState } from "@/lib/game";
+import { mergeRoomState } from "@/lib/game-room-state";
 const clubs = Array.from(new Set(players.flatMap((player) => [...player.clubs]))).sort();
 const button = "rounded-lg bg-neon-green px-5 py-3 font-mono text-sm font-bold text-black disabled:opacity-40";
 const input = "w-full rounded-lg border border-pitch-border bg-pitch-dark p-4 text-white focus:outline-none focus:ring-1 focus:ring-neon-green";
@@ -17,12 +18,7 @@ export default function RankedDuel({ initial, onExit }: { initial: RoomState; on
   const [confirmLeave, setConfirmLeave] = useState(false);
   const finished = state.status === "finished" || state.status === "void";
   function accept(next: RoomState) {
-    setState((previous) => {
-      if (previous.status === "finished" || previous.status === "void") return previous;
-      if (previous.status === "playing" && next.status === "waiting") return previous;
-      if (previous.remaining !== null && next.remaining !== null && next.remaining > previous.remaining) return previous;
-      return next;
-    });
+    setState((previous) => mergeRoomState(previous, next));
   }
   useEffect(() => {
     if (finished) return;
