@@ -14,6 +14,7 @@ import Spinner from "@/components/ui/Spinner";
 import Footer from "@/components/ui/Footer";
 import HeadToHead from "./HeadToHead";
 import Standings from "./Standings";
+import GameMark from "@/components/game/GameMark";
 import { ComparisonData } from "@/types/football";
 
 
@@ -74,7 +75,7 @@ export default function Dashboard() {
       {/* ── Top nav ── */}
       <header className="border-b border-pitch-border bg-pitch-dark/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 h-14 flex items-center justify-between">
-          <Link href="/oyna" className="flex items-center gap-2 rounded-lg bg-neon-green px-4 py-2 text-black font-bold"><span aria-hidden="true" className="font-mono text-xs">3·2·1</span> Oyna</Link>
+          <Link href="/oyna" className="flex items-center gap-2 rounded-lg bg-neon-green px-4 py-2 text-black font-bold"><GameMark monochrome className="h-6 w-6 shrink-0" /> Oyna</Link>
           <div className="flex items-center gap-3">
             <div className="relative">
               <Activity size={20} className="text-neon-green" />

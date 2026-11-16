@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Activity } from "lucide-react";
 import GameLobby from "@/components/game/GameLobby";
+import GameMark from "@/components/game/GameMark";
 
 export default function PlayPage() {
   return <main className="min-h-screen bg-pitch-black text-white">
@@ -11,7 +12,7 @@ export default function PlayPage() {
       </nav>
     </header>
     <div className="max-w-2xl mx-auto px-4 py-10 space-y-6">
-      <div aria-hidden="true" className="inline-flex items-center gap-2 rounded-2xl border border-neon-green/30 bg-neon-green/5 px-5 py-3 font-mono text-2xl font-black text-neon-green"><span>3</span><span className="text-neon-cyan">·</span><span>2</span><span className="text-neon-cyan">·</span><span>1</span></div>
+      <GameMark className="h-24 w-[89px] drop-shadow-[0_0_16px_rgba(57,255,20,0.18)]" />
       <h1 className="text-3xl md:text-4xl font-black tracking-tighter leading-none">İKİ KULÜP.<br /><span className="neon-text-green">BİR İSİM.</span></h1>
       <p className="text-zinc-500 text-sm font-mono">Takımını gizle · Birlikte aç · Ortak futbolcuyu bul</p>
       <GameLobby />
