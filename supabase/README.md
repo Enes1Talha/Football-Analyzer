@@ -4,6 +4,15 @@
 2026-11-15 tarihinde `football_data` projesinde uygulandı. Futbol maçları tablosunu değiştirmez.
 Yeni kurulumda dosyanın tamamı tek işlem olarak uygulanmalıdır.
 `migrations/202611160001_expand_game_players.sql` 2026-11-16 tarihinde aynı projede uygulandı; canlı havuz 12 oyuncu olarak doğrulandı.
+`migrations/202611160002_player_profiles.sql` 2026-11-16 tarihinde uygulandı. Profil düzenleme yayını bu migration'dan sonra yapılmalıdır.
+
+## Profil düzenleme
+
+- `game_profile` yalnızca oturum sahibinin kullanıcı adı, görünen adı, biyografisi, fotoğrafı ve katılma tarihini döndürür.
+- `game_update_profile` kullanıcı kimliğini istekten almaz; `auth.uid()` ile günceller. Kullanıcı adı benzersizdir; değişiklikler oyun sonuçlarına dokunmaz.
+- Görünen ad 40, biyografi 160 karakterle sınırlıdır. Sıralama/rakip ekranları kullanıcı adını göstermeye devam eder. Fotoğraf ve biyografi için herkese açık profil sayfası henüz yoktur.
+- Fotoğraf JPG/PNG/WebP ve en fazla 5 MB olarak seçilir; tarayıcı ortadan kare kırpıp 256×256 JPEG'e dönüştürür. Orijinal dosya ve EXIF bilgisi saklanmaz. Sunucu JPEG data URL biçimi ve 180 KB sınırını denetler; dış URL ve SVG kabul etmez. Küçük avatar yalnızca profil sorgusunda gelir, sıralama yanıtını büyütmez.
+- E-posta Supabase Auth oturumundan yalnızca hesap sahibine gösterilir. Şifre yenileme kullanıcının düğmeye basmasıyla mevcut doğrulama akışını kullanır.
 
 ## Giriş
 

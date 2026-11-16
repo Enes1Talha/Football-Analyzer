@@ -2,8 +2,10 @@
 import { useCallback, useEffect, useState } from "react";
 import type { User } from "@supabase/supabase-js";
 import { supabase } from "@/lib/supabase";
-import { GameDashboard, gameError, levelFor, levelWins, roomAction, RoomState } from "@/lib/game";
+import { GameDashboard, gameError, levelFor, levelWins, roomAction, RoomState, PlayerDetails } from "@/lib/game";
 import RankedDuel from "./RankedDuel";
+import ProfileAvatar from "./ProfileAvatar";
+import ProfileEditor from "./ProfileEditor";
 
 const input = "w-full rounded-lg border border-pitch-border bg-pitch-dark p-3 text-white focus:outline-none focus:ring-1 focus:ring-neon-green";
 const button = "rounded-lg bg-neon-green p-3 font-bold text-black disabled:opacity-40";
@@ -12,9 +14,10 @@ export default function GameLobby() {
   const [user, setUser] = useState<User | null>(null);
   const [loaded, setLoaded] = useState(false);
   const [dashboard, setDashboard] = useState<GameDashboard | null>(null);
+  const [details, setDetails] = useState<PlayerDetails | null>(null);
   const [room, setRoom] = useState<RoomState | null>(null);
   const [mode, setMode] = useState<"login" | "signup" | "reset" | "recovery">("login");
-  const [tab, setTab] = useState<"play" | "rivals" | "leaderboard" | "history">("play");
+  const [tab, setTab] = useState<"play" | "rivals" | "leaderboard" | "history" | "profile">("play");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [username, setUsername] = useState("");
@@ -28,6 +31,9 @@ export default function GameLobby() {
     const { data, error: failure } = await supabase.rpc("game_dashboard");
     if (failure) { setError(gameError(failure)); return; }
     setDashboard(data as GameDashboard); setError("");
+    const result = await supabase.rpc("game_profile");
+    if (result.error) setError(gameError(result.error));
+    else setDetails(result.data as PlayerDetails | null);
   }, []);
 
   useEffect(() => {
@@ -40,7 +46,7 @@ export default function GameLobby() {
     const { data: listener } = supabase.auth.onAuthStateChange((event, session) => {
       setUser(session?.user ?? null); setLoaded(true);
       if (event === "PASSWORD_RECOVERY") setMode("recovery");
-      if (event === "SIGNED_OUT") { setDashboard(null); setRoom(null); }
+      if (event === "SIGNED_OUT") { setDashboard(null); setDetails(null); setRoom(null); setTab("play"); }
     });
     const invite = new URLSearchParams(location.search).get("room");
     if (invite) { setCode(invite.toUpperCase()); setJoining(true); }
@@ -120,7 +126,7 @@ export default function GameLobby() {
       <p className="text-xs text-zinc-500">3–20 karakter: a-z, rakam veya alt çizgi.</p><button disabled={busy} className={button}>Kullanıcı adımı kaydet</button>
     </form> : <>
       <section className="card-glow p-6 space-y-4">
-        <div className="flex justify-between gap-3 items-center"><h2 className="font-bold text-xl break-all">@{profile.username}</h2><span className="shrink-0 rounded-full bg-neon-green/10 px-3 py-1 text-neon-green text-sm font-bold">Seviye {level}</span></div>
+        <div className="flex justify-between gap-3 items-center"><button onClick={() => setTab("profile")} aria-label="Profilimi düzenle" className="flex min-w-0 items-center gap-3 text-left rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neon-cyan"><ProfileAvatar photo={details?.avatar} /><span className="min-w-0"><span className="block font-bold text-lg break-words">{details?.display_name || `@${profile.username}`}</span><span className="block text-xs text-zinc-400">{details?.display_name ? `@${profile.username} · ` : ""}Profili düzenle</span></span></button><span className="shrink-0 rounded-full bg-neon-green/10 px-3 py-1 text-neon-green text-sm font-bold">Seviye {level}</span></div>
         <div className="grid grid-cols-3 gap-3 text-center">
           {[['Galibiyet',profile.wins],['Mağlubiyet',profile.losses],['Puan',profile.wins*3]].map(([label,value]) => <div key={label} className="rounded-lg bg-pitch-dark p-3"><p className="text-2xl font-bold">{value}</p><p className="text-xs text-zinc-400">{label}</p></div>)}
         </div>
@@ -128,9 +134,10 @@ export default function GameLobby() {
         <progress aria-label="Seviye ilerlemesi" className="w-full accent-neon-green" value={level===10 ? 1 : profile.wins-levelWins[level-1]} max={level===10 ? 1 : levelWins[level]-levelWins[level-1]} />
         <p className="text-xs text-zinc-400">{level===10 ? "En yüksek seviyedesin!" : `Seviye ${level+1} için ${levelWins[level]-profile.wins} galibiyet daha.`}</p>
       </section>
-      <nav aria-label="Oyuncu menüsü" className="grid grid-cols-2 sm:grid-cols-4 gap-2">
-        {([['play','Oyna'],['rivals','Arkadaş rekabeti'],['leaderboard','Sıralama'],['history','Geçmiş']] as const).map(([id,label]) => <button key={id} aria-pressed={tab===id} onClick={() => { setTab(id); void refresh(); }} className={`rounded-lg py-3 text-sm ${tab===id ? 'bg-neon-green text-black font-bold' : 'bg-pitch-dark text-zinc-400'}`}>{label}</button>)}
+      <nav aria-label="Oyuncu menüsü" className="flex gap-2 overflow-x-auto pb-1">
+        {([['play','Oyna'],['rivals','Arkadaş rekabeti'],['leaderboard','Sıralama'],['history','Geçmiş'],['profile','Profilim']] as const).map(([id,label]) => <button key={id} aria-pressed={tab===id} onClick={() => { setTab(id); void refresh(); }} className={`flex-1 shrink-0 whitespace-nowrap rounded-lg px-3 py-3 text-sm ${tab===id ? 'bg-neon-green text-black font-bold' : 'bg-pitch-dark text-zinc-400'}`}>{label}</button>)}
       </nav>
+      {tab==='profile' && (details ? <ProfileEditor key={user.id} details={details} email={user.email} onSaved={(saved) => { setDetails(saved); setDashboard((previous) => previous && ({ ...previous, profile: previous.profile && { ...previous.profile, username: saved.username } })); void refresh(); }} /> : <section className="card-glow p-5"><p className="text-zinc-400">Profil bilgileri henüz yüklenemedi.</p><button className={`${button} mt-3`} onClick={() => void refresh()}>Tekrar dene</button></section>)}
       {tab==='play' && <section className="card-glow p-6 space-y-5">
         <p className="text-zinc-400 text-sm">Bir oda aç, kodu arkadaşına gönder. İkiniz de takımınızı seçince 3, 2, 1…</p>
         <div className="grid sm:grid-cols-2 gap-3"><button disabled={busy} onClick={() => void enter('create')} className={button}>Oda aç</button><button onClick={() => setJoining(true)} className="rounded-lg border border-neon-cyan/40 p-3 font-bold text-neon-cyan">Odaya katıl</button></div>

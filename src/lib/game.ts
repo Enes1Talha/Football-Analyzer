@@ -4,6 +4,7 @@ export type { RoomState } from "./game-room-state";
 export const levelWins = [0, 1, 3, 5, 10, 20, 35, 50, 75, 100];
 export function levelFor(wins: number) { return Math.min(10, levelWins.filter((n) => wins >= n).length); }
 export interface GameProfile { id: string; username: string; wins: number; losses: number; rank: number }
+export interface PlayerDetails { username: string; display_name: string; bio: string; avatar: string; created_at: string }
 export interface GameDashboard {
   profile: GameProfile | null; streak: number; leaderboard: GameProfile[];
   rivals: { opponent_id: string; opponent: string; wins: number; losses: number }[];
