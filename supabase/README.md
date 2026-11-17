@@ -25,6 +25,21 @@ Yeni kurulumda dosyanın tamamı tek işlem olarak uygulanmalıdır.
 
 ## Oyun kuralları
 
+### Karışık Harfler
+
+`202611170003_anagram.sql` 2026-11-17 tarihinde canlı projeye uygulandı. İlk havuz 20 sözcük: kolay 6, orta 8, zor 6. Sözcüklerin futbolcuları mevcut kaynaklı oyuncu havuzunda bulunur; zorluklar editoryal seçimdir.
+
+- Oda açan kolay/orta/zor seçer: 5/10/20 saniye. İki ayrı hesap hazır olduğunda sunucu 3 saniyelik geri sayımı başlatır.
+- Karışık harfler sunucuda bir kez üretilir. Geri sayım öncesi istemciye gönderilmez. Doğru cevap bitişe kadar gizlidir; soru tablosuna doğrudan istemci erişimi yoktur.
+- Ekrandaki harflerden türeyen kullanılan isim/soyadı kabul edilir; rastgele farklı bir tam ad değil. Büyük/küçük harf, boşluk, noktalama ve yaygın Latin/Türkçe aksanlar normalize edilir. İstemci futbolcu önerisi sunmaz.
+- İlk geçerli sunucu isteği satır kilidi altında kazanır. Son tarihten sonraki cevap kabul edilmez. Yanlış cevaplar arasında 500 ms bekleme vardır.
+- Süre aşımı puansız kapanır ve cevabı gösterir. Başlamadan ayrılma puansız; başladıktan sonra pes etme mağlubiyettir. Tamamlanan oyunlar ortak toplamda, ayrıca oyun türü bazında sayılır.
+- Aynı rakiple tekrar oyna, bir kez oluşturulan yeni oda kodunu iki oyuncuya da verir. Yeni turda ikisinin yeniden hazır olması gerekir.
+- Ekran sunucu saatinden yerel sayaç üretir; durum 250 ms aralıkla alınır. Ağ gecikmesi nedeniyle iki ekranda aynı milisaniyede çizim garantisi yoktur. Süre/puan açısından sunucu karar verir. Gerçek iki cihaz testi ayrıca yapılmalıdır.
+- Eski kulüp oyunu uygulaması ve temel dashboard yardımcıları doğrudan authenticated/anon erişimine kapatıldı; sadece yeni, yetki kontrollü RPC içinden çağrılır.
+
+### İki Kulüp, Bir İsim
+
 - Her oda bir turdur. İki ayrı hesap; sunucunun verdiği 8 karakterlik kod.
 - Takımlar kilitlendikten sonra sunucuda 3 saniye sayılır. Rakibin seçimi bu süre bitene kadar yanıt içinde bulunmaz.
 - İlk geçerli cevap kazanır; +1 galibiyet / +3 puan. Rakibe +1 mağlubiyet.

@@ -4,6 +4,7 @@ import type { User } from "@supabase/supabase-js";
 import { supabase } from "@/lib/supabase";
 import { GameDashboard, gameError, levelFor, levelWins, roomAction, RoomState, PlayerDetails } from "@/lib/game";
 import RankedDuel from "./RankedDuel";
+import AnagramDuel from "./AnagramDuel";
 import ProfileAvatar from "./ProfileAvatar";
 import ProfileEditor from "./ProfileEditor";
 
@@ -23,6 +24,8 @@ export default function GameLobby() {
   const [username, setUsername] = useState("");
   const [code, setCode] = useState("");
   const [joining, setJoining] = useState(false);
+  const [gameKind,setGameKind]=useState<"clubs"|"anagram">("clubs");
+  const [difficulty,setDifficulty]=useState("easy");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
   const [notice, setNotice] = useState("");
@@ -95,7 +98,7 @@ export default function GameLobby() {
   async function enter(action: "create" | "join") {
     setBusy(true); setError("");
     try {
-      const next = await roomAction(action, code.trim().toUpperCase());
+      const next = await roomAction(action==='create'&&gameKind==='anagram'?'create_anagram':action, code.trim().toUpperCase(),gameKind==='anagram'?difficulty:'');
       setRoom(next); history.replaceState(null, "", "/oyna?room=" + next.code);
     } catch (e) { setError((e as Error).message); }
     finally { setBusy(false); }
@@ -103,9 +106,10 @@ export default function GameLobby() {
   const profile = dashboard?.profile;
   const level = levelFor(profile?.wins || 0);
   if (!loaded) return <p className="text-zinc-400">Oturum kontrol ediliyor…</p>;
-  if (room && user) return <RankedDuel key={room.code} initial={room} onExit={() => {
+  function exitRoom() {
     setRoom(null); setCode(""); setJoining(false); history.replaceState(null, "", "/oyna"); void refresh();
-  }} />;
+  }
+  if(room&&user) return room.gameKind==='anagram'?<AnagramDuel key={room.code} initial={room} onExit={exitRoom} onNext={next=>{setRoom(next);history.replaceState(null,'','/oyna?room='+next.code);}}/>:<RankedDuel key={room.code} initial={room} onExit={exitRoom}/>;
 
   return <div className="space-y-5">
     {error && <p role="alert" className="rounded-lg border border-neon-yellow/30 p-4 text-sm text-neon-yellow">{error}</p>}
@@ -131,6 +135,7 @@ export default function GameLobby() {
           {[['Galibiyet',profile.wins],['Mağlubiyet',profile.losses],['Puan',profile.wins*3]].map(([label,value]) => <div key={label} className="rounded-lg bg-pitch-dark p-3"><p className="text-2xl font-bold">{value}</p><p className="text-xs text-zinc-400">{label}</p></div>)}
         </div>
         <div className="flex justify-between text-sm text-zinc-400"><span>{dashboard.streak} maçlık galibiyet serisi</span><span>#{profile.rank}</span></div>
+        <div className="grid grid-cols-2 gap-3 text-xs text-zinc-400">{([['clubs','İki Kulüp'],['anagram','Karışık Harfler']] as const).map(([kind,label])=>{const stats=dashboard.byGame?.find(s=>s.kind===kind);return <p key={kind}>{label}: <span className="text-white">{stats?.wins||0} G · {stats?.losses||0} M</span></p>;})}</div>
         <progress aria-label="Seviye ilerlemesi" className="w-full accent-neon-green" value={level===10 ? 1 : profile.wins-levelWins[level-1]} max={level===10 ? 1 : levelWins[level]-levelWins[level-1]} />
         <p className="text-xs text-zinc-400">{level===10 ? "En yüksek seviyedesin!" : `Seviye ${level+1} için ${levelWins[level]-profile.wins} galibiyet daha.`}</p>
       </section>
@@ -139,14 +144,19 @@ export default function GameLobby() {
       </nav>
       {tab==='profile' && (details ? <ProfileEditor key={user.id} details={details} email={user.email} onSaved={(saved) => { setDetails(saved); setDashboard((previous) => previous && ({ ...previous, profile: previous.profile && { ...previous.profile, username: saved.username } })); void refresh(); }} /> : <section className="card-glow p-5"><p className="text-zinc-400">Profil bilgileri henüz yüklenemedi.</p><button className={`${button} mt-3`} onClick={() => void refresh()}>Tekrar dene</button></section>)}
       {tab==='play' && <section className="card-glow p-6 space-y-5">
-        <p className="text-zinc-400 text-sm">Bir oda aç, kodu arkadaşına gönder. İkiniz de takımınızı seçince 3, 2, 1…</p>
+        <h2 className="text-xl font-bold">Hangi oyunu oynayalım?</h2>
+        <div className="grid sm:grid-cols-2 gap-3">
+          {([['clubs','İki Kulüp, Bir İsim','Takımını gizle. İki kulüpte oynamış futbolcuyu ilk sen bul.'],['anagram','Karışık Harfler','Harfleri çöz. Futbolcunun adını rakibinden önce gönder.']] as const).map(([id,title,description])=><button key={id} aria-pressed={gameKind===id} onClick={()=>setGameKind(id)} className={`rounded-xl border p-4 text-left space-y-2 ${gameKind===id?'border-neon-green bg-neon-green/5':'border-pitch-border bg-pitch-dark'}`}><span className={`block font-bold ${gameKind===id?'text-neon-green':'text-white'}`}>{title}</span><span className="block text-xs text-zinc-400">{description}</span></button>)}
+        </div>
+        {gameKind==='anagram'&&<fieldset className="space-y-2"><legend className="text-sm text-zinc-400 mb-2">Zorluk</legend><div className="flex flex-wrap gap-2">{[['easy','Kolay · 5 sn'],['medium','Orta · 10 sn'],['hard','Zor · 20 sn']].map(([id,label])=><button type="button" key={id} aria-pressed={difficulty===id} onClick={()=>setDifficulty(id)} className={`rounded-lg border px-3 py-2 text-sm ${difficulty===id?'border-neon-cyan text-neon-cyan':'border-pitch-border text-zinc-400'}`}>{label}</button>)}</div><p className="text-xs text-zinc-500">Kolay: kısa, tanınan isimler. Orta: daha uzun isimler. Zor: uzun veya yazımı daha zor isimler.</p></fieldset>}
+        <p className="text-zinc-400 text-sm">Bir oda aç, kodu arkadaşına gönder. Katılan oyuncu odanın oyununa ve zorluğuna otomatik girer.</p>
         <div className="grid sm:grid-cols-2 gap-3"><button disabled={busy} onClick={() => void enter('create')} className={button}>Oda aç</button><button onClick={() => setJoining(true)} className="rounded-lg border border-neon-cyan/40 p-3 font-bold text-neon-cyan">Odaya katıl</button></div>
         {joining && <form onSubmit={(e) => { e.preventDefault(); void enter('join'); }} className="space-y-3"><label htmlFor="room-code" className="block text-sm">Oda kodu</label><input id="room-code" className={`${input} uppercase tracking-widest`} value={code} onChange={(e) => setCode(e.target.value.toUpperCase())} pattern="[A-Za-z0-9]{8}" maxLength={8} required placeholder="8 karakterlik kod" /><button disabled={busy} className={button}>Katıl / Odama dön</button></form>}
         <details className="text-sm text-zinc-400"><summary className="cursor-pointer">Puanlar ve seviyeler nasıl çalışır?</summary><p className="mt-3">İlk doğru cevap +1 galibiyet ve +3 puan. Rakibe +1 mağlubiyet. Pes etmek mağlubiyettir. Aynı takım, cevapsız eşleşme ve başlamadan kapanan oda puan vermez. Sıralama: galibiyet, ardından daha az mağlubiyet.</p><p className="mt-2">Seviye 1–10 galibiyet eşikleri: {levelWins.join(', ')}.</p><p className="mt-2">Bağlantı koparsa aynı oda koduyla dön. Tamamlanmayan odalar 24 saat sonra puansız kapanır.</p></details>
       </section>}
       {tab==='rivals' && <section className="card-glow p-5 space-y-4"><h2 className="text-lg font-bold">Arkadaşlarınla skorun</h2><p className="text-xs text-zinc-400">Birlikte oyun tamamladığın kişiler burada görünür. G: senin galibiyetlerin, M: mağlubiyetlerin.</p>{!dashboard.rivals.length && <p className="text-zinc-400">İlk oyununu tamamla, rekabet burada başlasın.</p>}{dashboard.rivals.map((r) => <div key={r.opponent_id} className="flex justify-between gap-4 border-b border-pitch-border py-3"><span className="break-all">@{r.opponent}</span><span className="shrink-0 font-mono"><span className="text-neon-green">{r.wins} G</span> · {r.losses} M</span></div>)}</section>}
       {tab==='leaderboard' && <section className="card-glow p-5 space-y-4"><h2 className="text-lg font-bold">Puan tablosu · İlk 50</h2><div className="overflow-x-auto"><table className="w-full text-sm text-left"><thead className="text-zinc-500"><tr>{['#','Oyuncu','Sv.','G / M','Puan'].map((h) => <th key={h} className="py-3 pr-3">{h}</th>)}</tr></thead><tbody>{dashboard.leaderboard.map((p) => <tr key={p.id} className={`border-t border-pitch-border ${p.id===user.id ? 'text-neon-green' : ''}`}><td className="py-3 pr-3">{p.rank}</td><td className="pr-3">@{p.username}</td><td className="pr-3">{levelFor(p.wins)}</td><td className="pr-3 whitespace-nowrap">{p.wins} / {p.losses}</td><td>{p.wins*3}</td></tr>)}</tbody></table></div></section>}
-      {tab==='history' && <section className="card-glow p-5 space-y-4"><h2 className="text-lg font-bold">Son 20 oyun</h2>{!dashboard.history.length && <p className="text-zinc-400">Henüz tamamlanmış oyunun yok.</p>}{dashboard.history.map((h) => <article key={h.code} className="border-b border-pitch-border py-3 space-y-1"><div className="flex justify-between gap-3"><span className="break-all">@{h.opponent}</span><strong className={h.won ? 'text-neon-green' : 'text-zinc-400'}>{h.won ? 'Galibiyet' : 'Mağlubiyet'}</strong></div><p className="text-sm text-zinc-400">{h.host_team} × {h.guest_team}</p><p className="text-xs text-zinc-500">{h.answer || h.reason} · {new Date(h.finished_at).toLocaleString('tr-TR')}</p></article>)}</section>}
+      {tab==='history' && <section className="card-glow p-5 space-y-4"><h2 className="text-lg font-bold">Son 20 oyun</h2>{!dashboard.history.length && <p className="text-zinc-400">Henüz tamamlanmış oyunun yok.</p>}{dashboard.history.map((h) => <article key={h.code} className="border-b border-pitch-border py-3 space-y-1"><div className="flex justify-between gap-3"><span className="break-all">@{h.opponent}</span><strong className={h.won ? 'text-neon-green' : 'text-zinc-400'}>{h.won ? 'Galibiyet' : 'Mağlubiyet'}</strong></div><p className="text-sm text-zinc-400">{h.reason.startsWith('Anagram') ? 'Karışık Harfler' : h.host_team + ' × ' + h.guest_team}</p><p className="text-xs text-zinc-500">{h.answer || h.reason} · {new Date(h.finished_at).toLocaleString('tr-TR')}</p></article>)}</section>}
     </>}
     {user && !room && <button className="text-xs text-zinc-500" onClick={async () => {
       const { error: failure } = await supabase.auth.signOut();

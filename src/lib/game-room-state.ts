@@ -1,4 +1,6 @@
 export interface RoomState {
+  gameKind?: "clubs" | "anagram"; difficulty?: "easy" | "medium" | "hard"; ready?: boolean;
+  puzzle?: string | null; serverMs?: number; startsAt?: number | null; endsAt?: number | null;
   code: string; status: "waiting" | "playing" | "finished" | "void";
   host: boolean; opponent: string | null; team: string | null; opponentTeam: string | null;
   opponentReady: boolean; remaining: number | null; won: boolean | null;
