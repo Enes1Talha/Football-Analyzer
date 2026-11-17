@@ -35,7 +35,8 @@ Yeni kurulumda dosyanın tamamı tek işlem olarak uygulanmalıdır.
 - Seviye 1–10 toplam galibiyet eşikleri: 0, 1, 3, 5, 10, 20, 35, 50, 75, 100.
 - Sıralama: galibiyet azalan, mağlubiyet artan, kullanıcı adı. İlk 50 gösterilir.
 - Arkadaş rekabeti, birlikte tamamlanan oyunlardan oluşur; ayrı arkadaşlık isteği sistemi yoktur.
-- Oyuncu havuzu 12 kişidir; Galatasaray, Fenerbahçe, Beşiktaş ve Trabzonspor bağlantıları dahildir. Bunlar kaynakla doğrulanmış kulüp bağlantılarıdır, eksiksiz kariyer veya tüm futbolcular listesi değildir.
+- Oyuncu havuzu 403 kişidir; 29 kulüp ve dört büyüklerin bağlantıları dahildir. 2026-11-17 tarihinde `202611170001_game_coverage_message.sql` ve `202611170002_game_catalog.sql` canlıya uygulandı. Wikidata'dan pozitif maç sayısı içeren bağlantılar alınır; tüm kayıtların bağımsız olarak elle doğrulandığı veya eksiksiz olduğu iddia edilmez.
+- İçe aktarma ve kaynak inceleme adımları: `scripts/GAME_DATA.md`. Kaynak kanıtları `scripts/game-wikidata-candidates.json`, küçük istemci havuzu `football-analyzer-mobile/game/imported-players.json` içindedir. Önceden eklenen oyuncuların kimlikleri korunur.
 - Kaynak havuz `football-analyzer-mobile/game/data.ts` dosyasıdır. Yeni veri için `npx tsx scripts/generate-game-catalog.ts supabase/migrations/TIMESTAMP_name.sql` ile yeni bir migration oluşturun. Uygulanmış migration dosyalarını değiştirmeyin. Sunucu güncellemesini istemci yayınından önce uygulayın; test, sunucu ve istemci havuzlarının birebir aynı olduğunu denetler.
 - Oyun cevapları sunucuda doğrulanır, ancak bu küçük ve açık oyuncu havuzu otomatik cevap veren istemcilere karşı rekabetçi bir hile önleme sistemi değildir.
 

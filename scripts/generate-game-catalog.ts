@@ -11,4 +11,4 @@ const rows = players.map((p) =>
   `-- ${p.source}\n (${quote(p.id)},${quote(p.name)},array[${p.clubs.map(quote).join(",")}])`
 ).join(",\n");
 writeFileSync(destination, `-- Generated from football-analyzer-mobile/game/data.ts.\n-- Additive upsert: no profiles, rooms or scores are modified.\nbegin;\ninsert into public.game_players (id,name,clubs) values\n${rows}\non conflict (id) do update set name=excluded.name,clubs=excluded.clubs;\ncommit;\n`, { flag: "wx" });
-console.log(`Created ${destination}: ${players.length} verified players.`);
+console.log(`Created ${destination}: ${players.length} source-backed players.`);

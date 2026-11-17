@@ -1,5 +1,8 @@
+import importedPlayers from "./imported-players.json";
+export interface GamePlayer { id: string; name: string; clubs: readonly string[]; source: string; aliases?: readonly string[] }
 // Curated senior-club links, not exhaustive careers. Each entry keeps its evidence.
-export const players = [
+const curatedPlayers = [
+  { id: "messi", name: "Lionel Messi", clubs: ["Barcelona", "Paris Saint-Germain"], source: "https://www.wikidata.org/wiki/Q615", aliases: ["Leo Messi", "Messi"] },
   { id: "beckham", name: "David Beckham", clubs: ["Manchester United", "Real Madrid", "AC Milan"], source: "https://www.uefa.com/uefachampionsleague/news/01e1-0e73a5a40fd0-cf701112f836-1000--united-braced-for-beckham-reunion/" },
   { id: "cristiano", name: "Cristiano Ronaldo", clubs: ["Manchester United", "Real Madrid"], source: "https://www.uefa.com/MultimediaFiles/Download/competitions/Statistics/01/85/99/80/1859980_DOWNLOAD.pdf" },
   { id: "zlatan", name: "Zlatan Ibrahimović", clubs: ["Ajax", "Juventus", "Inter", "Barcelona", "AC Milan", "Paris Saint-Germain", "Manchester United"], source: "https://www.uefa.com/uefachampionsleague/news/023f-0e98047a7d5d-55052900dddf-1000--ibrahimovic-plays-for-seventh-champions-league-club/" },
@@ -13,6 +16,16 @@ export const players = [
   { id: "podolski", name: "Lukas Podolski", clubs: ["Bayern Munich", "Arsenal", "Inter", "Galatasaray"], source: "https://www.uefa.com/uefachampionsleague/news/0253-0d80681a8b6a-835e118a60b8-1000--galatasaray-capture-world-cup-winner-podolski/" },
   { id: "van-persie", name: "Robin van Persie", clubs: ["Feyenoord", "Arsenal", "Manchester United", "Fenerbahçe"], source: "https://eredivisie.com/news/ex-man-utd-and-arsenal-forward-van-persie-retires-after-final-feyenoord-game/" },
 ] as const;
+
+const importedMatches = (player: GamePlayer, curated: GamePlayer) =>
+  [player.name, ...(player.aliases || [])].some(name => normalizeName(name) === normalizeName(curated.name));
+export const players: GamePlayer[] = [
+  ...curatedPlayers.map(curated => {
+    const imported = importedPlayers.find(p => importedMatches(p, curated));
+    return imported ? { ...curated, clubs: Array.from(new Set([...curated.clubs, ...imported.clubs])), aliases: imported.aliases } : curated;
+  }),
+  ...importedPlayers.filter(p => !curatedPlayers.some(c => importedMatches(p, c))),
+];
 
 export const pairs = [
   ["Manchester United", "Real Madrid"],
@@ -28,7 +41,23 @@ export const pairs = [
 ] as const;
 
 export function normalizeName(value: string) {
-  return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/ı/g, "i").toLowerCase().trim();
+  return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/ı/g, "i").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+export function searchPlayers(query: string) {
+  const normalized = normalizeName(query);
+  if (normalized.length < 2) return [];
+  const tokens = normalized.split(/\s+/);
+  return players.filter((player) => [player.name,...(player.aliases||[])].some(name => tokens.every(token => normalizeName(name).includes(token))))
+    .sort((a,b) => Number(normalizeName(b.name).startsWith(normalized)) - Number(normalizeName(a.name).startsWith(normalized)) || a.name.localeCompare(b.name))
+    .slice(0, 12);
+}
+
+export function resolveClub(query: string) {
+  const aliases: Record<string, string> = { gs: "Galatasaray", fb: "Fenerbahçe", bjk: "Beşiktaş", ts: "Trabzonspor", "man utd": "Manchester United", "man united": "Manchester United", "man city": "Manchester City", psg: "Paris Saint-Germain", "real madrid": "Real Madrid", barca: "Barcelona", "bayern munih": "Bayern Munich", "atletico madrid": "Atlético Madrid" };
+  const normalized = normalizeName(query);
+  const available = Array.from(new Set(players.flatMap(p => [...p.clubs])));
+  return available.find(club => normalizeName(club) === normalized || club === aliases[normalized]);
 }
 
 export function answersFor(pair: readonly string[]) {

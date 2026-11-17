@@ -1,0 +1,5955 @@
+[
+  {
+    "id": "wd-Q1939",
+    "name": "Nicolas Anelka",
+    "clubs": [
+      "Arsenal",
+      "Chelsea",
+      "Liverpool",
+      "Real Madrid",
+      "Fenerbahçe",
+      "Juventus",
+      "Paris Saint-Germain",
+      "Manchester City"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1939",
+    "aliases": [
+      "Nicolas Anelka",
+      "Nicolas Sébastien Anelka",
+      "Nicolas Sebastien Anelka"
+    ]
+  },
+  {
+    "id": "wd-Q2301910",
+    "name": "Michy Batshuayi",
+    "clubs": [
+      "Chelsea",
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Borussia Dortmund",
+      "Valencia",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q2301910",
+    "aliases": [
+      "Michy Batshuayi"
+    ]
+  },
+  {
+    "id": "wd-Q46896",
+    "name": "Zlatan Ibrahimović",
+    "clubs": [
+      "Manchester United",
+      "Barcelona",
+      "AC Milan",
+      "Inter",
+      "Juventus",
+      "Ajax",
+      "Paris Saint-Germain"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q46896",
+    "aliases": [
+      "Zlatan Ibrahimović",
+      "Zlatan Ibrahimovic",
+      "Ibra"
+    ]
+  },
+  {
+    "id": "wd-Q6298063",
+    "name": "João Cancelo",
+    "clubs": [
+      "Barcelona",
+      "Inter",
+      "Juventus",
+      "Bayern Munich",
+      "Benfica",
+      "Manchester City",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q6298063",
+    "aliases": [
+      "João Cancelo",
+      "Joao Cancelo",
+      "Joao Pedro Cavaco Cancelo"
+    ]
+  },
+  {
+    "id": "wd-Q180553",
+    "name": "Alexis Sánchez",
+    "clubs": [
+      "Manchester United",
+      "Arsenal",
+      "Barcelona",
+      "Inter",
+      "Sevilla",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q180553",
+    "aliases": [
+      "Alexis Sánchez",
+      "Alexis Alejandro Sánchez Sánchez",
+      "Alexis Sanchez",
+      "Alexis Alejandro Sanchez Sanchez",
+      "Alexis Alejandro Sánchez",
+      "Alexis Alejandro Sanchez"
+    ]
+  },
+  {
+    "id": "wd-Q188241",
+    "name": "Ricardo Quaresma",
+    "clubs": [
+      "Chelsea",
+      "Barcelona",
+      "Beşiktaş",
+      "Inter",
+      "Porto",
+      "Sporting CP"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q188241",
+    "aliases": [
+      "Ricardo Quaresma",
+      "Ricardo Andrade Quaresma Bernardo",
+      "Quaresma",
+      "Ricardo Andrade Quaresma"
+    ]
+  },
+  {
+    "id": "wd-Q29339",
+    "name": "Maniche",
+    "clubs": [
+      "Chelsea",
+      "Inter",
+      "Porto",
+      "Benfica",
+      "Sporting CP",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q29339",
+    "aliases": [
+      "Maniche",
+      "Nuno Ricardo de Oliveira Ribeiro"
+    ]
+  },
+  {
+    "id": "wd-Q314241",
+    "name": "José Sosa",
+    "clubs": [
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Trabzonspor",
+      "AC Milan",
+      "Bayern Munich",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q314241",
+    "aliases": [
+      "José Sosa",
+      "José Ernesto Sosa",
+      "Jose Sosa"
+    ]
+  },
+  {
+    "id": "wd-Q363829",
+    "name": "Paulo Futre",
+    "clubs": [
+      "AC Milan",
+      "Porto",
+      "Benfica",
+      "Sporting CP",
+      "Atlético Madrid",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q363829",
+    "aliases": [
+      "Paulo Futre",
+      "Jorge Paulo dos Santos Futre",
+      "Jorge Paulo Futre",
+      "Futre"
+    ]
+  },
+  {
+    "id": "wd-Q48770",
+    "name": "Álvaro Morata",
+    "clubs": [
+      "Chelsea",
+      "Real Madrid",
+      "Galatasaray",
+      "AC Milan",
+      "Juventus",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q48770",
+    "aliases": [
+      "Álvaro Morata",
+      "Álvaro Borja Morata Martín"
+    ]
+  },
+  {
+    "id": "wd-Q63659",
+    "name": "Gabriel Heinze",
+    "clubs": [
+      "Manchester United",
+      "Real Madrid",
+      "Paris Saint-Germain",
+      "Sporting CP",
+      "Roma",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q63659",
+    "aliases": [
+      "Gabriel Heinze",
+      "Gringo",
+      "Gabriel Iván Heinze",
+      "Gabriel Ivan Heinze"
+    ]
+  },
+  {
+    "id": "wd-Q129700",
+    "name": "Mario Balotelli",
+    "clubs": [
+      "Liverpool",
+      "AC Milan",
+      "Inter",
+      "Manchester City",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q129700",
+    "aliases": [
+      "Mario Balotelli",
+      "Mario Balotelli Barwuah",
+      "Mario Barwuah Balotelli"
+    ]
+  },
+  {
+    "id": "wd-Q138172",
+    "name": "Radamel Falcao",
+    "clubs": [
+      "Manchester United",
+      "Chelsea",
+      "Galatasaray",
+      "Porto",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q138172",
+    "aliases": [
+      "Radamel Falcao",
+      "El Tigre"
+    ]
+  },
+  {
+    "id": "wd-Q146907",
+    "name": "Miralem Pjanić",
+    "clubs": [
+      "Barcelona",
+      "Beşiktaş",
+      "Juventus",
+      "Roma",
+      "Lyon"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q146907",
+    "aliases": [
+      "Miralem Pjanić",
+      "Miralem Pjanic"
+    ]
+  },
+  {
+    "id": "wd-Q15214940",
+    "name": "Alex Telles",
+    "clubs": [
+      "Manchester United",
+      "Galatasaray",
+      "Inter",
+      "Porto",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q15214940",
+    "aliases": [
+      "Alex Telles",
+      "Alex Nicolao Telles"
+    ]
+  },
+  {
+    "id": "wd-Q168287",
+    "name": "Christian Panucci",
+    "clubs": [
+      "Chelsea",
+      "Real Madrid",
+      "AC Milan",
+      "Inter",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q168287",
+    "aliases": [
+      "Christian Panucci",
+      "Cristian Panucci",
+      "Panucci"
+    ]
+  },
+  {
+    "id": "wd-Q173139",
+    "name": "George Weah",
+    "clubs": [
+      "Chelsea",
+      "AC Milan",
+      "Paris Saint-Germain",
+      "Manchester City",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q173139",
+    "aliases": [
+      "George Weah",
+      "George Manneh Oppong Weah"
+    ]
+  },
+  {
+    "id": "wd-Q185115",
+    "name": "Edgar Davids",
+    "clubs": [
+      "Barcelona",
+      "AC Milan",
+      "Inter",
+      "Juventus",
+      "Ajax"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q185115",
+    "aliases": [
+      "Edgar Davids"
+    ]
+  },
+  {
+    "id": "wd-Q189686",
+    "name": "Patrick Kluivert",
+    "clubs": [
+      "Barcelona",
+      "AC Milan",
+      "Ajax",
+      "Valencia",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q189686",
+    "aliases": [
+      "Patrick Kluivert",
+      "Patrick Stephan Kluivert"
+    ]
+  },
+  {
+    "id": "wd-Q1909",
+    "name": "Adil Rami",
+    "clubs": [
+      "Fenerbahçe",
+      "AC Milan",
+      "Sevilla",
+      "Valencia",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1909",
+    "aliases": [
+      "Adil Rami"
+    ]
+  },
+  {
+    "id": "wd-Q191080",
+    "name": "Seydou Keita",
+    "clubs": [
+      "Barcelona",
+      "Roma",
+      "Sevilla",
+      "Valencia",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q191080",
+    "aliases": [
+      "Seydou Keita",
+      "Seydu Keyta"
+    ]
+  },
+  {
+    "id": "wd-Q191151",
+    "name": "Alberto Aquilani",
+    "clubs": [
+      "Liverpool",
+      "AC Milan",
+      "Juventus",
+      "Sporting CP",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q191151",
+    "aliases": [
+      "Alberto Aquilani"
+    ]
+  },
+  {
+    "id": "wd-Q196219",
+    "name": "Henrih Mhitaryan",
+    "clubs": [
+      "Manchester United",
+      "Arsenal",
+      "Inter",
+      "Roma",
+      "Borussia Dortmund"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q196219",
+    "aliases": [
+      "Henrikh Mkhitaryan",
+      "Mkhitaryan, Henrikh",
+      "Henrih Hamleti Mhitaryan"
+    ]
+  },
+  {
+    "id": "wd-Q202569",
+    "name": "Emre Belözoğlu",
+    "clubs": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Inter",
+      "Atlético Madrid",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q202569",
+    "aliases": [
+      "Emre Belözoğlu",
+      "Emre"
+    ]
+  },
+  {
+    "id": "wd-Q203665",
+    "name": "Simão Sabrosa",
+    "clubs": [
+      "Barcelona",
+      "Beşiktaş",
+      "Benfica",
+      "Sporting CP",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q203665",
+    "aliases": [
+      "Simão Sabrosa",
+      "Simao Sabrosa"
+    ]
+  },
+  {
+    "id": "wd-Q210944",
+    "name": "Tiago Mendes",
+    "clubs": [
+      "Chelsea",
+      "Juventus",
+      "Benfica",
+      "Atlético Madrid",
+      "Lyon"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q210944",
+    "aliases": [
+      "Tiago Mendes",
+      "Tiago",
+      "Tiago Cardoso Mendes"
+    ]
+  },
+  {
+    "id": "wd-Q216557",
+    "name": "Mohamed Sissoko",
+    "clubs": [
+      "Liverpool",
+      "Real Madrid",
+      "Juventus",
+      "Paris Saint-Germain",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q216557",
+    "aliases": [
+      "Mohamed Sissoko",
+      "Mohamed Lamine Sissoko"
+    ]
+  },
+  {
+    "id": "wd-Q251683",
+    "name": "Ángel Di María",
+    "clubs": [
+      "Manchester United",
+      "Real Madrid",
+      "Juventus",
+      "Paris Saint-Germain",
+      "Benfica"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q251683",
+    "aliases": [
+      "Ángel Di María",
+      "Ángel Fabián Di María",
+      "Ángel Fabián Di María Hernández",
+      "Angel Di Maria"
+    ]
+  },
+  {
+    "id": "wd-Q27049064",
+    "name": "João Félix",
+    "clubs": [
+      "Chelsea",
+      "Barcelona",
+      "AC Milan",
+      "Benfica",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q27049064",
+    "aliases": [
+      "João Félix",
+      "Joao Felix",
+      "Joao Felix Sequeira"
+    ]
+  },
+  {
+    "id": "wd-Q276399",
+    "name": "José Antonio Reyes",
+    "clubs": [
+      "Arsenal",
+      "Real Madrid",
+      "Benfica",
+      "Atlético Madrid",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q276399",
+    "aliases": [
+      "José Antonio Reyes",
+      "José Antonio Reyes Calderón",
+      "José Reyes",
+      "Jose Antonio Reyes"
+    ]
+  },
+  {
+    "id": "wd-Q297603",
+    "name": "Nemanja Matić",
+    "clubs": [
+      "Manchester United",
+      "Chelsea",
+      "Benfica",
+      "Roma",
+      "Lyon"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q297603",
+    "aliases": [
+      "Nemanja Matić"
+    ]
+  },
+  {
+    "id": "wd-Q312157",
+    "name": "Raheem Sterling",
+    "clubs": [
+      "Arsenal",
+      "Chelsea",
+      "Liverpool",
+      "Manchester City",
+      "Feyenoord"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q312157",
+    "aliases": [
+      "Raheem Sterling",
+      "Raheem Shaquille Sterling"
+    ]
+  },
+  {
+    "id": "wd-Q313316",
+    "name": "Romelu Lukaku",
+    "clubs": [
+      "Manchester United",
+      "Chelsea",
+      "Fenerbahçe",
+      "Inter",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q313316",
+    "aliases": [
+      "Romelu Lukaku",
+      "Romelu Lukaku Bolingoli",
+      "Romelu Menama Lukaku Bolingoli"
+    ]
+  },
+  {
+    "id": "wd-Q314440",
+    "name": "Paulo Sousa",
+    "clubs": [
+      "Inter",
+      "Juventus",
+      "Benfica",
+      "Sporting CP",
+      "Borussia Dortmund"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q314440",
+    "aliases": [
+      "Paulo Sousa",
+      "Paulo Manuel Carvalho Sousa",
+      "Paulo Souza",
+      "Paulo Manuel Carvalho de Sousa"
+    ]
+  },
+  {
+    "id": "wd-Q372379",
+    "name": "Georginio Wijnaldum",
+    "clubs": [
+      "Liverpool",
+      "Paris Saint-Germain",
+      "Roma",
+      "Feyenoord",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q372379",
+    "aliases": [
+      "Georginio Wijnaldum",
+      "Georginio Gregion Emile Wijnaldum"
+    ]
+  },
+  {
+    "id": "wd-Q44977",
+    "name": "Pierre-Emerick Aubameyang",
+    "clubs": [
+      "Arsenal",
+      "Chelsea",
+      "Barcelona",
+      "Borussia Dortmund",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q44977",
+    "aliases": [
+      "Pierre-Emerick Aubameyang",
+      "Pierre-Emerick Emiliano François Aubameyang",
+      "Pierre-Emerick Emiliano Francois Aubameyang"
+    ]
+  },
+  {
+    "id": "wd-Q46347",
+    "name": "Patrick Vieira",
+    "clubs": [
+      "Arsenal",
+      "AC Milan",
+      "Inter",
+      "Juventus",
+      "Manchester City"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q46347",
+    "aliases": [
+      "Patrick Vieira",
+      "Patrick Paul Vieira",
+      "Patrick Donalé Vieira"
+    ]
+  },
+  {
+    "id": "wd-Q725768",
+    "name": "Dimas Teixeira",
+    "clubs": [
+      "Fenerbahçe",
+      "Juventus",
+      "Benfica",
+      "Sporting CP",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q725768",
+    "aliases": [
+      "Dimas Teixeira",
+      "Dimas Manuel Marques Teixeira"
+    ]
+  },
+  {
+    "id": "wd-Q10520",
+    "name": "David Beckham",
+    "clubs": [
+      "Manchester United",
+      "Real Madrid",
+      "AC Milan",
+      "Paris Saint-Germain"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q10520",
+    "aliases": [
+      "David Beckham",
+      "David Robert Joseph Beckham",
+      "Sir David Robert Joseph Beckham",
+      "Sir David Beckham"
+    ]
+  },
+  {
+    "id": "wd-Q114859",
+    "name": "Loïc Rémy",
+    "clubs": [
+      "Chelsea",
+      "Lyon",
+      "Marseille",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q114859",
+    "aliases": [
+      "Loïc Rémy",
+      "Loic Remy",
+      "Loïc Alex Teliére Hubert Rémy",
+      "Loic Alex Teliere Hubert Remy"
+    ]
+  },
+  {
+    "id": "wd-Q11571",
+    "name": "Cristiano Ronaldo",
+    "clubs": [
+      "Manchester United",
+      "Real Madrid",
+      "Juventus",
+      "Sporting CP"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q11571",
+    "aliases": [
+      "Cristiano Ronaldo",
+      "Cristiano Ronaldo dos Santos Aveiro",
+      "CR7"
+    ]
+  },
+  {
+    "id": "wd-Q1185419",
+    "name": "Bruma",
+    "clubs": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Benfica",
+      "Sporting CP"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1185419",
+    "aliases": [
+      "Bruma",
+      "Armindo Tue Na Bangna"
+    ]
+  },
+  {
+    "id": "wd-Q124086",
+    "name": "Wesley Sneijder",
+    "clubs": [
+      "Real Madrid",
+      "Galatasaray",
+      "Inter",
+      "Ajax"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q124086",
+    "aliases": [
+      "Wesley Sneijder",
+      "Sneijder"
+    ]
+  },
+  {
+    "id": "wd-Q1255625",
+    "name": "Samuel Eto'o",
+    "clubs": [
+      "Chelsea",
+      "Real Madrid",
+      "Barcelona",
+      "Inter"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1255625",
+    "aliases": [
+      "Samuel Eto'o",
+      "Samuel Eto'o Fils",
+      "Samuel Etoo",
+      "Eto'o",
+      "Samuel Eto"
+    ]
+  },
+  {
+    "id": "wd-Q125796",
+    "name": "Winston Bogarde",
+    "clubs": [
+      "Chelsea",
+      "Barcelona",
+      "AC Milan",
+      "Ajax"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q125796",
+    "aliases": [
+      "Winston Bogarde",
+      "Winston Lloyd Bogarde"
+    ]
+  },
+  {
+    "id": "wd-Q128829",
+    "name": "Michael Owen",
+    "clubs": [
+      "Manchester United",
+      "Liverpool",
+      "Real Madrid",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q128829",
+    "aliases": [
+      "Michael Owen",
+      "Michael James Owen"
+    ]
+  },
+  {
+    "id": "wd-Q1347269",
+    "name": "İslam Süleymani",
+    "clubs": [
+      "Fenerbahçe",
+      "Sporting CP",
+      "Lyon",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1347269",
+    "aliases": [
+      "Islam Slimani",
+      "İslam Slimani"
+    ]
+  },
+  {
+    "id": "wd-Q134976",
+    "name": "Lukas Podolski",
+    "clubs": [
+      "Arsenal",
+      "Galatasaray",
+      "Inter",
+      "Bayern Munich"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q134976",
+    "aliases": [
+      "Lukas Podolski",
+      "Lukas Josef Podolski",
+      "Łukasz Podolski",
+      "Łukasz Józef Podolski",
+      "Lukasz Podolski"
+    ]
+  },
+  {
+    "id": "wd-Q1378371",
+    "name": "Alessandro Florenzi",
+    "clubs": [
+      "AC Milan",
+      "Paris Saint-Germain",
+      "Roma",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1378371",
+    "aliases": [
+      "Alessandro Florenzi"
+    ]
+  },
+  {
+    "id": "wd-Q1388570",
+    "name": "Sergen Yalçın",
+    "clubs": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Trabzonspor"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1388570",
+    "aliases": [
+      "Sergen Yalçın"
+    ]
+  },
+  {
+    "id": "wd-Q14602686",
+    "name": "Gabriel Paulista",
+    "clubs": [
+      "Arsenal",
+      "Beşiktaş",
+      "Atlético Madrid",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q14602686",
+    "aliases": [
+      "gabriel putita del leon",
+      "Gabriel Armando de Abreu"
+    ]
+  },
+  {
+    "id": "wd-Q151034",
+    "name": "Kevin-Prince Boateng",
+    "clubs": [
+      "Barcelona",
+      "Beşiktaş",
+      "AC Milan",
+      "Borussia Dortmund"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q151034",
+    "aliases": [
+      "Kevin-Prince Boateng"
+    ]
+  },
+  {
+    "id": "wd-Q153786",
+    "name": "Edin Džeko",
+    "clubs": [
+      "Fenerbahçe",
+      "Inter",
+      "Roma",
+      "Manchester City"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q153786",
+    "aliases": [
+      "Edin Džeko"
+    ]
+  },
+  {
+    "id": "wd-Q155903",
+    "name": "Dietmar Hamann",
+    "clubs": [
+      "Liverpool",
+      "Bayern Munich",
+      "Manchester City",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q155903",
+    "aliases": [
+      "Dietmar Hamann",
+      "Didi Hamann"
+    ]
+  },
+  {
+    "id": "wd-Q161089",
+    "name": "İlkay Gündoğan",
+    "clubs": [
+      "Barcelona",
+      "Galatasaray",
+      "Manchester City",
+      "Borussia Dortmund"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q161089",
+    "aliases": [
+      "İlkay Gündoğan",
+      "Ilkay Gundogan",
+      "Ilkay Gündogan"
+    ]
+  },
+  {
+    "id": "wd-Q163666",
+    "name": "Pepe Reina",
+    "clubs": [
+      "Liverpool",
+      "Barcelona",
+      "AC Milan",
+      "Bayern Munich"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q163666",
+    "aliases": [
+      "Pepe Reina",
+      "José Manuel Reina Páez",
+      "Jose Manuel Reina Paez",
+      "Jose Manuel Reina",
+      "José Manuel Reina"
+    ]
+  },
+  {
+    "id": "wd-Q168740",
+    "name": "Juan Mata",
+    "clubs": [
+      "Manchester United",
+      "Chelsea",
+      "Galatasaray",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q168740",
+    "aliases": [
+      "Juan Mata Pata",
+      "Juan Manuel Mata García",
+      "Juan Manuel Mata Garcia",
+      "Juan Manuel Mata"
+    ]
+  },
+  {
+    "id": "wd-Q172720",
+    "name": "Dani Alves",
+    "clubs": [
+      "Barcelona",
+      "Juventus",
+      "Paris Saint-Germain",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q172720",
+    "aliases": [
+      "Daniel Alves",
+      "Daniel Alves da Silva",
+      "Dani Alves"
+    ]
+  },
+  {
+    "id": "wd-Q175296",
+    "name": "Raul Meireles",
+    "clubs": [
+      "Chelsea",
+      "Liverpool",
+      "Fenerbahçe",
+      "Porto"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q175296",
+    "aliases": [
+      "Raul Meireles",
+      "Raul José Trindade Meireles"
+    ]
+  },
+  {
+    "id": "wd-Q179172",
+    "name": "Bojan Krkić",
+    "clubs": [
+      "Barcelona",
+      "AC Milan",
+      "Ajax",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q179172",
+    "aliases": [
+      "Bojan Krkić",
+      "Bojan Krkic",
+      "Bojan Krkić Pérez",
+      "Bojan Krkic Perez",
+      "Boyan Krkiç"
+    ]
+  },
+  {
+    "id": "wd-Q180993",
+    "name": "Antonio Cassano",
+    "clubs": [
+      "Real Madrid",
+      "AC Milan",
+      "Inter",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q180993",
+    "aliases": [
+      "Antonio Cassano"
+    ]
+  },
+  {
+    "id": "wd-Q182063",
+    "name": "Nicolás Otamendi",
+    "clubs": [
+      "Porto",
+      "Benfica",
+      "Manchester City",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q182063",
+    "aliases": [
+      "Nicolás Otamendi",
+      "Nicolás Hernán Gonzalo Otamendi",
+      "Nicolas Otamendi"
+    ]
+  },
+  {
+    "id": "wd-Q1839",
+    "name": "Laurent Blanc",
+    "clubs": [
+      "Manchester United",
+      "Barcelona",
+      "Inter",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1839",
+    "aliases": [
+      "Laurent Blanc",
+      "Laurent Robert Blanc"
+    ]
+  },
+  {
+    "id": "wd-Q18394009",
+    "name": "Renato Sanches",
+    "clubs": [
+      "Paris Saint-Germain",
+      "Bayern Munich",
+      "Benfica",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q18394009",
+    "aliases": [
+      "Renato Sanches",
+      "Renato Júnior Luz Sanches"
+    ]
+  },
+  {
+    "id": "wd-Q184177",
+    "name": "Thomas Vermaelen",
+    "clubs": [
+      "Arsenal",
+      "Barcelona",
+      "Ajax",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q184177",
+    "aliases": [
+      "Thomas Vermaelen",
+      "Varmaelen"
+    ]
+  },
+  {
+    "id": "wd-Q184218",
+    "name": "Ryan Babel",
+    "clubs": [
+      "Liverpool",
+      "Galatasaray",
+      "Beşiktaş",
+      "Ajax"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q184218",
+    "aliases": [
+      "Ryan Babel",
+      "Ryan Guno Babel"
+    ]
+  },
+  {
+    "id": "wd-Q184362",
+    "name": "Claude Makelélé",
+    "clubs": [
+      "Chelsea",
+      "Real Madrid",
+      "Paris Saint-Germain",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q184362",
+    "aliases": [
+      "Claude Makelélé",
+      "Claude Makelele",
+      "Claude Makélélé Sinda",
+      "Claude Makelele Sinda",
+      "Claude Makalele",
+      "Claude Makélelé Sinda"
+    ]
+  },
+  {
+    "id": "wd-Q185650",
+    "name": "Nigel de Jong",
+    "clubs": [
+      "Galatasaray",
+      "AC Milan",
+      "Ajax",
+      "Manchester City"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q185650",
+    "aliases": [
+      "Nigel de Jong"
+    ]
+  },
+  {
+    "id": "wd-Q186071",
+    "name": "Javier Saviola",
+    "clubs": [
+      "Real Madrid",
+      "Barcelona",
+      "Benfica",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q186071",
+    "aliases": [
+      "Javier Saviola",
+      "Javier Pedro Saviola",
+      "Javier Pedro Saviola Fernández",
+      "Javier Pedro Saviola Fernandez"
+    ]
+  },
+  {
+    "id": "wd-Q187171",
+    "name": "Mario Mandžukić",
+    "clubs": [
+      "AC Milan",
+      "Juventus",
+      "Bayern Munich",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q187171",
+    "aliases": [
+      "Mario Mandžukić",
+      "Mario Mandzukic"
+    ]
+  },
+  {
+    "id": "wd-Q18765",
+    "name": "Burak Yılmaz",
+    "clubs": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Trabzonspor"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q18765",
+    "aliases": [
+      "Burak Yılmaz"
+    ]
+  },
+  {
+    "id": "wd-Q188696",
+    "name": "Christian Vieri",
+    "clubs": [
+      "AC Milan",
+      "Inter",
+      "Juventus",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q188696",
+    "aliases": [
+      "Christian Vieri",
+      "Cristian Vieri",
+      "Bobo Vieri"
+    ]
+  },
+  {
+    "id": "wd-Q188720",
+    "name": "Michael Laudrup",
+    "clubs": [
+      "Real Madrid",
+      "Barcelona",
+      "Juventus",
+      "Ajax"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q188720",
+    "aliases": [
+      "Michael Laudrup"
+    ]
+  },
+  {
+    "id": "wd-Q18881",
+    "name": "Aly Cissokho",
+    "clubs": [
+      "Liverpool",
+      "Porto",
+      "Valencia",
+      "Lyon"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q18881",
+    "aliases": [
+      "Aly Cissokho"
+    ]
+  },
+  {
+    "id": "wd-Q188997",
+    "name": "Wojciech Szczęsny",
+    "clubs": [
+      "Arsenal",
+      "Barcelona",
+      "Juventus",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q188997",
+    "aliases": [
+      "Wojciech Szczęsny",
+      "Wojciech Tomasz Szczęsny",
+      "Wojciech Tomasz Szczesny",
+      "Wojciech Szczesny En el Barça"
+    ]
+  },
+  {
+    "id": "wd-Q1894",
+    "name": "Memphis Depay",
+    "clubs": [
+      "Manchester United",
+      "Barcelona",
+      "Atlético Madrid",
+      "Lyon"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1894",
+    "aliases": [
+      "Memphis Depay"
+    ]
+  },
+  {
+    "id": "wd-Q18962",
+    "name": "Adrien Rabiot",
+    "clubs": [
+      "AC Milan",
+      "Juventus",
+      "Paris Saint-Germain",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q18962",
+    "aliases": [
+      "Adrien Rabiot",
+      "Adrien Thibault Marie Rabiot"
+    ]
+  },
+  {
+    "id": "wd-Q19116103",
+    "name": "André Onana",
+    "clubs": [
+      "Manchester United",
+      "Trabzonspor",
+      "Inter",
+      "Ajax"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q19116103",
+    "aliases": [
+      "Andrcu Onana",
+      "Andre Onana",
+      "André Onana Onana",
+      "Andre Onana Onana"
+    ]
+  },
+  {
+    "id": "wd-Q191848",
+    "name": "Khalid Boulahrouz",
+    "clubs": [
+      "Chelsea",
+      "Sporting CP",
+      "Sevilla",
+      "Feyenoord"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q191848",
+    "aliases": [
+      "Khalid Boulahrouz"
+    ]
+  },
+  {
+    "id": "wd-Q191885",
+    "name": "Thiago Motta",
+    "clubs": [
+      "Barcelona",
+      "Inter",
+      "Paris Saint-Germain",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q191885",
+    "aliases": [
+      "Thiago Motta"
+    ]
+  },
+  {
+    "id": "wd-Q1920",
+    "name": "Samir Nasri",
+    "clubs": [
+      "Arsenal",
+      "Manchester City",
+      "Sevilla",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1920",
+    "aliases": [
+      "Samir Nasri"
+    ]
+  },
+  {
+    "id": "wd-Q192565",
+    "name": "João Pereira",
+    "clubs": [
+      "Trabzonspor",
+      "Benfica",
+      "Sporting CP",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q192565",
+    "aliases": [
+      "João Pereira",
+      "João Pedro da Silva Pereira"
+    ]
+  },
+  {
+    "id": "wd-Q192671",
+    "name": "Arturo Vidal",
+    "clubs": [
+      "Barcelona",
+      "Inter",
+      "Juventus",
+      "Bayern Munich"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q192671",
+    "aliases": [
+      "Arturo Vidal",
+      "Arturo Erasmo Vidal Pardo"
+    ]
+  },
+  {
+    "id": "wd-Q1928",
+    "name": "Hatem Ben Arfa",
+    "clubs": [
+      "Paris Saint-Germain",
+      "Lyon",
+      "Marseille",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1928",
+    "aliases": [
+      "Hatem Ben Arfa"
+    ]
+  },
+  {
+    "id": "wd-Q192986",
+    "name": "John Carew",
+    "clubs": [
+      "Beşiktaş",
+      "Roma",
+      "Valencia",
+      "Lyon"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q192986",
+    "aliases": [
+      "John Carew",
+      "John Alieu Carew"
+    ]
+  },
+  {
+    "id": "wd-Q19367",
+    "name": "Juan Bernat",
+    "clubs": [
+      "Paris Saint-Germain",
+      "Bayern Munich",
+      "Benfica",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q19367",
+    "aliases": [
+      "Juan Bernat",
+      "Juan Bernat Velasco"
+    ]
+  },
+  {
+    "id": "wd-Q193706",
+    "name": "David Luiz",
+    "clubs": [
+      "Arsenal",
+      "Chelsea",
+      "Paris Saint-Germain",
+      "Benfica"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q193706",
+    "aliases": [
+      "David Luiz",
+      "David Luiz Moreira Marinho"
+    ]
+  },
+  {
+    "id": "wd-Q19392",
+    "name": "Éver Banega",
+    "clubs": [
+      "Inter",
+      "Atlético Madrid",
+      "Sevilla",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q19392",
+    "aliases": [
+      "Éver Banega",
+      "Éver Maximiliano David Banega",
+      "Ever Banega"
+    ]
+  },
+  {
+    "id": "wd-Q194579",
+    "name": "Lucas Ocampos",
+    "clubs": [
+      "AC Milan",
+      "Ajax",
+      "Sevilla",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q194579",
+    "aliases": [
+      "Lucas Ocampos",
+      "Lucas Ariel Ocampos"
+    ]
+  },
+  {
+    "id": "wd-Q19613570",
+    "name": "Cengiz Ünder",
+    "clubs": [
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Roma",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q19613570",
+    "aliases": [
+      "Cengiz Ünder"
+    ]
+  },
+  {
+    "id": "wd-Q204059",
+    "name": "Mateja Kežman",
+    "clubs": [
+      "Chelsea",
+      "Fenerbahçe",
+      "Paris Saint-Germain",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q204059",
+    "aliases": [
+      "Mateja Kežman",
+      "Mateja Kezman",
+      "Kezman",
+      "Mateya Kejman"
+    ]
+  },
+  {
+    "id": "wd-Q204141",
+    "name": "Christian Poulsen",
+    "clubs": [
+      "Liverpool",
+      "Juventus",
+      "Ajax",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q204141",
+    "aliases": [
+      "Christian Poulsen",
+      "Christian Bager Poulsen",
+      "Christian Bjørnshøj Poulsen",
+      "Christian Bjornshoj Poulsen",
+      "Christian Poulsen Bjornshoj"
+    ]
+  },
+  {
+    "id": "wd-Q204895",
+    "name": "Júlio Baptista",
+    "clubs": [
+      "Arsenal",
+      "Real Madrid",
+      "Roma",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q204895",
+    "aliases": [
+      "Júlio Baptista",
+      "Julio Baptista"
+    ]
+  },
+  {
+    "id": "wd-Q208050",
+    "name": "Leonardo Bonucci",
+    "clubs": [
+      "Fenerbahçe",
+      "AC Milan",
+      "Inter",
+      "Juventus"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q208050",
+    "aliases": [
+      "Leonardo Bonucci"
+    ]
+  },
+  {
+    "id": "wd-Q208638",
+    "name": "Simon Kjær",
+    "clubs": [
+      "Fenerbahçe",
+      "AC Milan",
+      "Roma",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q208638",
+    "aliases": [
+      "Simon Kjær",
+      "Simon Thorup Kjær",
+      "Simon Kjaer",
+      "Simon Thorup Kjaer"
+    ]
+  },
+  {
+    "id": "wd-Q210453",
+    "name": "Thiago Emiliano da Silva",
+    "clubs": [
+      "Chelsea",
+      "AC Milan",
+      "Paris Saint-Germain",
+      "Porto"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q210453",
+    "aliases": [
+      "Thiago Silva",
+      "Thiago Emiliano da Silva"
+    ]
+  },
+  {
+    "id": "wd-Q210916",
+    "name": "Álvaro Negredo",
+    "clubs": [
+      "Beşiktaş",
+      "Manchester City",
+      "Sevilla",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q210916",
+    "aliases": [
+      "Álvaro Negredo",
+      "Alvaro Negredo Sanchez",
+      "Alvaro Sanchez",
+      "Alvaro Negredo",
+      "Álvaro Negredo Sánchez"
+    ]
+  },
+  {
+    "id": "wd-Q212854",
+    "name": "Brian Laudrup",
+    "clubs": [
+      "Chelsea",
+      "AC Milan",
+      "Ajax",
+      "Bayern Munich"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q212854",
+    "aliases": [
+      "Brian Laudrup"
+    ]
+  },
+  {
+    "id": "wd-Q214513",
+    "name": "Mark Hughes",
+    "clubs": [
+      "Manchester United",
+      "Chelsea",
+      "Barcelona",
+      "Bayern Munich"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q214513",
+    "aliases": [
+      "Mark Hughes",
+      "Leslie Mark Hughes"
+    ]
+  },
+  {
+    "id": "wd-Q215952",
+    "name": "Emerson Ferreira da Rosa",
+    "clubs": [
+      "Real Madrid",
+      "AC Milan",
+      "Juventus",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q215952",
+    "aliases": [
+      "Emerson",
+      "Émerson Ferreira da Rosa",
+      "Emerson Ferreira da Rosa"
+    ]
+  },
+  {
+    "id": "wd-Q216928",
+    "name": "Andrew Cole",
+    "clubs": [
+      "Manchester United",
+      "Arsenal",
+      "Manchester City",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q216928",
+    "aliases": [
+      "Andy Cole",
+      "Andrew Alexander Cole",
+      "Andrew Cole"
+    ]
+  },
+  {
+    "id": "wd-Q219618",
+    "name": "Morgan De Sanctis",
+    "clubs": [
+      "Galatasaray",
+      "Juventus",
+      "Roma",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q219618",
+    "aliases": [
+      "Morgan De Sanctis",
+      "De Santcis"
+    ]
+  },
+  {
+    "id": "wd-Q219771",
+    "name": "Ludovic Giuly",
+    "clubs": [
+      "Barcelona",
+      "Paris Saint-Germain",
+      "Roma",
+      "Lyon"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q219771",
+    "aliases": [
+      "Ludovic Giuly",
+      "Ludovic Vincent Giuly"
+    ]
+  },
+  {
+    "id": "wd-Q222231",
+    "name": "Daniel Sturridge",
+    "clubs": [
+      "Chelsea",
+      "Liverpool",
+      "Trabzonspor",
+      "Manchester City"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q222231",
+    "aliases": [
+      "Daniel Sturridge",
+      "Daniel Andre Sturridge"
+    ]
+  },
+  {
+    "id": "wd-Q2307574",
+    "name": "Emílio Peixe",
+    "clubs": [
+      "Porto",
+      "Benfica",
+      "Sporting CP",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q2307574",
+    "aliases": [
+      "Emílio Peixe",
+      "Emilio Manuel Delgado Peixe",
+      "Emílio Manuel Delgado Peixe"
+    ]
+  },
+  {
+    "id": "wd-Q2339",
+    "name": "Robin van Persie",
+    "clubs": [
+      "Manchester United",
+      "Arsenal",
+      "Fenerbahçe",
+      "Feyenoord"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q2339",
+    "aliases": [
+      "Robin van Persie"
+    ]
+  },
+  {
+    "id": "wd-Q24050378",
+    "name": "Tammy Abraham",
+    "clubs": [
+      "Chelsea",
+      "Beşiktaş",
+      "AC Milan",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q24050378",
+    "aliases": [
+      "Tammy Abraham",
+      "Kevin Oghenetega Tamaraebi Bakumo-Abraham"
+    ]
+  },
+  {
+    "id": "wd-Q245054",
+    "name": "Fabio Borini",
+    "clubs": [
+      "Chelsea",
+      "Liverpool",
+      "AC Milan",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q245054",
+    "aliases": [
+      "Fabio Borini"
+    ]
+  },
+  {
+    "id": "wd-Q252190",
+    "name": "Xherdan Shaqiri",
+    "clubs": [
+      "Liverpool",
+      "Inter",
+      "Bayern Munich",
+      "Lyon"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q252190",
+    "aliases": [
+      "Xherdan Shaqiri"
+    ]
+  },
+  {
+    "id": "wd-Q26259982",
+    "name": "Matthijs de Ligt",
+    "clubs": [
+      "Manchester United",
+      "Juventus",
+      "Ajax",
+      "Bayern Munich"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q26259982",
+    "aliases": [
+      "Matthijs de Ligt"
+    ]
+  },
+  {
+    "id": "wd-Q26517",
+    "name": "Luis Suárez",
+    "clubs": [
+      "Liverpool",
+      "Barcelona",
+      "Ajax",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q26517",
+    "aliases": [
+      "Luis Suárez",
+      "Luis Alberto Suárez",
+      "Luis Alberto Suárez Díaz"
+    ]
+  },
+  {
+    "id": "wd-Q26932598",
+    "name": "Achraf Hakimi",
+    "clubs": [
+      "Real Madrid",
+      "Inter",
+      "Paris Saint-Germain",
+      "Borussia Dortmund"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q26932598",
+    "aliases": [
+      "Achraf Hakimi",
+      "Achraf Hakimi Mouh",
+      "Eşref Hakimi",
+      "Eşref Hakimi Muh"
+    ]
+  },
+  {
+    "id": "wd-Q271615",
+    "name": "Boudewijn Zenden",
+    "clubs": [
+      "Chelsea",
+      "Liverpool",
+      "Barcelona",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q271615",
+    "aliases": [
+      "Boudewijn Zenden",
+      "Zenden"
+    ]
+  },
+  {
+    "id": "wd-Q27694",
+    "name": "Emre Can",
+    "clubs": [
+      "Liverpool",
+      "Juventus",
+      "Bayern Munich",
+      "Borussia Dortmund"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q27694",
+    "aliases": [
+      "Emre Can"
+    ]
+  },
+  {
+    "id": "wd-Q294806",
+    "name": "César Azpilicueta",
+    "clubs": [
+      "Chelsea",
+      "Atlético Madrid",
+      "Sevilla",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q294806",
+    "aliases": [
+      "César Azpilicueta",
+      "César Azpilicueta Tanco",
+      "Cesar Azpilicueta"
+    ]
+  },
+  {
+    "id": "wd-Q295637",
+    "name": "Victor Moses",
+    "clubs": [
+      "Chelsea",
+      "Liverpool",
+      "Fenerbahçe",
+      "Inter"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q295637",
+    "aliases": [
+      "Victor Moses"
+    ]
+  },
+  {
+    "id": "wd-Q311872",
+    "name": "Philippe Coutinho",
+    "clubs": [
+      "Liverpool",
+      "Barcelona",
+      "Inter",
+      "Bayern Munich"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q311872",
+    "aliases": [
+      "Philippe Coutinho",
+      "Philippe Coutinho Correia",
+      "Coutinho"
+    ]
+  },
+  {
+    "id": "wd-Q313911",
+    "name": "Luuk de Jong",
+    "clubs": [
+      "Barcelona",
+      "Porto",
+      "Sevilla",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q313911",
+    "aliases": [
+      "Luuk de Jong"
+    ]
+  },
+  {
+    "id": "wd-Q313927",
+    "name": "Pablo Osvaldo",
+    "clubs": [
+      "Inter",
+      "Juventus",
+      "Porto",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q313927",
+    "aliases": [
+      "Dani Osvaldo",
+      "Pablo Daniel Osvaldo"
+    ]
+  },
+  {
+    "id": "wd-Q314028",
+    "name": "Kévin Gameiro",
+    "clubs": [
+      "Paris Saint-Germain",
+      "Atlético Madrid",
+      "Sevilla",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q314028",
+    "aliases": [
+      "Kevin Gameiro",
+      "Kevin Dominique Gameiro",
+      "Kévin Dominique Gameiro"
+    ]
+  },
+  {
+    "id": "wd-Q3163157",
+    "name": "Javier Manquillo",
+    "clubs": [
+      "Liverpool",
+      "Atlético Madrid",
+      "Marseille",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q3163157",
+    "aliases": [
+      "Javier Manquillo"
+    ]
+  },
+  {
+    "id": "wd-Q348199",
+    "name": "Mehmet Topal",
+    "clubs": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q348199",
+    "aliases": [
+      "Mehmet Topal"
+    ]
+  },
+  {
+    "id": "wd-Q351797",
+    "name": "Emiliano Insúa",
+    "clubs": [
+      "Liverpool",
+      "Galatasaray",
+      "Sporting CP",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q351797",
+    "aliases": [
+      "Emiliano Insúa",
+      "Emiliano Insua"
+    ]
+  },
+  {
+    "id": "wd-Q352820",
+    "name": "Ray Wilkins",
+    "clubs": [
+      "Manchester United",
+      "Chelsea",
+      "AC Milan",
+      "Paris Saint-Germain"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q352820",
+    "aliases": [
+      "Ray Wilkins",
+      "Raymond Colin Wilkins"
+    ]
+  },
+  {
+    "id": "wd-Q42731",
+    "name": "Fernando Torres",
+    "clubs": [
+      "Chelsea",
+      "Liverpool",
+      "AC Milan",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q42731",
+    "aliases": [
+      "Fernando Torres",
+      "Fernando José Torres Sanz",
+      "Fernando Jose Torres Sanz"
+    ]
+  },
+  {
+    "id": "wd-Q437329",
+    "name": "Danilo Luiz da Silva",
+    "clubs": [
+      "Real Madrid",
+      "Juventus",
+      "Porto",
+      "Manchester City"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q437329",
+    "aliases": [
+      "Danilo",
+      "Danilo Luiz da Silva",
+      "Danilo Luiz"
+    ]
+  },
+  {
+    "id": "wd-Q44297797",
+    "name": "Ferran Torres",
+    "clubs": [
+      "Barcelona",
+      "Paris Saint-Germain",
+      "Manchester City",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q44297797",
+    "aliases": [
+      "Ferran Torres",
+      "El Tiburón",
+      "Ferran Torres García",
+      "Ferran Torres Garcia"
+    ]
+  },
+  {
+    "id": "wd-Q45567",
+    "name": "Fernando Morientes",
+    "clubs": [
+      "Liverpool",
+      "Real Madrid",
+      "Valencia",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q45567",
+    "aliases": [
+      "Fernando Morientes",
+      "Fernando Morientes Sánchez",
+      "Morientes"
+    ]
+  },
+  {
+    "id": "wd-Q456617",
+    "name": "Nolito",
+    "clubs": [
+      "Barcelona",
+      "Benfica",
+      "Manchester City",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q456617",
+    "aliases": [
+      "Nolito",
+      "Manuel Agudo Durán"
+    ]
+  },
+  {
+    "id": "wd-Q458101",
+    "name": "Ciro Immobile",
+    "clubs": [
+      "Beşiktaş",
+      "Juventus",
+      "Borussia Dortmund",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q458101",
+    "aliases": [
+      "Ciro Immobile"
+    ]
+  },
+  {
+    "id": "wd-Q460700",
+    "name": "Jocelyn Angloma",
+    "clubs": [
+      "Inter",
+      "Paris Saint-Germain",
+      "Valencia",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q460700",
+    "aliases": [
+      "Jocelyn Angloma"
+    ]
+  },
+  {
+    "id": "wd-Q482947",
+    "name": "Nani",
+    "clubs": [
+      "Manchester United",
+      "Fenerbahçe",
+      "Sporting CP",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q482947",
+    "aliases": [
+      "Nani"
+    ]
+  },
+  {
+    "id": "wd-Q483145",
+    "name": "Luís Figo",
+    "clubs": [
+      "Real Madrid",
+      "Barcelona",
+      "Inter",
+      "Sporting CP"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q483145",
+    "aliases": [
+      "Luís Figo"
+    ]
+  },
+  {
+    "id": "wd-Q483846",
+    "name": "Gonzalo Higuaín",
+    "clubs": [
+      "Chelsea",
+      "Real Madrid",
+      "AC Milan",
+      "Juventus"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q483846",
+    "aliases": [
+      "Gonzalo Higuaín",
+      "Gonzalo Gerardo Higuaín",
+      "Gonzalo Higuain"
+    ]
+  },
+  {
+    "id": "wd-Q484909",
+    "name": "Clarence Seedorf",
+    "clubs": [
+      "Real Madrid",
+      "AC Milan",
+      "Inter",
+      "Ajax"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q484909",
+    "aliases": [
+      "Clarence Seedorf",
+      "Clarence Clyde Seedorf"
+    ]
+  },
+  {
+    "id": "wd-Q5024",
+    "name": "Abel Xavier",
+    "clubs": [
+      "Liverpool",
+      "Galatasaray",
+      "Benfica",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q5024",
+    "aliases": [
+      "Abel Xavier",
+      "Faisal Xavier",
+      "Abel Xaiver",
+      "Abel Luis da Silva Costa Xavier",
+      "Abel Luís da Silva Costa Xavier"
+    ]
+  },
+  {
+    "id": "wd-Q508711",
+    "name": "Didier Deschamps",
+    "clubs": [
+      "Chelsea",
+      "Juventus",
+      "Valencia",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q508711",
+    "aliases": [
+      "Didier Deschamps",
+      "Didier Claude Deschamps"
+    ]
+  },
+  {
+    "id": "wd-Q529207",
+    "name": "Ronaldo",
+    "clubs": [
+      "Real Madrid",
+      "Barcelona",
+      "AC Milan",
+      "Inter"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q529207",
+    "aliases": [
+      "Ronaldo",
+      "Ronaldo Nazário",
+      "R9",
+      "Ronaldo Luis Nazario de Lima"
+    ]
+  },
+  {
+    "id": "wd-Q5370912",
+    "name": "Emerson Palmieri",
+    "clubs": [
+      "Chelsea",
+      "Roma",
+      "Lyon",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q5370912",
+    "aliases": [
+      "Emerson Palmieri",
+      "Emerson Palmieri dos Santos"
+    ]
+  },
+  {
+    "id": "wd-Q62227",
+    "name": "Juan Esnáider",
+    "clubs": [
+      "Real Madrid",
+      "Juventus",
+      "Porto",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q62227",
+    "aliases": [
+      "Juan Esnáider",
+      "Juan Esnaider"
+    ]
+  },
+  {
+    "id": "wd-Q6298271",
+    "name": "João Mário",
+    "clubs": [
+      "Beşiktaş",
+      "Inter",
+      "Benfica",
+      "Sporting CP"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q6298271",
+    "aliases": [
+      "João Mário",
+      "João Mário Naval da Costa Eduardo"
+    ]
+  },
+  {
+    "id": "wd-Q701297",
+    "name": "Mateo Kovačić",
+    "clubs": [
+      "Chelsea",
+      "Real Madrid",
+      "Inter",
+      "Manchester City"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q701297",
+    "aliases": [
+      "Mateo Kovačić",
+      "Mateo Kovacic"
+    ]
+  },
+  {
+    "id": "wd-Q708079",
+    "name": "Bruno N'Gotty",
+    "clubs": [
+      "AC Milan",
+      "Paris Saint-Germain",
+      "Lyon",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q708079",
+    "aliases": [
+      "Bruno Ngotty",
+      "Bruno N'Gotty"
+    ]
+  },
+  {
+    "id": "wd-Q744556",
+    "name": "Daniel da Cruz Carvalho",
+    "clubs": [
+      "Ajax",
+      "Benfica",
+      "Sporting CP",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q744556",
+    "aliases": [
+      "Daniel da Cruz Carvalho"
+    ]
+  },
+  {
+    "id": "wd-Q75857",
+    "name": "Nuri Şahin",
+    "clubs": [
+      "Liverpool",
+      "Real Madrid",
+      "Borussia Dortmund",
+      "Feyenoord"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q75857",
+    "aliases": [
+      "Nuri Şahin",
+      "Nuri Sahin"
+    ]
+  },
+  {
+    "id": "wd-Q919720",
+    "name": "Miquel Soler",
+    "clubs": [
+      "Real Madrid",
+      "Barcelona",
+      "Atlético Madrid",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q919720",
+    "aliases": [
+      "Miquel Soler"
+    ]
+  },
+  {
+    "id": "wd-Q969520",
+    "name": "Michael Essien",
+    "clubs": [
+      "Chelsea",
+      "Real Madrid",
+      "AC Milan",
+      "Lyon"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q969520",
+    "aliases": [
+      "Michael Essien"
+    ]
+  },
+  {
+    "id": "wd-Q973416",
+    "name": "Fernando Francisco Reges",
+    "clubs": [
+      "Galatasaray",
+      "Porto",
+      "Manchester City",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q973416",
+    "aliases": [
+      "Fernando Reges",
+      "Fernando",
+      "Fernando Francisco Reges"
+    ]
+  },
+  {
+    "id": "wd-Q102027",
+    "name": "Fabio Cannavaro",
+    "clubs": [
+      "Real Madrid",
+      "Inter",
+      "Juventus"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q102027",
+    "aliases": [
+      "Fabio Cannavaro",
+      "Il muro de Berlino"
+    ]
+  },
+  {
+    "id": "wd-Q1042676",
+    "name": "Carlos Alhinho",
+    "clubs": [
+      "Porto",
+      "Benfica",
+      "Sporting CP"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1042676",
+    "aliases": [
+      "Carlos Alhinho",
+      "Carlos Alexandre Fortes Alhinho"
+    ]
+  },
+  {
+    "id": "wd-Q10490646",
+    "name": "Dinu Sânmărtean",
+    "clubs": [
+      "Real Madrid",
+      "Bayern Munich",
+      "Manchester City"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q10490646",
+    "aliases": [
+      "Dinu Sânmărtean"
+    ]
+  },
+  {
+    "id": "wd-Q10504661",
+    "name": "Romeu Silva",
+    "clubs": [
+      "Porto",
+      "Benfica",
+      "Sporting CP"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q10504661",
+    "aliases": [
+      "Romeu Silva",
+      "Romeu Fernando Fernandes da Silva"
+    ]
+  },
+  {
+    "id": "wd-Q10556350",
+    "name": "Mariano Díaz Mejía",
+    "clubs": [
+      "Real Madrid",
+      "Sevilla",
+      "Lyon"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q10556350",
+    "aliases": [
+      "Mariano Díaz",
+      "Mariano Díaz Mejía",
+      "Mariano",
+      "Mariano Diaz Mejia"
+    ]
+  },
+  {
+    "id": "wd-Q106625792",
+    "name": "Nicolás González Iglesias",
+    "clubs": [
+      "Barcelona",
+      "Manchester City",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q106625792",
+    "aliases": [
+      "Nicolás González Iglesias"
+    ]
+  },
+  {
+    "id": "wd-Q106691309",
+    "name": "Cher Ndour",
+    "clubs": [
+      "Beşiktaş",
+      "Paris Saint-Germain",
+      "Benfica"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q106691309",
+    "aliases": [
+      "Cher Ndour"
+    ]
+  },
+  {
+    "id": "wd-Q107089",
+    "name": "Robert Enke",
+    "clubs": [
+      "Barcelona",
+      "Fenerbahçe",
+      "Benfica"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q107089",
+    "aliases": [
+      "Robert Enke",
+      "Enke"
+    ]
+  },
+  {
+    "id": "wd-Q1083975",
+    "name": "Aldo Bet",
+    "clubs": [
+      "AC Milan",
+      "Inter",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1083975",
+    "aliases": [
+      "Aldo Bet"
+    ]
+  },
+  {
+    "id": "wd-Q109428",
+    "name": "Diego Ribas da Cunha",
+    "clubs": [
+      "Juventus",
+      "Porto",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q109428",
+    "aliases": [
+      "Diego Ribas da Cunha",
+      "Diego",
+      "Diego Ribas"
+    ]
+  },
+  {
+    "id": "wd-Q110053",
+    "name": "Mats Hummels",
+    "clubs": [
+      "Bayern Munich",
+      "Roma",
+      "Borussia Dortmund"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q110053",
+    "aliases": [
+      "Mats Hummels",
+      "Mats Julian Hummels"
+    ]
+  },
+  {
+    "id": "wd-Q1114411",
+    "name": "Egemen Korkmaz",
+    "clubs": [
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Trabzonspor"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1114411",
+    "aliases": [
+      "Egemen Korkmaz"
+    ]
+  },
+  {
+    "id": "wd-Q112184628",
+    "name": "Dean Huijsen",
+    "clubs": [
+      "Real Madrid",
+      "Juventus",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q112184628",
+    "aliases": [
+      "Dean Huijsen",
+      "Dean Huysen"
+    ]
+  },
+  {
+    "id": "wd-Q1170553",
+    "name": "Enrico Candiani",
+    "clubs": [
+      "AC Milan",
+      "Inter",
+      "Juventus"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1170553",
+    "aliases": [
+      "Enrico Candiani",
+      "Enrico Aldo Candiani"
+    ]
+  },
+  {
+    "id": "wd-Q1175706",
+    "name": "Dave Mitchell",
+    "clubs": [
+      "Chelsea",
+      "Feyenoord",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1175706",
+    "aliases": [
+      "Dave Mitchell",
+      "David Stuart Mitchell"
+    ]
+  },
+  {
+    "id": "wd-Q118942",
+    "name": "Frank Stapleton",
+    "clubs": [
+      "Manchester United",
+      "Arsenal",
+      "Ajax"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q118942",
+    "aliases": [
+      "Frank Stapleton",
+      "Francis Stapleton",
+      "Francis Anthony Stapleton"
+    ]
+  },
+  {
+    "id": "wd-Q119562",
+    "name": "Sergio Agüero",
+    "clubs": [
+      "Barcelona",
+      "Atlético Madrid",
+      "Manchester City"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q119562",
+    "aliases": [
+      "Sergio Agüero",
+      "Sergio Leonel Agüero del Castillo",
+      "Kun Agüero"
+    ]
+  },
+  {
+    "id": "wd-Q11966",
+    "name": "Bafétimbi Gomis",
+    "clubs": [
+      "Galatasaray",
+      "Lyon",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q11966",
+    "aliases": [
+      "Bafétimbi Gomis",
+      "Bafetimbi Gomis",
+      "Gomis",
+      "Bafétimbi Fredius Gomis"
+    ]
+  },
+  {
+    "id": "wd-Q12386093",
+    "name": "José María Martín Rodríguez",
+    "clubs": [
+      "Barcelona",
+      "Atlético Madrid",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q12386093",
+    "aliases": [
+      "José María Martín Rodríguez",
+      "José María Martín"
+    ]
+  },
+  {
+    "id": "wd-Q1255421",
+    "name": "Tschen La Ling",
+    "clubs": [
+      "Ajax",
+      "Marseille",
+      "Feyenoord"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1255421",
+    "aliases": [
+      "Tschen La Ling",
+      "Tscheu La Ling",
+      "Ling Tshen La"
+    ]
+  },
+  {
+    "id": "wd-Q128719",
+    "name": "Jasper Cillessen",
+    "clubs": [
+      "Barcelona",
+      "Ajax",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q128719",
+    "aliases": [
+      "Jasper Cillessen",
+      "Jacobus Antonius Peter Johannes Cillessen"
+    ]
+  },
+  {
+    "id": "wd-Q128912",
+    "name": "Daley Blind",
+    "clubs": [
+      "Manchester United",
+      "Ajax",
+      "Bayern Munich"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q128912",
+    "aliases": [
+      "Daley Blind"
+    ]
+  },
+  {
+    "id": "wd-Q1294326",
+    "name": "Tibor Szalay",
+    "clubs": [
+      "Barcelona",
+      "Beşiktaş",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1294326",
+    "aliases": [
+      "Tibor Szalay",
+      "Tibor Szalay Csikos"
+    ]
+  },
+  {
+    "id": "wd-Q133556",
+    "name": "Ashley Cole",
+    "clubs": [
+      "Arsenal",
+      "Chelsea",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q133556",
+    "aliases": [
+      "Ashley Cole"
+    ]
+  },
+  {
+    "id": "wd-Q1337309",
+    "name": "Luciano Spinosi",
+    "clubs": [
+      "AC Milan",
+      "Juventus",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1337309",
+    "aliases": [
+      "Luciano Spinosi",
+      "Spinosi II"
+    ]
+  },
+  {
+    "id": "wd-Q13488",
+    "name": "Grégory Coupet",
+    "clubs": [
+      "Paris Saint-Germain",
+      "Atlético Madrid",
+      "Lyon"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q13488",
+    "aliases": [
+      "Grégory Coupet",
+      "Gregory Coupet"
+    ]
+  },
+  {
+    "id": "wd-Q13494",
+    "name": "Jean-Pierre Papin",
+    "clubs": [
+      "AC Milan",
+      "Bayern Munich",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q13494",
+    "aliases": [
+      "Jean-Pierre Papin",
+      "Jean-Pierre Roger Guillaume Papin"
+    ]
+  },
+  {
+    "id": "wd-Q1354960",
+    "name": "Muhammed Salah",
+    "clubs": [
+      "Chelsea",
+      "Liverpool",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1354960",
+    "aliases": [
+      "Mohamed Salah",
+      "Mohamed Salah Hamed Mahrous Ghaly",
+      "Mo Salah",
+      "Muhammed Salah Hamid Mahrus Gali"
+    ]
+  },
+  {
+    "id": "wd-Q1360075",
+    "name": "Laurent Fournier",
+    "clubs": [
+      "Paris Saint-Germain",
+      "Lyon",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1360075",
+    "aliases": [
+      "Laurent Fournier"
+    ]
+  },
+  {
+    "id": "wd-Q136986",
+    "name": "Mauro Icardi",
+    "clubs": [
+      "Galatasaray",
+      "Inter",
+      "Paris Saint-Germain"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q136986",
+    "aliases": [
+      "Mauro Icardi",
+      "Mauro Emanuel Icardi Rivero"
+    ]
+  },
+  {
+    "id": "wd-Q137231",
+    "name": "Arkadiusz Milik",
+    "clubs": [
+      "Juventus",
+      "Ajax",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q137231",
+    "aliases": [
+      "Arkadiusz Milik",
+      "Arek Milik"
+    ]
+  },
+  {
+    "id": "wd-Q1374415",
+    "name": "Eurico Gomes",
+    "clubs": [
+      "Porto",
+      "Benfica",
+      "Sporting CP"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1374415",
+    "aliases": [
+      "Eurico Gomes"
+    ]
+  },
+  {
+    "id": "wd-Q13780454",
+    "name": "Mario Lemina",
+    "clubs": [
+      "Galatasaray",
+      "Juventus",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q13780454",
+    "aliases": [
+      "Mario Lemina",
+      "Mario René Junior Lemina"
+    ]
+  },
+  {
+    "id": "wd-Q1385196",
+    "name": "Luigi Cevenini",
+    "clubs": [
+      "AC Milan",
+      "Inter",
+      "Juventus"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1385196",
+    "aliases": [
+      "Luigi Cevenini",
+      "Cevenini III"
+    ]
+  },
+  {
+    "id": "wd-Q1388915",
+    "name": "Pascal Nouma",
+    "clubs": [
+      "Beşiktaş",
+      "Paris Saint-Germain",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1388915",
+    "aliases": [
+      "Pascal Nouma",
+      "Pascal Olivier Nouma",
+      "Pascal Oliver Nouma"
+    ]
+  },
+  {
+    "id": "wd-Q1449429",
+    "name": "Dario Bonetti",
+    "clubs": [
+      "AC Milan",
+      "Juventus",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1449429",
+    "aliases": [
+      "Dario Bonetti"
+    ]
+  },
+  {
+    "id": "wd-Q1450945",
+    "name": "Valentino Lazaro",
+    "clubs": [
+      "Inter",
+      "Benfica",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1450945",
+    "aliases": [
+      "Valentino Lazaro",
+      "Valentino Lando Lazaro"
+    ]
+  },
+  {
+    "id": "wd-Q14558450",
+    "name": "Adnan Januzaj",
+    "clubs": [
+      "Manchester United",
+      "Borussia Dortmund",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q14558450",
+    "aliases": [
+      "Adnan Januzaj"
+    ]
+  },
+  {
+    "id": "wd-Q147589",
+    "name": "Kolo Touré",
+    "clubs": [
+      "Arsenal",
+      "Liverpool",
+      "Manchester City"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q147589",
+    "aliases": [
+      "Kolo Touré",
+      "Kolo Toure",
+      "Kolo Abib Touré",
+      "Kolo Abib Toure"
+    ]
+  },
+  {
+    "id": "wd-Q14947422",
+    "name": "Héctor Bellerín",
+    "clubs": [
+      "Arsenal",
+      "Barcelona",
+      "Sporting CP"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q14947422",
+    "aliases": [
+      "Héctor Bellerín",
+      "Hektor Bellerin",
+      "Hector Bellerin",
+      "Héctor Bellerín Moruno"
+    ]
+  },
+  {
+    "id": "wd-Q150921",
+    "name": "Marko Marin",
+    "clubs": [
+      "Chelsea",
+      "Trabzonspor",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q150921",
+    "aliases": [
+      "Marko Marin"
+    ]
+  },
+  {
+    "id": "wd-Q15113616",
+    "name": "André Silva",
+    "clubs": [
+      "AC Milan",
+      "Porto",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q15113616",
+    "aliases": [
+      "André Silva",
+      "Andre Silva",
+      "André Miguel Valente da Silva",
+      "Andre Miguel Valente da Silva"
+    ]
+  },
+  {
+    "id": "wd-Q151260",
+    "name": "Jérôme Boateng",
+    "clubs": [
+      "Bayern Munich",
+      "Manchester City",
+      "Lyon"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q151260",
+    "aliases": [
+      "Jérôme Boateng",
+      "Jerome Boateng"
+    ]
+  },
+  {
+    "id": "wd-Q151269",
+    "name": "Robert Lewandowski",
+    "clubs": [
+      "Barcelona",
+      "Bayern Munich",
+      "Borussia Dortmund"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q151269",
+    "aliases": [
+      "Robert Lewandowski"
+    ]
+  },
+  {
+    "id": "wd-Q151838",
+    "name": "Axel Witsel",
+    "clubs": [
+      "Benfica",
+      "Atlético Madrid",
+      "Borussia Dortmund"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q151838",
+    "aliases": [
+      "Axel Witsel",
+      "Axel Laurent Angel Lambert Witsel",
+      "Axel Thomas Witsel"
+    ]
+  },
+  {
+    "id": "wd-Q151853",
+    "name": "Mark van Bommel",
+    "clubs": [
+      "Barcelona",
+      "AC Milan",
+      "Bayern Munich"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q151853",
+    "aliases": [
+      "Mark van Bommel",
+      "Mark Peter Gertruda Andreas van Bommel"
+    ]
+  },
+  {
+    "id": "wd-Q154708",
+    "name": "Shinji Kagawa",
+    "clubs": [
+      "Manchester United",
+      "Beşiktaş",
+      "Borussia Dortmund"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q154708",
+    "aliases": [
+      "Shinji Kagawa",
+      "香川真司",
+      "Kagawa Shinji"
+    ]
+  },
+  {
+    "id": "wd-Q15521306",
+    "name": "Bernardo Silva",
+    "clubs": [
+      "Real Madrid",
+      "Benfica",
+      "Manchester City"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q15521306",
+    "aliases": [
+      "Bernardo Silva",
+      "Bernardo"
+    ]
+  },
+  {
+    "id": "wd-Q155884",
+    "name": "Christian Ziege",
+    "clubs": [
+      "Liverpool",
+      "AC Milan",
+      "Bayern Munich"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q155884",
+    "aliases": [
+      "Christian Ziege"
+    ]
+  },
+  {
+    "id": "wd-Q155911",
+    "name": "Thomas Häßler",
+    "clubs": [
+      "Juventus",
+      "Roma",
+      "Borussia Dortmund"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q155911",
+    "aliases": [
+      "Thomas Häßler",
+      "Thomas Haessler",
+      "Thomas Hässler"
+    ]
+  },
+  {
+    "id": "wd-Q156822",
+    "name": "Lúcio",
+    "clubs": [
+      "Inter",
+      "Juventus",
+      "Bayern Munich"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q156822",
+    "aliases": [
+      "Lúcio",
+      "Lucio",
+      "Lucimar da Silva Ferreira"
+    ]
+  },
+  {
+    "id": "wd-Q157847",
+    "name": "Harald Schumacher",
+    "clubs": [
+      "Fenerbahçe",
+      "Bayern Munich",
+      "Borussia Dortmund"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q157847",
+    "aliases": [
+      "Toni Schumacher",
+      "Harald Schumacher",
+      "Toni Schuhmacher"
+    ]
+  },
+  {
+    "id": "wd-Q15963931",
+    "name": "Munir El Haddadi",
+    "clubs": [
+      "Barcelona",
+      "Sevilla",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q15963931",
+    "aliases": [
+      "Munir El Haddadi",
+      "Munir El Haddadi Mohamed",
+      "donner kebab"
+    ]
+  },
+  {
+    "id": "wd-Q160206",
+    "name": "Hernán Crespo",
+    "clubs": [
+      "Chelsea",
+      "AC Milan",
+      "Inter"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q160206",
+    "aliases": [
+      "Hernán Crespo",
+      "Hernan Crespo",
+      "Hernán Jorge Crespo",
+      "Hernan Jorge Crespo"
+    ]
+  },
+  {
+    "id": "wd-Q161054",
+    "name": "Ivan Perišić",
+    "clubs": [
+      "Inter",
+      "Bayern Munich",
+      "Borussia Dortmund"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q161054",
+    "aliases": [
+      "Ivan Perišić",
+      "Ivan Perisic",
+      "Ivan perisić"
+    ]
+  },
+  {
+    "id": "wd-Q1612196",
+    "name": "Celestino Celio",
+    "clubs": [
+      "AC Milan",
+      "Inter",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1612196",
+    "aliases": [
+      "Celestino Celio"
+    ]
+  },
+  {
+    "id": "wd-Q16148978",
+    "name": "Marco Asensio",
+    "clubs": [
+      "Real Madrid",
+      "Fenerbahçe",
+      "Paris Saint-Germain"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q16148978",
+    "aliases": [
+      "Marco Asensio",
+      "Marco Asensio Willemsen"
+    ]
+  },
+  {
+    "id": "wd-Q16236859",
+    "name": "Clément Lenglet",
+    "clubs": [
+      "Barcelona",
+      "Atlético Madrid",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q16236859",
+    "aliases": [
+      "Clément Lenglet",
+      "Clement Lenglet",
+      "Clément Nicolas Laurent Lenglet",
+      "Clement Nicolas Laurent Lenglet"
+    ]
+  },
+  {
+    "id": "wd-Q162892",
+    "name": "Luis del Sol",
+    "clubs": [
+      "Real Madrid",
+      "Juventus",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q162892",
+    "aliases": [
+      "Luis del Sol"
+    ]
+  },
+  {
+    "id": "wd-Q16302330",
+    "name": "Lucas Torreira",
+    "clubs": [
+      "Arsenal",
+      "Galatasaray",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q16302330",
+    "aliases": [
+      "Lucas Torreira",
+      "Lucas Sebastián Torreira Di Pascua"
+    ]
+  },
+  {
+    "id": "wd-Q16499882",
+    "name": "Leroy Sané",
+    "clubs": [
+      "Galatasaray",
+      "Bayern Munich",
+      "Manchester City"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q16499882",
+    "aliases": [
+      "Leroy Sané",
+      "Leroy Aziz Sané"
+    ]
+  },
+  {
+    "id": "wd-Q165125",
+    "name": "Javier Hernández Balcázar",
+    "clubs": [
+      "Manchester United",
+      "Real Madrid",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q165125",
+    "aliases": [
+      "Javier Hernández",
+      "Chicharito",
+      "Chicharito Hernandez",
+      "Chichabuelo",
+      "Javier Hernandez Balcazar"
+    ]
+  },
+  {
+    "id": "wd-Q16724213",
+    "name": "Roman Yaremçuk",
+    "clubs": [
+      "Benfica",
+      "Valencia",
+      "Lyon"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q16724213",
+    "aliases": [
+      "Roman Yaremchuk",
+      "Roman Olehovych Yaremchuk"
+    ]
+  },
+  {
+    "id": "wd-Q16729477",
+    "name": "Gonçalo Guedes",
+    "clubs": [
+      "Paris Saint-Germain",
+      "Benfica",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q16729477",
+    "aliases": [
+      "Gonçalo Guedes",
+      "Goncalo Guedes",
+      "Goncalo Manuel Ganchinho Guedes"
+    ]
+  },
+  {
+    "id": "wd-Q167790",
+    "name": "Edinson Cavani",
+    "clubs": [
+      "Manchester United",
+      "Paris Saint-Germain",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q167790",
+    "aliases": [
+      "Edinson Cavani"
+    ]
+  },
+  {
+    "id": "wd-Q16979983",
+    "name": "Luka Jović",
+    "clubs": [
+      "Real Madrid",
+      "AC Milan",
+      "Benfica"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q16979983",
+    "aliases": [
+      "Luka Jović",
+      "Luka Jovic"
+    ]
+  },
+  {
+    "id": "wd-Q17163",
+    "name": "Johan Cruyff",
+    "clubs": [
+      "Barcelona",
+      "Ajax",
+      "Feyenoord"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q17163",
+    "aliases": [
+      "Johan Cruyff",
+      "Hendrik Johannes Cruijff"
+    ]
+  },
+  {
+    "id": "wd-Q172149",
+    "name": "Hugo Leal",
+    "clubs": [
+      "Paris Saint-Germain",
+      "Porto",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q172149",
+    "aliases": [
+      "Hugo Leal",
+      "Hugo Miguel Ribeiro Leal"
+    ]
+  },
+  {
+    "id": "wd-Q173360",
+    "name": "Giovanni van Bronckhorst",
+    "clubs": [
+      "Arsenal",
+      "Barcelona",
+      "Feyenoord"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q173360",
+    "aliases": [
+      "Giovanni van Bronckhorst",
+      "Giovanni Christiaan van Bronckhorst",
+      "Giovani van Bronckhorst"
+    ]
+  },
+  {
+    "id": "wd-Q173972",
+    "name": "Ruud Gullit",
+    "clubs": [
+      "Chelsea",
+      "AC Milan",
+      "Feyenoord"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q173972",
+    "aliases": [
+      "Ruud Gullit",
+      "Ridi Dil \"Ruud\" Gullit",
+      "Rudi Dil \"Ruud\" Gullit"
+    ]
+  },
+  {
+    "id": "wd-Q17493",
+    "name": "Thiago Alcántara",
+    "clubs": [
+      "Liverpool",
+      "Barcelona",
+      "Bayern Munich"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q17493",
+    "aliases": [
+      "Thiago Alcântara",
+      "Thiago Alcântara do Nascimento",
+      "Thiago Alcântara do Nascimiento",
+      "Thiago Alcantara",
+      "Thiago Alcantara do Nascimento",
+      "Thiago Alcantara do Nascimiento"
+    ]
+  },
+  {
+    "id": "wd-Q17499",
+    "name": "Cesc Fàbregas",
+    "clubs": [
+      "Arsenal",
+      "Chelsea",
+      "Barcelona"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q17499",
+    "aliases": [
+      "Cesc Fàbregas",
+      "Francesc Fàbregas Soler",
+      "Cesc Fabregas",
+      "Francesc Fabregas Solr",
+      "Francesc Fabregas Soler"
+    ]
+  },
+  {
+    "id": "wd-Q17612631",
+    "name": "Mikel Merino",
+    "clubs": [
+      "Arsenal",
+      "Borussia Dortmund",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q17612631",
+    "aliases": [
+      "Mikel Merino",
+      "Mikel Merino Zazón",
+      "Mikel Merino Zazon"
+    ]
+  },
+  {
+    "id": "wd-Q177343",
+    "name": "Mikaël Silvestre",
+    "clubs": [
+      "Manchester United",
+      "Arsenal",
+      "Inter"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q177343",
+    "aliases": [
+      "Mikaël Silvestre",
+      "Mikael Silvestre",
+      "Mikaël Samy Silvestre",
+      "Mikael Samy Silvestre"
+    ]
+  },
+  {
+    "id": "wd-Q177686",
+    "name": "Maicon Douglas Sisenando",
+    "clubs": [
+      "Inter",
+      "Roma",
+      "Manchester City"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q177686",
+    "aliases": [
+      "Maicon",
+      "Maicon Douglas Sisenando"
+    ]
+  },
+  {
+    "id": "wd-Q179334",
+    "name": "Henrik Larsson",
+    "clubs": [
+      "Manchester United",
+      "Barcelona",
+      "Feyenoord"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q179334",
+    "aliases": [
+      "Henrik Larsson",
+      "Edward Henrik Larsson"
+    ]
+  },
+  {
+    "id": "wd-Q179773",
+    "name": "Pedro Rodríguez Ledesma",
+    "clubs": [
+      "Chelsea",
+      "Barcelona",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q179773",
+    "aliases": [
+      "Pedro",
+      "Pedro Eliezer Rodríguez Ledesma",
+      "Pedro Eliezer Rodriguez Ledesma",
+      "Pedro Rodríguez",
+      "Pedro Rodriguez",
+      "Pedro Rodriguez Ledesma",
+      "Pedrito Rodríguez"
+    ]
+  },
+  {
+    "id": "wd-Q1801340",
+    "name": "Daniel Kenedy",
+    "clubs": [
+      "Paris Saint-Germain",
+      "Porto",
+      "Benfica"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1801340",
+    "aliases": [
+      "Daniel Kenedy"
+    ]
+  },
+  {
+    "id": "wd-Q180581",
+    "name": "Milan Baroš",
+    "clubs": [
+      "Liverpool",
+      "Galatasaray",
+      "Lyon"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q180581",
+    "aliases": [
+      "Milan Baroš",
+      "Milan Baros",
+      "Baroş",
+      "Milan Baroş",
+      "Baros",
+      "Baroš"
+    ]
+  },
+  {
+    "id": "wd-Q182314",
+    "name": "Peter Schmeichel",
+    "clubs": [
+      "Manchester United",
+      "Sporting CP",
+      "Manchester City"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q182314",
+    "aliases": [
+      "Peter Schmeichel",
+      "Peter Bolesław Schmeichel",
+      "Peter Boleslaw Schmeichel"
+    ]
+  },
+  {
+    "id": "wd-Q182907",
+    "name": "Gianluca Zambrotta",
+    "clubs": [
+      "Barcelona",
+      "AC Milan",
+      "Juventus"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q182907",
+    "aliases": [
+      "Gianluca Zambrotta"
+    ]
+  },
+  {
+    "id": "wd-Q183108",
+    "name": "Fabio Capello",
+    "clubs": [
+      "AC Milan",
+      "Juventus",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q183108",
+    "aliases": [
+      "Fabio Capello"
+    ]
+  },
+  {
+    "id": "wd-Q18428483",
+    "name": "Sofyan Amrabat",
+    "clubs": [
+      "Manchester United",
+      "Fenerbahçe",
+      "Feyenoord"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q18428483",
+    "aliases": [
+      "Sofyan Amrabat"
+    ]
+  },
+  {
+    "id": "wd-Q185389",
+    "name": "Dennis Bergkamp",
+    "clubs": [
+      "Arsenal",
+      "Inter",
+      "Ajax"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q185389",
+    "aliases": [
+      "Dennis Bergkamp",
+      "Dennis Nicolaas Maria Bergkamp",
+      "Bergkamp"
+    ]
+  },
+  {
+    "id": "wd-Q18614641",
+    "name": "Ainsley Maitland-Niles",
+    "clubs": [
+      "Arsenal",
+      "Roma",
+      "Lyon"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q18614641",
+    "aliases": [
+      "Ainsley Maitland-Niles",
+      "Ainsley Cory Maitland-Niles"
+    ]
+  },
+  {
+    "id": "wd-Q18637352",
+    "name": "Eric Bailly",
+    "clubs": [
+      "Manchester United",
+      "Beşiktaş",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q18637352",
+    "aliases": [
+      "Eric Bailly",
+      "Eric Bertrand Bailly"
+    ]
+  },
+  {
+    "id": "wd-Q186415",
+    "name": "Carlos Marchena",
+    "clubs": [
+      "Benfica",
+      "Sevilla",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q186415",
+    "aliases": [
+      "Carlos Marchena"
+    ]
+  },
+  {
+    "id": "wd-Q186478",
+    "name": "Luca Toni",
+    "clubs": [
+      "Juventus",
+      "Bayern Munich",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q186478",
+    "aliases": [
+      "Luca Toni"
+    ]
+  },
+  {
+    "id": "wd-Q187426",
+    "name": "Fernando Gago",
+    "clubs": [
+      "Real Madrid",
+      "Roma",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q187426",
+    "aliases": [
+      "Fernando Gago",
+      "Fernando Rubén Gago"
+    ]
+  },
+  {
+    "id": "wd-Q187450",
+    "name": "Philippe Senderos",
+    "clubs": [
+      "Arsenal",
+      "AC Milan",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q187450",
+    "aliases": [
+      "Philippe Senderos",
+      "Philippe Sylvain Senderos"
+    ]
+  },
+  {
+    "id": "wd-Q1876270",
+    "name": "Luigi Sartor",
+    "clubs": [
+      "Inter",
+      "Juventus",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1876270",
+    "aliases": [
+      "Luigi Sartor"
+    ]
+  },
+  {
+    "id": "wd-Q188457",
+    "name": "Danny Welbeck",
+    "clubs": [
+      "Manchester United",
+      "Arsenal",
+      "Chelsea"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q188457",
+    "aliases": [
+      "Danny Welbeck",
+      "Daniel Nii Tackie Mensah Welbeck",
+      "Daniel Welbeck"
+    ]
+  },
+  {
+    "id": "wd-Q189217",
+    "name": "Davor Šuker",
+    "clubs": [
+      "Arsenal",
+      "Real Madrid",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q189217",
+    "aliases": [
+      "Davor Šuker",
+      "Davor Suker"
+    ]
+  },
+  {
+    "id": "wd-Q18924954",
+    "name": "Lucas Hernández",
+    "clubs": [
+      "Paris Saint-Germain",
+      "Bayern Munich",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q18924954",
+    "aliases": [
+      "Lucas Hernandez",
+      "Lucas François Bernard Hernández",
+      "Lucas Francois Bernard Hernández"
+    ]
+  },
+  {
+    "id": "wd-Q189449",
+    "name": "Yosi Benayun",
+    "clubs": [
+      "Arsenal",
+      "Chelsea",
+      "Liverpool"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q189449",
+    "aliases": [
+      "Yossi Benayoun",
+      "Yossi Shai Benayoun"
+    ]
+  },
+  {
+    "id": "wd-Q189892",
+    "name": "Gheorghe Hagi",
+    "clubs": [
+      "Real Madrid",
+      "Barcelona",
+      "Galatasaray"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q189892",
+    "aliases": [
+      "Gheorghe Hagi",
+      "Aleluia",
+      "Gică",
+      "Hagi",
+      "George Hagi"
+    ]
+  },
+  {
+    "id": "wd-Q190515",
+    "name": "Craig Bellamy",
+    "clubs": [
+      "Liverpool",
+      "Manchester City",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q190515",
+    "aliases": [
+      "Craig Bellamy",
+      "Craig Douglas Bellamy"
+    ]
+  },
+  {
+    "id": "wd-Q190651",
+    "name": "Jerzy Dudek",
+    "clubs": [
+      "Liverpool",
+      "Real Madrid",
+      "Feyenoord"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q190651",
+    "aliases": [
+      "Jerzy Dudek",
+      "Jerzy Henryk Dudek"
+    ]
+  },
+  {
+    "id": "wd-Q1911",
+    "name": "Olivier Giroud",
+    "clubs": [
+      "Arsenal",
+      "Chelsea",
+      "AC Milan"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1911",
+    "aliases": [
+      "Olivier Giroud",
+      "Olivier Jonathan Giroud"
+    ]
+  },
+  {
+    "id": "wd-Q191136",
+    "name": "James Milner",
+    "clubs": [
+      "Liverpool",
+      "Manchester City",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q191136",
+    "aliases": [
+      "James Milner",
+      "James Philip Milner"
+    ]
+  },
+  {
+    "id": "wd-Q1913",
+    "name": "Florent Malouda",
+    "clubs": [
+      "Chelsea",
+      "Trabzonspor",
+      "Lyon"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1913",
+    "aliases": [
+      "Florent Malouda",
+      "Florent Johan Malouda"
+    ]
+  },
+  {
+    "id": "wd-Q1916",
+    "name": "Patrice Évra",
+    "clubs": [
+      "Manchester United",
+      "Juventus",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1916",
+    "aliases": [
+      "Patrice Evra",
+      "Patrice Latyr Evra"
+    ]
+  },
+  {
+    "id": "wd-Q1918",
+    "name": "Franck Ribéry",
+    "clubs": [
+      "Galatasaray",
+      "Bayern Munich",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1918",
+    "aliases": [
+      "Franck Ribéry",
+      "Franck Ribery",
+      "Franck Henry Pierre Ribéry",
+      "Franck Henry Pierre Ribery",
+      "Franck Pierre Ribéry"
+    ]
+  },
+  {
+    "id": "wd-Q1919",
+    "name": "Mathieu Valbuena",
+    "clubs": [
+      "Fenerbahçe",
+      "Lyon",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1919",
+    "aliases": [
+      "Mathieu Valbuena"
+    ]
+  },
+  {
+    "id": "wd-Q192035",
+    "name": "Iván Zamorano",
+    "clubs": [
+      "Real Madrid",
+      "Inter",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q192035",
+    "aliases": [
+      "Iván Zamorano",
+      "Ivan Zamorano",
+      "Iván Luis Zamorano Zamora"
+    ]
+  },
+  {
+    "id": "wd-Q192131",
+    "name": "Giuseppe Meazza",
+    "clubs": [
+      "AC Milan",
+      "Inter",
+      "Juventus"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q192131",
+    "aliases": [
+      "Giuseppe Meazza",
+      "Guiseppe Meazza"
+    ]
+  },
+  {
+    "id": "wd-Q1923",
+    "name": "Jérémy Ménez",
+    "clubs": [
+      "AC Milan",
+      "Paris Saint-Germain",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1923",
+    "aliases": [
+      "Jérémy Ménez",
+      "Jeremy Menez"
+    ]
+  },
+  {
+    "id": "wd-Q192635",
+    "name": "Ronald Koeman",
+    "clubs": [
+      "Barcelona",
+      "Ajax",
+      "Feyenoord"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q192635",
+    "aliases": [
+      "Ronald Koeman"
+    ]
+  },
+  {
+    "id": "wd-Q192923",
+    "name": "Sokratis Papastathopoulos",
+    "clubs": [
+      "Arsenal",
+      "AC Milan",
+      "Borussia Dortmund"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q192923",
+    "aliases": [
+      "Sokratis Papastathopoulos",
+      "Sokratis Papastathopulos"
+    ]
+  },
+  {
+    "id": "wd-Q193625",
+    "name": "Marcel Desailly",
+    "clubs": [
+      "Chelsea",
+      "AC Milan",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q193625",
+    "aliases": [
+      "Marcel Desailly",
+      "Marcel David Desailly",
+      "Odenkey Abbey"
+    ]
+  },
+  {
+    "id": "wd-Q1937",
+    "name": "William Gallas",
+    "clubs": [
+      "Arsenal",
+      "Chelsea",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1937",
+    "aliases": [
+      "William Gallas",
+      "William Eric Gallas"
+    ]
+  },
+  {
+    "id": "wd-Q193702",
+    "name": "Walter Samuel",
+    "clubs": [
+      "Real Madrid",
+      "Inter",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q193702",
+    "aliases": [
+      "Walter Samuel",
+      "Walter Adrián Samuel",
+      "Walter Adrian Samuel",
+      "Wálter Samuel"
+    ]
+  },
+  {
+    "id": "wd-Q194107",
+    "name": "Martín Cáceres",
+    "clubs": [
+      "Barcelona",
+      "Juventus",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q194107",
+    "aliases": [
+      "Martín Cáceres",
+      "José Martín Cáceres Silva",
+      "Martin Caceres"
+    ]
+  },
+  {
+    "id": "wd-Q194149",
+    "name": "Alex Oxlade-Chamberlain",
+    "clubs": [
+      "Arsenal",
+      "Liverpool",
+      "Beşiktaş"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q194149",
+    "aliases": [
+      "Alex Oxlade-Chamberlain",
+      "Alexander Mark David Oxlade-Chamberlain"
+    ]
+  },
+  {
+    "id": "wd-Q1942",
+    "name": "Sébastien Squillaci",
+    "clubs": [
+      "Arsenal",
+      "Sevilla",
+      "Lyon"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1942",
+    "aliases": [
+      "Sébastien Squillaci",
+      "Sebastien Squillaci",
+      "Sébastien Jean-Baptiste Squillaci",
+      "Sebastien Jean-Baptiste Squillaci"
+    ]
+  },
+  {
+    "id": "wd-Q19599124",
+    "name": "Benjamin Pavard",
+    "clubs": [
+      "Inter",
+      "Bayern Munich",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q19599124",
+    "aliases": [
+      "Benjamin Pavard",
+      "Benjamin Jacques Marcel Pavard"
+    ]
+  },
+  {
+    "id": "wd-Q19708656",
+    "name": "Gabriel Jesus",
+    "clubs": [
+      "Arsenal",
+      "Barcelona",
+      "Manchester City"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q19708656",
+    "aliases": [
+      "Gabriel Jesus",
+      "Gabriel Fernando de Jesus"
+    ]
+  },
+  {
+    "id": "wd-Q1988686",
+    "name": "Douglas Pereira dos Santos",
+    "clubs": [
+      "Barcelona",
+      "Beşiktaş",
+      "Benfica"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q1988686",
+    "aliases": [
+      "Douglas",
+      "Douglas Pereira dos Santos",
+      "Douglas Pereira"
+    ]
+  },
+  {
+    "id": "wd-Q19938984",
+    "name": "Manuel Akanji",
+    "clubs": [
+      "Inter",
+      "Manchester City",
+      "Borussia Dortmund"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q19938984",
+    "aliases": [
+      "Manuel Akanji",
+      "Manuel Obafemi Akanji"
+    ]
+  },
+  {
+    "id": "wd-Q201367",
+    "name": "Gregory van der Wiel",
+    "clubs": [
+      "Fenerbahçe",
+      "Ajax",
+      "Paris Saint-Germain"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q201367",
+    "aliases": [
+      "Gregory van der Wiel",
+      "Gregory Kurtley van der Wiel"
+    ]
+  },
+  {
+    "id": "wd-Q201900",
+    "name": "Rüştü Reçber",
+    "clubs": [
+      "Barcelona",
+      "Fenerbahçe",
+      "Beşiktaş"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q201900",
+    "aliases": [
+      "Rüştü Reçber"
+    ]
+  },
+  {
+    "id": "wd-Q202329",
+    "name": "Joey Barton",
+    "clubs": [
+      "Manchester City",
+      "Marseille",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q202329",
+    "aliases": [
+      "Joey Barton",
+      "Joseph Anthony Barton",
+      "Joseph Anthony \"Joey\" Barton"
+    ]
+  },
+  {
+    "id": "wd-Q202645",
+    "name": "Adrian Mutu",
+    "clubs": [
+      "Chelsea",
+      "Inter",
+      "Juventus"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q202645",
+    "aliases": [
+      "Adrian Mutu"
+    ]
+  },
+  {
+    "id": "wd-Q2036160",
+    "name": "Thomas Meunier",
+    "clubs": [
+      "Trabzonspor",
+      "Paris Saint-Germain",
+      "Borussia Dortmund"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q2036160",
+    "aliases": [
+      "Thomas Meunier",
+      "Thomas André A. Meunier",
+      "Thomas Andre A. Meunier"
+    ]
+  },
+  {
+    "id": "wd-Q203657",
+    "name": "Jon Dahl Tomasson",
+    "clubs": [
+      "AC Milan",
+      "Feyenoord",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q203657",
+    "aliases": [
+      "Jon Dahl Tomasson",
+      "Tomasson"
+    ]
+  },
+  {
+    "id": "wd-Q2036850",
+    "name": "Mustafa Yücedağ",
+    "clubs": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Ajax"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q2036850",
+    "aliases": [
+      "Mustafa Yücedağ"
+    ]
+  },
+  {
+    "id": "wd-Q204230",
+    "name": "Geremi Njitap",
+    "clubs": [
+      "Chelsea",
+      "Real Madrid",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q204230",
+    "aliases": [
+      "Geremi",
+      "Geremi Sorele Njitap Fotso"
+    ]
+  },
+  {
+    "id": "wd-Q204450",
+    "name": "Felipe Melo",
+    "clubs": [
+      "Galatasaray",
+      "Inter",
+      "Juventus"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q204450",
+    "aliases": [
+      "Felipe Melo",
+      "Felipe Melo de Carvalho"
+    ]
+  },
+  {
+    "id": "wd-Q204848",
+    "name": "Mathieu Flamini",
+    "clubs": [
+      "Arsenal",
+      "AC Milan",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q204848",
+    "aliases": [
+      "Mathieu Flamini",
+      "Mathieu Pierre Flamini",
+      "Mathiu Flamini"
+    ]
+  },
+  {
+    "id": "wd-Q20688718",
+    "name": "Angeliño",
+    "clubs": [
+      "Galatasaray",
+      "Roma",
+      "Manchester City"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q20688718",
+    "aliases": [
+      "Angeliño",
+      "José Ángel Esmorís Tasende"
+    ]
+  },
+  {
+    "id": "wd-Q207186",
+    "name": "Zlatko Zahovič",
+    "clubs": [
+      "Porto",
+      "Benfica",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q207186",
+    "aliases": []
+  },
+  {
+    "id": "wd-Q208025",
+    "name": "Gervinho",
+    "clubs": [
+      "Arsenal",
+      "Trabzonspor",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q208025",
+    "aliases": [
+      "Gervinho",
+      "Gervais Yao Kouassi",
+      "Gervais Lombe Yao Kouassi"
+    ]
+  },
+  {
+    "id": "wd-Q208104",
+    "name": "Xabi Alonso",
+    "clubs": [
+      "Liverpool",
+      "Real Madrid",
+      "Bayern Munich"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q208104",
+    "aliases": [
+      "Xabi Alonso",
+      "Xabier Alonso Olano",
+      "Xabier Alonso",
+      "Xabier Alonso Alano"
+    ]
+  },
+  {
+    "id": "wd-Q20830808",
+    "name": "Gianluigi Donnarumma",
+    "clubs": [
+      "AC Milan",
+      "Paris Saint-Germain",
+      "Manchester City"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q20830808",
+    "aliases": [
+      "Gianluigi Donnarumma",
+      "Donnarumma"
+    ]
+  },
+  {
+    "id": "wd-Q20851003",
+    "name": "Ousmane Dembélé",
+    "clubs": [
+      "Barcelona",
+      "Paris Saint-Germain",
+      "Borussia Dortmund"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q20851003",
+    "aliases": [
+      "Ousmane Dembélé",
+      "Ousmane Dembele",
+      "Masour Ousmane Dembélé",
+      "Masour Ousmane Dembele"
+    ]
+  },
+  {
+    "id": "wd-Q2091463",
+    "name": "Anthony Martial",
+    "clubs": [
+      "Manchester United",
+      "Sevilla",
+      "Lyon"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q2091463",
+    "aliases": [
+      "Anthony Martial",
+      "Anthony Jordan Martial"
+    ]
+  },
+  {
+    "id": "wd-Q2092171",
+    "name": "Denis Suárez",
+    "clubs": [
+      "Arsenal",
+      "Barcelona",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q2092171",
+    "aliases": [
+      "Denís Suárez",
+      "Denis Suárez Fernández"
+    ]
+  },
+  {
+    "id": "wd-Q209650",
+    "name": "Jari Litmanen",
+    "clubs": [
+      "Liverpool",
+      "Barcelona",
+      "Ajax"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q209650",
+    "aliases": [
+      "Jari Litmanen",
+      "Jari Olavi Litmanen",
+      "Litmanen"
+    ]
+  },
+  {
+    "id": "wd-Q20994118",
+    "name": "Rodri",
+    "clubs": [
+      "Barcelona",
+      "Atlético Madrid",
+      "Manchester City"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q20994118",
+    "aliases": [
+      "Rodri"
+    ]
+  },
+  {
+    "id": "wd-Q210491",
+    "name": "Cristian Chivu",
+    "clubs": [
+      "Inter",
+      "Ajax",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q210491",
+    "aliases": [
+      "Cristian Chivu",
+      "Cristian Eugen Chivu",
+      "Christian Chivu"
+    ]
+  },
+  {
+    "id": "wd-Q211451",
+    "name": "Aleksandar Kolarov",
+    "clubs": [
+      "Inter",
+      "Roma",
+      "Manchester City"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q211451",
+    "aliases": [
+      "Aleksandar Kolarov"
+    ]
+  },
+  {
+    "id": "wd-Q211996",
+    "name": "José Bosingwa",
+    "clubs": [
+      "Chelsea",
+      "Trabzonspor",
+      "Porto"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q211996",
+    "aliases": [
+      "José Bosingwa",
+      "José Bosingwa da Silva",
+      "Jose Bosingwa",
+      "Bosingwa"
+    ]
+  },
+  {
+    "id": "wd-Q214117",
+    "name": "Hélder Postiga",
+    "clubs": [
+      "Porto",
+      "Sporting CP",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q214117",
+    "aliases": [
+      "Hélder Postiga",
+      "Helder Postiga",
+      "Hélder Manuel Marques Postiga",
+      "Helder Manuel Marques Postiga"
+    ]
+  },
+  {
+    "id": "wd-Q215435",
+    "name": "Albert Riera",
+    "clubs": [
+      "Liverpool",
+      "Galatasaray",
+      "Manchester City"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q215435",
+    "aliases": [
+      "Albert Riera",
+      "Albert Riera Ortega"
+    ]
+  },
+  {
+    "id": "wd-Q215533",
+    "name": "Rigobert Song",
+    "clubs": [
+      "Liverpool",
+      "Galatasaray",
+      "Trabzonspor"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q215533",
+    "aliases": [
+      "Rigobert Song",
+      "Rigobert Song Bahanag"
+    ]
+  },
+  {
+    "id": "wd-Q216142",
+    "name": "Alex Rodrigo Dias da Costa",
+    "clubs": [
+      "Chelsea",
+      "AC Milan",
+      "Paris Saint-Germain"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q216142",
+    "aliases": [
+      "Alex Rodrigo Dias da Costa"
+    ]
+  },
+  {
+    "id": "wd-Q216260",
+    "name": "Hedwiges Maduro",
+    "clubs": [
+      "Ajax",
+      "Sevilla",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q216260",
+    "aliases": [
+      "Hedwiges Maduro",
+      "Hedwiges Eduard Martinus Maduro"
+    ]
+  },
+  {
+    "id": "wd-Q216917",
+    "name": "Jaap Stam",
+    "clubs": [
+      "Manchester United",
+      "AC Milan",
+      "Ajax"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q216917",
+    "aliases": [
+      "Jaap Stam",
+      "Jakob Stam"
+    ]
+  },
+  {
+    "id": "wd-Q21693199",
+    "name": "Christopher Nkunku",
+    "clubs": [
+      "Chelsea",
+      "AC Milan",
+      "Paris Saint-Germain"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q21693199",
+    "aliases": [
+      "Christopher Nkunku",
+      "Christopher Alan Nkunku"
+    ]
+  },
+  {
+    "id": "wd-Q217760",
+    "name": "Sylvain Wiltord",
+    "clubs": [
+      "Arsenal",
+      "Lyon",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q217760",
+    "aliases": [
+      "Sylvain Wiltord",
+      "Sylvain Claude Wiltord"
+    ]
+  },
+  {
+    "id": "wd-Q218401",
+    "name": "Roberto Soldado",
+    "clubs": [
+      "Real Madrid",
+      "Fenerbahçe",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q218401",
+    "aliases": [
+      "Roberto Soldado",
+      "Roberto Soldado Rillo"
+    ]
+  },
+  {
+    "id": "wd-Q219248",
+    "name": "Marc Overmars",
+    "clubs": [
+      "Arsenal",
+      "Barcelona",
+      "Ajax"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q219248",
+    "aliases": [
+      "Marc Overmars"
+    ]
+  },
+  {
+    "id": "wd-Q219354",
+    "name": "Ian Rush",
+    "clubs": [
+      "Liverpool",
+      "Juventus",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q219354",
+    "aliases": [
+      "Ian Rush",
+      "Ian James Rush"
+    ]
+  },
+  {
+    "id": "wd-Q219657",
+    "name": "Frank de Boer",
+    "clubs": [
+      "Barcelona",
+      "Galatasaray",
+      "Ajax"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q219657",
+    "aliases": [
+      "Frank de Boer",
+      "Franciscus de Boer"
+    ]
+  },
+  {
+    "id": "wd-Q219884",
+    "name": "Stefan Savić",
+    "clubs": [
+      "Trabzonspor",
+      "Atlético Madrid",
+      "Manchester City"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q219884",
+    "aliases": [
+      "Stefan Savić",
+      "Stefan Savic"
+    ]
+  },
+  {
+    "id": "wd-Q22007007",
+    "name": "Emre Mor",
+    "clubs": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Borussia Dortmund"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q22007007",
+    "aliases": [
+      "Emre Mor"
+    ]
+  },
+  {
+    "id": "wd-Q2202196",
+    "name": "Sebastián Losada",
+    "clubs": [
+      "Real Madrid",
+      "Atlético Madrid",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q2202196",
+    "aliases": [
+      "Sebastián Losada",
+      "Sebastian Losada"
+    ]
+  },
+  {
+    "id": "wd-Q220746",
+    "name": "Juan Pablo Sorín",
+    "clubs": [
+      "Barcelona",
+      "Juventus",
+      "Paris Saint-Germain"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q220746",
+    "aliases": [
+      "Juan Pablo Sorín",
+      "Juampi Sorín",
+      "Juan Pablo Sorin"
+    ]
+  },
+  {
+    "id": "wd-Q22279773",
+    "name": "Christian Pulisic",
+    "clubs": [
+      "Chelsea",
+      "AC Milan",
+      "Borussia Dortmund"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q22279773",
+    "aliases": [
+      "Christian Pulisic",
+      "Christian Mate Pulisic",
+      "Christian Mate Pulisic Harlow"
+    ]
+  },
+  {
+    "id": "wd-Q2276748",
+    "name": "Juan Carlos Rodríguez",
+    "clubs": [
+      "Barcelona",
+      "Atlético Madrid",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q2276748",
+    "aliases": [
+      "Juan Carlos Rodríguez",
+      "Juan Carlos Rodriguez"
+    ]
+  },
+  {
+    "id": "wd-Q230529",
+    "name": "Fabio Grosso",
+    "clubs": [
+      "Inter",
+      "Juventus",
+      "Lyon"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q230529",
+    "aliases": [
+      "Fabio Grosso",
+      "Grosso"
+    ]
+  },
+  {
+    "id": "wd-Q2319669",
+    "name": "Aristide Coscia",
+    "clubs": [
+      "Inter",
+      "Juventus",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q2319669",
+    "aliases": [
+      "Aristide Coscia"
+    ]
+  },
+  {
+    "id": "wd-Q23759917",
+    "name": "Alexander Isak",
+    "clubs": [
+      "Liverpool",
+      "Borussia Dortmund",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q23759917",
+    "aliases": [
+      "Alexander Isak"
+    ]
+  },
+  {
+    "id": "wd-Q2423642",
+    "name": "Daniel Xuereb",
+    "clubs": [
+      "Paris Saint-Germain",
+      "Lyon",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q2423642",
+    "aliases": [
+      "Daniel Xuereb"
+    ]
+  },
+  {
+    "id": "wd-Q24258610",
+    "name": "Sergio Reguilón",
+    "clubs": [
+      "Manchester United",
+      "Atlético Madrid",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q24258610",
+    "aliases": [
+      "Sergio Reguilón",
+      "Sergio Reguilón Rodríguez"
+    ]
+  },
+  {
+    "id": "wd-Q245011",
+    "name": "Demetrio Albertini",
+    "clubs": [
+      "Barcelona",
+      "AC Milan",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q245011",
+    "aliases": [
+      "Demetrio Albertini"
+    ]
+  },
+  {
+    "id": "wd-Q2455284",
+    "name": "Júlio César Santos Correa",
+    "clubs": [
+      "Real Madrid",
+      "AC Milan",
+      "Benfica"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q2455284",
+    "aliases": [
+      "Júlio César Santos Correa",
+      "Julio Cesar Santos Correa",
+      "Julio Cesar",
+      "Julio cesar santos correa",
+      "Júlio César Santos Correia"
+    ]
+  },
+  {
+    "id": "wd-Q246417",
+    "name": "Denis Cheryshev",
+    "clubs": [
+      "Real Madrid",
+      "Sevilla",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q246417",
+    "aliases": [
+      "Denis Cheryshev",
+      "Denis Dmitriyevich Cherysheyv"
+    ]
+  },
+  {
+    "id": "wd-Q250962",
+    "name": "Geovanni Deiberson Maurício",
+    "clubs": [
+      "Barcelona",
+      "Benfica",
+      "Manchester City"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q250962",
+    "aliases": [
+      "Geovanni Deiberson Maurício",
+      "Geovanni Deiberson Mauricio"
+    ]
+  },
+  {
+    "id": "wd-Q252596",
+    "name": "Martín Montoya",
+    "clubs": [
+      "Barcelona",
+      "Inter",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q252596",
+    "aliases": [
+      "Martín Montoya"
+    ]
+  },
+  {
+    "id": "wd-Q258115",
+    "name": "Diego Simeone",
+    "clubs": [
+      "Inter",
+      "Atlético Madrid",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q258115",
+    "aliases": [
+      "Diego Simeone",
+      "El Cholo",
+      "Diego Pablo Simeone",
+      "Simeone",
+      "Cholo Simeone",
+      "Diego P. Simeone",
+      "Diego Pablo Simeone González",
+      "Cholo"
+    ]
+  },
+  {
+    "id": "wd-Q26069",
+    "name": "Klaas-Jan Huntelaar",
+    "clubs": [
+      "Real Madrid",
+      "AC Milan",
+      "Ajax"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q26069",
+    "aliases": [
+      "Klaas-Jan Huntelaar",
+      "Dirk Jan Klaas Huntelaar",
+      "Klaas Jan Huntelaar",
+      "Huntelaar"
+    ]
+  },
+  {
+    "id": "wd-Q261534",
+    "name": "Diego Forlán",
+    "clubs": [
+      "Manchester United",
+      "Inter",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q261534",
+    "aliases": [
+      "Diego Forlán",
+      "Diego Forlan",
+      "Diego Forlán Corazo",
+      "Diego Forlan Corazo"
+    ]
+  },
+  {
+    "id": "wd-Q26255506",
+    "name": "Diogo Dalot",
+    "clubs": [
+      "Manchester United",
+      "AC Milan",
+      "Porto"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q26255506",
+    "aliases": [
+      "Diogo Dalot",
+      "Jose Diogo Dalot Teixeira"
+    ]
+  },
+  {
+    "id": "wd-Q2658719",
+    "name": "Robert McDonald",
+    "clubs": [
+      "Beşiktaş",
+      "Sporting CP",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q2658719",
+    "aliases": [
+      "Rob McDonald",
+      "Robert Roderick McDonald"
+    ]
+  },
+  {
+    "id": "wd-Q26973015",
+    "name": "Brahim Abdelkader Díaz",
+    "clubs": [
+      "Real Madrid",
+      "AC Milan",
+      "Manchester City"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q26973015",
+    "aliases": [
+      "Brahim Díaz",
+      "Brahim",
+      "Brahim Diaz",
+      "Brahim Abdelkader Díaz"
+    ]
+  },
+  {
+    "id": "wd-Q269883",
+    "name": "Emmanuel Petit",
+    "clubs": [
+      "Arsenal",
+      "Chelsea",
+      "Barcelona"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q269883",
+    "aliases": [
+      "Emmanuel Petit",
+      "Emmanuel Laurent Petit"
+    ]
+  },
+  {
+    "id": "wd-Q2707459",
+    "name": "Kaba Diawara",
+    "clubs": [
+      "Arsenal",
+      "Paris Saint-Germain",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q2707459",
+    "aliases": [
+      "Kaba Diawara"
+    ]
+  },
+  {
+    "id": "wd-Q271882",
+    "name": "Robert Kovač",
+    "clubs": [
+      "Juventus",
+      "Bayern Munich",
+      "Borussia Dortmund"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q271882",
+    "aliases": [
+      "Robert Kovač"
+    ]
+  },
+  {
+    "id": "wd-Q273715",
+    "name": "Jordan Henderson",
+    "clubs": [
+      "Chelsea",
+      "Liverpool",
+      "Ajax"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q273715",
+    "aliases": [
+      "Jordan Henderson",
+      "Jordan Brian Henderson"
+    ]
+  },
+  {
+    "id": "wd-Q274268",
+    "name": "Édouard Cissé",
+    "clubs": [
+      "Beşiktaş",
+      "Paris Saint-Germain",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q274268",
+    "aliases": [
+      "Édouard Cissé",
+      "Edouard Cisse",
+      "Édouard Léopold Cissé",
+      "Edouard Leopold Cisse",
+      "Édouard Souleymane Cissé",
+      "Edouard Cissé"
+    ]
+  },
+  {
+    "id": "wd-Q274523",
+    "name": "Oriol Romeu",
+    "clubs": [
+      "Chelsea",
+      "Barcelona",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q274523",
+    "aliases": [
+      "Oriol Romeu",
+      "Oriol Romeu Vidal"
+    ]
+  },
+  {
+    "id": "wd-Q275823",
+    "name": "Michael Thomas",
+    "clubs": [
+      "Arsenal",
+      "Liverpool",
+      "Benfica"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q275823",
+    "aliases": [
+      "Michael Thomas",
+      "Michael Lauriston Thomas",
+      "Michael L. Thomas"
+    ]
+  },
+  {
+    "id": "wd-Q276157",
+    "name": "Barry Venison",
+    "clubs": [
+      "Liverpool",
+      "Galatasaray",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q276157",
+    "aliases": [
+      "Barry Venison"
+    ]
+  },
+  {
+    "id": "wd-Q27663808",
+    "name": "Matteo Guendouzi",
+    "clubs": [
+      "Arsenal",
+      "Fenerbahçe",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q27663808",
+    "aliases": [
+      "Mattéo Guendouzi",
+      "Matteo Guendouzi",
+      "Mattéo Elias Kenzo Guendouzi Olié",
+      "Matteo Elias Kenzo Guendouzi Olie",
+      "Matteo Elias Kenzo Guendouzi Olié"
+    ]
+  },
+  {
+    "id": "wd-Q279673",
+    "name": "Pablo Gabriel García",
+    "clubs": [
+      "Real Madrid",
+      "AC Milan",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q279673",
+    "aliases": [
+      "Pablo Gabriel García",
+      "Pablo Gabriel Garcia",
+      "Pablo Gabriel García Pérez"
+    ]
+  },
+  {
+    "id": "wd-Q281734",
+    "name": "Yūto Nagatomo",
+    "clubs": [
+      "Galatasaray",
+      "Inter",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q281734",
+    "aliases": [
+      "Yūto Nagatomo",
+      "Yuto Nagatomo",
+      "Yuuto Nagatomo",
+      "Nagatomo Yuto",
+      "Nagatomo Yūto",
+      "Nagatomo Yuuto"
+    ]
+  },
+  {
+    "id": "wd-Q282463",
+    "name": "Jean-Alain Boumsong",
+    "clubs": [
+      "Juventus",
+      "Lyon",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q282463",
+    "aliases": [
+      "Jean-Alain Boumsong",
+      "Jean-Alain Boumsong Somkong"
+    ]
+  },
+  {
+    "id": "wd-Q2831818",
+    "name": "Alberto Piccinini",
+    "clubs": [
+      "AC Milan",
+      "Juventus",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q2831818",
+    "aliases": [
+      "Alberto Piccinini"
+    ]
+  },
+  {
+    "id": "wd-Q28531111",
+    "name": "Luis Díaz",
+    "clubs": [
+      "Liverpool",
+      "Bayern Munich",
+      "Porto"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q28531111",
+    "aliases": [
+      "Luis Díaz",
+      "Luis Fernando Díaz Marulanda"
+    ]
+  },
+  {
+    "id": "wd-Q294214",
+    "name": "Dirk Kuyt",
+    "clubs": [
+      "Liverpool",
+      "Fenerbahçe",
+      "Feyenoord"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q294214",
+    "aliases": [
+      "Dirk Kuyt",
+      "Dirk Kuijt"
+    ]
+  },
+  {
+    "id": "wd-Q294387",
+    "name": "Mido",
+    "clubs": [
+      "Ajax",
+      "Roma",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q294387",
+    "aliases": [
+      "Mido"
+    ]
+  },
+  {
+    "id": "wd-Q294501",
+    "name": "Steve McManaman",
+    "clubs": [
+      "Liverpool",
+      "Real Madrid",
+      "Manchester City"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q294501",
+    "aliases": [
+      "Steve McManaman",
+      "Steven McManaman"
+    ]
+  },
+  {
+    "id": "wd-Q294541",
+    "name": "Stevan Jovetić",
+    "clubs": [
+      "Inter",
+      "Manchester City",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q294541",
+    "aliases": [
+      "Stevan Jovetić",
+      "Stevan Jovetic",
+      "Jovetić"
+    ]
+  },
+  {
+    "id": "wd-Q294565",
+    "name": "Angelo Peruzzi",
+    "clubs": [
+      "Inter",
+      "Juventus",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q294565",
+    "aliases": [
+      "Angelo Peruzzi"
+    ]
+  },
+  {
+    "id": "wd-Q294951",
+    "name": "Christian Eriksen",
+    "clubs": [
+      "Manchester United",
+      "Inter",
+      "Ajax"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q294951",
+    "aliases": [
+      "Christian Eriksen",
+      "Christian Dannemann Eriksen"
+    ]
+  },
+  {
+    "id": "wd-Q294963",
+    "name": "Hugo Viana",
+    "clubs": [
+      "Sporting CP",
+      "Valencia",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q294963",
+    "aliases": [
+      "Hugo Viana",
+      "Hugo Miguel Ferreira Gomes Viana",
+      "Hugo Miguel Ferreira Viana"
+    ]
+  },
+  {
+    "id": "wd-Q295416",
+    "name": "Luis García",
+    "clubs": [
+      "Liverpool",
+      "Barcelona",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q295416",
+    "aliases": [
+      "Luis García",
+      "Luis García Sanz",
+      "Luis Garcia",
+      "Luis Garcia Sanz",
+      "Luis Javier Garcia Sanz",
+      "Luis Javier García Sanz"
+    ]
+  },
+  {
+    "id": "wd-Q295512",
+    "name": "Carlos Gamarra",
+    "clubs": [
+      "Inter",
+      "Benfica",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q295512",
+    "aliases": [
+      "Carlos Gamarra",
+      "Carlos Alberto Gamarra Pavón",
+      "Carlos Alberto Gamarra Pavon"
+    ]
+  },
+  {
+    "id": "wd-Q296222",
+    "name": "Mauricio Isla",
+    "clubs": [
+      "Fenerbahçe",
+      "Juventus",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q296222",
+    "aliases": [
+      "Mauricio Isla",
+      "Huaso",
+      "Mauricio Aníbal Isla Isla",
+      "Mauricio Anibal Isla"
+    ]
+  },
+  {
+    "id": "wd-Q296341",
+    "name": "Demba Ba",
+    "clubs": [
+      "Chelsea",
+      "Beşiktaş",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q296341",
+    "aliases": [
+      "Demba Ba"
+    ]
+  },
+  {
+    "id": "wd-Q296684",
+    "name": "Ezequiel Garay",
+    "clubs": [
+      "Real Madrid",
+      "Benfica",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q296684",
+    "aliases": [
+      "Ezequiel Garay",
+      "Ezequiel Marcelo Garay González",
+      "Ezequiel Marcelo Garay"
+    ]
+  },
+  {
+    "id": "wd-Q296814",
+    "name": "Alessandro Mancini",
+    "clubs": [
+      "AC Milan",
+      "Inter",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q296814",
+    "aliases": [
+      "Mancini",
+      "Alessandro Faiolhe Amantino",
+      "Alessandro Faiolhe Amantino Mancini"
+    ]
+  },
+  {
+    "id": "wd-Q296975",
+    "name": "Iván Helguera",
+    "clubs": [
+      "Real Madrid",
+      "Roma",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q296975",
+    "aliases": [
+      "Iván Helguera",
+      "Ivan Helguera",
+      "Iván Helguera Bujía"
+    ]
+  },
+  {
+    "id": "wd-Q297845",
+    "name": "Manuel Fernandes",
+    "clubs": [
+      "Beşiktaş",
+      "Benfica",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q297845",
+    "aliases": [
+      "Manuel Fernandes",
+      "Manuel fernandez",
+      "Manuel Henrique Tavares Fernandes"
+    ]
+  },
+  {
+    "id": "wd-Q298190",
+    "name": "Robert Prosinečki",
+    "clubs": [
+      "Real Madrid",
+      "Barcelona",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q298190",
+    "aliases": [
+      "Robert Prosinečki",
+      "Robert Prosinecki"
+    ]
+  },
+  {
+    "id": "wd-Q298338",
+    "name": "Vikash Dhorasoo",
+    "clubs": [
+      "AC Milan",
+      "Paris Saint-Germain",
+      "Lyon"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q298338",
+    "aliases": [
+      "Vikash Dhorasoo",
+      "Vikash Rao Dhorasoo"
+    ]
+  },
+  {
+    "id": "wd-Q299244",
+    "name": "Seydou Doumbia",
+    "clubs": [
+      "Sporting CP",
+      "Roma",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q299244",
+    "aliases": [
+      "Seydou Doumbia",
+      "Doumbia Seydou"
+    ]
+  },
+  {
+    "id": "wd-Q299450",
+    "name": "Tiago Manuel Dias Correia",
+    "clubs": [
+      "Manchester United",
+      "Beşiktaş",
+      "Benfica"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q299450",
+    "aliases": [
+      "Bebé",
+      "Bebe",
+      "Tiago Manuel Dias Correia"
+    ]
+  },
+  {
+    "id": "wd-Q299727",
+    "name": "Rolando",
+    "clubs": [
+      "Inter",
+      "Porto",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q299727",
+    "aliases": [
+      "Rolando",
+      "Rolando Jorge Pires da Fonseca"
+    ]
+  },
+  {
+    "id": "wd-Q30148558",
+    "name": "Jadon Sancho",
+    "clubs": [
+      "Manchester United",
+      "Chelsea",
+      "Borussia Dortmund"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q30148558",
+    "aliases": [
+      "Jadon Sancho",
+      "Jadon Malik Sancho"
+    ]
+  },
+  {
+    "id": "wd-Q302314",
+    "name": "Pietro Pastore",
+    "clubs": [
+      "AC Milan",
+      "Juventus",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q302314",
+    "aliases": [
+      "Pietro Pastore",
+      "Piero Pastore",
+      "Pietro Mario Pastore"
+    ]
+  },
+  {
+    "id": "wd-Q308925",
+    "name": "Jürgen Kohler",
+    "clubs": [
+      "Juventus",
+      "Bayern Munich",
+      "Borussia Dortmund"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q308925",
+    "aliases": [
+      "Jürgen Kohler"
+    ]
+  },
+  {
+    "id": "wd-Q310330",
+    "name": "Javi García",
+    "clubs": [
+      "Real Madrid",
+      "Benfica",
+      "Manchester City"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q310330",
+    "aliases": [
+      "Javi García",
+      "Francisco Javier García",
+      "Javi Garcia",
+      "Francisco Javier Garcia",
+      "Javier García"
+    ]
+  },
+  {
+    "id": "wd-Q310625",
+    "name": "Marc Bartra",
+    "clubs": [
+      "Barcelona",
+      "Trabzonspor",
+      "Borussia Dortmund"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q310625",
+    "aliases": [
+      "Marc Bartra",
+      "Marc Bartra Aregall"
+    ]
+  },
+  {
+    "id": "wd-Q311043",
+    "name": "Urby Emanuelson",
+    "clubs": [
+      "AC Milan",
+      "Ajax",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q311043",
+    "aliases": [
+      "Urby Emanuelson",
+      "Urby Vitorrio Diego Emanuelson"
+    ]
+  },
+  {
+    "id": "wd-Q311155",
+    "name": "Lorik Cana",
+    "clubs": [
+      "Galatasaray",
+      "Paris Saint-Germain",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q311155",
+    "aliases": [
+      "Lorik Cana",
+      "Lorik  Cana",
+      "Lorik Agim Cana"
+    ]
+  },
+  {
+    "id": "wd-Q311171",
+    "name": "Paul Ince",
+    "clubs": [
+      "Manchester United",
+      "Liverpool",
+      "Inter"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q311171",
+    "aliases": [
+      "Paul Ince",
+      "Paul Emerson Carlyle Ince"
+    ]
+  },
+  {
+    "id": "wd-Q311368",
+    "name": "Nikola Kalinić",
+    "clubs": [
+      "AC Milan",
+      "Roma",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q311368",
+    "aliases": [
+      "Nikola Kalinić"
+    ]
+  },
+  {
+    "id": "wd-Q312002",
+    "name": "Sylvio Mendes Campos Júnior",
+    "clubs": [
+      "Arsenal",
+      "Barcelona",
+      "Manchester City"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q312002",
+    "aliases": [
+      "Sylvinho",
+      "Sylvio Mendes Campos Júnior",
+      "Sylvio Mendes Campos",
+      "Sylvio Mendes Campos Junior"
+    ]
+  },
+  {
+    "id": "wd-Q312534",
+    "name": "Kostas Mitroglou",
+    "clubs": [
+      "Galatasaray",
+      "Benfica",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q312534",
+    "aliases": [
+      "Kostas Mitroglou",
+      "Konstantinos Mitroglou"
+    ]
+  },
+  {
+    "id": "wd-Q312659",
+    "name": "Pierre van Hooijdonk",
+    "clubs": [
+      "Fenerbahçe",
+      "Benfica",
+      "Feyenoord"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q312659",
+    "aliases": [
+      "Pierre van Hooijdonk",
+      "Hooijdonk",
+      "Petrus Ferdinandus Johannes Pierre Paulus Wielaartus van Hooijdonk"
+    ]
+  },
+  {
+    "id": "wd-Q312892",
+    "name": "Jérémy Mathieu",
+    "clubs": [
+      "Barcelona",
+      "Sporting CP",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q312892",
+    "aliases": [
+      "Jérémy Mathieu",
+      "Jeremy Mathieu"
+    ]
+  },
+  {
+    "id": "wd-Q312928",
+    "name": "Stéphane Mbia",
+    "clubs": [
+      "Trabzonspor",
+      "Sevilla",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q312928",
+    "aliases": [
+      "Stéphane Mbia",
+      "Stéphane Mbia Etoundi",
+      "Stephane Mbia",
+      "Stephane Mbia Etoundi"
+    ]
+  },
+  {
+    "id": "wd-Q313131",
+    "name": "Mauricio Pellegrino",
+    "clubs": [
+      "Liverpool",
+      "Barcelona",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q313131",
+    "aliases": [
+      "Mauricio Pellegrino",
+      "Mauricio Andrés Pellegrino Luna"
+    ]
+  },
+  {
+    "id": "wd-Q313145",
+    "name": "Colin Kâzım-Richards",
+    "clubs": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Feyenoord"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q313145",
+    "aliases": [
+      "Colin Kâzım-Richards",
+      "Kâzım Kâzım"
+    ]
+  },
+  {
+    "id": "wd-Q313172",
+    "name": "Julien Escudé",
+    "clubs": [
+      "Beşiktaş",
+      "Ajax",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q313172",
+    "aliases": [
+      "Julien Escudé",
+      "Julien Escude",
+      "Julien Régis Paul Escudé",
+      "Julien Regis Paul Escude"
+    ]
+  },
+  {
+    "id": "wd-Q313208",
+    "name": "Cristiano Zanetti",
+    "clubs": [
+      "Inter",
+      "Juventus",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q313208",
+    "aliases": [
+      "Cristiano Zanetti"
+    ]
+  },
+  {
+    "id": "wd-Q313382",
+    "name": "Johnny Rep",
+    "clubs": [
+      "Ajax",
+      "Valencia",
+      "Feyenoord"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q313382",
+    "aliases": [
+      "Johnny Rep"
+    ]
+  },
+  {
+    "id": "wd-Q313763",
+    "name": "George Graham",
+    "clubs": [
+      "Manchester United",
+      "Arsenal",
+      "Chelsea"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q313763",
+    "aliases": [
+      "George Graham"
+    ]
+  },
+  {
+    "id": "wd-Q313861",
+    "name": "Sonny Anderson",
+    "clubs": [
+      "Barcelona",
+      "Lyon",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q313861",
+    "aliases": [
+      "Sonny Anderson",
+      "Sonny Anderson da Silva"
+    ]
+  },
+  {
+    "id": "wd-Q313955",
+    "name": "António Alberto Bastos Pimparel",
+    "clubs": [
+      "Porto",
+      "Sporting CP",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q313955",
+    "aliases": [
+      "Beto",
+      "António Alberto Bastos Pimparel"
+    ]
+  },
+  {
+    "id": "wd-Q314376",
+    "name": "Cristian Rodríguez",
+    "clubs": [
+      "Paris Saint-Germain",
+      "Porto",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q314376",
+    "aliases": [
+      "Cristian Rodríguez",
+      "Cristian Gabriel Rodriguez Barrotti",
+      "Cristian Rodriguez",
+      "Cristian Gabriel Rodríguez Barotti"
+    ]
+  },
+  {
+    "id": "wd-Q314617",
+    "name": "Diego López Rodríguez",
+    "clubs": [
+      "Real Madrid",
+      "AC Milan",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q314617",
+    "aliases": [
+      "Diego López",
+      "Diego López Rodríguez"
+    ]
+  },
+  {
+    "id": "wd-Q315471",
+    "name": "Santiago Solari",
+    "clubs": [
+      "Real Madrid",
+      "Inter",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q315471",
+    "aliases": [
+      "Santiago Solari",
+      "Santi Solari",
+      "Santiago Hernán Solari Poggio",
+      "Santiago Hernan Solari",
+      "Santiago Hernán Solari"
+    ]
+  },
+  {
+    "id": "wd-Q316695",
+    "name": "Sylvain Distin",
+    "clubs": [
+      "Paris Saint-Germain",
+      "Manchester City",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q316695",
+    "aliases": [
+      "Sylvain Distin"
+    ]
+  },
+  {
+    "id": "wd-Q317322",
+    "name": "Alfonso Pérez",
+    "clubs": [
+      "Real Madrid",
+      "Barcelona",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q317322",
+    "aliases": [
+      "Alfonso Pérez",
+      "Alfonso",
+      "Alfonso Perez",
+      "Alfonso Pérez Muñoz"
+    ]
+  },
+  {
+    "id": "wd-Q317612",
+    "name": "Abdullah Ercan",
+    "clubs": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Trabzonspor"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q317612",
+    "aliases": [
+      "Abdullah Ercan"
+    ]
+  },
+  {
+    "id": "wd-Q317863",
+    "name": "Mário Jardel",
+    "clubs": [
+      "Galatasaray",
+      "Porto",
+      "Sporting CP"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q317863",
+    "aliases": [
+      "Mário Jardel",
+      "Mario Jardel",
+      "Mário Jardel de Almeida Ribeiro",
+      "Mário Jardel Almeida Ribeiro",
+      "Jardel"
+    ]
+  },
+  {
+    "id": "wd-Q3195361",
+    "name": "Kepa Arrizabalaga",
+    "clubs": [
+      "Arsenal",
+      "Chelsea",
+      "Real Madrid"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q3195361",
+    "aliases": [
+      "Kepa Arrizabalaga",
+      "Kepa Arrizabalaga Revuelta",
+      "Kepa"
+    ]
+  },
+  {
+    "id": "wd-Q326008",
+    "name": "Saul Malatrasi",
+    "clubs": [
+      "AC Milan",
+      "Inter",
+      "Roma"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q326008",
+    "aliases": [
+      "Saul Malatrasi"
+    ]
+  },
+  {
+    "id": "wd-Q326452",
+    "name": "Miguel Lopes",
+    "clubs": [
+      "Porto",
+      "Sporting CP",
+      "Lyon"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q326452",
+    "aliases": [
+      "Miguel Lopes",
+      "Hugo Miguel Almeida Costa Lopes"
+    ]
+  },
+  {
+    "id": "wd-Q327285",
+    "name": "Stefan Reuter",
+    "clubs": [
+      "Juventus",
+      "Bayern Munich",
+      "Borussia Dortmund"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q327285",
+    "aliases": [
+      "Stefan Reuter"
+    ]
+  },
+  {
+    "id": "wd-Q327456",
+    "name": "Hakim Ziyech",
+    "clubs": [
+      "Chelsea",
+      "Galatasaray",
+      "Ajax"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q327456",
+    "aliases": [
+      "Hakim Ziyech",
+      "Hakim Ziyaş"
+    ]
+  },
+  {
+    "id": "wd-Q329451",
+    "name": "Luiz Gustavo",
+    "clubs": [
+      "Fenerbahçe",
+      "Bayern Munich",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q329451",
+    "aliases": [
+      "Luiz Gustavo",
+      "Luiz Gustavo Dias"
+    ]
+  },
+  {
+    "id": "wd-Q329524",
+    "name": "Gary Medel",
+    "clubs": [
+      "Beşiktaş",
+      "Inter",
+      "Sevilla"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q329524",
+    "aliases": [
+      "Gary Medel"
+    ]
+  },
+  {
+    "id": "wd-Q332645",
+    "name": "Francesco Coco",
+    "clubs": [
+      "Barcelona",
+      "AC Milan",
+      "Inter"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q332645",
+    "aliases": [
+      "Francesco Coco"
+    ]
+  },
+  {
+    "id": "wd-Q339252",
+    "name": "Loris Karius",
+    "clubs": [
+      "Liverpool",
+      "Beşiktaş",
+      "Newcastle United"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q339252",
+    "aliases": [
+      "Loris Karius",
+      "Loris Sven Karius"
+    ]
+  },
+  {
+    "id": "wd-Q342411",
+    "name": "Emil Kostadinov",
+    "clubs": [
+      "Fenerbahçe",
+      "Bayern Munich",
+      "Porto"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q342411",
+    "aliases": [
+      "Emil Kostadinov",
+      "Емил Костадинов"
+    ]
+  },
+  {
+    "id": "wd-Q342608",
+    "name": "Peguy Luyindula",
+    "clubs": [
+      "Paris Saint-Germain",
+      "Lyon",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q342608",
+    "aliases": [
+      "Peguy Luyindula",
+      "Guy Luyindula Makanda",
+      "Péguy Luyindula"
+    ]
+  },
+  {
+    "id": "wd-Q342707",
+    "name": "Mamadou Niang",
+    "clubs": [
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Marseille"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q342707",
+    "aliases": [
+      "Mamadou Niang Babacar Ndiaye",
+      "Niang"
+    ]
+  },
+  {
+    "id": "wd-Q343997",
+    "name": "Marco Caneira",
+    "clubs": [
+      "Benfica",
+      "Sporting CP",
+      "Valencia"
+    ],
+    "source": "https://www.wikidata.org/wiki/Q343997",
+    "aliases": [
+      "Marco Caneira",
+      "Marco António Simões Caneira",
+      "Marco Antonio Simoes Caneira",
+      "Marco Antonio Caneira",
+      "Caneira"
+    ]
+  }
+]

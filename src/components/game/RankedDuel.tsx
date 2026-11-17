@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { normalizeName, players } from "../../../football-analyzer-mobile/game/data";
+import { players, searchPlayers, resolveClub } from "../../../football-analyzer-mobile/game/data";
 import { roomAction, RoomState } from "@/lib/game";
 import { mergeRoomState } from "@/lib/game-room-state";
 const clubs = Array.from(new Set(players.flatMap((player) => [...player.clubs]))).sort();
@@ -41,7 +41,7 @@ export default function RankedDuel({ initial, onExit }: { initial: RoomState; on
     } catch (e) { setError((e as Error).message); }
     finally { setBusy(false); }
   }
-  const suggestions = normalizeName(query).length >= 2 ? players.filter((p) => normalizeName(p.name).includes(normalizeName(query))) : [];
+  const suggestions = searchPlayers(query);
   const open = state.remaining === 0 && Boolean(state.opponentTeam);
   return <section className="card-glow p-5 sm:p-8 space-y-6">
     <div className="flex justify-between gap-4 font-mono text-xs text-zinc-400">
@@ -67,12 +67,12 @@ export default function RankedDuel({ initial, onExit }: { initial: RoomState; on
       <input id="club" list="duel-clubs" autoComplete="off" disabled={!!state.team || busy} className={input} value={state.team || team} onChange={(e) => setTeam(e.target.value)} placeholder="Takım adı yaz" />
       <datalist id="duel-clubs">{clubs.map((club) => <option key={club} value={club} />)}</datalist>
       <button disabled={!!state.team || busy} className={button} onClick={() => {
-        const canonical = clubs.find((club) => normalizeName(club) === normalizeName(team));
+        const canonical = resolveClub(team);
         if (!canonical) { setError("Listeden bir takım seç."); return; }
         void act("ready", canonical);
       }}>{state.team ? "Seçimin kilitlendi" : "Hazırım"}</button>
       <p className="text-sm text-zinc-400">{state.opponentReady ? "Rakibin hazır · Takımı gizli" : "Rakibin seçimi bekleniyor · Takımı gizli"}</p>
-      <p className="text-xs text-zinc-500">Deneme sürümü: oyuncu havuzu sınırlı. Cevabı bulunmayan eşleşmeler puan kazandırmaz.</p>
+      <p className="text-xs text-zinc-500">{clubs.length} kulüp · {players.length} futbolcu. Havuzumuz tüm futbolcuları kapsamaz; cevabı henüz bizde olmayan eşleşmeler puansız kapanır.</p>
     </>}
     {!finished && state.remaining !== null && !open && <div aria-live="polite" className="py-12 text-center"><p className="font-mono text-neon-cyan">TAKIMLAR AÇILIYOR</p><p className="text-8xl font-black neon-text-green mt-6">{state.remaining || "…"}</p></div>}
     {open && <div className="text-center space-y-3"><h2 className="text-2xl font-black">{state.team}</h2><p className="text-neon-cyan">×</p><h2 className="text-2xl font-black">{state.opponentTeam}</h2></div>}

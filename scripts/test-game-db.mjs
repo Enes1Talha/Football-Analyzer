@@ -2,7 +2,7 @@
 // Install test engine: npm install --prefix node_modules/.cache/game-tests @electric-sql/pglite
 import { PGlite } from '../node_modules/.cache/game-tests/node_modules/@electric-sql/pglite/dist/index.js';
 import { readFileSync, readdirSync } from 'node:fs';
-import { players, pairs, answersFor, normalizeName } from '../football-analyzer-mobile/game/data.ts';
+import { players, pairs, answersFor, normalizeName, searchPlayers, resolveClub } from '../football-analyzer-mobile/game/data.ts';
 import assert from 'node:assert/strict';
 const db = new PGlite();
 await db.exec(`create role anon; create role authenticated; create schema auth;
@@ -20,7 +20,16 @@ assert.equal(new Set(players.map(p => p.id)).size, players.length);
 for (const pair of pairs) assert.ok(answersFor(pair).length > 0);
 assert.equal(normalizeName('BEŞİKTAŞ'), normalizeName('besiktas'));
 assert.equal(normalizeName('Burak Yılmaz'), normalizeName('burak yilmaz'));
-assert.deepEqual(answersFor(['Galatasaray','Fenerbahçe']).map(p => p.id).sort(), ['burak','emre']);
+assert.ok(answersFor(['Galatasaray','Fenerbahçe']).some(p=>p.id==='emre'));
+assert.ok(searchPlayers('  YILMAZ   burak ').some(p=>p.id==='burak'));
+assert.ok(searchPlayers('van-persie').some(p=>p.id==='van-persie'));
+assert.equal(searchPlayers('a').length,0);
+assert.equal(resolveClub('GS'),'Galatasaray'); assert.equal(resolveClub('man utd'),'Manchester United');
+assert.equal(resolveClub('not a club'),undefined);
+assert.ok(searchPlayers('CR7').some(p=>p.id==='cristiano'));
+assert.ok(answersFor(['Barcelona','Paris Saint-Germain']).some(p=>p.id==='messi'));
+assert.ok(answersFor(['Galatasaray','Beşiktaş']).some(p=>p.name==='Sergen Yalçın'));
+assert.ok(answersFor(['Galatasaray','Real Madrid']).some(p=>p.name==='Gheorghe Hagi'));
 const users=['00000000-0000-0000-0000-000000000001','00000000-0000-0000-0000-000000000002','00000000-0000-0000-0000-000000000003'];
 for(const u of users) await db.query('insert into auth.users values($1)',[u]);
 async function as(i) { await db.exec('reset role'); await db.query("select set_config('request.jwt.claim.sub',$1,false)",[users[i] || '']); await db.exec('set role authenticated'); }
@@ -47,7 +56,10 @@ for(let n=0;n<3;n++) await rpc('answer',c,'beckham');
 let d=await dash(); assert.equal(d.profile.losses,1); assert.equal(d.profile.wins,0); assert.equal(d.history.length,1);
 await as(0); d=await dash(); assert.equal(d.profile.wins,1); assert.equal(d.streak,1); assert.equal(d.rivals[0].wins,1);
 // Same club and unsupported pair must never award wins.
-for(const pair of [['Arsenal','Arsenal'],['Arsenal','Real Madrid']]) {
+const allClubs=[...new Set(players.flatMap(p=>p.clubs))];
+const uncovered=allClubs.flatMap(a=>allClubs.filter(b=>a!==b&&!answersFor([a,b]).length).map(b=>[a,b]))[0];
+assert.ok(uncovered,'Need an uncovered pair to test void behavior');
+for(const pair of [['Arsenal','Arsenal'],uncovered]) {
  await as(0); const r=await rpc('create'); await rpc('ready',r.code,pair[0]);
  await as(1); await rpc('join',r.code); await rpc('ready',r.code,pair[1]); await start(r.code);
  assert.equal((await rpc('state',r.code)).status,'void');

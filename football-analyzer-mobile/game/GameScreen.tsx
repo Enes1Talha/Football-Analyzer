@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Keyboard, Linking, Pressable, StyleSheet, Text, TextInput, View } from "react-native";
-import { answersFor, normalizeName, pairs, players } from "./data";
+import { answersFor, normalizeName, pairs, players, searchPlayers } from "./data";
 
 export default function GameScreen() {
   const [index, setIndex] = useState(0);
@@ -12,9 +12,7 @@ export default function GameScreen() {
   const answers = answersFor(pair);
   const answer = players.find((player) => player.id === answerId);
   const search = normalizeName(query);
-  const suggestions = search.length >= 2
-    ? players.filter((player) => normalizeName(player.name).includes(search))
-    : [];
+  const suggestions = searchPlayers(query);
 
   function choose(id: string) {
     Keyboard.dismiss();
