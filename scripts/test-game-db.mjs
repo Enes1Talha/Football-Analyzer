@@ -28,6 +28,9 @@ for (const role of ['anon','authenticated']) {
 }
 assert.equal((await db.query("select relrowsecurity from pg_class where oid='public.matches'::regclass")).rows[0].relrowsecurity,true);
 const catalog = await db.query('select id,name,clubs from public.game_players order by id');
+const practiceWords=JSON.parse(readFileSync(new URL('../src/lib/solo-anagrams.json',import.meta.url),'utf8'));
+assert.deepEqual((await db.query('select word,player_name,difficulty from public.game_anagrams order by word')).rows,
+ practiceWords.map(({word,playerName,difficulty})=>({word,player_name:playerName,difficulty})).sort((a,b)=>a.word<b.word?-1:a.word>b.word?1:0));
 assert.deepEqual(catalog.rows, players.map(({id,name,clubs}) => ({id,name,clubs:[...clubs]})).sort((a,b) => a.id.localeCompare(b.id)));
 assert.equal(new Set(players.map(p => p.id)).size, players.length);
 for (const pair of pairs) assert.ok(answersFor(pair).length > 0);

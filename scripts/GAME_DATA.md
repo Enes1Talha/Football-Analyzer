@@ -20,6 +20,8 @@ The checked-in evidence snapshot retains statement URLs and retrieval time. It d
 
 ## Claude batch one (2026-11-17)
 
+Solo practice uses the shared player catalog and a public word snapshot at `src/lib/solo-anagrams.json`. After adding anagram seed migrations, run `node scripts/generate-solo-anagrams.mjs` and `npx tsx scripts/test-game-db.mjs` to verify it matches the migrated database. The generator handles additive literal seeds only; edits/removals require a reviewed update. Local practice records are browser-local, separated by game and difficulty; they never call the ranked score RPCs. Manual two-device testing remains separate from solo code tests (`npx tsx scripts/test-solo-game.ts`).
+
 `football_players_batch1.json` is the original untrusted research proposal: 50 players and 335 career links, plus reserves and uncertain records. Do not import it wholesale. `claude-batch1-review.json` captures the pre-import comparison: 30 existing players, 20 new candidates, and no new supported-club links for the existing players.
 
 `claude-batch1-admission.json` retains positive-appearance Wikidata statements for the new candidates. Fourteen meet the existing two-supported-club admission rule, adding 32 links in `game/reviewed-players.json`. This is corroboration against the community dataset, not independent official verification: Wikipedia and Wikidata can share sources. Guti's proposal was also marked uncertain; his two memberships were separately matched to positive-appearance statements. No uncertain 2026 transfer or reserve-only entry was imported.

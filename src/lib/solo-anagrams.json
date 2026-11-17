@@ -1,0 +1,292 @@
+[
+  {
+    "word": "MESSI",
+    "playerName": "Lionel Messi",
+    "difficulty": "easy"
+  },
+  {
+    "word": "NANI",
+    "playerName": "Nani",
+    "difficulty": "easy"
+  },
+  {
+    "word": "HAGI",
+    "playerName": "Gheorghe Hagi",
+    "difficulty": "easy"
+  },
+  {
+    "word": "FIGO",
+    "playerName": "Luís Figo",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ETO O",
+    "playerName": "Samuel Eto'o",
+    "difficulty": "easy"
+  },
+  {
+    "word": "VIDAL",
+    "playerName": "Arturo Vidal",
+    "difficulty": "easy"
+  },
+  {
+    "word": "DROGBA",
+    "playerName": "Didier Drogba",
+    "difficulty": "medium"
+  },
+  {
+    "word": "ANELKA",
+    "playerName": "Nicolas Anelka",
+    "difficulty": "medium"
+  },
+  {
+    "word": "BECKHAM",
+    "playerName": "David Beckham",
+    "difficulty": "medium"
+  },
+  {
+    "word": "RONALDO",
+    "playerName": "Cristiano Ronaldo",
+    "difficulty": "medium"
+  },
+  {
+    "word": "MORATA",
+    "playerName": "Álvaro Morata",
+    "difficulty": "medium"
+  },
+  {
+    "word": "CRESPO",
+    "playerName": "Hernán Crespo",
+    "difficulty": "medium"
+  },
+  {
+    "word": "VIEIRA",
+    "playerName": "Patrick Vieira",
+    "difficulty": "medium"
+  },
+  {
+    "word": "RIBERY",
+    "playerName": "Franck Ribéry",
+    "difficulty": "medium"
+  },
+  {
+    "word": "IBRAHIMOVIC",
+    "playerName": "Zlatan Ibrahimović",
+    "difficulty": "hard"
+  },
+  {
+    "word": "LEWANDOWSKI",
+    "playerName": "Robert Lewandowski",
+    "difficulty": "hard"
+  },
+  {
+    "word": "AUBAMEYANG",
+    "playerName": "Pierre-Emerick Aubameyang",
+    "difficulty": "hard"
+  },
+  {
+    "word": "SNEIJDER",
+    "playerName": "Wesley Sneijder",
+    "difficulty": "hard"
+  },
+  {
+    "word": "QUARESMA",
+    "playerName": "Ricardo Quaresma",
+    "difficulty": "hard"
+  },
+  {
+    "word": "SEEDORF",
+    "playerName": "Clarence Seedorf",
+    "difficulty": "hard"
+  },
+  {
+    "word": "PODOLSKI",
+    "playerName": "Lukas Podolski",
+    "difficulty": "medium"
+  },
+  {
+    "word": "OZIL",
+    "playerName": "Mesut Özil",
+    "difficulty": "easy"
+  },
+  {
+    "word": "PERSIE",
+    "playerName": "Robin van Persie",
+    "difficulty": "medium"
+  },
+  {
+    "word": "SIMAO",
+    "playerName": "Simão Sabrosa",
+    "difficulty": "easy"
+  },
+  {
+    "word": "GUTI",
+    "playerName": "Guti",
+    "difficulty": "easy"
+  },
+  {
+    "word": "KUYT",
+    "playerName": "Dirk Kuyt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "MEIRELES",
+    "playerName": "Raul Meireles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "CARLOS",
+    "playerName": "Roberto Carlos",
+    "difficulty": "medium"
+  },
+  {
+    "word": "GOMEZ",
+    "playerName": "Mario Gómez",
+    "difficulty": "easy"
+  },
+  {
+    "word": "BABEL",
+    "playerName": "Ryan Babel",
+    "difficulty": "easy"
+  },
+  {
+    "word": "FALCAO",
+    "playerName": "Radamel Falcao",
+    "difficulty": "medium"
+  },
+  {
+    "word": "TURAN",
+    "playerName": "Arda Turan",
+    "difficulty": "easy"
+  },
+  {
+    "word": "EMRE",
+    "playerName": "Emre Belözoğlu",
+    "difficulty": "easy"
+  },
+  {
+    "word": "SUKUR",
+    "playerName": "Hakan Şükür",
+    "difficulty": "easy"
+  },
+  {
+    "word": "POPESCU",
+    "playerName": "Gheorghe Popescu",
+    "difficulty": "medium"
+  },
+  {
+    "word": "MELO",
+    "playerName": "Felipe Melo",
+    "difficulty": "easy"
+  },
+  {
+    "word": "DZEKO",
+    "playerName": "Edin Džeko",
+    "difficulty": "easy"
+  },
+  {
+    "word": "TADIC",
+    "playerName": "Dušan Tadić",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ICARDI",
+    "playerName": "Mauro Icardi",
+    "difficulty": "medium"
+  },
+  {
+    "word": "ZIYECH",
+    "playerName": "Hakim Ziyech",
+    "difficulty": "medium"
+  },
+  {
+    "word": "ZAHA",
+    "playerName": "Wilfried Zaha",
+    "difficulty": "easy"
+  },
+  {
+    "word": "TORREIRA",
+    "playerName": "Lucas Torreira",
+    "difficulty": "medium"
+  },
+  {
+    "word": "SANE",
+    "playerName": "Leroy Sané",
+    "difficulty": "easy"
+  },
+  {
+    "word": "GUNDOGAN",
+    "playerName": "İlkay Gündoğan",
+    "difficulty": "medium"
+  },
+  {
+    "word": "IMMOBILE",
+    "playerName": "Ciro Immobile",
+    "difficulty": "medium"
+  },
+  {
+    "word": "CHAMBERLAIN",
+    "playerName": "Alex Oxlade-Chamberlain",
+    "difficulty": "hard"
+  },
+  {
+    "word": "SOSA",
+    "playerName": "José Sosa",
+    "difficulty": "easy"
+  },
+  {
+    "word": "MIKEL",
+    "playerName": "John Obi Mikel",
+    "difficulty": "easy"
+  },
+  {
+    "word": "BOSINGWA",
+    "playerName": "José Bosingwa",
+    "difficulty": "medium"
+  },
+  {
+    "word": "MALOUDA",
+    "playerName": "Florent Malouda",
+    "difficulty": "medium"
+  },
+  {
+    "word": "BARTRA",
+    "playerName": "Marc Bartra",
+    "difficulty": "medium"
+  },
+  {
+    "word": "MEUNIER",
+    "playerName": "Thomas Meunier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "FRED",
+    "playerName": "Fred",
+    "difficulty": "easy"
+  },
+  {
+    "word": "LUGANO",
+    "playerName": "Diego Lugano",
+    "difficulty": "medium"
+  },
+  {
+    "word": "EBOUE",
+    "playerName": "Emmanuel Eboué",
+    "difficulty": "easy"
+  },
+  {
+    "word": "MATA",
+    "playerName": "Juan Mata",
+    "difficulty": "easy"
+  },
+  {
+    "word": "MEDEL",
+    "playerName": "Gary Medel",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ZOKORA",
+    "playerName": "Didier Zokora",
+    "difficulty": "medium"
+  }
+]
