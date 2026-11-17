@@ -1,0 +1,885 @@
+[
+  {
+    "name": "Wesley Sneijder",
+    "id": "sneijder",
+    "anagram": "SNEIJDER",
+    "difficulty": "orta",
+    "known": [
+      "Ajax",
+      "Real Madrid",
+      "Inter",
+      "Galatasaray"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "Nice",
+      "Al-Gharafa"
+    ]
+  },
+  {
+    "name": "Didier Drogba",
+    "id": "drogba",
+    "anagram": "DROGBA",
+    "difficulty": "kolay",
+    "known": [
+      "Marseille",
+      "Chelsea",
+      "Galatasaray"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "Le Mans",
+      "Guingamp",
+      "Shanghai Shenhua",
+      "Montreal Impact",
+      "Phoenix Rising"
+    ]
+  },
+  {
+    "name": "Lukas Podolski",
+    "id": "podolski",
+    "anagram": "PODOLSKI",
+    "difficulty": "kolay",
+    "known": [
+      "Bayern Munich",
+      "Arsenal",
+      "Inter",
+      "Galatasaray"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "1. FC Köln",
+      "Vissel Kobe",
+      "Antalyaspor",
+      "Górnik Zabrze"
+    ]
+  },
+  {
+    "name": "Mesut Özil",
+    "id": null,
+    "anagram": "ÖZİL",
+    "difficulty": "kolay",
+    "known": [],
+    "newSupported": [
+      "Real Madrid",
+      "Arsenal",
+      "Fenerbahçe"
+    ],
+    "outsideScope": [
+      "Schalke 04",
+      "Werder Bremen",
+      "İstanbul Başakşehir"
+    ]
+  },
+  {
+    "name": "Robin van Persie",
+    "id": "van-persie",
+    "anagram": "PERSIE",
+    "difficulty": "kolay",
+    "known": [
+      "Feyenoord",
+      "Arsenal",
+      "Manchester United",
+      "Fenerbahçe"
+    ],
+    "newSupported": [],
+    "outsideScope": []
+  },
+  {
+    "name": "Nani",
+    "id": "wd-Q482947",
+    "anagram": "NANI",
+    "difficulty": "kolay",
+    "known": [
+      "Sporting CP",
+      "Manchester United",
+      "Fenerbahçe",
+      "Valencia"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "Lazio",
+      "Orlando City",
+      "Venezia",
+      "Melbourne Victory",
+      "Adana Demirspor",
+      "Estrela da Amadora"
+    ]
+  },
+  {
+    "name": "Pepe",
+    "id": null,
+    "anagram": "PEPE",
+    "difficulty": "orta",
+    "known": [],
+    "newSupported": [
+      "Porto",
+      "Real Madrid",
+      "Beşiktaş"
+    ],
+    "outsideScope": [
+      "Marítimo"
+    ]
+  },
+  {
+    "name": "Ricardo Quaresma",
+    "id": "wd-Q188241",
+    "anagram": "QUARESMA",
+    "difficulty": "kolay",
+    "known": [
+      "Sporting CP",
+      "Barcelona",
+      "Porto",
+      "Inter",
+      "Chelsea",
+      "Beşiktaş"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "Al Ahli",
+      "Kasımpaşa",
+      "Vitória Guimarães"
+    ]
+  },
+  {
+    "name": "Simão Sabrosa",
+    "id": "wd-Q203665",
+    "anagram": "SIMAO",
+    "difficulty": "orta",
+    "known": [
+      "Sporting CP",
+      "Barcelona",
+      "Benfica",
+      "Atlético Madrid",
+      "Beşiktaş"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "Espanyol",
+      "NorthEast United"
+    ]
+  },
+  {
+    "name": "Guti",
+    "id": null,
+    "anagram": "GUTI",
+    "difficulty": "orta",
+    "known": [],
+    "newSupported": [
+      "Real Madrid",
+      "Beşiktaş"
+    ],
+    "outsideScope": []
+  },
+  {
+    "name": "Dirk Kuyt",
+    "id": "kuyt",
+    "anagram": "KUYT",
+    "difficulty": "kolay",
+    "known": [
+      "Feyenoord",
+      "Liverpool",
+      "Fenerbahçe"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "Utrecht"
+    ]
+  },
+  {
+    "name": "Raul Meireles",
+    "id": "wd-Q175296",
+    "anagram": "MEIRELES",
+    "difficulty": "orta",
+    "known": [
+      "Porto",
+      "Liverpool",
+      "Chelsea",
+      "Fenerbahçe"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "Boavista",
+      "Aves"
+    ]
+  },
+  {
+    "name": "Roberto Carlos",
+    "id": null,
+    "anagram": "CARLOS",
+    "difficulty": "kolay",
+    "known": [],
+    "newSupported": [
+      "Inter",
+      "Real Madrid",
+      "Fenerbahçe"
+    ],
+    "outsideScope": [
+      "União São João",
+      "Atlético Mineiro",
+      "Palmeiras",
+      "Corinthians",
+      "Anzhi Makhachkala",
+      "Delhi Dynamos"
+    ]
+  },
+  {
+    "name": "Nicolas Anelka",
+    "id": "wd-Q1939",
+    "anagram": "ANELKA",
+    "difficulty": "orta",
+    "known": [
+      "Paris Saint-Germain",
+      "Arsenal",
+      "Real Madrid",
+      "Liverpool",
+      "Manchester City",
+      "Fenerbahçe",
+      "Chelsea",
+      "Juventus"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "Bolton Wanderers",
+      "Shanghai Shenhua",
+      "West Bromwich Albion",
+      "Mumbai City"
+    ]
+  },
+  {
+    "name": "Mario Gómez",
+    "id": null,
+    "anagram": "GOMEZ",
+    "difficulty": "orta",
+    "known": [],
+    "newSupported": [
+      "Bayern Munich",
+      "Beşiktaş"
+    ],
+    "outsideScope": [
+      "VfB Stuttgart",
+      "Fiorentina",
+      "VfL Wolfsburg"
+    ]
+  },
+  {
+    "name": "Ryan Babel",
+    "id": "wd-Q184218",
+    "anagram": "BABEL",
+    "difficulty": "orta",
+    "known": [
+      "Ajax",
+      "Liverpool",
+      "Beşiktaş",
+      "Galatasaray"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "1899 Hoffenheim",
+      "Kasımpaşa",
+      "Al Ain",
+      "Deportivo La Coruña",
+      "Fulham",
+      "Eyüpspor"
+    ]
+  },
+  {
+    "name": "Fernando Muslera",
+    "id": null,
+    "anagram": "MUSLERA",
+    "difficulty": "kolay",
+    "known": [],
+    "newSupported": [
+      "Galatasaray"
+    ],
+    "outsideScope": [
+      "Montevideo Wanderers",
+      "Nacional",
+      "Lazio",
+      "Estudiantes"
+    ]
+  },
+  {
+    "name": "Radamel Falcao",
+    "id": "wd-Q138172",
+    "anagram": "FALCAO",
+    "difficulty": "kolay",
+    "known": [
+      "Porto",
+      "Atlético Madrid",
+      "Manchester United",
+      "Chelsea",
+      "Galatasaray"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "Lanceros Boyacá",
+      "River Plate",
+      "Monaco",
+      "Rayo Vallecano",
+      "Millonarios"
+    ]
+  },
+  {
+    "name": "Arda Turan",
+    "id": null,
+    "anagram": "TURAN",
+    "difficulty": "kolay",
+    "known": [],
+    "newSupported": [
+      "Galatasaray",
+      "Atlético Madrid",
+      "Barcelona"
+    ],
+    "outsideScope": [
+      "Manisaspor",
+      "İstanbul Başakşehir"
+    ]
+  },
+  {
+    "name": "Emre Belözoğlu",
+    "id": "emre",
+    "anagram": "EMRE",
+    "difficulty": "kolay",
+    "known": [
+      "Galatasaray",
+      "Inter",
+      "Newcastle United",
+      "Fenerbahçe",
+      "Atlético Madrid"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "İstanbul Başakşehir"
+    ]
+  },
+  {
+    "name": "Hakan Şükür",
+    "id": null,
+    "anagram": "ŞÜKÜR",
+    "difficulty": "orta",
+    "known": [],
+    "newSupported": [
+      "Galatasaray",
+      "Inter"
+    ],
+    "outsideScope": [
+      "Sakaryaspor",
+      "Bursaspor",
+      "Torino",
+      "Parma",
+      "Blackburn Rovers"
+    ]
+  },
+  {
+    "name": "Gheorghe Hagi",
+    "id": "wd-Q189892",
+    "anagram": "HAGI",
+    "difficulty": "kolay",
+    "known": [
+      "Real Madrid",
+      "Barcelona",
+      "Galatasaray"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "FC Constanța",
+      "Sportul Studențesc",
+      "Steaua București",
+      "Brescia"
+    ]
+  },
+  {
+    "name": "Gheorghe Popescu",
+    "id": null,
+    "anagram": "POPESCU",
+    "difficulty": "zor",
+    "known": [],
+    "newSupported": [
+      "Barcelona",
+      "Galatasaray"
+    ],
+    "outsideScope": [
+      "Universitatea Craiova",
+      "Steaua București",
+      "PSV",
+      "Tottenham Hotspur",
+      "Lecce",
+      "Dinamo București",
+      "Hannover 96"
+    ]
+  },
+  {
+    "name": "Felipe Melo",
+    "id": "wd-Q204450",
+    "anagram": "MELO",
+    "difficulty": "orta",
+    "known": [
+      "Juventus",
+      "Galatasaray",
+      "Inter"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "Flamengo",
+      "Cruzeiro",
+      "Grêmio",
+      "Mallorca",
+      "Racing Santander",
+      "Almería",
+      "Fiorentina",
+      "Palmeiras",
+      "Fluminense"
+    ]
+  },
+  {
+    "name": "Edin Džeko",
+    "id": "wd-Q153786",
+    "anagram": "DZEKO",
+    "difficulty": "kolay",
+    "known": [
+      "Manchester City",
+      "Roma",
+      "Inter",
+      "Fenerbahçe"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "Željezničar",
+      "Teplice",
+      "Ústí nad Labem",
+      "VfL Wolfsburg",
+      "Fiorentina"
+    ]
+  },
+  {
+    "name": "Dušan Tadić",
+    "id": null,
+    "anagram": "TADIC",
+    "difficulty": "orta",
+    "known": [],
+    "newSupported": [
+      "Ajax",
+      "Fenerbahçe"
+    ],
+    "outsideScope": [
+      "Vojvodina",
+      "Groningen",
+      "Twente",
+      "Southampton",
+      "Al Wahda"
+    ]
+  },
+  {
+    "name": "Mauro Icardi",
+    "id": "wd-Q136986",
+    "anagram": "ICARDI",
+    "difficulty": "kolay",
+    "known": [
+      "Inter",
+      "Paris Saint-Germain",
+      "Galatasaray"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "Sampdoria"
+    ]
+  },
+  {
+    "name": "Dries Mertens",
+    "id": null,
+    "anagram": "MERTENS",
+    "difficulty": "kolay",
+    "known": [],
+    "newSupported": [
+      "Galatasaray"
+    ],
+    "outsideScope": [
+      "Eendracht Aalst",
+      "AGOVV",
+      "Utrecht",
+      "PSV",
+      "Napoli"
+    ]
+  },
+  {
+    "name": "Hakim Ziyech",
+    "id": "wd-Q327456",
+    "anagram": "ZIYECH",
+    "difficulty": "orta",
+    "known": [
+      "Ajax",
+      "Chelsea",
+      "Galatasaray"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "Heerenveen",
+      "Twente",
+      "Al-Duhail",
+      "Wydad"
+    ]
+  },
+  {
+    "name": "Wilfried Zaha",
+    "id": null,
+    "anagram": "ZAHA",
+    "difficulty": "orta",
+    "known": [],
+    "newSupported": [
+      "Manchester United",
+      "Galatasaray",
+      "Lyon"
+    ],
+    "outsideScope": [
+      "Crystal Palace",
+      "Cardiff City",
+      "Charlotte FC"
+    ]
+  },
+  {
+    "name": "Victor Osimhen",
+    "id": null,
+    "anagram": "OSIMHEN",
+    "difficulty": "kolay",
+    "known": [],
+    "newSupported": [
+      "Galatasaray"
+    ],
+    "outsideScope": [
+      "VfL Wolfsburg",
+      "Charleroi",
+      "Lille",
+      "Napoli"
+    ]
+  },
+  {
+    "name": "Davinson Sánchez",
+    "id": null,
+    "anagram": "DAVINSON",
+    "difficulty": "orta",
+    "known": [],
+    "newSupported": [
+      "Ajax",
+      "Galatasaray"
+    ],
+    "outsideScope": [
+      "Atlético Nacional",
+      "Tottenham Hotspur"
+    ]
+  },
+  {
+    "name": "Lucas Torreira",
+    "id": "wd-Q16302330",
+    "anagram": "TORREIRA",
+    "difficulty": "orta",
+    "known": [
+      "Arsenal",
+      "Atlético Madrid",
+      "Galatasaray"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "Pescara",
+      "Sampdoria",
+      "Fiorentina"
+    ]
+  },
+  {
+    "name": "Leroy Sané",
+    "id": "wd-Q16499882",
+    "anagram": "SANE",
+    "difficulty": "kolay",
+    "known": [
+      "Manchester City",
+      "Bayern Munich",
+      "Galatasaray"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "Schalke 04"
+    ]
+  },
+  {
+    "name": "İlkay Gündoğan",
+    "id": "wd-Q161089",
+    "anagram": "GÜNDOĞAN",
+    "difficulty": "kolay",
+    "known": [
+      "Borussia Dortmund",
+      "Manchester City",
+      "Barcelona",
+      "Galatasaray"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "1. FC Nürnberg"
+    ]
+  },
+  {
+    "name": "Ciro Immobile",
+    "id": "wd-Q458101",
+    "anagram": "IMMOBILE",
+    "difficulty": "orta",
+    "known": [
+      "Juventus",
+      "Borussia Dortmund",
+      "Sevilla",
+      "Beşiktaş"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "Siena",
+      "Grosseto",
+      "Pescara",
+      "Genoa",
+      "Torino",
+      "Lazio",
+      "Bologna"
+    ]
+  },
+  {
+    "name": "Alex Oxlade-Chamberlain",
+    "id": "wd-Q194149",
+    "anagram": "CHAMBERLAIN",
+    "difficulty": "zor",
+    "known": [
+      "Arsenal",
+      "Liverpool",
+      "Beşiktaş"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "Southampton"
+    ]
+  },
+  {
+    "name": "José Sosa",
+    "id": "wd-Q314241",
+    "anagram": "SOSA",
+    "difficulty": "orta",
+    "known": [
+      "Bayern Munich",
+      "Atlético Madrid",
+      "Beşiktaş",
+      "AC Milan",
+      "Trabzonspor",
+      "Fenerbahçe"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "Estudiantes",
+      "Napoli",
+      "Metalist Kharkiv"
+    ]
+  },
+  {
+    "name": "Marek Hamšík",
+    "id": null,
+    "anagram": "HAMSIK",
+    "difficulty": "orta",
+    "known": [],
+    "newSupported": [
+      "Trabzonspor"
+    ],
+    "outsideScope": [
+      "Brescia",
+      "Napoli",
+      "Dalian Professional",
+      "IFK Göteborg"
+    ]
+  },
+  {
+    "name": "John Obi Mikel",
+    "id": null,
+    "anagram": "MIKEL",
+    "difficulty": "orta",
+    "known": [],
+    "newSupported": [
+      "Chelsea",
+      "Trabzonspor"
+    ],
+    "outsideScope": [
+      "Lyn",
+      "Tianjin TEDA",
+      "Middlesbrough",
+      "Stoke City"
+    ]
+  },
+  {
+    "name": "José Bosingwa",
+    "id": "wd-Q211996",
+    "anagram": "BOSINGWA",
+    "difficulty": "zor",
+    "known": [
+      "Porto",
+      "Chelsea",
+      "Trabzonspor"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "Boavista",
+      "Freamunde",
+      "Queens Park Rangers"
+    ]
+  },
+  {
+    "name": "Florent Malouda",
+    "id": "wd-Q1913",
+    "anagram": "MALOUDA",
+    "difficulty": "orta",
+    "known": [
+      "Lyon",
+      "Chelsea",
+      "Trabzonspor"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "Châteauroux",
+      "Guingamp",
+      "Metz",
+      "Delhi Dynamos",
+      "Wadi Degla",
+      "FC Differdange 03"
+    ]
+  },
+  {
+    "name": "Marc Bartra",
+    "id": "wd-Q310625",
+    "anagram": "BARTRA",
+    "difficulty": "orta",
+    "known": [
+      "Barcelona",
+      "Borussia Dortmund",
+      "Trabzonspor"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "Real Betis"
+    ]
+  },
+  {
+    "name": "Thomas Meunier",
+    "id": "wd-Q2036160",
+    "anagram": "MEUNIER",
+    "difficulty": "zor",
+    "known": [
+      "Paris Saint-Germain",
+      "Borussia Dortmund",
+      "Trabzonspor"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "Virton",
+      "Club Brugge",
+      "Lille"
+    ]
+  },
+  {
+    "name": "Fred",
+    "id": null,
+    "anagram": "FRED",
+    "difficulty": "kolay",
+    "known": [],
+    "newSupported": [
+      "Manchester United",
+      "Fenerbahçe"
+    ],
+    "outsideScope": [
+      "Internacional",
+      "Shakhtar Donetsk"
+    ]
+  },
+  {
+    "name": "Diego Lugano",
+    "id": null,
+    "anagram": "LUGANO",
+    "difficulty": "orta",
+    "known": [],
+    "newSupported": [
+      "Fenerbahçe",
+      "Paris Saint-Germain"
+    ],
+    "outsideScope": [
+      "Nacional",
+      "Plaza Colonia",
+      "São Paulo",
+      "Málaga",
+      "West Bromwich Albion",
+      "BK Häcken",
+      "Cerro Porteño"
+    ]
+  },
+  {
+    "name": "Emmanuel Eboué",
+    "id": null,
+    "anagram": "EBOUE",
+    "difficulty": "orta",
+    "known": [],
+    "newSupported": [
+      "Arsenal",
+      "Galatasaray"
+    ],
+    "outsideScope": [
+      "ASEC Mimosas",
+      "Beveren"
+    ]
+  },
+  {
+    "name": "Juan Mata",
+    "id": "wd-Q168740",
+    "anagram": "MATA",
+    "difficulty": "orta",
+    "known": [
+      "Valencia",
+      "Chelsea",
+      "Manchester United",
+      "Galatasaray"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "Vissel Kobe",
+      "Western Sydney Wanderers"
+    ]
+  },
+  {
+    "name": "Gary Medel",
+    "id": "wd-Q329524",
+    "anagram": "MEDEL",
+    "difficulty": "orta",
+    "known": [
+      "Sevilla",
+      "Inter",
+      "Beşiktaş"
+    ],
+    "newSupported": [],
+    "outsideScope": [
+      "Universidad Católica",
+      "Boca Juniors",
+      "Cardiff City",
+      "Bologna",
+      "Vasco da Gama"
+    ]
+  },
+  {
+    "name": "Didier Zokora",
+    "id": null,
+    "anagram": "ZOKORA",
+    "difficulty": "zor",
+    "known": [],
+    "newSupported": [
+      "Sevilla",
+      "Trabzonspor"
+    ],
+    "outsideScope": [
+      "ASEC Mimosas",
+      "Racing Genk",
+      "Saint-Étienne",
+      "Tottenham Hotspur",
+      "Akhisarspor",
+      "Pune City",
+      "NorthEast United",
+      "Semen Padang"
+    ]
+  }
+]

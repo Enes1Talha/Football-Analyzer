@@ -1,0 +1,2725 @@
+{
+  "meta": {
+    "batch": 1,
+    "generatedAt": "2026-11-17",
+    "playerCount": 50,
+    "evidencePolicy": "Kanıt: oyuncunun İngilizce Wikipedia maddesindeki 'Senior career' tablosunda kulüp için 0'dan büyük maç sayısı (Guti–Beşiktaş için haber kaynağı). Bu ikincil bir kaynaktır; kulüp/federasyon/UEFA sayfalarıyla tek tek doğrulanmadı. evidenceNote'taki maç sayıları LİG maçıdır ve sayfanın görüntülendiği ana aittir.",
+    "clubNaming": "Kulüp adları Wikipedia'daki İngilizce yaygın adlarla yazıldı (Inter Milan, Bayern Munich vb.); oyunda eşleştirme için normalize edin.",
+    "anagramNote": "anagramName büyük harf ve özgün harflerle (Ö, Ş, Ğ, Ü) verildi; ASCII oyunu için normalize edin."
+  },
+  "players": [
+    {
+      "fullName": "Wesley Benjamin Sneijder",
+      "commonName": "Wesley Sneijder",
+      "aliases": [
+        "Sneijder",
+        "Snejder",
+        "Wesley Sneyder"
+      ],
+      "clubs": [
+        {
+          "name": "Ajax",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Wesley_Sneijder",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2002–2007, 126 lig maçı."
+        },
+        {
+          "name": "Real Madrid",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Wesley_Sneijder",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2007–2009, 52 lig maçı."
+        },
+        {
+          "name": "Inter Milan",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Wesley_Sneijder",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2009–2013, 76 lig maçı."
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Wesley_Sneijder",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2013–2017, 124 lig maçı."
+        },
+        {
+          "name": "Nice",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Wesley_Sneijder",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2017–2018, 5 lig maçı."
+        },
+        {
+          "name": "Al-Gharafa",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Wesley_Sneijder",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2018–2019, 22 lig maçı."
+        }
+      ],
+      "anagramName": "SNEIJDER",
+      "difficulty": "orta",
+      "difficultyReason": "Ünlü ama 'ij' yazımı anagramı zorlaştırır; GS–Real–Inter bağlantısı çok bilinir."
+    },
+    {
+      "fullName": "Didier Yves Drogba Tébily",
+      "commonName": "Didier Drogba",
+      "aliases": [
+        "Drogba"
+      ],
+      "clubs": [
+        {
+          "name": "Le Mans",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Didier_Drogba",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1998–2002, 64 lig maçı."
+        },
+        {
+          "name": "Guingamp",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Didier_Drogba",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2002–2003, 45 lig maçı."
+        },
+        {
+          "name": "Marseille",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Didier_Drogba",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2003–2004, 35 lig maçı."
+        },
+        {
+          "name": "Chelsea",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Didier_Drogba",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2004–2012, 2014–2015, 254 lig maçı."
+        },
+        {
+          "name": "Shanghai Shenhua",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Didier_Drogba",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2012–2013, 11 lig maçı."
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Didier_Drogba",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2013–2014, 37 lig maçı."
+        },
+        {
+          "name": "Montreal Impact",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Didier_Drogba",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2015–2016, 33 lig maçı."
+        },
+        {
+          "name": "Phoenix Rising",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Didier_Drogba",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2017–2018, 21 lig maçı."
+        }
+      ],
+      "anagramName": "DROGBA",
+      "difficulty": "kolay",
+      "difficultyReason": "Çok tanınmış; Chelsea–Galatasaray bağlantısı herkesçe bilinir."
+    },
+    {
+      "fullName": "Lukas Josef Podolski",
+      "commonName": "Lukas Podolski",
+      "aliases": [
+        "Podolski",
+        "Poldi",
+        "Łukasz Podolski"
+      ],
+      "clubs": [
+        {
+          "name": "1. FC Köln",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Lukas_Podolski",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2003–2006, 2009–2012, 169 lig maçı."
+        },
+        {
+          "name": "Bayern Munich",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Lukas_Podolski",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2006–2009, 71 lig maçı."
+        },
+        {
+          "name": "Arsenal",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Lukas_Podolski",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2012–2015, 60 lig maçı."
+        },
+        {
+          "name": "Inter Milan",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Lukas_Podolski",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2015, 17 lig maçı (kiralık)."
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Lukas_Podolski",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2015–2017, 56 lig maçı."
+        },
+        {
+          "name": "Vissel Kobe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Lukas_Podolski",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2017–2020, 52 lig maçı."
+        },
+        {
+          "name": "Antalyaspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Lukas_Podolski",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2020–2021, 40 lig maçı."
+        },
+        {
+          "name": "Górnik Zabrze",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Lukas_Podolski",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2021–, 125 lig maçı."
+        }
+      ],
+      "anagramName": "PODOLSKI",
+      "difficulty": "kolay",
+      "difficultyReason": "GS ve Bayern/Arsenal geçmişi çok bilinir; isim kısa ve okunaklı."
+    },
+    {
+      "fullName": "Mesut Özil",
+      "commonName": "Mesut Özil",
+      "aliases": [
+        "Ozil",
+        "Özil"
+      ],
+      "clubs": [
+        {
+          "name": "Schalke 04",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mesut_%C3%96zil",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2006–2008, 30 lig maçı."
+        },
+        {
+          "name": "Werder Bremen",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mesut_%C3%96zil",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2008–2010, 71 lig maçı."
+        },
+        {
+          "name": "Real Madrid",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mesut_%C3%96zil",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2010–2013, 105 lig maçı."
+        },
+        {
+          "name": "Arsenal",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mesut_%C3%96zil",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2013–2021, 184 lig maçı."
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mesut_%C3%96zil",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2021–2022, 32 lig maçı."
+        },
+        {
+          "name": "İstanbul Başakşehir",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mesut_%C3%96zil",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2022–2023, 4 lig maçı."
+        }
+      ],
+      "anagramName": "ÖZİL",
+      "difficulty": "kolay",
+      "difficultyReason": "Kısa ve çok tanınan isim; Real/Arsenal–Fenerbahçe bağlantısı belirgin."
+    },
+    {
+      "fullName": "Robin van Persie",
+      "commonName": "Robin van Persie",
+      "aliases": [
+        "Van Persie",
+        "RVP"
+      ],
+      "clubs": [
+        {
+          "name": "Feyenoord",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Robin_van_Persie",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2001–2004, 2018–2019, 98 lig maçı."
+        },
+        {
+          "name": "Arsenal",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Robin_van_Persie",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2004–2012, 194 lig maçı."
+        },
+        {
+          "name": "Manchester United",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Robin_van_Persie",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2012–2015, 86 lig maçı."
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Robin_van_Persie",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2015–2018, 57 lig maçı."
+        }
+      ],
+      "anagramName": "PERSIE",
+      "difficulty": "kolay",
+      "difficultyReason": "Fenerbahçe–Man Utd–Arsenal üçlüsü çok bilinir."
+    },
+    {
+      "fullName": "Luís Carlos Almeida da Cunha",
+      "commonName": "Nani",
+      "aliases": [
+        "Luis Nani"
+      ],
+      "clubs": [
+        {
+          "name": "Sporting CP",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Nani_(footballer)",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2005–2007, 2014–2015 (kiralık), 2018–2019, 103 lig maçı."
+        },
+        {
+          "name": "Manchester United",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Nani_(footballer)",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2007–2015, 147 lig maçı."
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Nani_(footballer)",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2015–2016, 28 lig maçı."
+        },
+        {
+          "name": "Valencia",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Nani_(footballer)",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2016–2018, 25 lig maçı."
+        },
+        {
+          "name": "Lazio",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Nani_(footballer)",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2017–2018, 18 lig maçı (kiralık)."
+        },
+        {
+          "name": "Orlando City",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Nani_(footballer)",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2019–2021, 77 lig maçı."
+        },
+        {
+          "name": "Venezia",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Nani_(footballer)",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2022, 10 lig maçı."
+        },
+        {
+          "name": "Melbourne Victory",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Nani_(footballer)",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2022–2023, 10 lig maçı."
+        },
+        {
+          "name": "Adana Demirspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Nani_(footballer)",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2023–2024, 28 lig maçı."
+        },
+        {
+          "name": "Estrela da Amadora",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Nani_(footballer)",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2024, 9 lig maçı."
+        }
+      ],
+      "anagramName": "NANI",
+      "difficulty": "kolay",
+      "difficultyReason": "Dört harfli takma ad; Man Utd–Fenerbahçe bağlantısı tanınır."
+    },
+    {
+      "fullName": "Kepler Laverán de Lima Ferreira",
+      "commonName": "Pepe",
+      "aliases": [
+        "Kepler Pepe"
+      ],
+      "clubs": [
+        {
+          "name": "Marítimo",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Pepe_(footballer,_born_1983)",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2002–2004, 64 lig maçı."
+        },
+        {
+          "name": "Porto",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Pepe_(footballer,_born_1983)",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2004–2007, 2019–2024, 196 lig maçı."
+        },
+        {
+          "name": "Real Madrid",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Pepe_(footballer,_born_1983)",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2007–2017, 229 lig maçı."
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Pepe_(footballer,_born_1983)",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2017–2018, 33 lig maçı."
+        }
+      ],
+      "anagramName": "PEPE",
+      "difficulty": "orta",
+      "difficultyReason": "İsim çok kısa ama anagramı tahmin etmek kolay; tam adı bilinmiyor."
+    },
+    {
+      "fullName": "Ricardo Andrade Quaresma Bernardo",
+      "commonName": "Ricardo Quaresma",
+      "aliases": [
+        "Quaresma",
+        "Q7"
+      ],
+      "clubs": [
+        {
+          "name": "Sporting CP",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ricardo_Quaresma",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2001–2003, 59 lig maçı."
+        },
+        {
+          "name": "Barcelona",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ricardo_Quaresma",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2003–2004, 22 lig maçı."
+        },
+        {
+          "name": "Porto",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ricardo_Quaresma",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2004–2008, 2014–2015, 156 lig maçı."
+        },
+        {
+          "name": "Inter Milan",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ricardo_Quaresma",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2008–2010, 24 lig maçı."
+        },
+        {
+          "name": "Chelsea",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ricardo_Quaresma",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2009, 4 lig maçı (kiralık)."
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ricardo_Quaresma",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2010–2012, 2015–2019, 154 lig maçı."
+        },
+        {
+          "name": "Al Ahli",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ricardo_Quaresma",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2013, 10 lig maçı."
+        },
+        {
+          "name": "Kasımpaşa",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ricardo_Quaresma",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2019–2020, 26 lig maçı."
+        },
+        {
+          "name": "Vitória Guimarães",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ricardo_Quaresma",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2020–2022, 51 lig maçı."
+        }
+      ],
+      "anagramName": "QUARESMA",
+      "difficulty": "kolay",
+      "difficultyReason": "Beşiktaş ikonu; Barcelona/Inter/Chelsea bağlantıları da var."
+    },
+    {
+      "fullName": "Simão Pedro Fonseca Sabrosa",
+      "commonName": "Simão Sabrosa",
+      "aliases": [
+        "Simão",
+        "Simao",
+        "Simao Sabrosa"
+      ],
+      "clubs": [
+        {
+          "name": "Sporting CP",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Sim%C3%A3o_Sabrosa",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1997–1999, 53 lig maçı."
+        },
+        {
+          "name": "Barcelona",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Sim%C3%A3o_Sabrosa",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1999–2001, 46 lig maçı."
+        },
+        {
+          "name": "Benfica",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Sim%C3%A3o_Sabrosa",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2001–2007, 172 lig maçı."
+        },
+        {
+          "name": "Atlético Madrid",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Sim%C3%A3o_Sabrosa",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2007–2010, 113 lig maçı."
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Sim%C3%A3o_Sabrosa",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2011–2012, 46 lig maçı."
+        },
+        {
+          "name": "Espanyol",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Sim%C3%A3o_Sabrosa",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2012–2014, 60 lig maçı."
+        },
+        {
+          "name": "NorthEast United",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Sim%C3%A3o_Sabrosa",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2015, 10 lig maçı."
+        }
+      ],
+      "anagramName": "SIMAO",
+      "difficulty": "orta",
+      "difficultyReason": "Beşiktaş dönemi kısa; genç oyuncular Barcelona/Atlético geçmişini bilmeyebilir."
+    },
+    {
+      "fullName": "José María Gutiérrez Hernández",
+      "commonName": "Guti",
+      "aliases": [
+        "José María Gutiérrez",
+        "Guti Hernández"
+      ],
+      "clubs": [
+        {
+          "name": "Real Madrid",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Guti_(footballer,_born_1976)",
+          "evidenceNote": "Wikipedia: 1995–2010 A takım oyuncusu; madde metninde 542 resmi maç (tüm kulvarlar) belirtiliyor."
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://www.sporx.com/besiktas-yildizlariyla-gundem-yaratti-SXHBQ234889SXQ",
+          "evidenceNote": "2010–11 sezonu: haber, Süper Lig/Kupa/Avrupa Ligi'nde toplam 11 gol attığını belirtiyor (resmi maç kanıtı)."
+        }
+      ],
+      "anagramName": "GUTI",
+      "difficulty": "orta",
+      "difficultyReason": "Real Madrid efsanesi; Beşiktaş'ta tek sezon oynadı, yeni nesil hatırlamayabilir."
+    },
+    {
+      "fullName": "Dirk Kuijt",
+      "commonName": "Dirk Kuyt",
+      "aliases": [
+        "Kuyt",
+        "Kuijt"
+      ],
+      "clubs": [
+        {
+          "name": "Utrecht",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Dirk_Kuyt",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1998–2003, 160 lig maçı."
+        },
+        {
+          "name": "Feyenoord",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Dirk_Kuyt",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2003–2006, 2015–2017, 164 lig maçı."
+        },
+        {
+          "name": "Liverpool",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Dirk_Kuyt",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2006–2012, 208 lig maçı."
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Dirk_Kuyt",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2012–2015, 95 lig maçı."
+        }
+      ],
+      "anagramName": "KUYT",
+      "difficulty": "kolay",
+      "difficultyReason": "Liverpool–Fenerbahçe bağlantısı çok bilinir; kısa soyad."
+    },
+    {
+      "fullName": "Raul José Trindade Meireles",
+      "commonName": "Raul Meireles",
+      "aliases": [
+        "Raúl Meireles",
+        "Meireles"
+      ],
+      "clubs": [
+        {
+          "name": "Boavista",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Raul_Meireles",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2001–2004, 29 lig maçı."
+        },
+        {
+          "name": "Aves",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Raul_Meireles",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2001–2003, 44 lig maçı (kiralık)."
+        },
+        {
+          "name": "Porto",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Raul_Meireles",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2004–2010, 137 lig maçı."
+        },
+        {
+          "name": "Liverpool",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Raul_Meireles",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2010–2011, 35 lig maçı."
+        },
+        {
+          "name": "Chelsea",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Raul_Meireles",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2011–2012, 31 lig maçı."
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Raul_Meireles",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2012–2016, 76 lig maçı."
+        }
+      ],
+      "anagramName": "MEIRELES",
+      "difficulty": "orta",
+      "difficultyReason": "Fenerbahçe taraftarı bilir; Liverpool+Chelsea birlikteliği ipucu olur."
+    },
+    {
+      "fullName": "Roberto Carlos da Silva Rocha",
+      "commonName": "Roberto Carlos",
+      "aliases": [
+        "R. Carlos"
+      ],
+      "clubs": [
+        {
+          "name": "União São João",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Roberto_Carlos",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1991–1993, 21 lig maçı."
+        },
+        {
+          "name": "Atlético Mineiro",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Roberto_Carlos",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1992–1993, 3 lig maçı (kiralık)."
+        },
+        {
+          "name": "Palmeiras",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Roberto_Carlos",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1993–1995, 44 lig maçı."
+        },
+        {
+          "name": "Inter Milan",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Roberto_Carlos",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1995–1996, 30 lig maçı."
+        },
+        {
+          "name": "Real Madrid",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Roberto_Carlos",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1996–2007, 370 lig maçı."
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Roberto_Carlos",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2007–2009, 65 lig maçı."
+        },
+        {
+          "name": "Corinthians",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Roberto_Carlos",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2010–2011, 35 lig maçı."
+        },
+        {
+          "name": "Anzhi Makhachkala",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Roberto_Carlos",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2011–2012, 25 lig maçı."
+        },
+        {
+          "name": "Delhi Dynamos",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Roberto_Carlos",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2015–2016, 3 lig maçı."
+        }
+      ],
+      "anagramName": "CARLOS",
+      "difficulty": "kolay",
+      "difficultyReason": "Efsane isim; Real–Fenerbahçe bağlantısı geniş kitlece bilinir."
+    },
+    {
+      "fullName": "Nicolas Sébastien Anelka",
+      "commonName": "Nicolas Anelka",
+      "aliases": [
+        "Anelka"
+      ],
+      "clubs": [
+        {
+          "name": "Paris Saint-Germain",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Nicolas_Anelka",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1996–1997, 2000–2002, 49 lig maçı."
+        },
+        {
+          "name": "Arsenal",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Nicolas_Anelka",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1997–1999, 65 lig maçı."
+        },
+        {
+          "name": "Real Madrid",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Nicolas_Anelka",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1999–2000, 19 lig maçı."
+        },
+        {
+          "name": "Liverpool",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Nicolas_Anelka",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2001–2002, 20 lig maçı (kiralık)."
+        },
+        {
+          "name": "Manchester City",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Nicolas_Anelka",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2002–2005, 89 lig maçı."
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Nicolas_Anelka",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2005–2006, 39 lig maçı."
+        },
+        {
+          "name": "Bolton Wanderers",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Nicolas_Anelka",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2006–2008, 53 lig maçı."
+        },
+        {
+          "name": "Chelsea",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Nicolas_Anelka",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2008–2012, 125 lig maçı."
+        },
+        {
+          "name": "Shanghai Shenhua",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Nicolas_Anelka",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2012–2013, 22 lig maçı."
+        },
+        {
+          "name": "Juventus",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Nicolas_Anelka",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2013, 2 lig maçı (kiralık)."
+        },
+        {
+          "name": "West Bromwich Albion",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Nicolas_Anelka",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2013–2014, 12 lig maçı."
+        },
+        {
+          "name": "Mumbai City",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Nicolas_Anelka",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2014–2015, 13 lig maçı."
+        }
+      ],
+      "anagramName": "ANELKA",
+      "difficulty": "orta",
+      "difficultyReason": "Çok kulüplü kariyer; Fenerbahçe dönemi kısa ve eski."
+    },
+    {
+      "fullName": "Mario Gómez García",
+      "commonName": "Mario Gómez",
+      "aliases": [
+        "Mario Gomez",
+        "Gomez"
+      ],
+      "clubs": [
+        {
+          "name": "VfB Stuttgart",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mario_G%C3%B3mez",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2003–2009, 2018–2020, 191 lig maçı."
+        },
+        {
+          "name": "Bayern Munich",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mario_G%C3%B3mez",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2009–2013, 115 lig maçı."
+        },
+        {
+          "name": "Fiorentina",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mario_G%C3%B3mez",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2013–2016, 29 lig maçı."
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mario_G%C3%B3mez",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2015–2016, 33 lig maçı (kiralık)."
+        },
+        {
+          "name": "VfL Wolfsburg",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mario_G%C3%B3mez",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2016–2018, 45 lig maçı."
+        }
+      ],
+      "anagramName": "GOMEZ",
+      "difficulty": "orta",
+      "difficultyReason": "Beşiktaş'ta bir sezon kiralık; Bayern geçmişi ipucu verir."
+    },
+    {
+      "fullName": "Ryan Guno Babel",
+      "commonName": "Ryan Babel",
+      "aliases": [
+        "Babel"
+      ],
+      "clubs": [
+        {
+          "name": "Ajax",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ryan_Babel",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2004–2007, 2012–2013, 2020 (kiralık), 94 lig maçı."
+        },
+        {
+          "name": "Liverpool",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ryan_Babel",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2007–2011, 91 lig maçı."
+        },
+        {
+          "name": "1899 Hoffenheim",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ryan_Babel",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2011–2012, 46 lig maçı."
+        },
+        {
+          "name": "Kasımpaşa",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ryan_Babel",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2013–2015, 58 lig maçı."
+        },
+        {
+          "name": "Al Ain",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ryan_Babel",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2015–2016, 8 lig maçı."
+        },
+        {
+          "name": "Deportivo La Coruña",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ryan_Babel",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2016, 11 lig maçı."
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ryan_Babel",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2017–2019, 62 lig maçı."
+        },
+        {
+          "name": "Fulham",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ryan_Babel",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2019, 16 lig maçı."
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ryan_Babel",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2019–2022, 77 lig maçı."
+        },
+        {
+          "name": "Eyüpspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ryan_Babel",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2022–2023, 28 lig maçı."
+        }
+      ],
+      "anagramName": "BABEL",
+      "difficulty": "orta",
+      "difficultyReason": "Hem Beşiktaş hem Galatasaray; Liverpool bağlantısı daha az hatırlanır."
+    },
+    {
+      "fullName": "Néstor Fernando Muslera Micol",
+      "commonName": "Fernando Muslera",
+      "aliases": [
+        "Muslera",
+        "Nando"
+      ],
+      "clubs": [
+        {
+          "name": "Montevideo Wanderers",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Fernando_Muslera",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2004–2007, 44 lig maçı."
+        },
+        {
+          "name": "Nacional",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Fernando_Muslera",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2007, 5 lig maçı (kiralık)."
+        },
+        {
+          "name": "Lazio",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Fernando_Muslera",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2007–2011, 96 lig maçı."
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Fernando_Muslera",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2011–2025, 443 lig maçı."
+        },
+        {
+          "name": "Estudiantes",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Fernando_Muslera",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2025–, 39 lig maçı."
+        }
+      ],
+      "anagramName": "MUSLERA",
+      "difficulty": "kolay",
+      "difficultyReason": "Galatasaray'ın uzun yıllık kalecisi; Lazio bağlantısı orta seviye bilgi."
+    },
+    {
+      "fullName": "Radamel Falcao García Zárate",
+      "commonName": "Radamel Falcao",
+      "aliases": [
+        "Falcao",
+        "El Tigre"
+      ],
+      "clubs": [
+        {
+          "name": "Lanceros Boyacá",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Radamel_Falcao",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1999–2001, 11 lig maçı."
+        },
+        {
+          "name": "River Plate",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Radamel_Falcao",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2004–2009, 90 lig maçı."
+        },
+        {
+          "name": "Porto",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Radamel_Falcao",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2009–2011, 51 lig maçı."
+        },
+        {
+          "name": "Atlético Madrid",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Radamel_Falcao",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2011–2013, 68 lig maçı."
+        },
+        {
+          "name": "Monaco",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Radamel_Falcao",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2013–2019, 108 lig maçı."
+        },
+        {
+          "name": "Manchester United",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Radamel_Falcao",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2014–2015, 26 lig maçı (kiralık)."
+        },
+        {
+          "name": "Chelsea",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Radamel_Falcao",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2015–2016, 10 lig maçı (kiralık)."
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Radamel_Falcao",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2019–2021, 34 lig maçı."
+        },
+        {
+          "name": "Rayo Vallecano",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Radamel_Falcao",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2021–2024, 71 lig maçı."
+        },
+        {
+          "name": "Millonarios",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Radamel_Falcao",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2024–, 35 lig maçı."
+        }
+      ],
+      "anagramName": "FALCAO",
+      "difficulty": "kolay",
+      "difficultyReason": "Dünyaca tanınır; Atlético/Man Utd–Galatasaray bağlantısı belirgin."
+    },
+    {
+      "fullName": "Arda Turan",
+      "commonName": "Arda Turan",
+      "aliases": [
+        "Arda"
+      ],
+      "clubs": [
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Arda_Turan",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2005–2011, 2020–2022, 169 lig maçı."
+        },
+        {
+          "name": "Manisaspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Arda_Turan",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2006, 15 lig maçı (kiralık)."
+        },
+        {
+          "name": "Atlético Madrid",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Arda_Turan",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2011–2015, 127 lig maçı."
+        },
+        {
+          "name": "Barcelona",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Arda_Turan",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2015–2020, 36 lig maçı."
+        },
+        {
+          "name": "İstanbul Başakşehir",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Arda_Turan",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2018–2020, 37 lig maçı (kiralık)."
+        }
+      ],
+      "anagramName": "TURAN",
+      "difficulty": "kolay",
+      "difficultyReason": "Türk izleyici için çok tanıdık; Atlético–Barcelona bağlantısı bilinir."
+    },
+    {
+      "fullName": "Emre Belözoğlu",
+      "commonName": "Emre Belözoğlu",
+      "aliases": [
+        "Emre",
+        "Belozoglu"
+      ],
+      "clubs": [
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Emre_Bel%C3%B6zo%C4%9Flu",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1996–2001, 102 lig maçı."
+        },
+        {
+          "name": "Inter Milan",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Emre_Bel%C3%B6zo%C4%9Flu",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2001–2005, 79 lig maçı."
+        },
+        {
+          "name": "Newcastle United",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Emre_Bel%C3%B6zo%C4%9Flu",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2005–2008, 58 lig maçı."
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Emre_Bel%C3%B6zo%C4%9Flu",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2008–2012, 2013–2015, 2019–2020, 185 lig maçı."
+        },
+        {
+          "name": "Atlético Madrid",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Emre_Bel%C3%B6zo%C4%9Flu",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2012–2013, 7 lig maçı."
+        },
+        {
+          "name": "İstanbul Başakşehir",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Emre_Bel%C3%B6zo%C4%9Flu",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2015–2019, 104 lig maçı."
+        }
+      ],
+      "anagramName": "EMRE",
+      "difficulty": "kolay",
+      "difficultyReason": "Hem GS hem FB; Inter ve Atlético bağlantısı var."
+    },
+    {
+      "fullName": "Hakan Şükür",
+      "commonName": "Hakan Şükür",
+      "aliases": [
+        "Hakan Sukur",
+        "Boğa"
+      ],
+      "clubs": [
+        {
+          "name": "Sakaryaspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Hakan_%C5%9E%C3%BCk%C3%BCr",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1987–1990, 41 lig maçı."
+        },
+        {
+          "name": "Bursaspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Hakan_%C5%9E%C3%BCk%C3%BCr",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1990–1992, 54 lig maçı."
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Hakan_%C5%9E%C3%BCk%C3%BCr",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1992–1995, 1995–2000, 2003–2008, 392 lig maçı."
+        },
+        {
+          "name": "Torino",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Hakan_%C5%9E%C3%BCk%C3%BCr",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1995, 5 lig maçı."
+        },
+        {
+          "name": "Inter Milan",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Hakan_%C5%9E%C3%BCk%C3%BCr",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2000–2002, 24 lig maçı."
+        },
+        {
+          "name": "Parma",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Hakan_%C5%9E%C3%BCk%C3%BCr",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2002, 15 lig maçı."
+        },
+        {
+          "name": "Blackburn Rovers",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Hakan_%C5%9E%C3%BCk%C3%BCr",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2002–2003, 9 lig maçı."
+        }
+      ],
+      "anagramName": "ŞÜKÜR",
+      "difficulty": "orta",
+      "difficultyReason": "Çok tanınır ama Torino/Parma/Blackburn bağlantıları daha az bilinir."
+    },
+    {
+      "fullName": "Gheorghe Hagi",
+      "commonName": "Gheorghe Hagi",
+      "aliases": [
+        "Hagi",
+        "Gica Hagi",
+        "Comandante"
+      ],
+      "clubs": [
+        {
+          "name": "FC Constanța",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Gheorghe_Hagi",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1982–1983, 18 lig maçı."
+        },
+        {
+          "name": "Sportul Studențesc",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Gheorghe_Hagi",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1983–1986, 108 lig maçı."
+        },
+        {
+          "name": "Steaua București",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Gheorghe_Hagi",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1986–1990, 97 lig maçı."
+        },
+        {
+          "name": "Real Madrid",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Gheorghe_Hagi",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1990–1992, 64 lig maçı."
+        },
+        {
+          "name": "Brescia",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Gheorghe_Hagi",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1992–1994, 61 lig maçı."
+        },
+        {
+          "name": "Barcelona",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Gheorghe_Hagi",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1994–1996, 36 lig maçı."
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Gheorghe_Hagi",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1996–2001, 132 lig maçı."
+        }
+      ],
+      "anagramName": "HAGI",
+      "difficulty": "kolay",
+      "difficultyReason": "Galatasaray efsanesi; hem Real hem Barcelona'da oynaması tanınır."
+    },
+    {
+      "fullName": "Gheorghe Popescu",
+      "commonName": "Gheorghe Popescu",
+      "aliases": [
+        "Gică Popescu",
+        "Gica Popescu",
+        "Popescu"
+      ],
+      "clubs": [
+        {
+          "name": "Universitatea Craiova",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Gheorghe_Popescu",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1985–1990, 124 lig maçı."
+        },
+        {
+          "name": "Steaua București",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Gheorghe_Popescu",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1988, 13 lig maçı (kiralık)."
+        },
+        {
+          "name": "PSV",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Gheorghe_Popescu",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1990–1994, 108 lig maçı."
+        },
+        {
+          "name": "Tottenham Hotspur",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Gheorghe_Popescu",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1994–1995, 23 lig maçı."
+        },
+        {
+          "name": "Barcelona",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Gheorghe_Popescu",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1995–1997, 66 lig maçı."
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Gheorghe_Popescu",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1997–2001, 111 lig maçı."
+        },
+        {
+          "name": "Lecce",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Gheorghe_Popescu",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2001–2002, 28 lig maçı."
+        },
+        {
+          "name": "Dinamo București",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Gheorghe_Popescu",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2002, 8 lig maçı."
+        },
+        {
+          "name": "Hannover 96",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Gheorghe_Popescu",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2002–2003, 14 lig maçı."
+        }
+      ],
+      "anagramName": "POPESCU",
+      "difficulty": "zor",
+      "difficultyReason": "90'lar oyuncusu; Barcelona ve Tottenham bağlantısı yeni nesilce az bilinir."
+    },
+    {
+      "fullName": "Felipe Melo de Carvalho",
+      "commonName": "Felipe Melo",
+      "aliases": [
+        "Melo",
+        "Pitbull"
+      ],
+      "clubs": [
+        {
+          "name": "Flamengo",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Felipe_Melo",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2001–2003, 26 lig maçı."
+        },
+        {
+          "name": "Cruzeiro",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Felipe_Melo",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2003–2004, 31 lig maçı."
+        },
+        {
+          "name": "Grêmio",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Felipe_Melo",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2004, 19 lig maçı."
+        },
+        {
+          "name": "Mallorca",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Felipe_Melo",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2005, 7 lig maçı."
+        },
+        {
+          "name": "Racing Santander",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Felipe_Melo",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2005–2007, 48 lig maçı."
+        },
+        {
+          "name": "Almería",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Felipe_Melo",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2007–2008, 33 lig maçı."
+        },
+        {
+          "name": "Fiorentina",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Felipe_Melo",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2008–2009, 29 lig maçı."
+        },
+        {
+          "name": "Juventus",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Felipe_Melo",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2009–2013, 58 lig maçı."
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Felipe_Melo",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2011–2013 (kiralık), 2013–2015, 115 lig maçı."
+        },
+        {
+          "name": "Inter Milan",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Felipe_Melo",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2015–2017, 31 lig maçı."
+        },
+        {
+          "name": "Palmeiras",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Felipe_Melo",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2017–2021, 160 lig maçı."
+        },
+        {
+          "name": "Fluminense",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Felipe_Melo",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2022–2024, 74 lig maçı."
+        }
+      ],
+      "anagramName": "MELO",
+      "difficulty": "orta",
+      "difficultyReason": "GS'de çok sevilir; Juventus ve Inter bağlantıları iyi ipucu."
+    },
+    {
+      "fullName": "Edin Džeko",
+      "commonName": "Edin Džeko",
+      "aliases": [
+        "Dzeko",
+        "Džeko",
+        "Ceko"
+      ],
+      "clubs": [
+        {
+          "name": "Željezničar",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Edin_D%C5%BEeko",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2003–2005, 35 lig maçı."
+        },
+        {
+          "name": "Teplice",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Edin_D%C5%BEeko",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2005–2007, 43 lig maçı."
+        },
+        {
+          "name": "Ústí nad Labem",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Edin_D%C5%BEeko",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2005–2006, 15 lig maçı (kiralık)."
+        },
+        {
+          "name": "VfL Wolfsburg",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Edin_D%C5%BEeko",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2007–2011, 111 lig maçı."
+        },
+        {
+          "name": "Manchester City",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Edin_D%C5%BEeko",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2011–2016, 130 lig maçı."
+        },
+        {
+          "name": "Roma",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Edin_D%C5%BEeko",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2015–2016 (kiralık), 2016–2021, 199 lig maçı."
+        },
+        {
+          "name": "Inter Milan",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Edin_D%C5%BEeko",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2021–2023, 69 lig maçı."
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Edin_D%C5%BEeko",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2023–2025, 71 lig maçı."
+        },
+        {
+          "name": "Fiorentina",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Edin_D%C5%BEeko",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2025–, 11 lig maçı."
+        }
+      ],
+      "anagramName": "DZEKO",
+      "difficulty": "kolay",
+      "difficultyReason": "Yakın dönem Fenerbahçe yıldızı; Man City/Roma/Inter bağlantısı belirgin."
+    },
+    {
+      "fullName": "Dušan Tadić",
+      "commonName": "Dušan Tadić",
+      "aliases": [
+        "Dusan Tadic",
+        "Tadic"
+      ],
+      "clubs": [
+        {
+          "name": "Vojvodina",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Du%C5%A1an_Tadi%C4%87",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2006–2010, 107 lig maçı."
+        },
+        {
+          "name": "Groningen",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Du%C5%A1an_Tadi%C4%87",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2010–2012, 68 lig maçı."
+        },
+        {
+          "name": "Twente",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Du%C5%A1an_Tadi%C4%87",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2012–2014, 66 lig maçı."
+        },
+        {
+          "name": "Southampton",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Du%C5%A1an_Tadi%C4%87",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2014–2018, 134 lig maçı."
+        },
+        {
+          "name": "Ajax",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Du%C5%A1an_Tadi%C4%87",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2018–2023, 161 lig maçı."
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Du%C5%A1an_Tadi%C4%87",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2023–2025, 73 lig maçı."
+        },
+        {
+          "name": "Al Wahda",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Du%C5%A1an_Tadi%C4%87",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2025–, 25 lig maçı."
+        }
+      ],
+      "anagramName": "TADIC",
+      "difficulty": "orta",
+      "difficultyReason": "Fenerbahçe ve Ajax tanınır; Southampton geçmişi daha az bilinir."
+    },
+    {
+      "fullName": "Mauro Emanuel Icardi Rivero",
+      "commonName": "Mauro Icardi",
+      "aliases": [
+        "Icardi",
+        "Maurito"
+      ],
+      "clubs": [
+        {
+          "name": "Sampdoria",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mauro_Icardi",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2011–2013, 33 lig maçı."
+        },
+        {
+          "name": "Inter Milan",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mauro_Icardi",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2013–2020, 188 lig maçı."
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mauro_Icardi",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2019–2020 (kiralık), 2020–2023, 64 lig maçı."
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mauro_Icardi",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2022–2023 (kiralık), 2023–, 96 lig maçı."
+        }
+      ],
+      "anagramName": "ICARDI",
+      "difficulty": "kolay",
+      "difficultyReason": "Güncel GS yıldızı; Inter–PSG–GS bağlantısı çok bilinir."
+    },
+    {
+      "fullName": "Dries Mertens",
+      "commonName": "Dries Mertens",
+      "aliases": [
+        "Mertens",
+        "Ciro"
+      ],
+      "clubs": [
+        {
+          "name": "Eendracht Aalst",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Dries_Mertens",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2005–2006, 14 lig maçı (kiralık)."
+        },
+        {
+          "name": "AGOVV",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Dries_Mertens",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2006–2009, 108 lig maçı."
+        },
+        {
+          "name": "Utrecht",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Dries_Mertens",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2009–2011, 69 lig maçı."
+        },
+        {
+          "name": "PSV Eindhoven",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Dries_Mertens",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2011–2013, 62 lig maçı."
+        },
+        {
+          "name": "Napoli",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Dries_Mertens",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2013–2022, 295 lig maçı."
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Dries_Mertens",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2022–2025, 100 lig maçı."
+        }
+      ],
+      "anagramName": "MERTENS",
+      "difficulty": "kolay",
+      "difficultyReason": "Napoli efsanesi ve GS döneminde çok popüler."
+    },
+    {
+      "fullName": "Hakim Ziyech",
+      "commonName": "Hakim Ziyech",
+      "aliases": [
+        "Ziyech",
+        "Ziyach"
+      ],
+      "clubs": [
+        {
+          "name": "Heerenveen",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Hakim_Ziyech",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2012–2014, 36 lig maçı."
+        },
+        {
+          "name": "Twente",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Hakim_Ziyech",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2014–2016, 68 lig maçı."
+        },
+        {
+          "name": "Ajax",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Hakim_Ziyech",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2016–2020, 112 lig maçı."
+        },
+        {
+          "name": "Chelsea",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Hakim_Ziyech",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2020–2023, 64 lig maçı."
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Hakim_Ziyech",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2023–2025, 23 lig maçı."
+        },
+        {
+          "name": "Al-Duhail",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Hakim_Ziyech",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2025, 9 lig maçı."
+        },
+        {
+          "name": "Wydad",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Hakim_Ziyech",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2025–, 12 lig maçı."
+        }
+      ],
+      "anagramName": "ZIYECH",
+      "difficulty": "orta",
+      "difficultyReason": "Chelsea ve Ajax bilinir; isim yazımı anagramda zorlayıcı."
+    },
+    {
+      "fullName": "Dazet Wilfried Armel Zaha",
+      "commonName": "Wilfried Zaha",
+      "aliases": [
+        "Zaha",
+        "Wilf Zaha"
+      ],
+      "clubs": [
+        {
+          "name": "Crystal Palace",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Wilfried_Zaha",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2010–2013, 2013–2015 (kiralık), 2015–2023, 417 lig maçı."
+        },
+        {
+          "name": "Manchester United",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Wilfried_Zaha",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2013–2015, 2 lig maçı."
+        },
+        {
+          "name": "Cardiff City",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Wilfried_Zaha",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2014, 12 lig maçı (kiralık)."
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Wilfried_Zaha",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2023–, 30 lig maçı."
+        },
+        {
+          "name": "Lyon",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Wilfried_Zaha",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2024–2025, 4 lig maçı (kiralık)."
+        },
+        {
+          "name": "Charlotte FC",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Wilfried_Zaha",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2025–, 44 lig maçı (kiralık)."
+        }
+      ],
+      "anagramName": "ZAHA",
+      "difficulty": "orta",
+      "difficultyReason": "GS dönemi kısa; Man Utd bağlantısı çok az maçla (2 lig maçı) — bilgi sorusu niteliğinde."
+    },
+    {
+      "fullName": "Victor James Osimhen",
+      "commonName": "Victor Osimhen",
+      "aliases": [
+        "Osimhen"
+      ],
+      "clubs": [
+        {
+          "name": "VfL Wolfsburg",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Victor_Osimhen",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2017–2019, 14 lig maçı."
+        },
+        {
+          "name": "Charleroi",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Victor_Osimhen",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2018–2019, 25 lig maçı (kiralık)."
+        },
+        {
+          "name": "Lille",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Victor_Osimhen",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2019–2020, 27 lig maçı."
+        },
+        {
+          "name": "Napoli",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Victor_Osimhen",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2020–2025, 108 lig maçı."
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Victor_Osimhen",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2024–2025 (kiralık), 2025–, 55 lig maçı."
+        }
+      ],
+      "anagramName": "OSIMHEN",
+      "difficulty": "kolay",
+      "difficultyReason": "Güncel GS golcüsü; Napoli bağlantısı herkesçe bilinir."
+    },
+    {
+      "fullName": "Davinson Sánchez Mina",
+      "commonName": "Davinson Sánchez",
+      "aliases": [
+        "Davinson Sanchez",
+        "Davinson"
+      ],
+      "clubs": [
+        {
+          "name": "Atlético Nacional",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Davinson_S%C3%A1nchez",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2013–2016, 26 lig maçı."
+        },
+        {
+          "name": "Ajax",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Davinson_S%C3%A1nchez",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2016–2017, 32 lig maçı."
+        },
+        {
+          "name": "Tottenham Hotspur",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Davinson_S%C3%A1nchez",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2017–2023, 143 lig maçı."
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Davinson_S%C3%A1nchez",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2023–, 87 lig maçı."
+        }
+      ],
+      "anagramName": "DAVINSON",
+      "difficulty": "orta",
+      "difficultyReason": "GS ve Tottenham bilinir; Ajax yılı daha az hatırlanır."
+    },
+    {
+      "fullName": "Lucas Sebastián Torreira Di Pascua",
+      "commonName": "Lucas Torreira",
+      "aliases": [
+        "Torreira"
+      ],
+      "clubs": [
+        {
+          "name": "Pescara",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Lucas_Torreira",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2014–2015, 2015–2016 (kiralık), 34 lig maçı."
+        },
+        {
+          "name": "Sampdoria",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Lucas_Torreira",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2015–2018, 71 lig maçı."
+        },
+        {
+          "name": "Arsenal",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Lucas_Torreira",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2018–2022, 63 lig maçı."
+        },
+        {
+          "name": "Atlético Madrid",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Lucas_Torreira",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2020–2021, 19 lig maçı (kiralık)."
+        },
+        {
+          "name": "Fiorentina",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Lucas_Torreira",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2021–2022, 31 lig maçı (kiralık)."
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Lucas_Torreira",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2022–, 128 lig maçı."
+        }
+      ],
+      "anagramName": "TORREIRA",
+      "difficulty": "orta",
+      "difficultyReason": "GS kaptanlarından; Arsenal ve Atlético bağlantısı orta seviye bilgi."
+    },
+    {
+      "fullName": "Leroy Aziz Sané",
+      "commonName": "Leroy Sané",
+      "aliases": [
+        "Sane",
+        "Sané"
+      ],
+      "clubs": [
+        {
+          "name": "Schalke 04",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Leroy_San%C3%A9",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2014–2016, 47 lig maçı."
+        },
+        {
+          "name": "Manchester City",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Leroy_San%C3%A9",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2016–2020, 90 lig maçı."
+        },
+        {
+          "name": "Bayern Munich",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Leroy_San%C3%A9",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2020–2025, 153 lig maçı."
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Leroy_San%C3%A9",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2025–, 28 lig maçı."
+        }
+      ],
+      "anagramName": "SANE",
+      "difficulty": "kolay",
+      "difficultyReason": "Bayern ve Man City yıldızı; GS transferi çok konuşuldu."
+    },
+    {
+      "fullName": "İlkay Gündoğan",
+      "commonName": "İlkay Gündoğan",
+      "aliases": [
+        "Ilkay Gundogan",
+        "Gündoğan"
+      ],
+      "clubs": [
+        {
+          "name": "1. FC Nürnberg",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/%C4%B0lkay_G%C3%BCndo%C4%9Fan",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2009–2011, 48 lig maçı."
+        },
+        {
+          "name": "Borussia Dortmund",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/%C4%B0lkay_G%C3%BCndo%C4%9Fan",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2011–2016, 105 lig maçı."
+        },
+        {
+          "name": "Manchester City",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/%C4%B0lkay_G%C3%BCndo%C4%9Fan",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2016–2023, 2024–2025, 221 lig maçı."
+        },
+        {
+          "name": "Barcelona",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/%C4%B0lkay_G%C3%BCndo%C4%9Fan",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2023–2024, 36 lig maçı."
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/%C4%B0lkay_G%C3%BCndo%C4%9Fan",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2025–, 24 lig maçı."
+        }
+      ],
+      "anagramName": "GÜNDOĞAN",
+      "difficulty": "kolay",
+      "difficultyReason": "Milli takım kaptanı; Man City/Barcelona/Dortmund geçmişi bilinir."
+    },
+    {
+      "fullName": "Ciro Immobile",
+      "commonName": "Ciro Immobile",
+      "aliases": [
+        "Immobile"
+      ],
+      "clubs": [
+        {
+          "name": "Juventus",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ciro_Immobile",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2009–2012, 3 lig maçı."
+        },
+        {
+          "name": "Siena",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ciro_Immobile",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2010–2011, 4 lig maçı (kiralık)."
+        },
+        {
+          "name": "Grosseto",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ciro_Immobile",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2011, 16 lig maçı (kiralık)."
+        },
+        {
+          "name": "Pescara",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ciro_Immobile",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2011–2012, 37 lig maçı (kiralık)."
+        },
+        {
+          "name": "Genoa",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ciro_Immobile",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2012–2013, 33 lig maçı."
+        },
+        {
+          "name": "Torino",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ciro_Immobile",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2013–2014, 2016 (kiralık), 47 lig maçı."
+        },
+        {
+          "name": "Borussia Dortmund",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ciro_Immobile",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2014–2016, 24 lig maçı."
+        },
+        {
+          "name": "Sevilla",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ciro_Immobile",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2015–2016, 8 lig maçı (kiralık)."
+        },
+        {
+          "name": "Lazio",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ciro_Immobile",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2016–2024, 270 lig maçı."
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ciro_Immobile",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2024–2025, 30 lig maçı."
+        },
+        {
+          "name": "Bologna",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ciro_Immobile",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2025–, 6 lig maçı."
+        }
+      ],
+      "anagramName": "IMMOBILE",
+      "difficulty": "orta",
+      "difficultyReason": "Lazio efsanesi; Juventus ve Dortmund bağlantıları daha az bilinir."
+    },
+    {
+      "fullName": "Alexander Mark David Oxlade-Chamberlain",
+      "commonName": "Alex Oxlade-Chamberlain",
+      "aliases": [
+        "Oxlade-Chamberlain",
+        "The Ox",
+        "Chamberlain"
+      ],
+      "clubs": [
+        {
+          "name": "Southampton",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Alex_Oxlade-Chamberlain",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2010–2011, 36 lig maçı."
+        },
+        {
+          "name": "Arsenal",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Alex_Oxlade-Chamberlain",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2011–2017, 132 lig maçı."
+        },
+        {
+          "name": "Liverpool",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Alex_Oxlade-Chamberlain",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2017–2023, 103 lig maçı."
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Alex_Oxlade-Chamberlain",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2023–2025, 38 lig maçı."
+        }
+      ],
+      "anagramName": "CHAMBERLAIN",
+      "difficulty": "zor",
+      "difficultyReason": "Uzun isim anagramı zorlaştırır; Beşiktaş dönemi kısa."
+    },
+    {
+      "fullName": "José Ernesto Sosa",
+      "commonName": "José Sosa",
+      "aliases": [
+        "Jose Sosa",
+        "Principito",
+        "Sosa"
+      ],
+      "clubs": [
+        {
+          "name": "Estudiantes",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Jos%C3%A9_Sosa",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2002–2007, 2010 (kiralık), 2022–, 265 lig maçı."
+        },
+        {
+          "name": "Bayern Munich",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Jos%C3%A9_Sosa",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2007–2010, 35 lig maçı."
+        },
+        {
+          "name": "Napoli",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Jos%C3%A9_Sosa",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2010–2011, 24 lig maçı."
+        },
+        {
+          "name": "Metalist Kharkiv",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Jos%C3%A9_Sosa",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2011–2014, 64 lig maçı."
+        },
+        {
+          "name": "Atlético Madrid",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Jos%C3%A9_Sosa",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2014, 15 lig maçı (kiralık)."
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Jos%C3%A9_Sosa",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2014 (kiralık), 2014–2016, 58 lig maçı."
+        },
+        {
+          "name": "AC Milan",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Jos%C3%A9_Sosa",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2016–2018, 18 lig maçı."
+        },
+        {
+          "name": "Trabzonspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Jos%C3%A9_Sosa",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2017–2018 (kiralık), 2018–2020, 81 lig maçı."
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Jos%C3%A9_Sosa",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2020–2022, 53 lig maçı."
+        }
+      ],
+      "anagramName": "SOSA",
+      "difficulty": "orta",
+      "difficultyReason": "Üç büyük Türk kulübünde oynadı; Bayern/Milan geçmişi şaşırtıcı ipucu."
+    },
+    {
+      "fullName": "Marek Hamšík",
+      "commonName": "Marek Hamšík",
+      "aliases": [
+        "Hamsik",
+        "Marekiaro"
+      ],
+      "clubs": [
+        {
+          "name": "Brescia",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Marek_Ham%C5%A1%C3%ADk",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2004–2007, 65 lig maçı."
+        },
+        {
+          "name": "Napoli",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Marek_Ham%C5%A1%C3%ADk",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2007–2019, 408 lig maçı."
+        },
+        {
+          "name": "Dalian Professional",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Marek_Ham%C5%A1%C3%ADk",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2019–2021, 42 lig maçı."
+        },
+        {
+          "name": "IFK Göteborg",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Marek_Ham%C5%A1%C3%ADk",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2021, 6 lig maçı."
+        },
+        {
+          "name": "Trabzonspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Marek_Ham%C5%A1%C3%ADk",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2021–2023, 49 lig maçı."
+        }
+      ],
+      "anagramName": "HAMSIK",
+      "difficulty": "orta",
+      "difficultyReason": "Trabzonspor şampiyonluk kadrosu; Napoli efsanesi."
+    },
+    {
+      "fullName": "Mikel John Obi",
+      "commonName": "John Obi Mikel",
+      "aliases": [
+        "Mikel",
+        "Obi Mikel",
+        "Jon Obi Mikel"
+      ],
+      "clubs": [
+        {
+          "name": "Lyn",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/John_Obi_Mikel",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2004–2006, 6 lig maçı."
+        },
+        {
+          "name": "Chelsea",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/John_Obi_Mikel",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2006–2017, 249 lig maçı."
+        },
+        {
+          "name": "Tianjin TEDA",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/John_Obi_Mikel",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2017–2018, 31 lig maçı."
+        },
+        {
+          "name": "Middlesbrough",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/John_Obi_Mikel",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2019, 18 lig maçı."
+        },
+        {
+          "name": "Trabzonspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/John_Obi_Mikel",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2019–2020, 19 lig maçı."
+        },
+        {
+          "name": "Stoke City",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/John_Obi_Mikel",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2020–2021, 39 lig maçı."
+        }
+      ],
+      "anagramName": "MIKEL",
+      "difficulty": "orta",
+      "difficultyReason": "Chelsea'de uzun süre oynadı; Trabzonspor dönemi kısa."
+    },
+    {
+      "fullName": "José Bosingwa da Silva",
+      "commonName": "José Bosingwa",
+      "aliases": [
+        "Bosingwa",
+        "Jose Bosingwa"
+      ],
+      "clubs": [
+        {
+          "name": "Boavista",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Jos%C3%A9_Bosingwa",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2000–2003, 41 lig maçı."
+        },
+        {
+          "name": "Freamunde",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Jos%C3%A9_Bosingwa",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2000–2001, 11 lig maçı (kiralık)."
+        },
+        {
+          "name": "Porto",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Jos%C3%A9_Bosingwa",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2003–2008, 107 lig maçı."
+        },
+        {
+          "name": "Chelsea",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Jos%C3%A9_Bosingwa",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2008–2012, 89 lig maçı."
+        },
+        {
+          "name": "Queens Park Rangers",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Jos%C3%A9_Bosingwa",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2012–2013, 23 lig maçı."
+        },
+        {
+          "name": "Trabzonspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Jos%C3%A9_Bosingwa",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2013–2016, 63 lig maçı."
+        }
+      ],
+      "anagramName": "BOSINGWA",
+      "difficulty": "zor",
+      "difficultyReason": "Bek oyuncusu; Trabzonspor dönemi geniş kitlece az hatırlanır."
+    },
+    {
+      "fullName": "Florent Johan Malouda",
+      "commonName": "Florent Malouda",
+      "aliases": [
+        "Malouda"
+      ],
+      "clubs": [
+        {
+          "name": "Châteauroux",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Florent_Malouda",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1996–2000, 59 lig maçı."
+        },
+        {
+          "name": "Guingamp",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Florent_Malouda",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2000–2003, 82 lig maçı."
+        },
+        {
+          "name": "Lyon",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Florent_Malouda",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2003–2007, 138 lig maçı."
+        },
+        {
+          "name": "Chelsea",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Florent_Malouda",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2007–2013, 149 lig maçı."
+        },
+        {
+          "name": "Trabzonspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Florent_Malouda",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2013–2014, 19 lig maçı."
+        },
+        {
+          "name": "Metz",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Florent_Malouda",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2014–2015, 28 lig maçı."
+        },
+        {
+          "name": "Delhi Dynamos",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Florent_Malouda",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2015–2017, 32 lig maçı."
+        },
+        {
+          "name": "Wadi Degla",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Florent_Malouda",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2016, 16 lig maçı (kiralık)."
+        },
+        {
+          "name": "FC Differdange 03",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Florent_Malouda",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2018, 8 lig maçı."
+        }
+      ],
+      "anagramName": "MALOUDA",
+      "difficulty": "orta",
+      "difficultyReason": "Chelsea'de bilinir; Trabzonspor'da tek sezon."
+    },
+    {
+      "fullName": "Marc Bartra Aregall",
+      "commonName": "Marc Bartra",
+      "aliases": [
+        "Bartra"
+      ],
+      "clubs": [
+        {
+          "name": "Barcelona",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Marc_Bartra",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2010–2016, 59 lig maçı."
+        },
+        {
+          "name": "Borussia Dortmund",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Marc_Bartra",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2016–2018, 31 lig maçı."
+        },
+        {
+          "name": "Real Betis",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Marc_Bartra",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2018–2022, 2023–, 177 lig maçı."
+        },
+        {
+          "name": "Trabzonspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Marc_Bartra",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2022–2023, 29 lig maçı."
+        }
+      ],
+      "anagramName": "BARTRA",
+      "difficulty": "orta",
+      "difficultyReason": "Barcelona ve Dortmund bilinir; Trabzonspor dönemi tek sezon."
+    },
+    {
+      "fullName": "Thomas André A. Meunier",
+      "commonName": "Thomas Meunier",
+      "aliases": [
+        "Meunier"
+      ],
+      "clubs": [
+        {
+          "name": "Virton",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Thomas_Meunier",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2009–2011, 49 lig maçı."
+        },
+        {
+          "name": "Club Brugge",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Thomas_Meunier",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2011–2016, 149 lig maçı."
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Thomas_Meunier",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2016–2020, 84 lig maçı."
+        },
+        {
+          "name": "Borussia Dortmund",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Thomas_Meunier",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2020–2024, 56 lig maçı."
+        },
+        {
+          "name": "Trabzonspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Thomas_Meunier",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2024, 14 lig maçı."
+        },
+        {
+          "name": "Lille",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Thomas_Meunier",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2024–2026, 55 lig maçı."
+        }
+      ],
+      "anagramName": "MEUNIER",
+      "difficulty": "zor",
+      "difficultyReason": "Trabzonspor'da yarım sezon; PSG/Dortmund bağlantısı az bilinen ayrıntı."
+    },
+    {
+      "fullName": "Frederico Rodrigues de Paula Santos",
+      "commonName": "Fred",
+      "aliases": [
+        "Fred Santos"
+      ],
+      "clubs": [
+        {
+          "name": "Internacional",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Fred_(footballer,_born_1993)",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2012–2013, 53 lig maçı."
+        },
+        {
+          "name": "Shakhtar Donetsk",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Fred_(footballer,_born_1993)",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2013–2018, 101 lig maçı."
+        },
+        {
+          "name": "Manchester United",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Fred_(footballer,_born_1993)",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2018–2023, 139 lig maçı."
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Fred_(footballer,_born_1993)",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2023–2026, 86 lig maçı."
+        }
+      ],
+      "anagramName": "FRED",
+      "difficulty": "kolay",
+      "difficultyReason": "Güncel FB oyuncusu, Man Utd geçmişi çok bilinir; isim kısa."
+    },
+    {
+      "fullName": "Diego Alfredo Lugano Morena",
+      "commonName": "Diego Lugano",
+      "aliases": [
+        "Lugano"
+      ],
+      "clubs": [
+        {
+          "name": "Nacional",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Diego_Lugano",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1999–2003, 13 lig maçı."
+        },
+        {
+          "name": "Plaza Colonia",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Diego_Lugano",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2001–2002, 46 lig maçı (kiralık)."
+        },
+        {
+          "name": "São Paulo",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Diego_Lugano",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2003–2006, 2016–2017, 113 lig maçı."
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Diego_Lugano",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2006–2011, 125 lig maçı."
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Diego_Lugano",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2011–2013, 12 lig maçı."
+        },
+        {
+          "name": "Málaga",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Diego_Lugano",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2013, 11 lig maçı (kiralık)."
+        },
+        {
+          "name": "West Bromwich Albion",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Diego_Lugano",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2013–2014, 9 lig maçı."
+        },
+        {
+          "name": "BK Häcken",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Diego_Lugano",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2015, 11 lig maçı."
+        },
+        {
+          "name": "Cerro Porteño",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Diego_Lugano",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2015, 16 lig maçı."
+        }
+      ],
+      "anagramName": "LUGANO",
+      "difficulty": "orta",
+      "difficultyReason": "FB kaptanı olarak bilinir; PSG bağlantısı daha az hatırlanır."
+    },
+    {
+      "fullName": "Emmanuel Eboué",
+      "commonName": "Emmanuel Eboué",
+      "aliases": [
+        "Eboue",
+        "Eboué"
+      ],
+      "clubs": [
+        {
+          "name": "ASEC Mimosas",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Emmanuel_Ebou%C3%A9",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2001–2002, 25 lig maçı."
+        },
+        {
+          "name": "Beveren",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Emmanuel_Ebou%C3%A9",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2002–2004, 70 lig maçı."
+        },
+        {
+          "name": "Arsenal",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Emmanuel_Ebou%C3%A9",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2004–2011, 132 lig maçı."
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Emmanuel_Ebou%C3%A9",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2011–2015, 77 lig maçı."
+        }
+      ],
+      "anagramName": "EBOUE",
+      "difficulty": "orta",
+      "difficultyReason": "Arsenal–GS bağlantısı tanınır; isim kısa ama ünlü harf ağırlıklı."
+    },
+    {
+      "fullName": "Juan Manuel Mata García",
+      "commonName": "Juan Mata",
+      "aliases": [
+        "Mata"
+      ],
+      "clubs": [
+        {
+          "name": "Valencia",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Juan_Mata",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2007–2011, 129 lig maçı."
+        },
+        {
+          "name": "Chelsea",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Juan_Mata",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2011–2014, 82 lig maçı."
+        },
+        {
+          "name": "Manchester United",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Juan_Mata",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2014–2022, 196 lig maçı."
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Juan_Mata",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2022–2023, 16 lig maçı."
+        },
+        {
+          "name": "Vissel Kobe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Juan_Mata",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2023–2024, 1 lig maçı."
+        },
+        {
+          "name": "Western Sydney Wanderers",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Juan_Mata",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2024–2025, 23 lig maçı."
+        }
+      ],
+      "anagramName": "MATA",
+      "difficulty": "orta",
+      "difficultyReason": "Chelsea/Man Utd yıldızı; GS'de tek sezon."
+    },
+    {
+      "fullName": "Gary Alexis Medel Soto",
+      "commonName": "Gary Medel",
+      "aliases": [
+        "Medel",
+        "Pitbull"
+      ],
+      "clubs": [
+        {
+          "name": "Universidad Católica",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Gary_Medel",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2006–2009, 68 lig maçı."
+        },
+        {
+          "name": "Boca Juniors",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Gary_Medel",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2009–2011, 2024–2025, 55 lig maçı."
+        },
+        {
+          "name": "Sevilla",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Gary_Medel",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2011–2013, 78 lig maçı."
+        },
+        {
+          "name": "Cardiff City",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Gary_Medel",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2013–2014, 34 lig maçı."
+        },
+        {
+          "name": "Inter Milan",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Gary_Medel",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2014–2017, 91 lig maçı."
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Gary_Medel",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2017–2019, 51 lig maçı."
+        },
+        {
+          "name": "Bologna",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Gary_Medel",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2019–2023, 96 lig maçı."
+        },
+        {
+          "name": "Vasco da Gama",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Gary_Medel",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2023–2024, 30 lig maçı."
+        }
+      ],
+      "anagramName": "MEDEL",
+      "difficulty": "orta",
+      "difficultyReason": "Beşiktaş'ta iki sezon; Inter ve Sevilla bağlantısı güçlü ipucu."
+    },
+    {
+      "fullName": "Déguy Alain Didier Zokora",
+      "commonName": "Didier Zokora",
+      "aliases": [
+        "Zokora",
+        "Maestro"
+      ],
+      "clubs": [
+        {
+          "name": "ASEC Mimosas",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Didier_Zokora",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1999–2000, 1 lig maçı."
+        },
+        {
+          "name": "Racing Genk",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Didier_Zokora",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2000–2004, 124 lig maçı."
+        },
+        {
+          "name": "Saint-Étienne",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Didier_Zokora",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2004–2006, 66 lig maçı."
+        },
+        {
+          "name": "Tottenham Hotspur",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Didier_Zokora",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2006–2009, 88 lig maçı."
+        },
+        {
+          "name": "Sevilla",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Didier_Zokora",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2009–2011, 49 lig maçı."
+        },
+        {
+          "name": "Trabzonspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Didier_Zokora",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2011–2014, 78 lig maçı."
+        },
+        {
+          "name": "Akhisarspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Didier_Zokora",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2014–2015, 25 lig maçı."
+        },
+        {
+          "name": "Pune City",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Didier_Zokora",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2015–2016, 13 lig maçı."
+        },
+        {
+          "name": "NorthEast United",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Didier_Zokora",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2016–2017, 14 lig maçı."
+        },
+        {
+          "name": "Semen Padang",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Didier_Zokora",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2017, 18 lig maçı."
+        }
+      ],
+      "anagramName": "ZOKORA",
+      "difficulty": "zor",
+      "difficultyReason": "2010'lar başı Trabzonspor oyuncusu; Tottenham/Sevilla bağlantısı az bilinir."
+    }
+  ],
+  "reservePlayers": [
+    {
+      "fullName": "Rafael Alexandre Fernandes Ferreira da Silva",
+      "commonName": "Rafa Silva",
+      "aliases": [
+        "Rafa",
+        "Rafael Silva"
+      ],
+      "clubs": [
+        {
+          "name": "Feirense",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Rafa_Silva",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2012–2013, 41 lig maçı."
+        },
+        {
+          "name": "Braga",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Rafa_Silva",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2013–2016, 88 lig maçı."
+        },
+        {
+          "name": "Benfica",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Rafa_Silva",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2016–2024, 206 lig maçı."
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Rafa_Silva",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2024–2026, 45 lig maçı."
+        }
+      ],
+      "anagramName": "RAFA",
+      "difficulty": "orta",
+      "difficultyReason": "Benfica–Beşiktaş bağlantısı güncel; Avrupa'nın en büyük kulüplerinden değil."
+    },
+    {
+      "fullName": "Muhammed Kerem Aktürkoğlu",
+      "commonName": "Kerem Aktürkoğlu",
+      "aliases": [
+        "Kerem",
+        "Kerem Akturkoglu"
+      ],
+      "clubs": [
+        {
+          "name": "Bodrumspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Kerem_Akt%C3%BCrko%C4%9Flu",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2016–2017, 27 lig maçı (kiralık)."
+        },
+        {
+          "name": "Karacabey Belediyespor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Kerem_Akt%C3%BCrko%C4%9Flu",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2018–2019, 34 lig maçı."
+        },
+        {
+          "name": "24 Erzincanspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Kerem_Akt%C3%BCrko%C4%9Flu",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2019–2020, 30 lig maçı."
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Kerem_Akt%C3%BCrko%C4%9Flu",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2020–2024, 138 lig maçı."
+        },
+        {
+          "name": "Benfica",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Kerem_Akt%C3%BCrko%C4%9Flu",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2024–2025, 31 lig maçı."
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Kerem_Akt%C3%BCrko%C4%9Flu",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2025–, 32 lig maçı."
+        }
+      ],
+      "anagramName": "KEREM",
+      "difficulty": "kolay",
+      "difficultyReason": "GS'den Benfica üzerinden FB'ye geçişi çok konuşuldu."
+    },
+    {
+      "fullName": "Vincent Paté Aboubakar",
+      "commonName": "Vincent Aboubakar",
+      "aliases": [
+        "Aboubakar",
+        "Abou"
+      ],
+      "clubs": [
+        {
+          "name": "Coton Sport",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Vincent_Aboubakar",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2009–2010, 15 lig maçı."
+        },
+        {
+          "name": "Valenciennes",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Vincent_Aboubakar",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2010–2013, 72 lig maçı."
+        },
+        {
+          "name": "Lorient",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Vincent_Aboubakar",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2013–2014, 37 lig maçı."
+        },
+        {
+          "name": "Porto",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Vincent_Aboubakar",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2014–2020, 83 lig maçı."
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Vincent_Aboubakar",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2016–2017 (kiralık), 2020–2021, 2023–2024, 91 lig maçı."
+        },
+        {
+          "name": "Al Nassr",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Vincent_Aboubakar",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2021–2023, 34 lig maçı."
+        },
+        {
+          "name": "Hatayspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Vincent_Aboubakar",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2024–2025, 25 lig maçı."
+        },
+        {
+          "name": "Neftçi",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Vincent_Aboubakar",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2025–, 16 lig maçı."
+        }
+      ],
+      "anagramName": "ABOUBAKAR",
+      "difficulty": "orta",
+      "difficultyReason": "Beşiktaş'ta üç dönem; Porto bağlantısı orta seviye bilgi."
+    },
+    {
+      "fullName": "Mateja Kežman",
+      "commonName": "Mateja Kežman",
+      "aliases": [
+        "Kezman",
+        "Kežman"
+      ],
+      "clubs": [
+        {
+          "name": "Radnički Pirot",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mateja_Ke%C5%BEman",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1996–1997, 17 lig maçı."
+        },
+        {
+          "name": "Loznica",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mateja_Ke%C5%BEman",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1997, 13 lig maçı."
+        },
+        {
+          "name": "Sartid Smederevo",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mateja_Ke%C5%BEman",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1998, 14 lig maçı."
+        },
+        {
+          "name": "Partizan",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mateja_Ke%C5%BEman",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 1998–2000, 54 lig maçı."
+        },
+        {
+          "name": "PSV Eindhoven",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mateja_Ke%C5%BEman",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2000–2004, 122 lig maçı."
+        },
+        {
+          "name": "Chelsea",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mateja_Ke%C5%BEman",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2004–2005, 25 lig maçı."
+        },
+        {
+          "name": "Atlético Madrid",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mateja_Ke%C5%BEman",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2005–2006, 30 lig maçı."
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mateja_Ke%C5%BEman",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2006–2009, 46 lig maçı."
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mateja_Ke%C5%BEman",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2008–2009 (kiralık), 2009–2010, 35 lig maçı."
+        },
+        {
+          "name": "Zenit Saint Petersburg",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mateja_Ke%C5%BEman",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2009, 10 lig maçı (kiralık)."
+        },
+        {
+          "name": "South China",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mateja_Ke%C5%BEman",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2011, 6 lig maçı."
+        },
+        {
+          "name": "BATE Borisov",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mateja_Ke%C5%BEman",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2011, 6 lig maçı."
+        }
+      ],
+      "anagramName": "KEZMAN",
+      "difficulty": "zor",
+      "difficultyReason": "2000'lerin oyuncusu; Chelsea/Atlético geçmişi yeni nesil için zor."
+    },
+    {
+      "fullName": "Luiz Gustavo Dias",
+      "commonName": "Luiz Gustavo",
+      "aliases": [
+        "Luiz Gustavo Dias",
+        "Gustavo"
+      ],
+      "clubs": [
+        {
+          "name": "Corinthians Alagoano",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Luiz_Gustavo",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2007–2008, 21 lig maçı."
+        },
+        {
+          "name": "CRB",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Luiz_Gustavo",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2007, 14 lig maçı (kiralık)."
+        },
+        {
+          "name": "TSG Hoffenheim",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Luiz_Gustavo",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2007–2008 (kiralık), 2008–2011, 99 lig maçı."
+        },
+        {
+          "name": "Bayern Munich",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Luiz_Gustavo",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2011–2013, 64 lig maçı."
+        },
+        {
+          "name": "VfL Wolfsburg",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Luiz_Gustavo",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2013–2017, 109 lig maçı."
+        },
+        {
+          "name": "Marseille",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Luiz_Gustavo",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2017–2019, 67 lig maçı."
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Luiz_Gustavo",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2019–2022, 84 lig maçı."
+        },
+        {
+          "name": "Al-Nassr",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Luiz_Gustavo",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2022–2023, 29 lig maçı."
+        },
+        {
+          "name": "São Paulo",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Luiz_Gustavo",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: 2024–2025, 46 lig maçı."
+        }
+      ],
+      "anagramName": "GUSTAVO",
+      "difficulty": "orta",
+      "difficultyReason": "Bayern–Fenerbahçe bağlantısı; ismi yaygın olduğu için karışabilir."
+    }
+  ],
+  "uncertainRecords": [
+    {
+      "player": "Gheorghe Popescu",
+      "club": "Dunărea Calafat",
+      "years": "1982–1984",
+      "reason": "Wikipedia kariyer tablosunda maç sayısı yok; resmi maç kanıtı bulunamadı, ana listeye alınmadı.",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Gheorghe_Popescu"
+    },
+    {
+      "player": "Luiz Gustavo",
+      "club": "Ipanema / Universal-AL",
+      "years": "2006",
+      "reason": "Maç sayısı '–' olarak gösteriliyor; ana listeye alınmadı.",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Luiz_Gustavo"
+    },
+    {
+      "player": "Marek Hamšík",
+      "club": "Slovan Bratislava (tabloda kulüp adı okunamadı) ve RSC Hamsik Academy",
+      "years": "2004, 2025",
+      "reason": "Çekilen tabloda 2004 satırında kulüp adı yerine oyuncu adı göründü; 2025 kaydı alt lig/akademi takımı. Doğrulanmadan eklenmedi.",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Marek_Ham%C5%A1%C3%ADk"
+    },
+    {
+      "player": "Guti",
+      "club": "Real Madrid / Beşiktaş",
+      "years": "1995–2011",
+      "reason": "Wikipedia infobox tablosunda lig maç sayıları okunamadı; bağlantılar ana listede var ama kanıt madde metni ve haber kaynağına dayanıyor.",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Guti_(footballer,_born_1976)"
+    },
+    {
+      "player": "Davinson Sánchez",
+      "club": "Galatasaray",
+      "years": "2023–",
+      "reason": "Bağlantı kesin; yalnızca maç sayısı tutarsız (infobox 87, aynı sayfadaki tablo 121). Sayı kullanılacaksa resmi kaynaktan teyit edin.",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Davinson_S%C3%A1nchez"
+    },
+    {
+      "player": "Lukas Podolski",
+      "club": "Górnik Zabrze (bitiş yılı)",
+      "years": "2021–2026",
+      "reason": "Kulüp bağlantısı kesin; 2026 ayrılığı tek kaynakta.",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Lukas_Podolski"
+    },
+    {
+      "player": "Nani",
+      "club": "Aktobe",
+      "years": "2026–",
+      "reason": "2026 transferi; yalnızca Wikipedia'da görüldü, ana listeye alınmadı.",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Nani_(footballer)"
+    },
+    {
+      "player": "Edin Džeko",
+      "club": "Schalke 04",
+      "years": "2026–",
+      "reason": "2026 transferi; yalnızca Wikipedia'da görüldü, ana listeye alınmadı.",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Edin_D%C5%BEeko"
+    },
+    {
+      "player": "Dušan Tadić",
+      "club": "NEC Nijmegen",
+      "years": "2026–",
+      "reason": "2026 transferi; yalnızca Wikipedia'da görüldü, ana listeye alınmadı.",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Du%C5%A1an_Tadi%C4%87"
+    },
+    {
+      "player": "Thomas Meunier",
+      "club": "Sunderland",
+      "years": "2026–",
+      "reason": "2026 transferi; yalnızca Wikipedia'da görüldü, ana listeye alınmadı.",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Thomas_Meunier"
+    },
+    {
+      "player": "Fred",
+      "club": "Atlético Mineiro",
+      "years": "2026–",
+      "reason": "2026 transferi; yalnızca Wikipedia'da görüldü, ana listeye alınmadı.",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Fred_(footballer,_born_1993)"
+    },
+    {
+      "player": "Alex Oxlade-Chamberlain",
+      "club": "Celtic",
+      "years": "2026–",
+      "reason": "2026 transferi; yalnızca Wikipedia'da görüldü, ana listeye alınmadı.",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Alex_Oxlade-Chamberlain"
+    },
+    {
+      "player": "Ciro Immobile",
+      "club": "Paris FC",
+      "years": "2026",
+      "reason": "2026 transferi; yalnızca Wikipedia'da görüldü, ana listeye alınmadı.",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Ciro_Immobile"
+    },
+    {
+      "player": "Rafa Silva",
+      "club": "Benfica (ikinci dönem)",
+      "years": "2026–",
+      "reason": "Benfica bağlantısı zaten var; 2026 dönüşü tek kaynakta.",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Rafa_Silva"
+    },
+    {
+      "player": "Vincent Aboubakar",
+      "club": "Bodrum",
+      "years": "2026–",
+      "reason": "2026 transferi; yalnızca Wikipedia'da görüldü, ana listeye alınmadı.",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Vincent_Aboubakar"
+    },
+    {
+      "player": "Luiz Gustavo",
+      "club": "Athletico Paranaense",
+      "years": "2026–",
+      "reason": "2026 transferi; yalnızca Wikipedia'da görüldü, ana listeye alınmadı.",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Luiz_Gustavo"
+    },
+    {
+      "player": "Gary Medel",
+      "club": "Universidad Católica (ikinci dönem)",
+      "years": "2025–",
+      "reason": "Kulüp zaten var; ikinci dönem tek kaynakta.",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Gary_Medel"
+    },
+    {
+      "player": "Juan Mata",
+      "club": "Melbourne Victory",
+      "years": "2025–2026",
+      "reason": "Yalnızca Wikipedia'da görüldü, ana listeye alınmadı.",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Juan_Mata"
+    }
+  ],
+  "exclusionRules": [
+    "Yedek/altyapı takımları (Real Madrid Castilla, Barcelona B, Schalke 04 II, VfL Bochum II, Bayern II, 1. FC Köln II, Ajax II, Heerenveen II, Sporting CP B, Marítimo B, VfB Stuttgart II, Dortmund II, Juventus altyapısı vb.) A takım sayılmadı. Bu yüzden Juan Mata için Real Madrid, Gündoğan için Bochum yok.",
+    "Kayıtlı olup 0 lig maçı görünen dönemler çıkarıldı: Mertens–Gent, Kerem Aktürkoğlu–İstanbul Başakşehir, Eboué–Sunderland, Mikel–Kuwait SC, Immobile–Sorrento, Kežman–South China 2012 dönemi. Osimhen–Charleroi ve Immobile–Sevilla, kiralık dönemde maça çıktığı için dahil.",
+    "Teknik direktörlük bağlantıları dahil edilmedi (ör. Hagi'nin Galatasaray hocalığı, Podolski/Carlos oyuncu-hoca dönemleri yalnızca oyunculuk olarak sayıldı)."
+  ]
+}

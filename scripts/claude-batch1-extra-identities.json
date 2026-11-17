@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "-1": {
+      "site": "enwiki",
+      "title": "Pepe (footballer)",
+      "missing": ""
+    },
+    "Q194461": {
+      "type": "item",
+      "id": "Q194461",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Guti"
+        },
+        "tr": {
+          "language": "tr",
+          "value": "Guti Hernández"
+        }
+      },
+      "aliases": {
+        "tr": [
+          {
+            "language": "tr",
+            "value": "José María Gutiérrez"
+          },
+          {
+            "language": "tr",
+            "value": "Guti Hernandez"
+          },
+          {
+            "language": "tr",
+            "value": "Jose Maria Gutiérrez Hernández"
+          },
+          {
+            "language": "tr",
+            "value": "Jose Maria Gutierrez Hernandez"
+          },
+          {
+            "language": "tr",
+            "value": "Guti"
+          }
+        ],
+        "en": [
+          {
+            "language": "en",
+            "value": "José María Gutiérrez Hernández"
+          }
+        ]
+      }
+    },
+    "Q166984": {
+      "type": "item",
+      "id": "Q166984",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Mikel John Obi"
+        },
+        "tr": {
+          "language": "tr",
+          "value": "Mikel John Obi"
+        }
+      },
+      "aliases": {
+        "en": [
+          {
+            "language": "en",
+            "value": "Juan Obi Mikel"
+          },
+          {
+            "language": "en",
+            "value": "Jon Obi Mikel"
+          }
+        ],
+        "tr": [
+          {
+            "language": "tr",
+            "value": "John Obi Mikel"
+          }
+        ]
+      }
+    }
+  },
+  "success": 1
+}

@@ -17,3 +17,15 @@ Sources and license:
 - https://www.wikidata.org/wiki/Property:P1350 (appearances)
 
 The checked-in evidence snapshot retains statement URLs and retrieval time. It does not contain player photos or club logos; their licenses are separate.
+
+## Claude batch one (2026-11-17)
+
+`football_players_batch1.json` is the original untrusted research proposal: 50 players and 335 career links, plus reserves and uncertain records. Do not import it wholesale. `claude-batch1-review.json` captures the pre-import comparison: 30 existing players, 20 new candidates, and no new supported-club links for the existing players.
+
+`claude-batch1-admission.json` retains positive-appearance Wikidata statements for the new candidates. Fourteen meet the existing two-supported-club admission rule, adding 32 links in `game/reviewed-players.json`. This is corroboration against the community dataset, not independent official verification: Wikipedia and Wikidata can share sources. Guti's proposal was also marked uncertain; his two memberships were separately matched to positive-appearance statements. No uncertain 2026 transfer or reserve-only entry was imported.
+
+Six candidates are deferred: Pepe (identity unresolved in the automated title lookup), Davinson Sánchez (no matching positive-appearance statements in the cached subset), and Muslera, Mertens, Osimhen, Hamšík (only one supported club each). This does not dispute their careers. Other career clubs remain in the proposal for later expansion. No new selectable club is introduced here.
+
+The 38 new anagram words use ASCII puzzles; the existing answer normalizer accepts accents/Turkish characters. Released words keep their difficulty. New words use up to five letters for easy, six to eight for medium, longer for hard, as an initial rule to tune after playtesting. The catalog now has 417 players and 58 anagram words after applying migrations 202611170004 and 202611170005. Neither file changes existing game results.
+
+`review-claude-batch.ts` and `prepare-claude-batch.ts` are batch-one preparation tools, not a recurring refresh job. They require the original cached club data and saved identity responses; the latter refuses to overwrite the generated migration. Keep the pre-import review as an audit baseline. Future batches need their own evidence snapshot and new migration filenames.

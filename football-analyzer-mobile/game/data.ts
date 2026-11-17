@@ -1,4 +1,5 @@
 import importedPlayers from "./imported-players.json";
+import reviewedPlayers from "./reviewed-players.json";
 export interface GamePlayer { id: string; name: string; clubs: readonly string[]; source: string; aliases?: readonly string[] }
 // Curated senior-club links, not exhaustive careers. Each entry keeps its evidence.
 const curatedPlayers = [
@@ -25,6 +26,7 @@ export const players: GamePlayer[] = [
     return imported ? { ...curated, clubs: Array.from(new Set([...curated.clubs, ...imported.clubs])), aliases: imported.aliases } : curated;
   }),
   ...importedPlayers.filter(p => !curatedPlayers.some(c => importedMatches(p, c))),
+  ...reviewedPlayers.filter(p => !importedPlayers.some(i => i.id === p.id) && !curatedPlayers.some(c => importedMatches(p, c))),
 ];
 
 export const pairs = [

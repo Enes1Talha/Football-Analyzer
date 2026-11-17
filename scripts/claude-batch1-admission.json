@@ -1,0 +1,363 @@
+{
+  "policy": "Positive-appearance corroboration, not official manual verification. Counts are evidence only, never displayed as current totals.",
+  "players": [
+    {
+      "name": "Mesut Özil",
+      "id": "Q83488",
+      "accepted": true,
+      "evidence": [
+        {
+          "club": "Arsenal",
+          "appearances": 184,
+          "statement": "http://www.wikidata.org/entity/statement/q83488-E6D693D1-A491-43E1-9A74-11DB7D7B6322"
+        },
+        {
+          "club": "Real Madrid",
+          "appearances": 105,
+          "statement": "http://www.wikidata.org/entity/statement/Q83488-8E5AB749-06F9-4DE9-8D2C-2B7BA9125A57"
+        },
+        {
+          "club": "Fenerbahçe",
+          "appearances": 32,
+          "statement": "http://www.wikidata.org/entity/statement/Q83488-68247b48-4d0e-fee9-016d-1ceb531969d9"
+        }
+      ],
+      "reason": "At least two proposed supported-club links have positive appearance statements."
+    },
+    {
+      "name": "Pepe",
+      "id": null,
+      "accepted": false,
+      "evidence": [],
+      "reason": "Unresolved identity or fewer than two corroborated supported-club links; deferred, not disproved."
+    },
+    {
+      "name": "Guti",
+      "id": "Q194461",
+      "accepted": true,
+      "evidence": [
+        {
+          "club": "Real Madrid",
+          "appearances": 387,
+          "statement": "http://www.wikidata.org/entity/statement/q194461-86E12DCC-F93C-4374-BAE4-8AAFF5C0AA1C"
+        },
+        {
+          "club": "Beşiktaş",
+          "appearances": 23,
+          "statement": "http://www.wikidata.org/entity/statement/q194461-9A30BCDD-6151-4EAC-A8E7-93E479492B15"
+        }
+      ],
+      "reason": "At least two proposed supported-club links have positive appearance statements."
+    },
+    {
+      "name": "Roberto Carlos",
+      "id": "Q429039",
+      "accepted": true,
+      "evidence": [
+        {
+          "club": "Real Madrid",
+          "appearances": 370,
+          "statement": "http://www.wikidata.org/entity/statement/Q429039-B1801DE9-B3DB-40CC-9914-080849F00720"
+        },
+        {
+          "club": "Fenerbahçe",
+          "appearances": 65,
+          "statement": "http://www.wikidata.org/entity/statement/Q429039-C7CA2AD1-3732-41DF-B600-7E3059D57759"
+        },
+        {
+          "club": "Inter",
+          "appearances": 30,
+          "statement": "http://www.wikidata.org/entity/statement/q429039-352F4B01-977C-4653-BF8A-96A8ED6C1E31"
+        }
+      ],
+      "reason": "At least two proposed supported-club links have positive appearance statements."
+    },
+    {
+      "name": "Mario Gómez",
+      "id": "Q45766",
+      "accepted": true,
+      "evidence": [
+        {
+          "club": "Beşiktaş",
+          "appearances": 33,
+          "statement": "http://www.wikidata.org/entity/statement/Q45766-1068E914-E656-4D76-A3BA-2C6FBAE40D7E"
+        },
+        {
+          "club": "Bayern Munich",
+          "appearances": 115,
+          "statement": "http://www.wikidata.org/entity/statement/Q45766-705C4593-18C1-4377-A1F5-926255213443"
+        }
+      ],
+      "reason": "At least two proposed supported-club links have positive appearance statements."
+    },
+    {
+      "name": "Fernando Muslera",
+      "id": "Q203749",
+      "accepted": false,
+      "evidence": [
+        {
+          "club": "Galatasaray",
+          "appearances": 443,
+          "statement": "http://www.wikidata.org/entity/statement/q203749-C29573E2-AF78-41BC-BC66-909020C891DF"
+        }
+      ],
+      "reason": "Unresolved identity or fewer than two corroborated supported-club links; deferred, not disproved."
+    },
+    {
+      "name": "Arda Turan",
+      "id": "Q487459",
+      "accepted": true,
+      "evidence": [
+        {
+          "club": "Barcelona",
+          "appearances": 36,
+          "statement": "http://www.wikidata.org/entity/statement/Q487459-655AADF5-15BE-458E-AEEC-B5B1800C4059"
+        },
+        {
+          "club": "Galatasaray",
+          "appearances": 130,
+          "statement": "http://www.wikidata.org/entity/statement/Q487459-e6ac426d-4984-4aee-702a-c2a9f9797d8b"
+        },
+        {
+          "club": "Galatasaray",
+          "appearances": 39,
+          "statement": "http://www.wikidata.org/entity/statement/Q487459-ece58b62-4b62-373b-ffe2-77d4cae4979c"
+        },
+        {
+          "club": "Atlético Madrid",
+          "appearances": 127,
+          "statement": "http://www.wikidata.org/entity/statement/Q487459-9A118320-8C6C-4897-87C7-B8B94E8C6BCD"
+        }
+      ],
+      "reason": "At least two proposed supported-club links have positive appearance statements."
+    },
+    {
+      "name": "Hakan Şükür",
+      "id": "Q192974",
+      "accepted": true,
+      "evidence": [
+        {
+          "club": "Galatasaray",
+          "appearances": 146,
+          "statement": "http://www.wikidata.org/entity/statement/Q192974-00461B87-E9D0-4633-BDC3-F90CCE32058A"
+        },
+        {
+          "club": "Galatasaray",
+          "appearances": 156,
+          "statement": "http://www.wikidata.org/entity/statement/Q192974-7D4C106D-D84C-49BC-BC23-365DF560D2CD"
+        },
+        {
+          "club": "Galatasaray",
+          "appearances": 90,
+          "statement": "http://www.wikidata.org/entity/statement/q192974-BE3D59E3-DCBC-4D3F-B599-43AA7D3A87C4"
+        },
+        {
+          "club": "Inter",
+          "appearances": 24,
+          "statement": "http://www.wikidata.org/entity/statement/q192974-0BC27E5D-A9B6-4293-BD2E-4A4D204C5B76"
+        }
+      ],
+      "reason": "At least two proposed supported-club links have positive appearance statements."
+    },
+    {
+      "name": "Gheorghe Popescu",
+      "id": "Q313205",
+      "accepted": true,
+      "evidence": [
+        {
+          "club": "Barcelona",
+          "appearances": 68,
+          "statement": "http://www.wikidata.org/entity/statement/q313205-5D054256-0B4A-4E28-ACB2-7AE25E689056"
+        },
+        {
+          "club": "Galatasaray",
+          "appearances": 111,
+          "statement": "http://www.wikidata.org/entity/statement/q313205-50B78F95-6F55-43A7-8491-C79ADA54AAAE"
+        }
+      ],
+      "reason": "At least two proposed supported-club links have positive appearance statements."
+    },
+    {
+      "name": "Dušan Tadić",
+      "id": "Q713895",
+      "accepted": true,
+      "evidence": [
+        {
+          "club": "Fenerbahçe",
+          "appearances": 73,
+          "statement": "http://www.wikidata.org/entity/statement/Q713895-eaef175c-4904-9b05-6280-e74cfdea18f1"
+        },
+        {
+          "club": "Ajax",
+          "appearances": 161,
+          "statement": "http://www.wikidata.org/entity/statement/Q713895-d30a0577-437a-4b85-772c-03273337c7fc"
+        }
+      ],
+      "reason": "At least two proposed supported-club links have positive appearance statements."
+    },
+    {
+      "name": "Dries Mertens",
+      "id": "Q11954",
+      "accepted": false,
+      "evidence": [
+        {
+          "club": "Galatasaray",
+          "appearances": 100,
+          "statement": "http://www.wikidata.org/entity/statement/Q11954-c4b68761-4022-9783-a3ec-4d4054730e12"
+        }
+      ],
+      "reason": "Unresolved identity or fewer than two corroborated supported-club links; deferred, not disproved."
+    },
+    {
+      "name": "Wilfried Zaha",
+      "id": "Q713711",
+      "accepted": true,
+      "evidence": [
+        {
+          "club": "Manchester United",
+          "appearances": 2,
+          "statement": "http://www.wikidata.org/entity/statement/Q713711-ce3c3838-4b0c-158d-013a-68daaa02b5b4"
+        },
+        {
+          "club": "Galatasaray",
+          "appearances": 30,
+          "statement": "http://www.wikidata.org/entity/statement/Q713711-80f2e69e-4f7c-2539-b53f-826eac7ff71b"
+        },
+        {
+          "club": "Lyon",
+          "appearances": 4,
+          "statement": "http://www.wikidata.org/entity/statement/Q713711-21832462-4e72-072a-38a5-22acaace0333"
+        }
+      ],
+      "reason": "At least two proposed supported-club links have positive appearance statements."
+    },
+    {
+      "name": "Victor Osimhen",
+      "id": "Q25253293",
+      "accepted": false,
+      "evidence": [
+        {
+          "club": "Galatasaray",
+          "appearances": 24,
+          "statement": "http://www.wikidata.org/entity/statement/Q25253293-db5f5696-4f83-1689-e91f-2b4a3248c6fc"
+        },
+        {
+          "club": "Galatasaray",
+          "appearances": 30,
+          "statement": "http://www.wikidata.org/entity/statement/Q25253293-cd58d7f8-4c93-866d-6de1-23f883366a0c"
+        }
+      ],
+      "reason": "Unresolved identity or fewer than two corroborated supported-club links; deferred, not disproved."
+    },
+    {
+      "name": "Davinson Sánchez",
+      "id": "Q20737387",
+      "accepted": false,
+      "evidence": [],
+      "reason": "Unresolved identity or fewer than two corroborated supported-club links; deferred, not disproved."
+    },
+    {
+      "name": "Marek Hamšík",
+      "id": "Q201825",
+      "accepted": false,
+      "evidence": [
+        {
+          "club": "Trabzonspor",
+          "appearances": 49,
+          "statement": "http://www.wikidata.org/entity/statement/Q201825-05f07758-4170-a1a1-307c-22c375e1e842"
+        }
+      ],
+      "reason": "Unresolved identity or fewer than two corroborated supported-club links; deferred, not disproved."
+    },
+    {
+      "name": "John Obi Mikel",
+      "id": "Q166984",
+      "accepted": true,
+      "evidence": [
+        {
+          "club": "Chelsea",
+          "appearances": 249,
+          "statement": "http://www.wikidata.org/entity/statement/q166984-3E927C54-75AA-486B-B314-E5E7F1030DE4"
+        },
+        {
+          "club": "Trabzonspor",
+          "appearances": 19,
+          "statement": "http://www.wikidata.org/entity/statement/Q166984-d216360f-43aa-4ba1-42af-7acc165e664b"
+        }
+      ],
+      "reason": "At least two proposed supported-club links have positive appearance statements."
+    },
+    {
+      "name": "Fred",
+      "id": "Q965448",
+      "accepted": true,
+      "evidence": [
+        {
+          "club": "Manchester United",
+          "appearances": 139,
+          "statement": "http://www.wikidata.org/entity/statement/Q965448-84279a24-4da3-4d12-f3ca-6b3bb2d040ed"
+        },
+        {
+          "club": "Fenerbahçe",
+          "appearances": 86,
+          "statement": "http://www.wikidata.org/entity/statement/Q965448-4f06b69f-45f7-d648-0d09-13d5a7d26604"
+        }
+      ],
+      "reason": "At least two proposed supported-club links have positive appearance statements."
+    },
+    {
+      "name": "Diego Lugano",
+      "id": "Q373547",
+      "accepted": true,
+      "evidence": [
+        {
+          "club": "Fenerbahçe",
+          "appearances": 188,
+          "statement": "http://www.wikidata.org/entity/statement/q373547-EF328FB2-0D4D-4277-A9EA-A3C989B9E1EE"
+        },
+        {
+          "club": "Paris Saint-Germain",
+          "appearances": 21,
+          "statement": "http://www.wikidata.org/entity/statement/q373547-547D02AF-52F2-4E60-93B0-830D1A988904"
+        }
+      ],
+      "reason": "At least two proposed supported-club links have positive appearance statements."
+    },
+    {
+      "name": "Emmanuel Eboué",
+      "id": "Q192856",
+      "accepted": true,
+      "evidence": [
+        {
+          "club": "Arsenal",
+          "appearances": 132,
+          "statement": "http://www.wikidata.org/entity/statement/q192856-340CE338-76D5-4860-A640-15D3123C1B79"
+        },
+        {
+          "club": "Galatasaray",
+          "appearances": 77,
+          "statement": "http://www.wikidata.org/entity/statement/q192856-70A5709D-82BE-42D1-A024-D38A3F4A19B1"
+        }
+      ],
+      "reason": "At least two proposed supported-club links have positive appearance statements."
+    },
+    {
+      "name": "Didier Zokora",
+      "id": "Q207397",
+      "accepted": true,
+      "evidence": [
+        {
+          "club": "Trabzonspor",
+          "appearances": 78,
+          "statement": "http://www.wikidata.org/entity/statement/q207397-4495D6C8-DD74-46CA-9225-560CFABEC468"
+        },
+        {
+          "club": "Sevilla",
+          "appearances": 49,
+          "statement": "http://www.wikidata.org/entity/statement/q207397-933E1FB1-21D4-429E-AD7C-733779D4B447"
+        }
+      ],
+      "reason": "At least two proposed supported-club links have positive appearance statements."
+    }
+  ]
+}

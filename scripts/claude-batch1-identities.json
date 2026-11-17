@@ -1,0 +1,423 @@
+{
+  "entities": {
+    "-1": {
+      "site": "enwiki",
+      "title": "Pepe (footballer, born 1983)",
+      "missing": ""
+    },
+    "-2": {
+      "site": "enwiki",
+      "title": "Guti (footballer, born 1976)",
+      "missing": ""
+    },
+    "-3": {
+      "site": "enwiki",
+      "title": "John Obi Mikel",
+      "missing": ""
+    },
+    "Q83488": {
+      "type": "item",
+      "id": "Q83488",
+      "labels": {
+        "tr": {
+          "language": "tr",
+          "value": "Mesut Özil"
+        },
+        "en": {
+          "language": "en",
+          "value": "Mesut Özil"
+        }
+      },
+      "aliases": {}
+    },
+    "Q429039": {
+      "type": "item",
+      "id": "Q429039",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Roberto Carlos"
+        },
+        "tr": {
+          "language": "tr",
+          "value": "Roberto Carlos"
+        }
+      },
+      "aliases": {
+        "en": [
+          {
+            "language": "en",
+            "value": "Roberto Carlos da Silva Rocha"
+          }
+        ]
+      }
+    },
+    "Q45766": {
+      "type": "item",
+      "id": "Q45766",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Mario Gómez"
+        },
+        "tr": {
+          "language": "tr",
+          "value": "Mario Gómez"
+        }
+      },
+      "aliases": {}
+    },
+    "Q203749": {
+      "type": "item",
+      "id": "Q203749",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Fernando Muslera"
+        },
+        "tr": {
+          "language": "tr",
+          "value": "Fernando Muslera"
+        }
+      },
+      "aliases": {
+        "tr": [
+          {
+            "language": "tr",
+            "value": "Muslera"
+          },
+          {
+            "language": "tr",
+            "value": "Néstor Fernando Muslera Micol"
+          }
+        ],
+        "en": [
+          {
+            "language": "en",
+            "value": "Néstor Fernando Muslera Micol"
+          }
+        ]
+      }
+    },
+    "Q487459": {
+      "type": "item",
+      "id": "Q487459",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Arda Turan"
+        },
+        "tr": {
+          "language": "tr",
+          "value": "Arda Turan"
+        }
+      },
+      "aliases": {}
+    },
+    "Q192974": {
+      "type": "item",
+      "id": "Q192974",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Hakan Şükür"
+        },
+        "tr": {
+          "language": "tr",
+          "value": "Hakan Şükür"
+        }
+      },
+      "aliases": {
+        "tr": [
+          {
+            "language": "tr",
+            "value": "Hakan Şukur"
+          },
+          {
+            "language": "tr",
+            "value": "Hakan Sukur"
+          }
+        ],
+        "en": [
+          {
+            "language": "en",
+            "value": "Hakan Sukur"
+          }
+        ]
+      }
+    },
+    "Q313205": {
+      "type": "item",
+      "id": "Q313205",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Gheorghe Popescu"
+        },
+        "tr": {
+          "language": "tr",
+          "value": "Gheorghe Popescu"
+        }
+      },
+      "aliases": {
+        "en": [
+          {
+            "language": "en",
+            "value": "Gică Popescu"
+          }
+        ],
+        "tr": [
+          {
+            "language": "tr",
+            "value": "Gică Popescu"
+          }
+        ]
+      }
+    },
+    "Q713895": {
+      "type": "item",
+      "id": "Q713895",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Dušan Tadić"
+        },
+        "tr": {
+          "language": "tr",
+          "value": "Dušan Tadić"
+        }
+      },
+      "aliases": {}
+    },
+    "Q11954": {
+      "type": "item",
+      "id": "Q11954",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Dries Mertens"
+        },
+        "tr": {
+          "language": "tr",
+          "value": "Dries Mertens"
+        }
+      },
+      "aliases": {}
+    },
+    "Q713711": {
+      "type": "item",
+      "id": "Q713711",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Wilfried Zaha"
+        },
+        "tr": {
+          "language": "tr",
+          "value": "Wilfried Zaha"
+        }
+      },
+      "aliases": {
+        "en": [
+          {
+            "language": "en",
+            "value": "Dazet Wilfried Armel Zaha"
+          }
+        ]
+      }
+    },
+    "Q25253293": {
+      "type": "item",
+      "id": "Q25253293",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Victor Osimhen"
+        },
+        "tr": {
+          "language": "tr",
+          "value": "Victor Osimhen"
+        }
+      },
+      "aliases": {
+        "en": [
+          {
+            "language": "en",
+            "value": "Victor James Osimhen"
+          }
+        ],
+        "tr": [
+          {
+            "language": "tr",
+            "value": "Victor James Osimhen"
+          }
+        ]
+      }
+    },
+    "Q20737387": {
+      "type": "item",
+      "id": "Q20737387",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Dávinson Sánchez"
+        },
+        "tr": {
+          "language": "tr",
+          "value": "Davinson Sánchez"
+        }
+      },
+      "aliases": {
+        "en": [
+          {
+            "language": "en",
+            "value": "Dávinson Sánchez Mina"
+          }
+        ],
+        "tr": [
+          {
+            "language": "tr",
+            "value": "Davinson Sánchez Mina"
+          }
+        ]
+      }
+    },
+    "Q201825": {
+      "type": "item",
+      "id": "Q201825",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Marek Hamšík"
+        },
+        "tr": {
+          "language": "tr",
+          "value": "Marek Hamšík"
+        }
+      },
+      "aliases": {
+        "en": [
+          {
+            "language": "en",
+            "value": "Marek Hamsik"
+          }
+        ]
+      }
+    },
+    "Q965448": {
+      "type": "item",
+      "id": "Q965448",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Fred"
+        },
+        "tr": {
+          "language": "tr",
+          "value": "Fred"
+        }
+      },
+      "aliases": {
+        "en": [
+          {
+            "language": "en",
+            "value": "Frederico Rodrigues de Paula Santos"
+          }
+        ],
+        "tr": [
+          {
+            "language": "tr",
+            "value": "Frederico Rodrigues de Paula Santos"
+          }
+        ]
+      }
+    },
+    "Q373547": {
+      "type": "item",
+      "id": "Q373547",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Diego Lugano"
+        },
+        "tr": {
+          "language": "tr",
+          "value": "Diego Lugano"
+        }
+      },
+      "aliases": {
+        "en": [
+          {
+            "language": "en",
+            "value": "Diego Alfredo Lugano Morena"
+          },
+          {
+            "language": "en",
+            "value": "Diego Alfredo Lugano Moreno"
+          },
+          {
+            "language": "en",
+            "value": "Diego Alfredo Lugano"
+          }
+        ],
+        "tr": [
+          {
+            "language": "tr",
+            "value": "Diego Alfredo Lugano Moreno"
+          }
+        ]
+      }
+    },
+    "Q192856": {
+      "type": "item",
+      "id": "Q192856",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Emmanuel Eboué"
+        },
+        "tr": {
+          "language": "tr",
+          "value": "Emmanuel Eboué"
+        }
+      },
+      "aliases": {
+        "tr": [
+          {
+            "language": "tr",
+            "value": "Emmanuel Eboue"
+          }
+        ],
+        "en": [
+          {
+            "language": "en",
+            "value": "Emmanuel Eboue"
+          }
+        ]
+      }
+    },
+    "Q207397": {
+      "type": "item",
+      "id": "Q207397",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Didier Zokora"
+        },
+        "tr": {
+          "language": "tr",
+          "value": "Didier Zokora"
+        }
+      },
+      "aliases": {
+        "en": [
+          {
+            "language": "en",
+            "value": "Déguy Alain Didier Zokora"
+          }
+        ]
+      }
+    }
+  },
+  "success": 1
+}
