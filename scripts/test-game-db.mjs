@@ -28,6 +28,11 @@ for (const role of ['anon','authenticated']) {
 }
 assert.equal((await db.query("select relrowsecurity from pg_class where oid='public.matches'::regclass")).rows[0].relrowsecurity,true);
 const catalog = await db.query('select id,name,clubs from public.game_players order by id');
+assert.equal((await db.query("select public.game_answer_key('Sørloth') as key")).rows[0].key,'sorloth');
+assert.ok(answersFor(['Beşiktaş','Feyenoord']).some(p=>p.name==='Orkun Kökçü'));
+assert.ok(answersFor(['Fenerbahçe','Juventus']).some(p=>p.id==='wd-Q109428'));
+assert.ok(!answersFor(['Galatasaray','Inter']).some(p=>p.name==='Caner Erkin'));
+assert.ok(players.find(p=>p.name==='Fernando Muslera').clubs.length===1);
 const practiceWords=JSON.parse(readFileSync(new URL('../src/lib/solo-anagrams.json',import.meta.url),'utf8'));
 assert.deepEqual((await db.query('select word,player_name,difficulty from public.game_anagrams order by word')).rows,
  practiceWords.map(({word,playerName,difficulty})=>({word,player_name:playerName,difficulty})).sort((a,b)=>a.word<b.word?-1:a.word>b.word?1:0));

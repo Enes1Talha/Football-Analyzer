@@ -1,5 +1,23 @@
 # Game data workflow
 
+## Batch two (2026-11-17)
+
+Current total: 473 catalog players, of which 469 have at least two supported clubs; 134 anagram words in both ranked and solo modes. Batch two adds 50 proposed new players, resolves Pepe and Davinson Sánchez, and admits Muslera/Mertens/Osimhen/Hamšík for anagrams only (one supported club; they create no two-club pairs). Diego Ribas retains `wd-Q109428` and gains Fenerbahçe. New records use local `research-` IDs rather than invented Wikidata identities.
+
+`football_players_batch2.json` retains the researcher's per-link evidence and source classifications. `batch-two-admission.json` records the import scope. These are attributed research records, not a claim that every secondary-source career was independently audited. The original 50 candidates contain 19 official and 101 secondary-source links. Targeted checks opened UEFA's Pepe appearance-by-club list, Orkun Kökçü's Beşiktaş appearance page, Uğurcan Çakır and Davinson Sánchez's Galatasaray pages, Nélson Semedo's Fenerbahçe page and the Turkish-player statistics article. Diego and Davinson's Wikipedia pages were also consulted. Remaining secondary claims retain the researcher's provenance; they are not upgraded to official evidence. Uncertain links, reserve candidates and transfer-date claims are not imported.
+
+The 76 added words comprise 50 new-player words, 20 existing-player suggestions and six deferred-player words. DIEGOREYES and BRUNOALVES disambiguate the submitted REYES/ALVES words; longer words use the hard duration. Existing word difficulties are unchanged. Ø is normalized to O in both client and server answers for SØRLOTH. Sources describe historical appearances; counts are not displayed as current statistics.
+
+Official spot-check sources:
+- https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/
+- https://www.uefa.com/uefaeuropaleague/clubs/players/250113211--orkun-kokcu/
+- https://www.uefa.com/uefachampionsleague/clubs/players/250078452--ugurcan-cakir/
+- https://www.uefa.com/uefachampionsleague/clubs/players/250099374--davinson-sanchez/
+- https://www.uefa.com/uefachampionsleague/clubs/players/250086090--nelson-semedo/
+- https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/
+
+Preparation scripts are one-time, pre-import tools. `prepare-batch-two.ts` refuses to overwrite its migration; do not rerun it against the already merged catalog. Refresh research exports after future batches and update any dated prompt counts before sending them.
+
 The game uses a versioned snapshot, not a live Wikidata call during a round.
 
 1. `node scripts/import-game-wikidata.mjs` fetches club memberships with positive P1350 (appearances) qualifiers and excludes deprecated statements. Club-scoped responses are cached under ignored `node_modules/.cache/game-import/` so a network interruption can resume. Remove only that cache when deliberately fetching a fresh snapshot.

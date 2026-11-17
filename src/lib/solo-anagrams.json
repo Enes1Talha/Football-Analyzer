@@ -288,5 +288,385 @@
     "word": "ZOKORA",
     "playerName": "Didier Zokora",
     "difficulty": "medium"
+  },
+  {
+    "word": "GULER",
+    "playerName": "Arda Güler",
+    "difficulty": "easy"
+  },
+  {
+    "word": "KOKCU",
+    "playerName": "Orkun Kökçü",
+    "difficulty": "easy"
+  },
+  {
+    "word": "KABAK",
+    "playerName": "Ozan Kabak",
+    "difficulty": "easy"
+  },
+  {
+    "word": "SOYUNCU",
+    "playerName": "Çağlar Söyüncü",
+    "difficulty": "medium"
+  },
+  {
+    "word": "UGURCAN",
+    "playerName": "Uğurcan Çakır",
+    "difficulty": "medium"
+  },
+  {
+    "word": "ERKIN",
+    "playerName": "Caner Erkin",
+    "difficulty": "easy"
+  },
+  {
+    "word": "INAN",
+    "playerName": "Selçuk İnan",
+    "difficulty": "easy"
+  },
+  {
+    "word": "TUMER",
+    "playerName": "Tümer Metin",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ALMEIDA",
+    "playerName": "Hugo Almeida",
+    "difficulty": "medium"
+  },
+  {
+    "word": "AURELIO",
+    "playerName": "Mehmet Aurélio",
+    "difficulty": "medium"
+  },
+  {
+    "word": "ADRIANO",
+    "playerName": "Adriano Correia",
+    "difficulty": "medium"
+  },
+  {
+    "word": "TALISCA",
+    "playerName": "Talisca",
+    "difficulty": "medium"
+  },
+  {
+    "word": "LJAJIC",
+    "playerName": "Adem Ljajić",
+    "difficulty": "medium"
+  },
+  {
+    "word": "GHEZZAL",
+    "playerName": "Rachid Ghezzal",
+    "difficulty": "medium"
+  },
+  {
+    "word": "ELNENY",
+    "playerName": "Mohamed Elneny",
+    "difficulty": "medium"
+  },
+  {
+    "word": "UCAN",
+    "playerName": "Salih Uçan",
+    "difficulty": "easy"
+  },
+  {
+    "word": "GEDSON",
+    "playerName": "Gedson Fernandes",
+    "difficulty": "medium"
+  },
+  {
+    "word": "REBIC",
+    "playerName": "Ante Rebić",
+    "difficulty": "easy"
+  },
+  {
+    "word": "RASHICA",
+    "playerName": "Milot Rashica",
+    "difficulty": "medium"
+  },
+  {
+    "word": "WEGHORST",
+    "playerName": "Wout Weghorst",
+    "difficulty": "medium"
+  },
+  {
+    "word": "TOSUN",
+    "playerName": "Cenk Tosun",
+    "difficulty": "easy"
+  },
+  {
+    "word": "KEREM",
+    "playerName": "Kerem Aktürkoğlu",
+    "difficulty": "easy"
+  },
+  {
+    "word": "RAFA",
+    "playerName": "Rafa Silva",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ABOUBAKAR",
+    "playerName": "Vincent Aboubakar",
+    "difficulty": "hard"
+  },
+  {
+    "word": "MAXIMIN",
+    "playerName": "Allan Saint-Maximin",
+    "difficulty": "medium"
+  },
+  {
+    "word": "NESYRI",
+    "playerName": "Youssef En-Nesyri",
+    "difficulty": "medium"
+  },
+  {
+    "word": "SKRINIAR",
+    "playerName": "Milan Škriniar",
+    "difficulty": "medium"
+  },
+  {
+    "word": "SZYMANSKI",
+    "playerName": "Sebastian Szymański",
+    "difficulty": "hard"
+  },
+  {
+    "word": "KRUNIC",
+    "playerName": "Rade Krunić",
+    "difficulty": "medium"
+  },
+  {
+    "word": "SEMEDO",
+    "playerName": "Nélson Semedo",
+    "difficulty": "medium"
+  },
+  {
+    "word": "DIEGOREYES",
+    "playerName": "Diego Reyes",
+    "difficulty": "hard"
+  },
+  {
+    "word": "SKRTEL",
+    "playerName": "Martin Škrtel",
+    "difficulty": "medium"
+  },
+  {
+    "word": "MARKOVIC",
+    "playerName": "Lazar Marković",
+    "difficulty": "medium"
+  },
+  {
+    "word": "BRUNOALVES",
+    "playerName": "Bruno Alves",
+    "difficulty": "hard"
+  },
+  {
+    "word": "BALJIC",
+    "playerName": "Elvir Baljić",
+    "difficulty": "medium"
+  },
+  {
+    "word": "OKOCHA",
+    "playerName": "Jay-Jay Okocha",
+    "difficulty": "medium"
+  },
+  {
+    "word": "DAVALA",
+    "playerName": "Ümit Davala",
+    "difficulty": "medium"
+  },
+  {
+    "word": "BURUK",
+    "playerName": "Okan Buruk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ALTINTOP",
+    "playerName": "Hamit Altıntop",
+    "difficulty": "medium"
+  },
+  {
+    "word": "KEWELL",
+    "playerName": "Harry Kewell",
+    "difficulty": "medium"
+  },
+  {
+    "word": "BOEY",
+    "playerName": "Sacha Boey",
+    "difficulty": "easy"
+  },
+  {
+    "word": "OLIVEIRA",
+    "playerName": "Sérgio Oliveira",
+    "difficulty": "medium"
+  },
+  {
+    "word": "ZANIOLO",
+    "playerName": "Nicolò Zaniolo",
+    "difficulty": "medium"
+  },
+  {
+    "word": "KUCKA",
+    "playerName": "Juraj Kucka",
+    "difficulty": "easy"
+  },
+  {
+    "word": "CARDOZO",
+    "playerName": "Óscar Cardozo",
+    "difficulty": "medium"
+  },
+  {
+    "word": "PERES",
+    "playerName": "Bruno Peres",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ARVELADZE",
+    "playerName": "Shota Arveladze",
+    "difficulty": "hard"
+  },
+  {
+    "word": "SORLOTH",
+    "playerName": "Alexander Sørloth",
+    "difficulty": "medium"
+  },
+  {
+    "word": "ELMANDER",
+    "playerName": "Johan Elmander",
+    "difficulty": "medium"
+  },
+  {
+    "word": "OKTAY",
+    "playerName": "Oktay Derelioğlu",
+    "difficulty": "easy"
+  },
+  {
+    "word": "HAKIMI",
+    "playerName": "Achraf Hakimi",
+    "difficulty": "medium"
+  },
+  {
+    "word": "SALAH",
+    "playerName": "Muhammed Salah",
+    "difficulty": "easy"
+  },
+  {
+    "word": "CAVANI",
+    "playerName": "Edinson Cavani",
+    "difficulty": "medium"
+  },
+  {
+    "word": "GIROUD",
+    "playerName": "Olivier Giroud",
+    "difficulty": "medium"
+  },
+  {
+    "word": "KAGAWA",
+    "playerName": "Shinji Kagawa",
+    "difficulty": "medium"
+  },
+  {
+    "word": "PJANIC",
+    "playerName": "Miralem Pjanić",
+    "difficulty": "medium"
+  },
+  {
+    "word": "CANNAVARO",
+    "playerName": "Fabio Cannavaro",
+    "difficulty": "hard"
+  },
+  {
+    "word": "GULLIT",
+    "playerName": "Ruud Gullit",
+    "difficulty": "medium"
+  },
+  {
+    "word": "CRUYFF",
+    "playerName": "Johan Cruyff",
+    "difficulty": "medium"
+  },
+  {
+    "word": "BERGKAMP",
+    "playerName": "Dennis Bergkamp",
+    "difficulty": "medium"
+  },
+  {
+    "word": "HIGUAIN",
+    "playerName": "Gonzalo Higuaín",
+    "difficulty": "medium"
+  },
+  {
+    "word": "MAKELELE",
+    "playerName": "Claude Makelélé",
+    "difficulty": "medium"
+  },
+  {
+    "word": "KLUIVERT",
+    "playerName": "Patrick Kluivert",
+    "difficulty": "medium"
+  },
+  {
+    "word": "CECH",
+    "playerName": "Petr Čech",
+    "difficulty": "easy"
+  },
+  {
+    "word": "RUSTU",
+    "playerName": "Rüştü Reçber",
+    "difficulty": "easy"
+  },
+  {
+    "word": "SERGEN",
+    "playerName": "Sergen Yalçın",
+    "difficulty": "medium"
+  },
+  {
+    "word": "CENGIZ",
+    "playerName": "Cengiz Ünder",
+    "difficulty": "medium"
+  },
+  {
+    "word": "AGUERO",
+    "playerName": "Sergio Agüero",
+    "difficulty": "medium"
+  },
+  {
+    "word": "DEMBELE",
+    "playerName": "Ousmane Dembélé",
+    "difficulty": "medium"
+  },
+  {
+    "word": "TOPAL",
+    "playerName": "Mehmet Topal",
+    "difficulty": "easy"
+  },
+  {
+    "word": "PEPE",
+    "playerName": "Pepe",
+    "difficulty": "easy"
+  },
+  {
+    "word": "DAVINSON",
+    "playerName": "Davinson Sánchez",
+    "difficulty": "medium"
+  },
+  {
+    "word": "MUSLERA",
+    "playerName": "Fernando Muslera",
+    "difficulty": "medium"
+  },
+  {
+    "word": "MERTENS",
+    "playerName": "Dries Mertens",
+    "difficulty": "medium"
+  },
+  {
+    "word": "OSIMHEN",
+    "playerName": "Victor Osimhen",
+    "difficulty": "medium"
+  },
+  {
+    "word": "HAMSIK",
+    "playerName": "Marek Hamšík",
+    "difficulty": "medium"
   }
 ]

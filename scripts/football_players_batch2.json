@@ -1,0 +1,2880 @@
+{
+  "meta": {
+    "batch": 2,
+    "generatedAt": "2026-11-17",
+    "basedOnPoolSnapshot": "2026-11-17",
+    "counts": {
+      "newPlayers": 50,
+      "newClubLinks": 120,
+      "existingPlayerNewLinks": 1,
+      "anagramSuggestions": 20,
+      "deferredResolved": 2,
+      "uncertainRecords": 7
+    },
+    "sourceDistribution": {
+      "newPlayerClubLinks": {
+        "secondary": 101,
+        "official": 19
+      },
+      "officialSourcesUsed": "uefa.com (oyuncu sayfaları ve UEFA istatistik makaleleri)",
+      "secondarySourcesUsed": "en.wikipedia.org (oyuncu kariyer tabloları)"
+    },
+    "method": [
+      "Her oyuncunun adı, takma adı ve Türkçe karakter/aksan normalize edilmiş biçimi mevcut 417 oyuncunun ad ve takma adlarıyla karşılaştırıldı; çakışma yok.",
+      "Her kulüp bağlantısı için kaynak sayfa bu oturumda açılıp kontrol edildi. Wikipedia kaynaklı bağlantılarda kanıt, kariyer tablosunda o kulüp için 0'dan büyük A takım lig maçı sayısıdır.",
+      "TFF oyuncu sayfaları denendi; yalnızca lisans/sözleşme kaydı gösteriyor, maç sekmesi yüklenmiyor. Bu yüzden maç kanıtı olarak kullanılmadı.",
+      "UEFA oyuncu sayfalarında 'Matches played' 0'dan büyükse resmi maç kanıtı sayıldı. UEFA istatistik makalelerinde oyuncunun UEFA maçlarındaki kulüp listesi resmi kanıt sayıldı.",
+      "Yedek/altyapı takımları, 0 maçlı kayıtlar ve teknik direktörlük dönemleri sayılmadı. Desteklenmeyen kulüpler clubs alanına yazılmadı.",
+      "wikidataId alanları doğrulanmadığı için null. Wikidata'ya erişilmedi."
+    ],
+    "priorityPairsAnswered": [
+      {
+        "clubs": [
+          "Beşiktaş",
+          "Feyenoord"
+        ],
+        "previousKnownAnswers": 0,
+        "newAnswers": [
+          "Orkun Kökçü"
+        ]
+      },
+      {
+        "clubs": [
+          "AC Milan",
+          "Trabzonspor"
+        ],
+        "previousKnownAnswers": 1,
+        "newAnswers": [
+          "Juraj Kucka"
+        ]
+      },
+      {
+        "clubs": [
+          "Ajax",
+          "Trabzonspor"
+        ],
+        "previousKnownAnswers": 1,
+        "newAnswers": [
+          "Shota Arveladze"
+        ]
+      },
+      {
+        "clubs": [
+          "Benfica",
+          "Trabzonspor"
+        ],
+        "previousKnownAnswers": 1,
+        "newAnswers": [
+          "Lazar Marković",
+          "Óscar Cardozo"
+        ]
+      },
+      {
+        "clubs": [
+          "Beşiktaş",
+          "Porto"
+        ],
+        "previousKnownAnswers": 1,
+        "newAnswers": [
+          "Hugo Almeida",
+          "Vincent Aboubakar"
+        ]
+      },
+      {
+        "clubs": [
+          "Feyenoord",
+          "Galatasaray"
+        ],
+        "previousKnownAnswers": 1,
+        "newAnswers": [
+          "Johan Elmander"
+        ]
+      },
+      {
+        "clubs": [
+          "Roma",
+          "Trabzonspor"
+        ],
+        "previousKnownAnswers": 1,
+        "newAnswers": [
+          "Bruno Peres"
+        ]
+      },
+      {
+        "clubs": [
+          "Sporting CP",
+          "Trabzonspor"
+        ],
+        "previousKnownAnswers": 1,
+        "newAnswers": [
+          "Lazar Marković"
+        ]
+      },
+      {
+        "clubs": [
+          "AC Milan",
+          "Galatasaray"
+        ],
+        "previousKnownAnswers": 2,
+        "newAnswers": [
+          "Ümit Davala"
+        ]
+      },
+      {
+        "clubs": [
+          "Ajax",
+          "Beşiktaş"
+        ],
+        "previousKnownAnswers": 2,
+        "newAnswers": [
+          "Wout Weghorst"
+        ]
+      },
+      {
+        "clubs": [
+          "Arsenal",
+          "Beşiktaş"
+        ],
+        "previousKnownAnswers": 2,
+        "newAnswers": [
+          "Mohamed Elneny"
+        ]
+      },
+      {
+        "clubs": [
+          "Atlético Madrid",
+          "Trabzonspor"
+        ],
+        "previousKnownAnswers": 2,
+        "newAnswers": [
+          "Alexander Sørloth"
+        ]
+      },
+      {
+        "clubs": [
+          "Barcelona",
+          "Fenerbahçe"
+        ],
+        "previousKnownAnswers": 2,
+        "newAnswers": [
+          "Nélson Semedo"
+        ]
+      },
+      {
+        "clubs": [
+          "Beşiktaş",
+          "Lyon"
+        ],
+        "previousKnownAnswers": 2,
+        "newAnswers": [
+          "Rachid Ghezzal"
+        ]
+      },
+      {
+        "clubs": [
+          "Fenerbahçe",
+          "Newcastle United"
+        ],
+        "previousKnownAnswers": 2,
+        "newAnswers": [
+          "Allan Saint-Maximin"
+        ]
+      },
+      {
+        "clubs": [
+          "Fenerbahçe",
+          "Porto"
+        ],
+        "previousKnownAnswers": 2,
+        "newAnswers": [
+          "Diego Reyes",
+          "Bruno Alves"
+        ]
+      },
+      {
+        "clubs": [
+          "Fenerbahçe",
+          "Sevilla"
+        ],
+        "previousKnownAnswers": 2,
+        "newAnswers": [
+          "Youssef En-Nesyri"
+        ]
+      }
+    ],
+    "verifiedReserveCandidates": [
+      {
+        "commonName": "Mert Günok",
+        "supportedClubs": [
+          "Fenerbahçe",
+          "Beşiktaş"
+        ],
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Mert_G%C3%BCnok",
+        "sourceType": "secondary",
+        "note": "Kariyer tablosu kontrol edildi; 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Gökhan Gönül",
+        "supportedClubs": [
+          "Fenerbahçe",
+          "Beşiktaş"
+        ],
+        "evidenceUrl": "https://en.wikipedia.org/wiki/G%C3%B6khan_G%C3%B6n%C3%BCl",
+        "sourceType": "secondary",
+        "note": "Kariyer tablosu kontrol edildi; 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Olcay Şahan",
+        "supportedClubs": [
+          "Beşiktaş",
+          "Trabzonspor"
+        ],
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Olcay_%C5%9Eahan",
+        "sourceType": "secondary",
+        "note": "Kariyer tablosu kontrol edildi; 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Dorukhan Toköz",
+        "supportedClubs": [
+          "Beşiktaş",
+          "Trabzonspor"
+        ],
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Dorukhan_Tok%C3%B6z",
+        "sourceType": "secondary",
+        "note": "Kariyer tablosu kontrol edildi; 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Tolgay Arslan",
+        "supportedClubs": [
+          "Beşiktaş",
+          "Fenerbahçe"
+        ],
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Tolgay_Arslan",
+        "sourceType": "secondary",
+        "note": "Kariyer tablosu kontrol edildi; 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Jeremain Lens",
+        "supportedClubs": [
+          "Fenerbahçe",
+          "Beşiktaş"
+        ],
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Jeremain_Lens",
+        "sourceType": "secondary",
+        "note": "Kariyer tablosu kontrol edildi; 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Valentin Rosier",
+        "supportedClubs": [
+          "Sporting CP",
+          "Beşiktaş"
+        ],
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Valentin_Rosier",
+        "sourceType": "secondary",
+        "note": "Kariyer tablosu kontrol edildi; 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Serdar Aziz",
+        "supportedClubs": [
+          "Galatasaray",
+          "Fenerbahçe"
+        ],
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Serdar_Aziz",
+        "sourceType": "secondary",
+        "note": "Kariyer tablosu kontrol edildi; 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Joseph Yobo",
+        "supportedClubs": [
+          "Marseille",
+          "Fenerbahçe"
+        ],
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Joseph_Yobo",
+        "sourceType": "secondary",
+        "note": "Kariyer tablosu kontrol edildi; 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Ariel Ortega",
+        "supportedClubs": [
+          "Valencia",
+          "Fenerbahçe"
+        ],
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Ariel_Ortega",
+        "sourceType": "secondary",
+        "note": "Kariyer tablosu kontrol edildi; 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Stephen Appiah",
+        "supportedClubs": [
+          "Juventus",
+          "Fenerbahçe"
+        ],
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Stephen_Appiah",
+        "sourceType": "secondary",
+        "note": "Kariyer tablosu kontrol edildi; 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Haim Revivo",
+        "supportedClubs": [
+          "Fenerbahçe",
+          "Galatasaray"
+        ],
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Haim_Revivo",
+        "sourceType": "secondary",
+        "note": "Kariyer tablosu kontrol edildi; 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Ogün Temizkanoğlu",
+        "supportedClubs": [
+          "Trabzonspor",
+          "Fenerbahçe"
+        ],
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Og%C3%BCn_Temizkano%C4%9Flu",
+        "sourceType": "secondary",
+        "note": "Kariyer tablosu kontrol edildi; 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Fatih Akyel",
+        "supportedClubs": [
+          "Galatasaray",
+          "Fenerbahçe",
+          "Trabzonspor"
+        ],
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Fatih_Akyel",
+        "sourceType": "secondary",
+        "note": "Kariyer tablosu kontrol edildi; 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Tomáš Ujfaluši",
+        "supportedClubs": [
+          "Atlético Madrid",
+          "Galatasaray"
+        ],
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Ujfalu%C5%A1i",
+        "sourceType": "secondary",
+        "note": "Kariyer tablosu kontrol edildi; 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Shabani Nonda",
+        "supportedClubs": [
+          "Roma",
+          "Galatasaray"
+        ],
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Shabani_Nonda",
+        "sourceType": "secondary",
+        "note": "Kariyer tablosu kontrol edildi; 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Jô (João Alves de Assis Silva)",
+        "supportedClubs": [
+          "Manchester City",
+          "Galatasaray"
+        ],
+        "evidenceUrl": "https://en.wikipedia.org/wiki/J%C3%B4",
+        "sourceType": "secondary",
+        "note": "Kariyer tablosu kontrol edildi; 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Garry Rodrigues",
+        "supportedClubs": [
+          "Galatasaray",
+          "Fenerbahçe"
+        ],
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Garry_Rodrigues",
+        "sourceType": "secondary",
+        "note": "Kariyer tablosu kontrol edildi; 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Tanguy Ndombele",
+        "supportedClubs": [
+          "Lyon",
+          "Galatasaray"
+        ],
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Tanguy_Ndombele",
+        "sourceType": "secondary",
+        "note": "Kariyer tablosu kontrol edildi; 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Tetê (Mateus Cardoso Lemos Martins)",
+        "supportedClubs": [
+          "Lyon",
+          "Galatasaray"
+        ],
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Tet%C3%AA",
+        "sourceType": "secondary",
+        "note": "Kariyer tablosu kontrol edildi; 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Mehmet Ekici",
+        "supportedClubs": [
+          "Trabzonspor",
+          "Fenerbahçe"
+        ],
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Mehmet_Ekici",
+        "sourceType": "secondary",
+        "note": "Kariyer tablosu kontrol edildi; 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Rodrigo Tello",
+        "supportedClubs": [
+          "Sporting CP",
+          "Beşiktaş"
+        ],
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Rodrigo_Tello",
+        "sourceType": "secondary",
+        "note": "Kariyer tablosu kontrol edildi; 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Gökhan Zan",
+        "supportedClubs": [
+          "Beşiktaş",
+          "Galatasaray"
+        ],
+        "evidenceUrl": "https://en.wikipedia.org/wiki/G%C3%B6khan_Zan",
+        "sourceType": "secondary",
+        "note": "Kariyer tablosu kontrol edildi; 50 sınırı nedeniyle bu partiye alınmadı."
+      }
+    ],
+    "nextBatchOfficialCandidates": [
+      {
+        "commonName": "Iker Casillas",
+        "uefaChampionsLeagueAppearancesBySupportedClub": {
+          "Real Madrid": 150,
+          "Porto": 27
+        },
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+        "sourceType": "official",
+        "note": "Havuzda yok; Türk kulübü bağlantısı olmadığı için bu partiye alınmadı."
+      },
+      {
+        "commonName": "Karim Benzema",
+        "uefaChampionsLeagueAppearancesBySupportedClub": {
+          "Lyon": 19,
+          "Real Madrid": 133
+        },
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+        "sourceType": "official",
+        "note": "Havuzda yok; Türk kulübü bağlantısı olmadığı için bu partiye alınmadı."
+      },
+      {
+        "commonName": "Toni Kroos",
+        "uefaChampionsLeagueAppearancesBySupportedClub": {
+          "Bayern Munich": 41,
+          "Real Madrid": 110
+        },
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+        "sourceType": "official",
+        "note": "Havuzda yok; Türk kulübü bağlantısı olmadığı için bu partiye alınmadı."
+      },
+      {
+        "commonName": "Sergio Ramos",
+        "uefaChampionsLeagueAppearancesBySupportedClub": {
+          "Real Madrid": 129,
+          "Paris Saint-Germain": 8,
+          "Sevilla": 5
+        },
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+        "sourceType": "official",
+        "note": "Havuzda yok; Türk kulübü bağlantısı olmadığı için bu partiye alınmadı."
+      },
+      {
+        "commonName": "Gerard Piqué",
+        "uefaChampionsLeagueAppearancesBySupportedClub": {
+          "Manchester United": 4,
+          "Barcelona": 124
+        },
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+        "sourceType": "official",
+        "note": "Havuzda yok; Türk kulübü bağlantısı olmadığı için bu partiye alınmadı."
+      },
+      {
+        "commonName": "David Alaba",
+        "uefaChampionsLeagueAppearancesBySupportedClub": {
+          "Bayern Munich": 91,
+          "Real Madrid": 34
+        },
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+        "sourceType": "official",
+        "note": "Havuzda yok; Türk kulübü bağlantısı olmadığı için bu partiye alınmadı."
+      },
+      {
+        "commonName": "Gianluigi Buffon",
+        "uefaChampionsLeagueAppearancesBySupportedClub": {
+          "Juventus": 113,
+          "Paris Saint-Germain": 5
+        },
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+        "sourceType": "official",
+        "note": "Havuzda yok; Türk kulübü bağlantısı olmadığı için bu partiye alınmadı."
+      },
+      {
+        "commonName": "Antoine Griezmann",
+        "uefaChampionsLeagueAppearancesBySupportedClub": {
+          "Atlético Madrid": 98,
+          "Barcelona": 16
+        },
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+        "sourceType": "official",
+        "note": "Havuzda yok; Türk kulübü bağlantısı olmadığı için bu partiye alınmadı."
+      },
+      {
+        "commonName": "Thierry Henry",
+        "uefaChampionsLeagueAppearancesBySupportedClub": {
+          "Barcelona": 26,
+          "Arsenal": 77
+        },
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+        "sourceType": "official",
+        "note": "Havuzda yok; Türk kulübü bağlantısı olmadığı için bu partiye alınmadı."
+      },
+      {
+        "commonName": "Arjen Robben",
+        "uefaChampionsLeagueAppearancesBySupportedClub": {
+          "Chelsea": 19,
+          "Real Madrid": 11,
+          "Bayern Munich": 70
+        },
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+        "sourceType": "official",
+        "note": "Havuzda yok; Türk kulübü bağlantısı olmadığı için bu partiye alınmadı."
+      },
+      {
+        "commonName": "Andrea Pirlo",
+        "uefaChampionsLeagueAppearancesBySupportedClub": {
+          "Inter": 5,
+          "AC Milan": 78,
+          "Juventus": 25
+        },
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+        "sourceType": "official",
+        "note": "Havuzda yok; Türk kulübü bağlantısı olmadığı için bu partiye alınmadı."
+      },
+      {
+        "commonName": "Thibaut Courtois",
+        "uefaChampionsLeagueAppearancesBySupportedClub": {
+          "Atlético Madrid": 12,
+          "Chelsea": 16,
+          "Real Madrid": 75
+        },
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+        "sourceType": "official",
+        "note": "Havuzda yok; Türk kulübü bağlantısı olmadığı için bu partiye alınmadı."
+      },
+      {
+        "commonName": "Frank Lampard",
+        "uefaChampionsLeagueAppearancesBySupportedClub": {
+          "Chelsea": 102,
+          "Manchester City": 3
+        },
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+        "sourceType": "official",
+        "note": "Havuzda yok; Türk kulübü bağlantısı olmadığı için bu partiye alınmadı."
+      },
+      {
+        "commonName": "Kylian Mbappé",
+        "uefaChampionsLeagueAppearancesBySupportedClub": {
+          "Paris Saint-Germain": 64,
+          "Real Madrid": 29
+        },
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+        "sourceType": "official",
+        "note": "Havuzda yok; Türk kulübü bağlantısı olmadığı için bu partiye alınmadı."
+      },
+      {
+        "commonName": "Andriy Shevchenko",
+        "uefaChampionsLeagueAppearancesBySupportedClub": {
+          "AC Milan": 59,
+          "Chelsea": 15
+        },
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+        "sourceType": "official",
+        "note": "Havuzda yok; Türk kulübü bağlantısı olmadığı için bu partiye alınmadı."
+      },
+      {
+        "commonName": "Hakan Çalhanoğlu",
+        "supportedClubs": [
+          "AC Milan",
+          "Inter"
+        ],
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+        "sourceType": "official",
+        "note": "UEFA makalesi tüm UEFA maçlarında Leverkusen, AC Milan, Inter listeliyor. Havuzda yok; Türk kulübünde oynamadı."
+      }
+    ],
+    "notes": [
+      "2026 tarihli transferler yalnızca bugün açılan güncel sayfalarla kabul edildi; 2025–2026 kayıtları için mümkün olduğunda UEFA oyuncu sayfası kullanıldı.",
+      "Wikipedia sayfaları sürekli düzenlenebilir; maç sayıları sayfanın görüntülendiği ana aittir. Oyun için yalnızca 'en az bir resmi maç' bilgisi kullanılmalı."
+    ]
+  },
+  "newPlayers": [
+    {
+      "fullName": "Arda Güler",
+      "commonName": "Arda Güler",
+      "birthDate": "2005-02-25",
+      "wikidataId": null,
+      "aliases": [
+        "Arda Guler"
+      ],
+      "clubs": [
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Arda_G%C3%BCler",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Fenerbahçe 2021–2023, 32 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Real Madrid",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Arda_G%C3%BCler",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Real Madrid 2023–, 82 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "GÜLER",
+      "anagramKey": "GULER",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf, Türkiye'de çok tanınan isim.",
+      "ambiguityNote": "'ARDA' Arda Turan ile çakıştığı için soyadı seçildi."
+    },
+    {
+      "fullName": "Orkun Kökçü",
+      "commonName": "Orkun Kökçü",
+      "birthDate": "2000-12-29",
+      "wikidataId": null,
+      "aliases": [
+        "Orkun Kokcu"
+      ],
+      "clubs": [
+        {
+          "name": "Feyenoord",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Orkun_K%C3%B6k%C3%A7%C3%BC",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Feyenoord 2018–2023, 119 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Benfica",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Orkun_K%C3%B6k%C3%A7%C3%BC",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Benfica 2023–, 60 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://www.uefa.com/uefaeuropaleague/clubs/players/250113211--orkun-kokcu/",
+          "evidenceNote": "UEFA oyuncu sayfası: Beşiktaş oyuncusu olarak 2026/27 UEFA Avrupa Ligi'nde 2 maç oynamış görünüyor.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "KÖKÇÜ",
+      "anagramKey": "KOKCU",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf; milli takım oyuncusu, Ç/Ü harfleri hafif zorluk katar.",
+      "ambiguityNote": "Beşiktaş–Feyenoord öncelikli çiftine (0 kayıt) cevap."
+    },
+    {
+      "fullName": "Ozan Muhammed Kabak",
+      "commonName": "Ozan Kabak",
+      "birthDate": "2000-03-25",
+      "wikidataId": null,
+      "aliases": [
+        "Ozan Kabak"
+      ],
+      "clubs": [
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ozan_Kabak",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Galatasaray 2018–2019, 14 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Liverpool",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ozan_Kabak",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Liverpool 2021, 9 lig maçı (kiralık). İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": true
+        }
+      ],
+      "anagramName": "KABAK",
+      "anagramKey": "KABAK",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf, yaygın Türkçe kelime ve tanınan isim.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Çağlar Söyüncü",
+      "commonName": "Çağlar Söyüncü",
+      "birthDate": "1996-05-23",
+      "wikidataId": null,
+      "aliases": [
+        "Caglar Soyuncu"
+      ],
+      "clubs": [
+        {
+          "name": "Atlético Madrid",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/%C3%87a%C4%9Flar_S%C3%B6y%C3%BCnc%C3%BC",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Atlético Madrid 2023–2024, 6 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/%C3%87a%C4%9Flar_S%C3%B6y%C3%BCnc%C3%BC",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Fenerbahçe 2024 (kiralık), 2024–2026, 48 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "SÖYÜNCÜ",
+      "anagramKey": "SOYUNCU",
+      "difficulty": "medium",
+      "difficultyReason": "7 harf; tanınan milli oyuncu ama yazımı karışık.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Uğurcan Çakır",
+      "commonName": "Uğurcan Çakır",
+      "birthDate": "1996-04-05",
+      "wikidataId": null,
+      "aliases": [
+        "Ugurcan Cakir"
+      ],
+      "clubs": [
+        {
+          "name": "Trabzonspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/U%C4%9Furcan_%C3%87ak%C4%B1r",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Trabzonspor 2014–2025, 235 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/clubs/players/250078452--ugurcan-cakir/",
+          "evidenceNote": "UEFA oyuncu sayfası: Galatasaray kalecisi olarak 2026/27 Şampiyonlar Ligi'nde 4 maç oynamış görünüyor.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "UĞURCAN",
+      "anagramKey": "UGURCAN",
+      "difficulty": "medium",
+      "difficultyReason": "7 harf; ad olarak tanınır, soyadı ÇAKIR daha yaygın bir kelime.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Caner Erkin",
+      "commonName": "Caner Erkin",
+      "birthDate": "1988-10-04",
+      "wikidataId": null,
+      "aliases": [],
+      "clubs": [
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Caner_Erkin",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Galatasaray 2009–2010, 29 lig maçı (kiralık). İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": true
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Caner_Erkin",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Fenerbahçe 2010–2016, 2020–2021, 191 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Caner_Erkin",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Beşiktaş 2016–2017 (kiralık), 2017–2020, 87 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "ERKIN",
+      "anagramKey": "ERKIN",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf; üç büyük İstanbul kulübünde oynamış tanınan isim.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Selçuk İnan",
+      "commonName": "Selçuk İnan",
+      "birthDate": "1985-02-10",
+      "wikidataId": null,
+      "aliases": [
+        "Selcuk Inan"
+      ],
+      "clubs": [
+        {
+          "name": "Trabzonspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Sel%C3%A7uk_%C4%B0nan",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Trabzonspor 2008–2011, 93 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Sel%C3%A7uk_%C4%B0nan",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Galatasaray 2011–2020, 244 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "İNAN",
+      "anagramKey": "INAN",
+      "difficulty": "easy",
+      "difficultyReason": "4 harf, GS kaptanı olarak çok tanınır.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Tümer Metin",
+      "commonName": "Tümer Metin",
+      "birthDate": "1974-10-14",
+      "wikidataId": null,
+      "aliases": [
+        "Tumer Metin"
+      ],
+      "clubs": [
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/T%C3%BCmer_Metin",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Beşiktaş 2001–2006, 134 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/T%C3%BCmer_Metin",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Fenerbahçe 2006–2008, 67 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "TÜMER",
+      "anagramKey": "TUMER",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf; 2000'lerin tanınan forveti.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Hugo Miguel Pereira de Almeida",
+      "commonName": "Hugo Almeida",
+      "birthDate": "1984-05-23",
+      "wikidataId": null,
+      "aliases": [
+        "Almeida"
+      ],
+      "clubs": [
+        {
+          "name": "Porto",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Hugo_Almeida",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Porto 2003–2007, 33 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Hugo_Almeida",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Beşiktaş 2011–2014, 85 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "ALMEIDA",
+      "anagramKey": "ALMEIDA",
+      "difficulty": "medium",
+      "difficultyReason": "7 harf; Beşiktaş döneminde tanındı.",
+      "ambiguityNote": "Beşiktaş–Porto öncelikli çifti."
+    },
+    {
+      "fullName": "Mehmet Aurélio",
+      "commonName": "Mehmet Aurélio",
+      "birthDate": "1977-12-15",
+      "wikidataId": null,
+      "aliases": [
+        "Marco Aurélio",
+        "Mehmet Aurelio"
+      ],
+      "clubs": [
+        {
+          "name": "Trabzonspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mehmet_Aur%C3%A9lio",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Trabzonspor 2001–2003, 64 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mehmet_Aur%C3%A9lio",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Fenerbahçe 2003–2008, 176 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mehmet_Aur%C3%A9lio",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Beşiktaş 2010–2013, 34 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "AURELIO",
+      "anagramKey": "AURELIO",
+      "difficulty": "medium",
+      "difficultyReason": "7 harf; Türk kulüplerinde uzun süre oynadı.",
+      "ambiguityNote": "Brezilya doğumlu; Türk vatandaşlığıyla Mehmet adını aldı. Doğum adındaki Marco Aurélio de takma ad olarak eklendi."
+    },
+    {
+      "fullName": "Adriano Correia Claro",
+      "commonName": "Adriano Correia",
+      "birthDate": "1984-10-26",
+      "wikidataId": null,
+      "aliases": [
+        "Adriano"
+      ],
+      "clubs": [
+        {
+          "name": "Sevilla",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Adriano_Correia",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Sevilla 2005–2010, 157 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Barcelona",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Adriano_Correia",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Barcelona 2010–2016, 114 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Adriano_Correia",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Beşiktaş 2016–2019, 78 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "ADRIANO",
+      "anagramKey": "ADRIANO",
+      "difficulty": "medium",
+      "difficultyReason": "7 harf; tek adla tanınır.",
+      "ambiguityNote": "ADRIANO, Inter'in forveti Adriano Leite Ribeiro'ya da uyar (havuzda yok). Aynı anahtar iki farklı oyuncu demek."
+    },
+    {
+      "fullName": "Anderson Souza Conceição",
+      "commonName": "Talisca",
+      "birthDate": "1994-02-01",
+      "wikidataId": null,
+      "aliases": [
+        "Anderson Talisca"
+      ],
+      "clubs": [
+        {
+          "name": "Benfica",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Anderson_Talisca",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Benfica 2014–2018, 53 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Anderson_Talisca",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Beşiktaş 2016–2018, 55 lig maçı (kiralık). İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": true
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/clubs/players/250075767--talisca/",
+          "evidenceNote": "UEFA oyuncu sayfası: Fenerbahçe oyuncusu olarak 2026/27 Şampiyonlar Ligi'nde 6 maç oynamış görünüyor.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "TALISCA",
+      "anagramKey": "TALISCA",
+      "difficulty": "medium",
+      "difficultyReason": "7 harf; takma adıyla tanınır.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Adem Ljajić",
+      "commonName": "Adem Ljajić",
+      "birthDate": "1991-09-29",
+      "wikidataId": null,
+      "aliases": [
+        "Adem Ljajic"
+      ],
+      "clubs": [
+        {
+          "name": "Roma",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Adem_Ljaji%C4%87",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Roma 2013–2016, 61 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Inter",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Adem_Ljaji%C4%87",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Inter 2015–2016, 25 lig maçı (kiralık). İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": true
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Adem_Ljaji%C4%87",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Beşiktaş 2018–2019 (kiralık), 2019–2022, 73 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "LJAJİĆ",
+      "anagramKey": "LJAJIC",
+      "difficulty": "hard",
+      "difficultyReason": "LJ başlangıcı ve Ć harfi tahmini zorlaştırır.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Rachid Ghezzal",
+      "commonName": "Rachid Ghezzal",
+      "birthDate": "1992-05-09",
+      "wikidataId": null,
+      "aliases": [
+        "Ghezzal"
+      ],
+      "clubs": [
+        {
+          "name": "Lyon",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Rachid_Ghezzal",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Lyon 2012–2017, 2025–2026, 97 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Rachid_Ghezzal",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Beşiktaş 2020–2021 (kiralık), 2021–2024, 104 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "GHEZZAL",
+      "anagramKey": "GHEZZAL",
+      "difficulty": "medium",
+      "difficultyReason": "7 harf; çift Z anagramda ipucu verir.",
+      "ambiguityNote": "Beşiktaş–Lyon öncelikli çifti."
+    },
+    {
+      "fullName": "Mohamed Naser Elsayed Elneny",
+      "commonName": "Mohamed Elneny",
+      "birthDate": "1992-07-11",
+      "wikidataId": null,
+      "aliases": [
+        "Elneny",
+        "Mohamed El-Nenny"
+      ],
+      "clubs": [
+        {
+          "name": "Arsenal",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mohamed_Elneny",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Arsenal 2016–2024, 91 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mohamed_Elneny",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Beşiktaş 2019–2020, 27 lig maçı (kiralık). İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": true
+        }
+      ],
+      "anagramName": "ELNENY",
+      "anagramKey": "ELNENY",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf; Arsenal'deki uzun dönemiyle bilinir.",
+      "ambiguityNote": "Arsenal–Beşiktaş öncelikli çifti."
+    },
+    {
+      "fullName": "Salih Uçan",
+      "commonName": "Salih Uçan",
+      "birthDate": "1994-01-06",
+      "wikidataId": null,
+      "aliases": [
+        "Salih Ucan"
+      ],
+      "clubs": [
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Salih_U%C3%A7an",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Fenerbahçe 2012–2019, 37 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Roma",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Salih_U%C3%A7an",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Roma 2014–2016, 7 lig maçı (kiralık). İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": true
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Salih_U%C3%A7an",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Beşiktaş 2021–2026, 98 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "UÇAN",
+      "anagramKey": "UCAN",
+      "difficulty": "easy",
+      "difficultyReason": "4 harf ve yaygın Türkçe kelime.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Gedson Carvalho Fernandes",
+      "commonName": "Gedson Fernandes",
+      "birthDate": "1999-01-09",
+      "wikidataId": null,
+      "aliases": [
+        "Gedson"
+      ],
+      "clubs": [
+        {
+          "name": "Benfica",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Gedson_Fernandes",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Benfica 2018–2022, 32 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Gedson_Fernandes",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Galatasaray 2021, 17 lig maçı (kiralık). İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": true
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Gedson_Fernandes",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Beşiktaş 2022–2025, 96 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "GEDSON",
+      "anagramKey": "GEDSON",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf; adıyla tanınır.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Ante Rebić",
+      "commonName": "Ante Rebić",
+      "birthDate": "1993-09-21",
+      "wikidataId": null,
+      "aliases": [
+        "Ante Rebic"
+      ],
+      "clubs": [
+        {
+          "name": "AC Milan",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ante_Rebi%C4%87",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: AC Milan 2019–2020 (kiralık), 2020–2023, 100 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Ante_Rebi%C4%87",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Beşiktaş 2023–2024, 15 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "REBİĆ",
+      "anagramKey": "REBIC",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf; Milan döneminden tanınır.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Milot Rashica",
+      "commonName": "Milot Rashica",
+      "birthDate": "1996-06-28",
+      "wikidataId": null,
+      "aliases": [
+        "Rashica"
+      ],
+      "clubs": [
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Milot_Rashica",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Galatasaray 2022–2023, 26 lig maçı (kiralık). İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": true
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://www.uefa.com/uefaeuropaleague/clubs/players/250056162--milot-rashica/",
+          "evidenceNote": "UEFA oyuncu sayfası: Beşiktaş oyuncusu olarak 2026/27 UEFA Avrupa Ligi'nde 5 maç oynamış görünüyor.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "RASHICA",
+      "anagramKey": "RASHICA",
+      "difficulty": "medium",
+      "difficultyReason": "7 harf; iki İstanbul kulübünde oynadı.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Wout François Maria Weghorst",
+      "commonName": "Wout Weghorst",
+      "birthDate": "1992-08-07",
+      "wikidataId": null,
+      "aliases": [
+        "Weghorst"
+      ],
+      "clubs": [
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Wout_Weghorst",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Beşiktaş 2022–2023, 18 lig maçı (kiralık). İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": true
+        },
+        {
+          "name": "Manchester United",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Wout_Weghorst",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Manchester United 2023, 17 lig maçı (kiralık). İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": true
+        },
+        {
+          "name": "Ajax",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Wout_Weghorst",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Ajax 2024–2026, 51 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "WEGHORST",
+      "anagramKey": "WEGHORST",
+      "difficulty": "hard",
+      "difficultyReason": "8 harf ve sessiz harf yoğun.",
+      "ambiguityNote": "Ajax–Beşiktaş öncelikli çifti."
+    },
+    {
+      "fullName": "Cenk Tosun",
+      "commonName": "Cenk Tosun",
+      "birthDate": "1991-06-07",
+      "wikidataId": null,
+      "aliases": [],
+      "clubs": [
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+          "evidenceNote": "UEFA resmi makalesi (Türk oyuncuların UEFA kulüp turnuvası istatistikleri) oyuncuyu bu kulüple UEFA maçlarında listeliyor (Şampiyonlar Ligi'nde Beşiktaş ile 5 gol).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Cenk_Tosun",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Fenerbahçe 2024–2026, 17 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "TOSUN",
+      "anagramKey": "TOSUN",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf; Beşiktaş golcüsü olarak çok tanınır.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Muhammed Kerem Aktürkoğlu",
+      "commonName": "Kerem Aktürkoğlu",
+      "birthDate": "1998-10-21",
+      "wikidataId": null,
+      "aliases": [
+        "Kerem",
+        "Kerem Akturkoglu"
+      ],
+      "clubs": [
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+          "evidenceNote": "UEFA resmi makalesi (Türk oyuncuların UEFA kulüp turnuvası istatistikleri) oyuncuyu bu kulüple UEFA maçlarında listeliyor: kulüp listesi Galatasaray, Benfica, Fenerbahçe.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Benfica",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+          "evidenceNote": "UEFA resmi makalesi (Türk oyuncuların UEFA kulüp turnuvası istatistikleri) oyuncuyu bu kulüple UEFA maçlarında listeliyor: kulüp listesi Galatasaray, Benfica, Fenerbahçe.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+          "evidenceNote": "UEFA resmi makalesi (Türk oyuncuların UEFA kulüp turnuvası istatistikleri) oyuncuyu bu kulüple UEFA maçlarında listeliyor: kulüp listesi Galatasaray, Benfica, Fenerbahçe.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "KEREM",
+      "anagramKey": "KEREM",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf; güncel milli takım yıldızı.",
+      "ambiguityNote": "Doğum tarihi UEFA oyuncu sayfasından (21/10/1998)."
+    },
+    {
+      "fullName": "Rafael Alexandre Fernandes Ferreira da Silva",
+      "commonName": "Rafa Silva",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Rafa"
+      ],
+      "clubs": [
+        {
+          "name": "Benfica",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Rafa_Silva",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Benfica 2016–2024, 206 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Rafa_Silva",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Beşiktaş 2024–2026, 45 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "RAFA",
+      "anagramKey": "RAFA",
+      "difficulty": "easy",
+      "difficultyReason": "4 harf, kısa takma ad.",
+      "ambiguityNote": "RAFA, Rafa Márquez gibi başka oyuncuların takma adına da uyar (havuzda yok)."
+    },
+    {
+      "fullName": "Vincent Paté Aboubakar",
+      "commonName": "Vincent Aboubakar",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Aboubakar"
+      ],
+      "clubs": [
+        {
+          "name": "Porto",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Vincent_Aboubakar",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Porto 2014–2020, 83 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Vincent_Aboubakar",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Beşiktaş 2016–2017 (kiralık), 2020–2021, 2023–2024, 91 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "ABOUBAKAR",
+      "anagramKey": "ABOUBAKAR",
+      "difficulty": "hard",
+      "difficultyReason": "9 harf, uzun ad.",
+      "ambiguityNote": "Beşiktaş–Porto öncelikli çifti."
+    },
+    {
+      "fullName": "Allan Irénée Saint-Maximin",
+      "commonName": "Allan Saint-Maximin",
+      "birthDate": "1997-03-12",
+      "wikidataId": null,
+      "aliases": [
+        "Saint-Maximin",
+        "ASM"
+      ],
+      "clubs": [
+        {
+          "name": "Newcastle United",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Allan_Saint-Maximin",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Newcastle United 2019–2023, 111 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Allan_Saint-Maximin",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Fenerbahçe 2024–2025, 20 lig maçı (kiralık). İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": true
+        }
+      ],
+      "anagramName": "MAXIMIN",
+      "anagramKey": "MAXIMIN",
+      "difficulty": "medium",
+      "difficultyReason": "7 harf; soyadının ikinci kısmı tek başına tanınır.",
+      "ambiguityNote": "Fenerbahçe–Newcastle öncelikli çifti."
+    },
+    {
+      "fullName": "Youssef En-Nesyri",
+      "commonName": "Youssef En-Nesyri",
+      "birthDate": "1997-06-01",
+      "wikidataId": null,
+      "aliases": [
+        "En-Nesyri",
+        "Nesyri"
+      ],
+      "clubs": [
+        {
+          "name": "Sevilla",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Youssef_En-Nesyri",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Sevilla 2020–2024, 143 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Youssef_En-Nesyri",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Fenerbahçe 2024–2026, 50 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "NESYRİ",
+      "anagramKey": "NESYRI",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf; 'En-' ön eki atılarak kullanılır.",
+      "ambiguityNote": "Fenerbahçe–Sevilla öncelikli çifti."
+    },
+    {
+      "fullName": "Milan Škriniar",
+      "commonName": "Milan Škriniar",
+      "birthDate": "1995-02-11",
+      "wikidataId": null,
+      "aliases": [
+        "Skriniar"
+      ],
+      "clubs": [
+        {
+          "name": "Inter",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Milan_%C5%A0kriniar",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Inter 2017–2023, 193 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Milan_%C5%A0kriniar",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Paris Saint-Germain 2023–2025, 29 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/clubs/players/250041563--milan-skriniar/",
+          "evidenceNote": "UEFA oyuncu sayfası: Fenerbahçe oyuncusu olarak 2026/27 Şampiyonlar Ligi'nde 2 maç oynamış görünüyor.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "ŠKRINIAR",
+      "anagramKey": "SKRINIAR",
+      "difficulty": "hard",
+      "difficultyReason": "8 harf, Slovakça yazım.",
+      "ambiguityNote": "Ad 'MILAN' kulüp adıyla karışacağı için soyadı seçildi."
+    },
+    {
+      "fullName": "Sebastian Szymański",
+      "commonName": "Sebastian Szymański",
+      "birthDate": "1999-05-10",
+      "wikidataId": null,
+      "aliases": [
+        "Szymanski"
+      ],
+      "clubs": [
+        {
+          "name": "Feyenoord",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Sebastian_Szyma%C5%84ski",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Feyenoord 2022–2023, 29 lig maçı (kiralık). İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": true
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Sebastian_Szyma%C5%84ski",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Fenerbahçe 2023–2026, 86 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "SZYMAŃSKI",
+      "anagramKey": "SZYMANSKI",
+      "difficulty": "hard",
+      "difficultyReason": "9 harf, Lehçe yazım.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Rade Krunić",
+      "commonName": "Rade Krunić",
+      "birthDate": "1993-10-07",
+      "wikidataId": null,
+      "aliases": [
+        "Rade Krunic"
+      ],
+      "clubs": [
+        {
+          "name": "AC Milan",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Rade_Kruni%C4%87",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: AC Milan 2019–2024, 101 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Rade_Kruni%C4%87",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Fenerbahçe 2024, 13 lig maçı (kiralık). İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": true
+        }
+      ],
+      "anagramName": "KRUNİĆ",
+      "anagramKey": "KRUNIC",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf; daha az tanınan orta saha.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Nélson Cabral Semedo",
+      "commonName": "Nélson Semedo",
+      "birthDate": "1993-11-16",
+      "wikidataId": null,
+      "aliases": [
+        "Nelson Semedo",
+        "Semedo"
+      ],
+      "clubs": [
+        {
+          "name": "Benfica",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/N%C3%A9lson_Semedo",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Benfica 2015–2017, 43 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Barcelona",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/N%C3%A9lson_Semedo",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Barcelona 2017–2020, 82 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/clubs/players/250086090--nelson-semedo/",
+          "evidenceNote": "UEFA oyuncu sayfası: Fenerbahçe oyuncusu olarak 2026/27 Şampiyonlar Ligi'nde 3 maç oynamış görünüyor.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "SEMEDO",
+      "anagramKey": "SEMEDO",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf; Barcelona geçmişiyle tanınır.",
+      "ambiguityNote": "Barcelona–Fenerbahçe öncelikli çifti. SEMEDO, Rúben Semedo'ya da uyar (havuzda yok)."
+    },
+    {
+      "fullName": "Diego Antonio Reyes Rosales",
+      "commonName": "Diego Reyes",
+      "birthDate": "1992-09-19",
+      "wikidataId": null,
+      "aliases": [],
+      "clubs": [
+        {
+          "name": "Porto",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Diego_Reyes",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Porto 2013–2018, 20 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Diego_Reyes",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Fenerbahçe 2018–2019, 8 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "REYES",
+      "anagramKey": "REYES",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf, kısa soyadı.",
+      "ambiguityNote": "REYES, havuzdaki José Antonio Reyes'e (wd-Q276399) de uyar; anagram cevabında iki oyuncu kabul edilmeli veya bu kelime kullanılmamalı."
+    },
+    {
+      "fullName": "Martin Škrtel",
+      "commonName": "Martin Škrtel",
+      "birthDate": "1984-12-15",
+      "wikidataId": null,
+      "aliases": [
+        "Skrtel"
+      ],
+      "clubs": [
+        {
+          "name": "Liverpool",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Martin_%C5%A0krtel",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Liverpool 2008–2016, 242 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Martin_%C5%A0krtel",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Fenerbahçe 2016–2019, 79 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "ŠKRTEL",
+      "anagramKey": "SKRTEL",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf ama ünlü harf azlığı zorlaştırır.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Lazar Marković",
+      "commonName": "Lazar Marković",
+      "birthDate": "1994-03-02",
+      "wikidataId": null,
+      "aliases": [
+        "Lazar Markovic"
+      ],
+      "clubs": [
+        {
+          "name": "Benfica",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Lazar_Markovi%C4%87",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Benfica 2013–2014, 26 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Liverpool",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Lazar_Markovi%C4%87",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Liverpool 2014–2019, 19 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Lazar_Markovi%C4%87",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Fenerbahçe 2015–2016, 14 lig maçı (kiralık). İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": true
+        },
+        {
+          "name": "Sporting CP",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Lazar_Markovi%C4%87",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Sporting CP 2016–2017, 6 lig maçı (kiralık). İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": true
+        },
+        {
+          "name": "Trabzonspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Lazar_Markovi%C4%87",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Trabzonspor 2023, 8 lig maçı (kiralık). İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": true
+        }
+      ],
+      "anagramName": "MARKOVİĆ",
+      "anagramKey": "MARKOVIC",
+      "difficulty": "hard",
+      "difficultyReason": "8 harf, Sırpça yazım.",
+      "ambiguityNote": "Benfica–Trabzonspor ve Sporting CP–Trabzonspor öncelikli çiftleri."
+    },
+    {
+      "fullName": "Bruno Eduardo Regufe Alves",
+      "commonName": "Bruno Alves",
+      "birthDate": "1981-11-27",
+      "wikidataId": null,
+      "aliases": [],
+      "clubs": [
+        {
+          "name": "Porto",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Bruno_Alves",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Porto 2002–2010, 119 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Bruno_Alves",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Fenerbahçe 2013–2016, 75 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "ALVES",
+      "anagramKey": "ALVES",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf, kısa soyadı.",
+      "ambiguityNote": "ALVES, havuzdaki Dani Alves'e (wd-Q172720) de uyar."
+    },
+    {
+      "fullName": "Elvir Baljić",
+      "commonName": "Elvir Baljić",
+      "birthDate": "1974-07-08",
+      "wikidataId": null,
+      "aliases": [
+        "Elvir Baljic"
+      ],
+      "clubs": [
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Elvir_Balji%C4%87",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Fenerbahçe 1998–1999, 2000–2001 (kiralık), 57 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Real Madrid",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Elvir_Balji%C4%87",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Real Madrid 1999–2002, 11 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Elvir_Balji%C4%87",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Galatasaray 2002–2004, 34 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "BALJİĆ",
+      "anagramKey": "BALJIC",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf; 90'lar sonu oyuncusu.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Augustine Azuka Okocha",
+      "commonName": "Jay-Jay Okocha",
+      "birthDate": "1973-08-14",
+      "wikidataId": null,
+      "aliases": [
+        "Okocha",
+        "Jay Jay Okocha"
+      ],
+      "clubs": [
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Jay-Jay_Okocha",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Fenerbahçe 1996–1998, 62 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Jay-Jay_Okocha",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Paris Saint-Germain 1998–2002, 84 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "OKOCHA",
+      "anagramKey": "OKOCHA",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf; dünyaca tanınan ama eski dönem oyuncusu.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Ümit Aydın Davala",
+      "commonName": "Ümit Davala",
+      "birthDate": "1973-07-30",
+      "wikidataId": null,
+      "aliases": [
+        "Umit Davala"
+      ],
+      "clubs": [
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+          "evidenceNote": "UEFA resmi makalesi (Türk oyuncuların UEFA kulüp turnuvası istatistikleri) oyuncuyu bu kulüple UEFA maçlarında listeliyor (Şampiyonlar Ligi gollerinde kulüpler: Galatasaray, Bremen).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "AC Milan",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/%C3%9Cmit_Davala",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: AC Milan 2001–2002, 10 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "DAVALA",
+      "anagramKey": "DAVALA",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf; 2000 UEFA Kupası kadrosundan.",
+      "ambiguityNote": "AC Milan–Galatasaray öncelikli çifti. Inter kaydında lig maçı 0 olduğu için ayrı listede."
+    },
+    {
+      "fullName": "Okan Buruk",
+      "commonName": "Okan Buruk",
+      "birthDate": "1973-10-19",
+      "wikidataId": null,
+      "aliases": [],
+      "clubs": [
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+          "evidenceNote": "UEFA resmi makalesi (Türk oyuncuların UEFA kulüp turnuvası istatistikleri) oyuncuyu bu kulüple UEFA maçlarında listeliyor: tüm UEFA turnuvalarında kulüp listesi Galatasaray, Inter, Beşiktaş.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Inter",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+          "evidenceNote": "UEFA resmi makalesi (Türk oyuncuların UEFA kulüp turnuvası istatistikleri) oyuncuyu bu kulüple UEFA maçlarında listeliyor: tüm UEFA turnuvalarında kulüp listesi Galatasaray, Inter, Beşiktaş.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+          "evidenceNote": "UEFA resmi makalesi (Türk oyuncuların UEFA kulüp turnuvası istatistikleri) oyuncuyu bu kulüple UEFA maçlarında listeliyor: tüm UEFA turnuvalarında kulüp listesi Galatasaray, Inter, Beşiktaş.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "BURUK",
+      "anagramKey": "BURUK",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf; GS teknik direktörü olarak da çok tanınır.",
+      "ambiguityNote": "Teknik direktörlük bağlantısı sayılmadı; yalnızca oyunculuk dönemi."
+    },
+    {
+      "fullName": "Hamit Altıntop",
+      "commonName": "Hamit Altıntop",
+      "birthDate": "1982-12-08",
+      "wikidataId": null,
+      "aliases": [
+        "Hamit Altintop"
+      ],
+      "clubs": [
+        {
+          "name": "Bayern Munich",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+          "evidenceNote": "UEFA resmi makalesi (Türk oyuncuların UEFA kulüp turnuvası istatistikleri) oyuncuyu bu kulüple UEFA maçlarında listeliyor (Şampiyonlar Ligi maçlarında kulüpler: Schalke, Bayern München, Real Madrid, Galatasaray).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Real Madrid",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+          "evidenceNote": "UEFA resmi makalesi (Türk oyuncuların UEFA kulüp turnuvası istatistikleri) oyuncuyu bu kulüple UEFA maçlarında listeliyor (Şampiyonlar Ligi maçlarında kulüpler: Schalke, Bayern München, Real Madrid, Galatasaray).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+          "evidenceNote": "UEFA resmi makalesi (Türk oyuncuların UEFA kulüp turnuvası istatistikleri) oyuncuyu bu kulüple UEFA maçlarında listeliyor (Şampiyonlar Ligi maçlarında kulüpler: Schalke, Bayern München, Real Madrid, Galatasaray).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "ALTINTOP",
+      "anagramKey": "ALTINTOP",
+      "difficulty": "hard",
+      "difficultyReason": "8 harf.",
+      "ambiguityNote": "ALTINTOP, ikiz kardeşi Halil Altıntop'a da uyar (Trabzonspor'da oynadı, havuzda yok)."
+    },
+    {
+      "fullName": "Harry Kewell",
+      "commonName": "Harry Kewell",
+      "birthDate": "1978-09-22",
+      "wikidataId": null,
+      "aliases": [
+        "Kewell"
+      ],
+      "clubs": [
+        {
+          "name": "Liverpool",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Harry_Kewell",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Liverpool 2003–2008, 93 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Harry_Kewell",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Galatasaray 2008–2011, 63 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "KEWELL",
+      "anagramKey": "KEWELL",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf; Liverpool ve GS döneminden tanınır.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Sacha Boey",
+      "commonName": "Sacha Boey",
+      "birthDate": "2000-09-13",
+      "wikidataId": null,
+      "aliases": [
+        "Boey"
+      ],
+      "clubs": [
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Sacha_Boey",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Galatasaray 2021–2024, 63 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Bayern Munich",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Sacha_Boey",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Bayern Munich 2024–, 24 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "BOEY",
+      "anagramKey": "BOEY",
+      "difficulty": "easy",
+      "difficultyReason": "4 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Sérgio Miguel Relvas de Oliveira",
+      "commonName": "Sérgio Oliveira",
+      "birthDate": "1992-06-02",
+      "wikidataId": null,
+      "aliases": [
+        "Sergio Oliveira"
+      ],
+      "clubs": [
+        {
+          "name": "Porto",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/S%C3%A9rgio_Oliveira",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Porto 2015–2022, 102 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Roma",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/S%C3%A9rgio_Oliveira",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Roma 2022, 14 lig maçı (kiralık). İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": true
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/S%C3%A9rgio_Oliveira",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Galatasaray 2022–2024, 44 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "OLIVEIRA",
+      "anagramKey": "OLIVEIRA",
+      "difficulty": "medium",
+      "difficultyReason": "8 harf, yaygın Portekizce soyadı.",
+      "ambiguityNote": "OLIVEIRA birçok oyuncuya uyabilir; oyunda ipucuyla birlikte kullanılmalı."
+    },
+    {
+      "fullName": "Nicolò Zaniolo",
+      "commonName": "Nicolò Zaniolo",
+      "birthDate": "1999-07-02",
+      "wikidataId": null,
+      "aliases": [
+        "Nicolo Zaniolo"
+      ],
+      "clubs": [
+        {
+          "name": "Roma",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Nicol%C3%B2_Zaniolo",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Roma 2018–2023, 94 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Nicol%C3%B2_Zaniolo",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Galatasaray 2023–2026, 13 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "ZANIOLO",
+      "anagramKey": "ZANIOLO",
+      "difficulty": "medium",
+      "difficultyReason": "7 harf.",
+      "ambiguityNote": "Inter kaydında 0 lig maçı var; ayrı listede."
+    },
+    {
+      "fullName": "Juraj Kucka",
+      "commonName": "Juraj Kucka",
+      "birthDate": "1987-02-26",
+      "wikidataId": null,
+      "aliases": [
+        "Kucka"
+      ],
+      "clubs": [
+        {
+          "name": "AC Milan",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Juraj_Kucka",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: AC Milan 2015–2017, 59 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Trabzonspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Juraj_Kucka",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Trabzonspor 2017–2019, 33 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "KUCKA",
+      "anagramKey": "KUCKA",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf.",
+      "ambiguityNote": "AC Milan–Trabzonspor öncelikli çifti."
+    },
+    {
+      "fullName": "Óscar René Cardozo Marín",
+      "commonName": "Óscar Cardozo",
+      "birthDate": "1983-05-20",
+      "wikidataId": null,
+      "aliases": [
+        "Oscar Cardozo",
+        "Tacuara"
+      ],
+      "clubs": [
+        {
+          "name": "Benfica",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/%C3%93scar_Cardozo",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Benfica 2007–2014, 175 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Trabzonspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/%C3%93scar_Cardozo",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Trabzonspor 2014–2016, 50 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "CARDOZO",
+      "anagramKey": "CARDOZO",
+      "difficulty": "medium",
+      "difficultyReason": "7 harf.",
+      "ambiguityNote": "Benfica–Trabzonspor öncelikli çifti."
+    },
+    {
+      "fullName": "Bruno da Silva Peres",
+      "commonName": "Bruno Peres",
+      "birthDate": "1990-03-01",
+      "wikidataId": null,
+      "aliases": [],
+      "clubs": [
+        {
+          "name": "Roma",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Bruno_Peres",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Roma 2016–2021, 94 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Trabzonspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Bruno_Peres",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Trabzonspor 2021–2023, 34 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "PERES",
+      "anagramKey": "PERES",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf.",
+      "ambiguityNote": "Roma–Trabzonspor öncelikli çifti."
+    },
+    {
+      "fullName": "Shota Arveladze",
+      "commonName": "Shota Arveladze",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Şota Arveladze"
+      ],
+      "clubs": [
+        {
+          "name": "Trabzonspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Shota_Arveladze",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Trabzonspor 1993–1994 (kiralık), 1995–1997, 94 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Ajax",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Shota_Arveladze",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Ajax 1997–2001, 96 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "ARVELADZE",
+      "anagramKey": "ARVELADZE",
+      "difficulty": "hard",
+      "difficultyReason": "9 harf.",
+      "ambiguityNote": "Ajax–Trabzonspor öncelikli çifti. ARVELADZE ikiz kardeşi Archil Arveladze'ye de uyar. Doğum tarihi sayfada tutarsız okundu, null bırakıldı."
+    },
+    {
+      "fullName": "Alexander Sørloth",
+      "commonName": "Alexander Sørloth",
+      "birthDate": "1995-12-05",
+      "wikidataId": null,
+      "aliases": [
+        "Sorloth"
+      ],
+      "clubs": [
+        {
+          "name": "Trabzonspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Alexander_S%C3%B8rloth",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Trabzonspor 2019–2020, 34 lig maçı (kiralık). İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": true
+        },
+        {
+          "name": "Atlético Madrid",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Alexander_S%C3%B8rloth",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Atlético Madrid 2024–, 73 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "SØRLOTH",
+      "anagramKey": "SORLOTH",
+      "difficulty": "hard",
+      "difficultyReason": "Ø harfi nedeniyle yazımı zor.",
+      "ambiguityNote": "Atlético Madrid–Trabzonspor öncelikli çifti."
+    },
+    {
+      "fullName": "Johan Erik Calvin Elmander",
+      "commonName": "Johan Elmander",
+      "birthDate": "1981-05-27",
+      "wikidataId": null,
+      "aliases": [
+        "Elmander"
+      ],
+      "clubs": [
+        {
+          "name": "Feyenoord",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Johan_Elmander",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Feyenoord 2000–2004, 39 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Johan_Elmander",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Galatasaray 2011–2014, 52 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "ELMANDER",
+      "anagramKey": "ELMANDER",
+      "difficulty": "medium",
+      "difficultyReason": "8 harf.",
+      "ambiguityNote": "Feyenoord–Galatasaray öncelikli çifti."
+    },
+    {
+      "fullName": "Oktay Derelioğlu",
+      "commonName": "Oktay Derelioğlu",
+      "birthDate": "1975-12-17",
+      "wikidataId": null,
+      "aliases": [
+        "Oktay Derelioglu"
+      ],
+      "clubs": [
+        {
+          "name": "Trabzonspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Oktay_Derelio%C4%9Flu",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Trabzonspor 1992–1993, 2000–2001, 15 lig maçı. İkincil kaynak; resmi kaynakla doğrulanmadı.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Beşiktaş",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+          "evidenceNote": "UEFA resmi makalesi (Türk oyuncuların UEFA kulüp turnuvası istatistikleri) oyuncuyu bu kulüple UEFA maçlarında listeliyor: kulüp listesi Beşiktaş, Fenerbahçe.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": false
+        },
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+          "evidenceNote": "UEFA resmi makalesi (Türk oyuncuların UEFA kulüp turnuvası istatistikleri) oyuncuyu bu kulüple UEFA maçlarında listeliyor: kulüp listesi Beşiktaş, Fenerbahçe.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ],
+      "anagramName": "OKTAY",
+      "anagramKey": "OKTAY",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf; 90'ların tanınan kanat oyuncusu.",
+      "ambiguityNote": null
+    }
+  ],
+  "existingPlayerNewLinks": [
+    {
+      "existingPlayerId": "wd-Q109428",
+      "commonName": "Diego Ribas da Cunha",
+      "clubs": [
+        {
+          "name": "Fenerbahçe",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Diego_(footballer,_born_1985)",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Fenerbahçe 2014–2016, 53 lig maçı. Kimlik: 28 Şubat 1985 doğumlu Diego Ribas da Cunha (havuzdaki Juventus/Porto/Atlético kaydıyla aynı kişi). İkincil kaynak.",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported",
+          "appearanceDate": null,
+          "loan": false
+        }
+      ]
+    }
+  ],
+  "anagramSuggestions": [
+    {
+      "existingPlayerId": "wd-Q26932598",
+      "commonName": "Achraf Hakimi",
+      "anagramName": "HAKIMI",
+      "anagramKey": "HAKIMI",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf; güncel ve çok tanınan isim.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q1354960",
+      "commonName": "Mohamed Salah",
+      "anagramName": "SALAH",
+      "anagramKey": "SALAH",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf; dünyaca tanınır.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q167790",
+      "commonName": "Edinson Cavani",
+      "anagramName": "CAVANI",
+      "anagramKey": "CAVANI",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q1911",
+      "commonName": "Olivier Giroud",
+      "anagramName": "GIROUD",
+      "anagramKey": "GIROUD",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q154708",
+      "commonName": "Shinji Kagawa",
+      "anagramName": "KAGAWA",
+      "anagramKey": "KAGAWA",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf; Beşiktaş bağlantısı da var.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q146907",
+      "commonName": "Miralem Pjanić",
+      "anagramName": "PJANIĆ",
+      "anagramKey": "PJANIC",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf ama PJ başlangıcı zorlaştırır.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q102027",
+      "commonName": "Fabio Cannavaro",
+      "anagramName": "CANNAVARO",
+      "anagramKey": "CANNAVARO",
+      "difficulty": "hard",
+      "difficultyReason": "9 harf.",
+      "ambiguityNote": "CANNAVARO kardeşi Paolo Cannavaro'ya da uyar (havuzda yok)."
+    },
+    {
+      "existingPlayerId": "wd-Q173972",
+      "commonName": "Ruud Gullit",
+      "anagramName": "GULLIT",
+      "anagramKey": "GULLIT",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf; eski dönem efsanesi.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q17163",
+      "commonName": "Johan Cruyff",
+      "anagramName": "CRUYFF",
+      "anagramKey": "CRUYFF",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf; yazımı (Cruijff/Cruyff) karışabilir.",
+      "ambiguityNote": "CRUYFF, oğlu Jordi Cruyff'a da uyar (Barcelona ve Manchester United'da oynadı, havuzda yok)."
+    },
+    {
+      "existingPlayerId": "wd-Q185389",
+      "commonName": "Dennis Bergkamp",
+      "anagramName": "BERGKAMP",
+      "anagramKey": "BERGKAMP",
+      "difficulty": "medium",
+      "difficultyReason": "8 harf; çok tanınan isim.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q483846",
+      "commonName": "Gonzalo Higuaín",
+      "anagramName": "HIGUAÍN",
+      "anagramKey": "HIGUAIN",
+      "difficulty": "medium",
+      "difficultyReason": "7 harf.",
+      "ambiguityNote": "HIGUAIN, kardeşi Federico Higuaín'e de uyar (Beşiktaş'ta oynadı, havuzda yok)."
+    },
+    {
+      "existingPlayerId": "wd-Q184362",
+      "commonName": "Claude Makelélé",
+      "anagramName": "MAKELELE",
+      "anagramKey": "MAKELELE",
+      "difficulty": "medium",
+      "difficultyReason": "8 harf ama tekrar eden harfler ipucu verir.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q189686",
+      "commonName": "Patrick Kluivert",
+      "anagramName": "KLUIVERT",
+      "anagramKey": "KLUIVERT",
+      "difficulty": "medium",
+      "difficultyReason": "8 harf.",
+      "ambiguityNote": "KLUIVERT, oğlu Justin Kluivert'e de uyar (Ajax ve Roma'da oynadı, havuzda yok)."
+    },
+    {
+      "existingPlayerId": "cech",
+      "commonName": "Petr Čech",
+      "anagramName": "ČECH",
+      "anagramKey": "CECH",
+      "difficulty": "easy",
+      "difficultyReason": "4 harf.",
+      "ambiguityNote": "CECH, Porto'da oynamış Marek Čech'e de uyar (havuzda yok)."
+    },
+    {
+      "existingPlayerId": "wd-Q201900",
+      "commonName": "Rüştü Reçber",
+      "anagramName": "RÜŞTÜ",
+      "anagramKey": "RUSTU",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf; Türkiye'de çok tanınır.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q1388570",
+      "commonName": "Sergen Yalçın",
+      "anagramName": "SERGEN",
+      "anagramKey": "SERGEN",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf; adıyla tanınır.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q19613570",
+      "commonName": "Cengiz Ünder",
+      "anagramName": "CENGİZ",
+      "anagramKey": "CENGIZ",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf; adıyla tanınır.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q119562",
+      "commonName": "Sergio Agüero",
+      "anagramName": "AGÜERO",
+      "anagramKey": "AGUERO",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q20851003",
+      "commonName": "Ousmane Dembélé",
+      "anagramName": "DEMBÉLÉ",
+      "anagramKey": "DEMBELE",
+      "difficulty": "medium",
+      "difficultyReason": "7 harf.",
+      "ambiguityNote": "DEMBELE, Moussa Dembélé (Lyon) ve Mousa Dembélé'ye de uyar (havuzda yok)."
+    },
+    {
+      "existingPlayerId": "wd-Q348199",
+      "commonName": "Mehmet Topal",
+      "anagramName": "TOPAL",
+      "anagramKey": "TOPAL",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf.",
+      "ambiguityNote": null
+    }
+  ],
+  "deferredFollowUps": [
+    {
+      "name": "Pepe",
+      "resolved": true,
+      "newEvidence": [
+        {
+          "club": "Real Madrid",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA resmi listesi: Şampiyonlar Ligi'nde Real Madrid ile 71 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified"
+        },
+        {
+          "club": "Beşiktaş",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA resmi listesi: Şampiyonlar Ligi'nde Beşiktaş ile 6 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified"
+        },
+        {
+          "club": "Porto",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA resmi listesi: Şampiyonlar Ligi'nde Porto ile 43 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified"
+        },
+        {
+          "club": "(kimlik)",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/season=2019/clubs/player=95417/",
+          "evidenceNote": "UEFA oyuncu sayfası: Porto defans oyuncusu, doğum tarihi 26/02/1983.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified"
+        }
+      ],
+      "resolvedPoint": "Kimlik çözüldü: Kepler Laverán de Lima Ferreira (Pepe), 1983-02-26 doğumlu defans oyuncusu; havuzdaki Pepe Reina (wd-Q163666) değil. Desteklenen üç kulüpte (Real Madrid, Beşiktaş, Porto) resmi UEFA maçı var; iki-kulüp oyununa uygun.",
+      "unresolvedPoint": "Wikidata kimliği doğrulanmadı.",
+      "anagramSuggestion": null
+    },
+    {
+      "name": "Davinson Sánchez",
+      "resolved": true,
+      "newEvidence": [
+        {
+          "club": "Galatasaray",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/clubs/players/250099374--davinson-sanchez/",
+          "evidenceNote": "UEFA oyuncu sayfası: Galatasaray oyuncusu olarak 2026/27 Şampiyonlar Ligi'nde 4 maç oynamış görünüyor.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified"
+        },
+        {
+          "club": "Ajax",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Davinson_S%C3%A1nchez",
+          "evidenceNote": "Wikipedia 'Senior career' tablosu: Ajax 2016–2017, 32 lig maçı (ikincil).",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported"
+        }
+      ],
+      "resolvedPoint": "Galatasaray bağlantısı resmi kaynakla, Ajax bağlantısı ikincil kaynakla destekleniyor; iki desteklenen kulübü var.",
+      "unresolvedPoint": "Ajax maçı için resmi kaynak bulunmadı.",
+      "anagramSuggestion": null
+    },
+    {
+      "name": "Fernando Muslera",
+      "resolved": false,
+      "newEvidence": [
+        {
+          "club": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Fernando_Muslera",
+          "evidenceNote": "Wikipedia: Galatasaray 2011–2025, 443 lig maçı (ikincil).",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported"
+        }
+      ],
+      "resolvedPoint": "Desteklenen tek kulübü Galatasaray (Lazio, Nacional, Montevideo Wanderers, Estudiantes listede yok).",
+      "unresolvedPoint": "İki-kulüp oyununa uygun değil.",
+      "anagramSuggestion": {
+        "anagramName": "MUSLERA",
+        "anagramKey": "MUSLERA",
+        "difficulty": "medium",
+        "difficultyReason": "7 harf; GS'nin uzun yıllık kalecisi.",
+        "ambiguityNote": null
+      }
+    },
+    {
+      "name": "Dries Mertens",
+      "resolved": false,
+      "newEvidence": [
+        {
+          "club": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Dries_Mertens",
+          "evidenceNote": "Wikipedia: Galatasaray 2022–2025, 100 lig maçı (ikincil).",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported"
+        }
+      ],
+      "resolvedPoint": "Desteklenen tek kulübü Galatasaray (Napoli, PSV, Utrecht listede yok; Gent'te 0 lig maçı).",
+      "unresolvedPoint": "İki-kulüp oyununa uygun değil.",
+      "anagramSuggestion": {
+        "anagramName": "MERTENS",
+        "anagramKey": "MERTENS",
+        "difficulty": "medium",
+        "difficultyReason": "7 harf; Napoli ve GS'den tanınır.",
+        "ambiguityNote": null
+      }
+    },
+    {
+      "name": "Victor Osimhen",
+      "resolved": false,
+      "newEvidence": [
+        {
+          "club": "Galatasaray",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Victor_Osimhen",
+          "evidenceNote": "Wikipedia: Galatasaray 2024–2025 (kiralık) ve 2025–, toplam 55 lig maçı (ikincil).",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported"
+        }
+      ],
+      "resolvedPoint": "Desteklenen tek kulübü Galatasaray (Napoli, Lille, Wolfsburg, Charleroi listede yok).",
+      "unresolvedPoint": "İki-kulüp oyununa uygun değil.",
+      "anagramSuggestion": {
+        "anagramName": "OSIMHEN",
+        "anagramKey": "OSIMHEN",
+        "difficulty": "medium",
+        "difficultyReason": "7 harf; güncel ve çok tanınan golcü.",
+        "ambiguityNote": null
+      }
+    },
+    {
+      "name": "Marek Hamšík",
+      "resolved": false,
+      "newEvidence": [
+        {
+          "club": "Trabzonspor",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Marek_Ham%C5%A1%C3%ADk",
+          "evidenceNote": "Wikipedia: Trabzonspor 2021–2023, 49 lig maçı (ikincil).",
+          "sourceType": "secondary",
+          "verificationStatus": "secondary_appearance_supported"
+        }
+      ],
+      "resolvedPoint": "Desteklenen tek kulübü Trabzonspor (Napoli, Brescia listede yok).",
+      "unresolvedPoint": "İki-kulüp oyununa uygun değil.",
+      "anagramSuggestion": {
+        "anagramName": "HAMŠÍK",
+        "anagramKey": "HAMSIK",
+        "difficulty": "medium",
+        "difficultyReason": "6 harf; Trabzonspor şampiyonluğu ve Napoli ile tanınır.",
+        "ambiguityNote": null
+      }
+    }
+  ],
+  "uncertainRecords": [
+    {
+      "player": "Caner Erkin",
+      "club": "Inter",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Caner_Erkin",
+      "reason": "Wikipedia'da Inter 2016–2017 için 0 lig maçı görünüyor; kupa maçı kontrol edilmedi. Ana kayıtta yok."
+    },
+    {
+      "player": "Ümit Davala",
+      "club": "Inter",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/%C3%9Cmit_Davala",
+      "reason": "Wikipedia'da Inter 2002–2004 için 0 lig maçı; oyuncu o dönemde kiralıktaydı. Resmi kupa maçı bulunmadı."
+    },
+    {
+      "player": "Nicolò Zaniolo",
+      "club": "Inter",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Nicol%C3%B2_Zaniolo",
+      "reason": "Wikipedia'da Inter 2017–2018 için 0 lig maçı; A takım resmi maçı bulunmadı."
+    },
+    {
+      "player": "Mehmet Ekici",
+      "club": "Bayern Munich",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Mehmet_Ekici",
+      "reason": "Wikipedia'da Bayern A takımı için 0 lig maçı; maçlar Bayern II'de. A takım resmi maçı bulunmadı."
+    },
+    {
+      "player": "Deivid (Deivid de Souza)",
+      "club": "Fenerbahçe / Sporting CP",
+      "evidenceUrl": "https://www.uefa.com/uefachampionsleague/history/clubs/52692/",
+      "reason": "UEFA'nın Fenerbahçe tarih sayfası 'Deivid'i Şampiyonlar Ligi gol listesinde gösteriyor; ancak Wikipedia sayfası bulunamadı ve kimlik/Sporting CP bağlantısı doğrulanamadı."
+    },
+    {
+      "player": "Filip Novák",
+      "club": "Fenerbahçe / Trabzonspor",
+      "evidenceUrl": null,
+      "reason": "Doğru Wikipedia sayfasına erişilemedi (aynı adlı iki kişi var); kulüp bağlantıları doğrulanmadı."
+    },
+    {
+      "player": "Orkun Kökçü",
+      "club": "Beşiktaş (2026 kalıcı transfer)",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Orkun_K%C3%B6k%C3%A7%C3%BC",
+      "reason": "Bağlantı UEFA'dan resmi olarak doğrulandı; yalnızca 2026'daki kalıcı transfer tarihi tek ikincil kaynakta görünüyor. Kulüp bağlantısını etkilemez."
+    }
+  ]
+}

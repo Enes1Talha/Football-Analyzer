@@ -10,6 +10,8 @@ for(const word of words) for(let i=0;i<15;i++) {
 }
 assert.equal(answerKey('ŞÜKÜR'),answerKey('sukur'));
 assert.equal(answerKey('ÖZİL'),answerKey('ozil'));
+assert.equal(answerKey('Sørloth'),answerKey('SORLOTH'));
+assert.ok(isCorrect({kind:'anagram',key:'SORLOTH',difficulty:'medium',word:'SORLOTH'},'Sørloth'));
 for(const pair of soloPairs) assert.ok(answersFor(pair).length>0);
 for(const difficulty of ['easy','medium','hard'] as const) {
  const round=makeRound('anagram',difficulty);

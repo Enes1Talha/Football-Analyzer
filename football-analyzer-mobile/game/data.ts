@@ -1,5 +1,6 @@
 import importedPlayers from "./imported-players.json";
 import reviewedPlayers from "./reviewed-players.json";
+import batchTwoPlayers from "./batch-two-players.json";
 export interface GamePlayer { id: string; name: string; clubs: readonly string[]; source: string; aliases?: readonly string[] }
 // Curated senior-club links, not exhaustive careers. Each entry keeps its evidence.
 const curatedPlayers = [
@@ -20,13 +21,17 @@ const curatedPlayers = [
 
 const importedMatches = (player: GamePlayer, curated: GamePlayer) =>
   [player.name, ...(player.aliases || [])].some(name => normalizeName(name) === normalizeName(curated.name));
-export const players: GamePlayer[] = [
+const basePlayers: GamePlayer[] = [
   ...curatedPlayers.map(curated => {
     const imported = importedPlayers.find(p => importedMatches(p, curated));
     return imported ? { ...curated, clubs: Array.from(new Set([...curated.clubs, ...imported.clubs])), aliases: imported.aliases } : curated;
   }),
   ...importedPlayers.filter(p => !curatedPlayers.some(c => importedMatches(p, c))),
   ...reviewedPlayers.filter(p => !importedPlayers.some(i => i.id === p.id) && !curatedPlayers.some(c => importedMatches(p, c))),
+];
+export const players: GamePlayer[] = [
+  ...basePlayers.map(p=>batchTwoPlayers.find(next=>next.id===p.id)||p),
+  ...batchTwoPlayers.filter(p=>!basePlayers.some(existing=>existing.id===p.id)),
 ];
 
 export const pairs = [
@@ -43,7 +48,7 @@ export const pairs = [
 ] as const;
 
 export function normalizeName(value: string) {
-  return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/ı/g, "i").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+  return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/ı/g, "i").replace(/[øØ]/g, "o").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 }
 
 export function searchPlayers(query: string) {

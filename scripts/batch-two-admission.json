@@ -1,0 +1,291 @@
+{
+  "date": "2026-11-17",
+  "policy": "Accepted as attributed research. Secondary sources remain secondary; not every career was independently audited. Targeted official checks recorded in GAME_DATA.md.",
+  "newClubPlayers": 52,
+  "anagramOnlyPlayers": [
+    "Fernando Muslera",
+    "Dries Mertens",
+    "Victor Osimhen",
+    "Marek Hamšík"
+  ],
+  "existingUpdated": [
+    "wd-Q109428"
+  ],
+  "newAnagrams": 76,
+  "totalPlayers": 473,
+  "totalAnagrams": 134,
+  "excludedUncertain": [
+    {
+      "player": "Caner Erkin",
+      "club": "Inter",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Caner_Erkin",
+      "reason": "Wikipedia'da Inter 2016–2017 için 0 lig maçı görünüyor; kupa maçı kontrol edilmedi. Ana kayıtta yok."
+    },
+    {
+      "player": "Ümit Davala",
+      "club": "Inter",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/%C3%9Cmit_Davala",
+      "reason": "Wikipedia'da Inter 2002–2004 için 0 lig maçı; oyuncu o dönemde kiralıktaydı. Resmi kupa maçı bulunmadı."
+    },
+    {
+      "player": "Nicolò Zaniolo",
+      "club": "Inter",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Nicol%C3%B2_Zaniolo",
+      "reason": "Wikipedia'da Inter 2017–2018 için 0 lig maçı; A takım resmi maçı bulunmadı."
+    },
+    {
+      "player": "Mehmet Ekici",
+      "club": "Bayern Munich",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Mehmet_Ekici",
+      "reason": "Wikipedia'da Bayern A takımı için 0 lig maçı; maçlar Bayern II'de. A takım resmi maçı bulunmadı."
+    },
+    {
+      "player": "Deivid (Deivid de Souza)",
+      "club": "Fenerbahçe / Sporting CP",
+      "evidenceUrl": "https://www.uefa.com/uefachampionsleague/history/clubs/52692/",
+      "reason": "UEFA'nın Fenerbahçe tarih sayfası 'Deivid'i Şampiyonlar Ligi gol listesinde gösteriyor; ancak Wikipedia sayfası bulunamadı ve kimlik/Sporting CP bağlantısı doğrulanamadı."
+    },
+    {
+      "player": "Filip Novák",
+      "club": "Fenerbahçe / Trabzonspor",
+      "evidenceUrl": null,
+      "reason": "Doğru Wikipedia sayfasına erişilemedi (aynı adlı iki kişi var); kulüp bağlantıları doğrulanmadı."
+    },
+    {
+      "player": "Orkun Kökçü",
+      "club": "Beşiktaş (2026 kalıcı transfer)",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Orkun_K%C3%B6k%C3%A7%C3%BC",
+      "reason": "Bağlantı UEFA'dan resmi olarak doğrulandı; yalnızca 2026'daki kalıcı transfer tarihi tek ikincil kaynakta görünüyor. Kulüp bağlantısını etkilemez."
+    }
+  ],
+  "wordOverrides": {
+    "Diego Reyes": "DIEGOREYES",
+    "Bruno Alves": "BRUNOALVES"
+  },
+  "newIds": [
+    {
+      "name": "Arda Güler",
+      "id": "research-ardaguler-2005-02-25"
+    },
+    {
+      "name": "Orkun Kökçü",
+      "id": "research-orkunkokcu-2000-12-29"
+    },
+    {
+      "name": "Ozan Kabak",
+      "id": "research-ozankabak-2000-03-25"
+    },
+    {
+      "name": "Çağlar Söyüncü",
+      "id": "research-caglarsoyuncu-1996-05-23"
+    },
+    {
+      "name": "Uğurcan Çakır",
+      "id": "research-ugurcancakir-1996-04-05"
+    },
+    {
+      "name": "Caner Erkin",
+      "id": "research-canererkin-1988-10-04"
+    },
+    {
+      "name": "Selçuk İnan",
+      "id": "research-selcukinan-1985-02-10"
+    },
+    {
+      "name": "Tümer Metin",
+      "id": "research-tumermetin-1974-10-14"
+    },
+    {
+      "name": "Hugo Almeida",
+      "id": "research-hugoalmeida-1984-05-23"
+    },
+    {
+      "name": "Mehmet Aurélio",
+      "id": "research-mehmetaurelio-1977-12-15"
+    },
+    {
+      "name": "Adriano Correia",
+      "id": "research-adrianocorreia-1984-10-26"
+    },
+    {
+      "name": "Talisca",
+      "id": "research-talisca-1994-02-01"
+    },
+    {
+      "name": "Adem Ljajić",
+      "id": "research-ademljajic-1991-09-29"
+    },
+    {
+      "name": "Rachid Ghezzal",
+      "id": "research-rachidghezzal-1992-05-09"
+    },
+    {
+      "name": "Mohamed Elneny",
+      "id": "research-mohamedelneny-1992-07-11"
+    },
+    {
+      "name": "Salih Uçan",
+      "id": "research-salihucan-1994-01-06"
+    },
+    {
+      "name": "Gedson Fernandes",
+      "id": "research-gedsonfernandes-1999-01-09"
+    },
+    {
+      "name": "Ante Rebić",
+      "id": "research-anterebic-1993-09-21"
+    },
+    {
+      "name": "Milot Rashica",
+      "id": "research-milotrashica-1996-06-28"
+    },
+    {
+      "name": "Wout Weghorst",
+      "id": "research-woutweghorst-1992-08-07"
+    },
+    {
+      "name": "Cenk Tosun",
+      "id": "research-cenktosun-1991-06-07"
+    },
+    {
+      "name": "Kerem Aktürkoğlu",
+      "id": "research-keremakturkoglu-1998-10-21"
+    },
+    {
+      "name": "Rafa Silva",
+      "id": "research-rafasilva-batch2"
+    },
+    {
+      "name": "Vincent Aboubakar",
+      "id": "research-vincentaboubakar-batch2"
+    },
+    {
+      "name": "Allan Saint-Maximin",
+      "id": "research-allansaintmaximin-1997-03-12"
+    },
+    {
+      "name": "Youssef En-Nesyri",
+      "id": "research-youssefennesyri-1997-06-01"
+    },
+    {
+      "name": "Milan Škriniar",
+      "id": "research-milanskriniar-1995-02-11"
+    },
+    {
+      "name": "Sebastian Szymański",
+      "id": "research-sebastianszymanski-1999-05-10"
+    },
+    {
+      "name": "Rade Krunić",
+      "id": "research-radekrunic-1993-10-07"
+    },
+    {
+      "name": "Nélson Semedo",
+      "id": "research-nelsonsemedo-1993-11-16"
+    },
+    {
+      "name": "Diego Reyes",
+      "id": "research-diegoreyes-1992-09-19"
+    },
+    {
+      "name": "Martin Škrtel",
+      "id": "research-martinskrtel-1984-12-15"
+    },
+    {
+      "name": "Lazar Marković",
+      "id": "research-lazarmarkovic-1994-03-02"
+    },
+    {
+      "name": "Bruno Alves",
+      "id": "research-brunoalves-1981-11-27"
+    },
+    {
+      "name": "Elvir Baljić",
+      "id": "research-elvirbaljic-1974-07-08"
+    },
+    {
+      "name": "Jay-Jay Okocha",
+      "id": "research-jayjayokocha-1973-08-14"
+    },
+    {
+      "name": "Ümit Davala",
+      "id": "research-umitdavala-1973-07-30"
+    },
+    {
+      "name": "Okan Buruk",
+      "id": "research-okanburuk-1973-10-19"
+    },
+    {
+      "name": "Hamit Altıntop",
+      "id": "research-hamitaltintop-1982-12-08"
+    },
+    {
+      "name": "Harry Kewell",
+      "id": "research-harrykewell-1978-09-22"
+    },
+    {
+      "name": "Sacha Boey",
+      "id": "research-sachaboey-2000-09-13"
+    },
+    {
+      "name": "Sérgio Oliveira",
+      "id": "research-sergiooliveira-1992-06-02"
+    },
+    {
+      "name": "Nicolò Zaniolo",
+      "id": "research-nicolozaniolo-1999-07-02"
+    },
+    {
+      "name": "Juraj Kucka",
+      "id": "research-jurajkucka-1987-02-26"
+    },
+    {
+      "name": "Óscar Cardozo",
+      "id": "research-oscarcardozo-1983-05-20"
+    },
+    {
+      "name": "Bruno Peres",
+      "id": "research-brunoperes-1990-03-01"
+    },
+    {
+      "name": "Shota Arveladze",
+      "id": "research-shotaarveladze-batch2"
+    },
+    {
+      "name": "Alexander Sørloth",
+      "id": "research-alexandersorloth-1995-12-05"
+    },
+    {
+      "name": "Johan Elmander",
+      "id": "research-johanelmander-1981-05-27"
+    },
+    {
+      "name": "Oktay Derelioğlu",
+      "id": "research-oktayderelioglu-1975-12-17"
+    },
+    {
+      "name": "Pepe",
+      "id": "research-pepe-batch2"
+    },
+    {
+      "name": "Davinson Sánchez",
+      "id": "research-davinsonsanchez-batch2"
+    },
+    {
+      "name": "Fernando Muslera",
+      "id": "research-fernandomuslera-batch2"
+    },
+    {
+      "name": "Dries Mertens",
+      "id": "research-driesmertens-batch2"
+    },
+    {
+      "name": "Victor Osimhen",
+      "id": "research-victorosimhen-batch2"
+    },
+    {
+      "name": "Marek Hamšík",
+      "id": "research-marekhamsik-batch2"
+    }
+  ]
+}
