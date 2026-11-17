@@ -7,6 +7,10 @@ import assert from 'node:assert/strict';
 const db = new PGlite();
 await db.exec(`create role anon; create role authenticated; create schema auth;
 create table auth.users(id uuid primary key);
+-- Minimal fixture for the legacy CSV table, created outside the migration chain.
+create table public.matches(id integer primary key, score integer);
+insert into public.matches values(1,2);
+grant all on public.matches to anon, authenticated;
 create function auth.uid() returns uuid language sql as $$ select nullif(current_setting('request.jwt.claim.sub',true),'')::uuid $$;
 grant usage on schema auth to authenticated,anon;
 grant execute on function auth.uid() to authenticated,anon;`);
@@ -14,6 +18,15 @@ const migrations = new URL('../supabase/migrations/', import.meta.url);
 for (const file of readdirSync(migrations).filter((name) => name.endsWith('.sql')).sort()) {
   await db.exec(readFileSync(new URL(file, migrations), 'utf8'));
 }
+for (const role of ['anon','authenticated']) {
+ await db.exec(`set role ${role}`);
+ assert.equal((await db.query('select score from public.matches where id=1')).rows[0].score,2);
+ for (const sql of ['insert into public.matches values(2,0)', 'update public.matches set score=0 where id=1', 'delete from public.matches where id=1', 'truncate public.matches']) {
+   await assert.rejects(db.exec(sql),/permission denied/);
+ }
+ await db.exec('reset role');
+}
+assert.equal((await db.query("select relrowsecurity from pg_class where oid='public.matches'::regclass")).rows[0].relrowsecurity,true);
 const catalog = await db.query('select id,name,clubs from public.game_players order by id');
 assert.deepEqual(catalog.rows, players.map(({id,name,clubs}) => ({id,name,clubs:[...clubs]})).sort((a,b) => a.id.localeCompare(b.id)));
 assert.equal(new Set(players.map(p => p.id)).size, players.length);
