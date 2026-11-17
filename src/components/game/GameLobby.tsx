@@ -7,6 +7,7 @@ import RankedDuel from "./RankedDuel";
 import AnagramDuel from "./AnagramDuel";
 import ProfileAvatar from "./ProfileAvatar";
 import ProfileEditor from "./ProfileEditor";
+import DifficultyPicker, {type GameDifficulty} from './DifficultyPicker';
 
 const input = "w-full rounded-lg border border-pitch-border bg-pitch-dark p-3 text-white focus:outline-none focus:ring-1 focus:ring-neon-green";
 const button = "rounded-lg bg-neon-green p-3 font-bold text-black disabled:opacity-40";
@@ -25,7 +26,7 @@ export default function GameLobby() {
   const [code, setCode] = useState("");
   const [joining, setJoining] = useState(false);
   const [gameKind,setGameKind]=useState<"clubs"|"anagram">("clubs");
-  const [difficulty,setDifficulty]=useState("easy");
+  const [difficulty,setDifficulty]=useState<GameDifficulty>("easy");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
   const [notice, setNotice] = useState("");
@@ -148,7 +149,7 @@ export default function GameLobby() {
         <div className="grid sm:grid-cols-2 gap-3">
           {([['clubs','İki Kulüp, Bir İsim','Takımını gizle. İki kulüpte oynamış futbolcuyu ilk sen bul.'],['anagram','Karışık Harfler','Harfleri çöz. Futbolcunun adını rakibinden önce gönder.']] as const).map(([id,title,description])=><button key={id} aria-pressed={gameKind===id} onClick={()=>setGameKind(id)} className={`rounded-xl border p-4 text-left space-y-2 ${gameKind===id?'border-neon-green bg-neon-green/5':'border-pitch-border bg-pitch-dark'}`}><span className={`block font-bold ${gameKind===id?'text-neon-green':'text-white'}`}>{title}</span><span className="block text-xs text-zinc-400">{description}</span></button>)}
         </div>
-        {gameKind==='anagram'&&<fieldset className="space-y-2"><legend className="text-sm text-zinc-400 mb-2">Zorluk</legend><div className="flex flex-wrap gap-2">{[['easy','Kolay · 5 sn'],['medium','Orta · 10 sn'],['hard','Zor · 20 sn']].map(([id,label])=><button type="button" key={id} aria-pressed={difficulty===id} onClick={()=>setDifficulty(id)} className={`rounded-lg border px-3 py-2 text-sm ${difficulty===id?'border-neon-cyan text-neon-cyan':'border-pitch-border text-zinc-400'}`}>{label}</button>)}</div><p className="text-xs text-zinc-500">Kolay: kısa, tanınan isimler. Orta: daha uzun isimler. Zor: uzun veya yazımı daha zor isimler.</p></fieldset>}
+        {gameKind==='anagram'&&<DifficultyPicker value={difficulty} onChange={setDifficulty}/>}
         <p className="text-zinc-400 text-sm">Bir oda aç, kodu arkadaşına gönder. Katılan oyuncu odanın oyununa ve zorluğuna otomatik girer.</p>
         <div className="grid sm:grid-cols-2 gap-3"><button disabled={busy} onClick={() => void enter('create')} className={button}>Oda aç</button><button onClick={() => setJoining(true)} className="rounded-lg border border-neon-cyan/40 p-3 font-bold text-neon-cyan">Odaya katıl</button></div>
         {joining && <form onSubmit={(e) => { e.preventDefault(); void enter('join'); }} className="space-y-3"><label htmlFor="room-code" className="block text-sm">Oda kodu</label><input id="room-code" className={`${input} uppercase tracking-widest`} value={code} onChange={(e) => setCode(e.target.value.toUpperCase())} pattern="[A-Za-z0-9]{8}" maxLength={8} required placeholder="8 karakterlik kod" /><button disabled={busy} className={button}>Katıl / Odama dön</button></form>}

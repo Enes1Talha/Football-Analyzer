@@ -1,5 +1,6 @@
 "use client";
 import {useEffect,useRef,useState} from 'react';
+import DifficultyPicker from './DifficultyPicker';
 import {answersFor,searchPlayers} from '../../../football-analyzer-mobile/game/data';
 import {durations,emptyRecord,isCorrect,makeRound,recordResult,validRecord,type Difficulty,type SoloKind,type SoloRecord,type SoloRound} from '@/lib/solo-game';
 
@@ -66,11 +67,11 @@ export default function SoloGame({onActive}:{onActive:(active:boolean)=>void}) {
   <div><h2 className="text-xl font-bold">{phase==='setup'?'Kendi rekorunu geç':kind==='anagram'?'Karışık Harfler':'İki Kulüp, Bir İsim'}</h2><p className="mt-2 text-xs text-zinc-400">Tek kişilik · Rekabet puanını etkilemez</p></div>
   {phase==='setup'&&<>
    <div className="grid sm:grid-cols-2 gap-3">{([['anagram','Karışık Harfler','Süre dolmadan futbolcunun adını çöz.'],['clubs','İki Kulüp, Bir İsim','İki kulübün ortak futbolcusunu bul. Süre sınırı yok.']] as const).map(([id,title,description])=><button key={id} aria-pressed={kind===id} onClick={()=>{setKind(id);setRound(null);}} className={`rounded-xl border p-4 text-left ${kind===id?'border-neon-green bg-neon-green/5':'border-pitch-border'}`}><strong className="block">{title}</strong><span className="block mt-2 text-xs text-zinc-400">{description}</span></button>)}</div>
-   {kind==='anagram'&&<fieldset><legend className="text-sm text-zinc-400 mb-2">Zorluk</legend><div className="flex flex-wrap gap-2">{(['easy','medium','hard'] as const).map(id=><button key={id} aria-pressed={difficulty===id} onClick={()=>setDifficulty(id)} className={`${secondary} ${difficulty===id?'border-neon-cyan text-neon-cyan':''}`}>{labels[id]}</button>)}</div></fieldset>}
+   {kind==='anagram'&&<DifficultyPicker value={difficulty} onChange={setDifficulty}/>}
    <p className="text-sm text-zinc-400">Her turdan sonra devam etmek sana kalmış. Yanlış denemede tekrar cevaplayabilirsin; pas geçmek veya sürenin bitmesi serini sıfırlar.</p>
   </>}
   <div className="grid grid-cols-3 gap-2 text-center text-xs text-zinc-400"><div className="bg-pitch-dark rounded-lg p-3"><strong className="block text-xl text-white">{record.streak}</strong>Doğru serisi</div><div className="bg-pitch-dark rounded-lg p-3"><strong className="block text-xl text-neon-green">{record.bestStreak}</strong>En iyi seri</div><div className="bg-pitch-dark rounded-lg p-3"><strong className="block text-xl text-white">{record.bestMs===null?'—':`${(record.bestMs/1000).toFixed(1)} sn`}</strong>En hızlı doğru</div></div>
-  {phase==='setup'?<button onClick={begin} className={`${button} w-full`}>Oyunu başlat</button>:<>
+  {phase==='setup'?<button onClick={begin} className={`${button} w-full`}>{kind==='anagram'?`${labels[difficulty]} · Başlat`:'Oyunu başlat'}</button>:<>
    {phase==='countdown'&&<div role="status" className="py-10 text-center"><p className="text-zinc-400 mb-3">Hazır ol</p><strong className="text-6xl text-neon-green">{Math.max(1,Math.ceil((start.current-now)/1000))}</strong></div>}
    {(phase==='playing'||phase==='result')&&round&&<>
     {kind==='anagram'?<div className="rounded-xl bg-pitch-dark p-5 text-center"><p className="text-xs text-zinc-400 mb-4">{phase==='playing'?`${Math.max(0,Math.ceil((deadline.current-now)/1000))} saniye`:'Tur tamamlandı'}</p><p aria-label="Karışık harfler" className="text-2xl sm:text-3xl font-bold tracking-widest break-words">{round.puzzle?.split('').join(' ')}</p></div>:<div className="grid grid-cols-[1fr_auto_1fr] items-center gap-3 text-center rounded-xl bg-pitch-dark p-5"><strong>{round.pair?.[0]}</strong><span className="text-neon-cyan">×</span><strong>{round.pair?.[1]}</strong></div>}
