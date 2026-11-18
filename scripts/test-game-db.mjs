@@ -16,7 +16,7 @@ grant usage on schema auth to authenticated,anon;
 grant execute on function auth.uid() to authenticated,anon;`);
 const migrations = new URL('../supabase/migrations/', import.meta.url);
 for (const file of readdirSync(migrations).filter((name) => name.endsWith('.sql')).sort()) {
-  if(file==='202611180001_career_match_scoring.sql') continue; // Exercise legacy rooms before upgrading in place below.
+  if(file.startsWith('20261118')) continue; // Exercise legacy rooms before upgrading in place below.
   await db.exec(readFileSync(new URL(file, migrations), 'utf8'));
 }
 for (const role of ['anon','authenticated']) {
@@ -198,14 +198,15 @@ const careerFixture=JSON.parse(readFileSync(new URL('../src/lib/career-trails.js
 assert.deepEqual((await db.query('select data from public.game_careers order by id')).rows.map(r=>r.data),careerFixture.sort((a,b)=>a.id<b.id?-1:a.id>b.id?1:0));
 console.log('PASS: career shared clues, countdown secrecy, reveal progression, early/late answers, single score, rematch isolation and full route reveal.');
 await db.exec(readFileSync(new URL('202611180001_career_match_scoring.sql',migrations),'utf8'));
+await db.exec(readFileSync(new URL('202611180002_career_fixed_point_steps.sql',migrations),'utf8'));
 for(let total=3;total<=15;total++) {
  let previous=101;
  for(let revealed=2;revealed<=total;revealed++) {
   const actual=(await db.query('select public.career_points($1,$2) as points',[total,revealed])).rows[0].points;
-  const expected=100-Math.round(80*(revealed-2)/(total-2));
-  assert.equal(actual,expected);assert.ok(actual<previous);previous=actual;
+  const expected=Math.max(20,100-20*(revealed-2));
+  assert.equal(actual,expected);assert.ok(actual<=previous);previous=actual;
  }
- assert.equal(previous,20);
+ assert.equal(previous,total>=6?20:100-20*(total-2));
 }
 await as(0);
 await assert.rejects(db.query("select public.game_room_before_match('state',$1,'')",[career.code]),/permission denied/);
@@ -235,13 +236,14 @@ assert.equal((await dash()).byGame.find(g=>g.kind==='career').wins,baseCareerWin
 await as(1);const duplicate=await rpc('career_answer',match.code,JSON.stringify({round,answer:trail.playerName}));assert.equal(duplicate.myScore,0);assert.equal(duplicate.opponentScore,100);
 const previousId=trail.id;trail=await nextCareerRound(match.code);assert.notEqual(trail.id,previousId);
 await db.exec('reset role');await db.query("update public.game_rooms set starts_at=clock_timestamp()-make_interval(secs=>$2), ends_at=clock_timestamp()+interval '20 seconds' where code=$1",[match.code,(trail.stages.length-2)*8+1]);
-await as(1);assert.equal((await rpc('state',match.code)).roundPoints,20);
-scored=await rpc('career_answer',match.code,JSON.stringify({round,answer:trail.aliases[0]}));assert.equal(scored.myScore,20);assert.equal(scored.opponentScore,100);
+const guestPoints=Math.max(20,100-20*(trail.stages.length-2));
+await as(1);assert.equal((await rpc('state',match.code)).roundPoints,guestPoints);
+scored=await rpc('career_answer',match.code,JSON.stringify({round,answer:trail.aliases[0]}));assert.equal(scored.myScore,guestPoints);assert.equal(scored.opponentScore,100);
 trail=await nextCareerRound(match.code);
 await db.exec('reset role');await db.query("update public.game_rooms set ends_at=clock_timestamp()-interval '1 second' where code=$1",[match.code]);
 await as(0);const timed=await rpc('career_answer',match.code,JSON.stringify({round,answer:trail.playerName}));assert.equal(timed.roundDone,true);assert.equal(timed.status,'playing');assert.equal(timed.lastRoundPoints,0);assert.equal(timed.myScore,100);
 for(let score=200;score<=300;score+=100){trail=await nextCareerRound(match.code);await as(0);scored=await rpc('career_answer',match.code,JSON.stringify({round,answer:trail.playerName}));assert.equal(scored.myScore,score);}
-assert.equal(scored.status,'finished');assert.equal(scored.won,true);assert.equal(scored.opponentScore,20);
+assert.equal(scored.status,'finished');assert.equal(scored.won,true);assert.equal(scored.opponentScore,guestPoints);
 await rpc('career_answer',match.code,JSON.stringify({round,answer:trail.playerName}));
 let dashboard=await dash();assert.equal(dashboard.byGame.find(g=>g.kind==='career').wins,baseCareerWins+1);
 assert.equal(dashboard.rivalsByGame.find(g=>g.kind==='career'&&g.opponent_id===users[1]).wins,baseCareerWins+1);

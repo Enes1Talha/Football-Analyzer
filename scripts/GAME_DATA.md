@@ -1,5 +1,9 @@
 # Game data workflow
 
+## Fixed clue deductions (2026-11-18)
+
+Migration `202611180002_career_fixed_point_steps.sql` replaces proportional scoring with the user's selected fixed steps: the first two clubs give 100 points, each additional club subtracts 20, with a floor of 20. Short routes do not force a larger final deduction (four total clubs give 60 at the end). Both solo and server scoring use this rule. Existing earned scores and finished match records are unchanged. The 300-point match target remains unchanged. This supersedes the proportional formula documented below.
+
 ## Career match scoring (2026-11-18)
 
 Migration `202611180001_career_match_scoring.sql` makes newly created career rooms multi-round matches. The first correct answer earns `100 - round(80 * (revealed - 2) / (total - 2))`, clamped to 20–100, calculated from server time and the stored route. First to at least 300 wins; overshoot is retained. A timed-out round earns zero and both players ready up for the next round. The match remains `playing` between rounds so only the final result contributes to win/loss and level calculations. Leaving after the first round begins, including between rounds or during subsequent countdowns, forfeits the match. Rematches start at zero. A round-number token rejects delayed answers; row locks prevent duplicate scoring. Used routes are excluded until the pool is exhausted, with no immediate repeat afterwards.
