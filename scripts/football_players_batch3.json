@@ -1,0 +1,3625 @@
+{
+  "meta": {
+    "batch": 3,
+    "generatedAt": "2026-11-17",
+    "basedOnPoolSnapshot": "2026-11-17",
+    "poolCounts": {
+      "players": 473,
+      "clubs": 29,
+      "anagrams": 134
+    },
+    "counts": {
+      "newPlayers": 50,
+      "newClubLinks": 113,
+      "existingPlayerNewLinks": 0,
+      "anagramSuggestions": 20,
+      "newPlayerAnagrams": 50,
+      "careerTrails": 15,
+      "uncertainRecords": 3,
+      "distinctClubPairsCoveredByNewPlayers": 56
+    },
+    "sourceDistribution": {
+      "newPlayerClubLinks": {
+        "official": 113
+      },
+      "careerTrails": "15/15 ikincil (Wikipedia)",
+      "officialSourcesUsed": [
+        {
+          "title": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/"
+        },
+        {
+          "title": "UEFA: İspanya'nın en iyi Şampiyonlar Ligi performansları",
+          "url": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/"
+        },
+        {
+          "title": "UEFA: Fransa'nın en iyi Şampiyonlar Ligi performansları",
+          "url": "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/"
+        },
+        {
+          "title": "UEFA: Hollanda'nın en iyi Şampiyonlar Ligi performansları",
+          "url": "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/"
+        },
+        {
+          "title": "UEFA: Brezilya'nın en iyi Şampiyonlar Ligi performansları",
+          "url": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/"
+        },
+        {
+          "title": "UEFA: Portekiz'in en iyi Şampiyonlar Ligi performansları",
+          "url": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/"
+        },
+        {
+          "title": "UEFA: Güney Amerika'nın en iyi Şampiyonlar Ligi performansları",
+          "url": "https://www.uefa.com/uefachampionsleague/news/0252-0d044f6082ee-2d26fd1c024f-1000--roberto-carlos-lionel-messi-neymar-edinson-cavani-who-are-so/"
+        },
+        {
+          "title": "UEFA: İtalya'nın en iyi Şampiyonlar Ligi performansları",
+          "url": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/"
+        },
+        {
+          "title": "UEFA: Almanya'nın en iyi Şampiyonlar Ligi performansları",
+          "url": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/"
+        },
+        {
+          "title": "UEFA: İngiltere'nin en iyi Şampiyonlar Ligi performansları",
+          "url": "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/"
+        },
+        {
+          "title": "UEFA: Afrika'nın en iyi Şampiyonlar Ligi performansları",
+          "url": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/"
+        }
+      ]
+    },
+    "method": [
+      "Yeni oyuncular UEFA.com'un resmi istatistik makalelerinden seçildi. Her kulüp bağlantısının kanıtı, UEFA'nın oyuncunun UEFA kulüp turnuvası maçları için verdiği kulüp listesinde o kulübün yer almasıdır; '100 Şampiyonlar Ligi maçı' listesindeki oyuncular için kulüp bazında maç sayısı da yazıldı.",
+      "Bu listeler Şampiyonlar Ligi veya UEFA turnuvalarını kapsar. Lig maçları ve UEFA turnuvası oynanmayan kulüp dönemleri bu kaynaklarda görünmez; bu yüzden bazı oyuncuların bazı desteklenen kulüpleri eksik olabilir (eksik bağlantı yanlış bağlantı değildir).",
+      "loan alanı yeni oyuncularda null: UEFA listeleri kiralık bilgisini vermiyor.",
+      "birthDate ve wikidataId alanları doğrulanmadığı için null. Tek adla bilinen oyuncular için kimlik, UEFA listesindeki uyruk ve kulüp kombinasyonuyla eşlendi; ambiguityNote alanına yazıldı.",
+      "Önceki raporun Casillas, Benzema, Kroos, Sergio Ramos, Henry, Mbappé, Piqué, Alaba, Buffon, Griezmann, Robben, Pirlo, Courtois, Lampard, Shevchenko adayları güncel havuzda yok; hepsi bu partiye alındı. Hakan Çalhanoğlu da havuzda yok ama UEFA'nın ülke listelerinden bu oturumda yeni kulüp bilgisi okunmadığı için tekrar eklenmedi (ikinci partinin meta bölümünde duruyor).",
+      "UEFA listelerinde yer alan ve havuzda bulunan oyuncuların desteklenen kulüpleri havuzla karşılaştırıldı; eksik bağlantı bulunmadı."
+    ],
+    "priorityPairsAnswered": [],
+    "verifiedReserveCandidates": [
+      {
+        "commonName": "Luis Enrique",
+        "supportedClubs": [
+          "Barcelona",
+          "Real Madrid"
+        ],
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+        "sourceType": "official",
+        "note": "Havuzda yok; UEFA listesinde en az iki desteklenen kulüple görünüyor. 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Jesús Navas",
+        "supportedClubs": [
+          "Manchester City",
+          "Sevilla"
+        ],
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+        "sourceType": "official",
+        "note": "Havuzda yok; UEFA listesinde en az iki desteklenen kulüple görünüyor. 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "David Villa",
+        "supportedClubs": [
+          "Atlético Madrid",
+          "Barcelona",
+          "Valencia"
+        ],
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+        "sourceType": "official",
+        "note": "Havuzda yok; UEFA listesinde en az iki desteklenen kulüple görünüyor. 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Michael Reiziger",
+        "supportedClubs": [
+          "AC Milan",
+          "Ajax",
+          "Barcelona"
+        ],
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/",
+        "sourceType": "official",
+        "note": "Havuzda yok; UEFA listesinde en az iki desteklenen kulüple görünüyor. 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Roy Makaay",
+        "supportedClubs": [
+          "Bayern Munich",
+          "Feyenoord"
+        ],
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/",
+        "sourceType": "official",
+        "note": "Havuzda yok; UEFA listesinde en az iki desteklenen kulüple görünüyor. 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Ederson",
+        "supportedClubs": [
+          "Benfica",
+          "Manchester City"
+        ],
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+        "sourceType": "official",
+        "note": "Havuzda yok; UEFA listesinde en az iki desteklenen kulüple görünüyor. 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Giovane Elber",
+        "supportedClubs": [
+          "Bayern Munich",
+          "Lyon"
+        ],
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+        "sourceType": "official",
+        "note": "Havuzda yok; UEFA listesinde en az iki desteklenen kulüple görünüyor. 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Raphaël Guerreiro",
+        "supportedClubs": [
+          "Bayern Munich",
+          "Borussia Dortmund"
+        ],
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+        "sourceType": "official",
+        "note": "Havuzda yok; UEFA listesinde en az iki desteklenen kulüple görünüyor. 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Vitinha",
+        "supportedClubs": [
+          "Paris Saint-Germain",
+          "Porto"
+        ],
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+        "sourceType": "official",
+        "note": "Havuzda yok; UEFA listesinde en az iki desteklenen kulüple görünüyor. 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Rui Patrício",
+        "supportedClubs": [
+          "Roma",
+          "Sporting CP"
+        ],
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+        "sourceType": "official",
+        "note": "Havuzda yok; UEFA listesinde en az iki desteklenen kulüple görünüyor. 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Felipe Caicedo",
+        "supportedClubs": [
+          "Manchester City",
+          "Sporting CP"
+        ],
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0252-0d044f6082ee-2d26fd1c024f-1000--roberto-carlos-lionel-messi-neymar-edinson-cavani-who-are-so/",
+        "sourceType": "official",
+        "note": "Havuzda yok; UEFA listesinde en az iki desteklenen kulüple görünüyor. 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Marco Simone",
+        "supportedClubs": [
+          "AC Milan",
+          "Paris Saint-Germain"
+        ],
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+        "sourceType": "official",
+        "note": "Havuzda yok; UEFA listesinde en az iki desteklenen kulüple görünüyor. 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Alessandro Altobelli",
+        "supportedClubs": [
+          "Inter",
+          "Juventus"
+        ],
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+        "sourceType": "official",
+        "note": "Havuzda yok; UEFA listesinde en az iki desteklenen kulüple görünüyor. 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Karl-Heinz Rummenigge",
+        "supportedClubs": [
+          "Bayern Munich",
+          "Inter"
+        ],
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+        "sourceType": "official",
+        "note": "Havuzda yok; UEFA listesinde en az iki desteklenen kulüple görünüyor. 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Marcus Rashford",
+        "supportedClubs": [
+          "Barcelona",
+          "Manchester United"
+        ],
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/",
+        "sourceType": "official",
+        "note": "Havuzda yok; UEFA listesinde en az iki desteklenen kulüple görünüyor. 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Samuel Kuffour",
+        "supportedClubs": [
+          "Bayern Munich",
+          "Roma"
+        ],
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+        "sourceType": "official",
+        "note": "Havuzda yok; UEFA listesinde en az iki desteklenen kulüple görünüyor. 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Benni McCarthy",
+        "supportedClubs": [
+          "Ajax",
+          "Porto"
+        ],
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+        "sourceType": "official",
+        "note": "Havuzda yok; UEFA listesinde en az iki desteklenen kulüple görünüyor. 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Frédéric Kanouté",
+        "supportedClubs": [
+          "Lyon",
+          "Sevilla"
+        ],
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+        "sourceType": "official",
+        "note": "Havuzda yok; UEFA listesinde en az iki desteklenen kulüple görünüyor. 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Emmanuel Adebayor",
+        "supportedClubs": [
+          "Arsenal",
+          "Manchester City",
+          "Real Madrid"
+        ],
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+        "sourceType": "official",
+        "note": "Havuzda yok; UEFA listesinde en az iki desteklenen kulüple görünüyor. 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Nwankwo Kanu",
+        "supportedClubs": [
+          "Ajax",
+          "Arsenal",
+          "Inter"
+        ],
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+        "sourceType": "official",
+        "note": "Havuzda yok; UEFA listesinde en az iki desteklenen kulüple görünüyor. 50 sınırı nedeniyle bu partiye alınmadı."
+      },
+      {
+        "commonName": "Chancel Mbemba",
+        "supportedClubs": [
+          "Marseille",
+          "Porto"
+        ],
+        "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+        "sourceType": "official",
+        "note": "Havuzda yok; UEFA listesinde en az iki desteklenen kulüple görünüyor. 50 sınırı nedeniyle bu partiye alınmadı."
+      }
+    ],
+    "notes": [
+      "Kariyer rotaları Wikipedia tablolarından alındı (ikincil). Emeklilik durumu ayrıca doğrulanmadı; tamamı oyunculuk kariyeri bitmiş isimlerden seçildi.",
+      "careerTrails içindeki supportedClubName alanı yalnızca eşleştirme kolaylığı içindir; null olan kulüpler ana oyunun kulüp listesine eklenme talebi değildir."
+    ]
+  },
+  "newPlayers": [
+    {
+      "fullName": "Iker Casillas",
+      "commonName": "Iker Casillas",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Casillas",
+        "Iker Casillas Fernández"
+      ],
+      "clubs": [
+        {
+          "name": "Real Madrid",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 150 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Porto",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 27 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "CASILLAS",
+      "anagramKey": "CASILLAS",
+      "difficulty": "medium",
+      "difficultyReason": "8 harf; çok tanınan kaleci.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Karim Benzema",
+      "commonName": "Karim Benzema",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Benzema"
+      ],
+      "clubs": [
+        {
+          "name": "Lyon",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 19 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Real Madrid",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 133 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "BENZEMA",
+      "anagramKey": "BENZEMA",
+      "difficulty": "medium",
+      "difficultyReason": "7 harf; çok tanınan forvet.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Toni Kroos",
+      "commonName": "Toni Kroos",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Kroos"
+      ],
+      "clubs": [
+        {
+          "name": "Bayern Munich",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 41 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Real Madrid",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 110 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "KROOS",
+      "anagramKey": "KROOS",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf; tanınan isim.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Sergio Ramos",
+      "commonName": "Sergio Ramos",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Ramos",
+        "Sergio Ramos García"
+      ],
+      "clubs": [
+        {
+          "name": "Real Madrid",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 129 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 8 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Sevilla",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 5 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "RAMOS",
+      "anagramKey": "RAMOS",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf.",
+      "ambiguityNote": "RAMOS yaygın bir soyadı; havuzda başka Ramos yok ama Gonçalo Ramos gibi oyunculara da uyar."
+    },
+    {
+      "fullName": "Gerard Piqué",
+      "commonName": "Gerard Piqué",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Pique",
+        "Gerard Pique"
+      ],
+      "clubs": [
+        {
+          "name": "Manchester United",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 4 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Barcelona",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 124 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "PIQUÉ",
+      "anagramKey": "PIQUE",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "David Alaba",
+      "commonName": "David Alaba",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Alaba"
+      ],
+      "clubs": [
+        {
+          "name": "Bayern Munich",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 91 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Real Madrid",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 34 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "ALABA",
+      "anagramKey": "ALABA",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf; tekrar eden harfler ipucu verir.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Gianluigi Buffon",
+      "commonName": "Gianluigi Buffon",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Buffon",
+        "Gigi Buffon"
+      ],
+      "clubs": [
+        {
+          "name": "Juventus",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 113 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 5 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "BUFFON",
+      "anagramKey": "BUFFON",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf; çok tanınan kaleci.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Antoine Griezmann",
+      "commonName": "Antoine Griezmann",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Griezmann"
+      ],
+      "clubs": [
+        {
+          "name": "Atlético Madrid",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 98 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Barcelona",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 16 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "GRIEZMANN",
+      "anagramKey": "GRIEZMANN",
+      "difficulty": "hard",
+      "difficultyReason": "9 harf ve yazımı zor.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Thierry Henry",
+      "commonName": "Thierry Henry",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Henry"
+      ],
+      "clubs": [
+        {
+          "name": "Barcelona",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 26 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Arsenal",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 77 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Juventus",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/",
+          "evidenceNote": "UEFA: Fransa'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Monaco, Juventus, Arsenal, Barcelona).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "HENRY",
+      "anagramKey": "HENRY",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Arjen Robben",
+      "commonName": "Arjen Robben",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Robben"
+      ],
+      "clubs": [
+        {
+          "name": "Chelsea",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 19 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Real Madrid",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 11 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Bayern Munich",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 70 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "ROBBEN",
+      "anagramKey": "ROBBEN",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Andrea Pirlo",
+      "commonName": "Andrea Pirlo",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Pirlo"
+      ],
+      "clubs": [
+        {
+          "name": "Inter",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 5 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "AC Milan",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 78 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Juventus",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 25 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "PIRLO",
+      "anagramKey": "PIRLO",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Thibaut Courtois",
+      "commonName": "Thibaut Courtois",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Courtois"
+      ],
+      "clubs": [
+        {
+          "name": "Atlético Madrid",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 12 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Chelsea",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 16 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Real Madrid",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 75 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "COURTOIS",
+      "anagramKey": "COURTOIS",
+      "difficulty": "medium",
+      "difficultyReason": "8 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Frank Lampard",
+      "commonName": "Frank Lampard",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Lampard"
+      ],
+      "clubs": [
+        {
+          "name": "Chelsea",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 102 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Manchester City",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 3 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "LAMPARD",
+      "anagramKey": "LAMPARD",
+      "difficulty": "medium",
+      "difficultyReason": "7 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Kylian Mbappé",
+      "commonName": "Kylian Mbappé",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Mbappe",
+        "Kylian Mbappe"
+      ],
+      "clubs": [
+        {
+          "name": "Paris Saint-Germain",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 64 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Real Madrid",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 29 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "MBAPPÉ",
+      "anagramKey": "MBAPPE",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf; MB başlangıcı alışılmadık.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Andriy Shevchenko",
+      "commonName": "Andriy Shevchenko",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Shevchenko",
+        "Andriy Şevçenko",
+        "Andrei Shevchenko"
+      ],
+      "clubs": [
+        {
+          "name": "AC Milan",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 59 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Chelsea",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a10f58015-92c648e6303d-1000--who-has-played-100-champions-league-games-manuel-neuer-u/",
+          "evidenceNote": "UEFA: 100 Şampiyonlar Ligi maçı oynayanlar (kulüp bazında maç sayısı): Şampiyonlar Ligi'nde bu kulüple 15 maç.",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "SHEVCHENKO",
+      "anagramKey": "SHEVCHENKO",
+      "difficulty": "hard",
+      "difficultyReason": "10 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Raphaël Varane",
+      "commonName": "Raphaël Varane",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Varane",
+        "Raphael Varane"
+      ],
+      "clubs": [
+        {
+          "name": "Real Madrid",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/",
+          "evidenceNote": "UEFA: Fransa'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Real Madrid, Manchester United).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Manchester United",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/",
+          "evidenceNote": "UEFA: Fransa'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Real Madrid, Manchester United).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "VARANE",
+      "anagramKey": "VARANE",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Robert Pirès",
+      "commonName": "Robert Pirès",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Pires",
+        "Robert Pires"
+      ],
+      "clubs": [
+        {
+          "name": "Marseille",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/",
+          "evidenceNote": "UEFA: Fransa'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Metz, Marseille, Arsenal, Villarreal).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Arsenal",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/",
+          "evidenceNote": "UEFA: Fransa'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Metz, Marseille, Arsenal, Villarreal).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "PIRÈS",
+      "anagramKey": "PIRES",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf.",
+      "ambiguityNote": "Anahtar PIRES; mevcut PERES (Bruno Peres) kelimesine çok benzer, oyunda karışabilir."
+    },
+    {
+      "fullName": "Zinédine Zidane",
+      "commonName": "Zinédine Zidane",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Zidane",
+        "Zinedine Zidane",
+        "Zizou"
+      ],
+      "clubs": [
+        {
+          "name": "Juventus",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/",
+          "evidenceNote": "UEFA: Fransa'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Cannes, Bordeaux, Juventus, Real Madrid).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Real Madrid",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/",
+          "evidenceNote": "UEFA: Fransa'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Cannes, Bordeaux, Juventus, Real Madrid).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "ZIDANE",
+      "anagramKey": "ZIDANE",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf; çok tanınan isim.",
+      "ambiguityNote": "Teknik direktörlük dönemi sayılmadı; yalnızca oyunculuk maçları."
+    },
+    {
+      "fullName": "Kingsley Coman",
+      "commonName": "Kingsley Coman",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Coman"
+      ],
+      "clubs": [
+        {
+          "name": "Juventus",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/",
+          "evidenceNote": "UEFA: Fransa'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Juventus, Bayern).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Bayern Munich",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/",
+          "evidenceNote": "UEFA: Fransa'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Juventus, Bayern).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "COMAN",
+      "anagramKey": "COMAN",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Alexandre Lacazette",
+      "commonName": "Alexandre Lacazette",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Lacazette"
+      ],
+      "clubs": [
+        {
+          "name": "Lyon",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/",
+          "evidenceNote": "UEFA: Fransa'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Lyon, Arsenal).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Arsenal",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/",
+          "evidenceNote": "UEFA: Fransa'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Lyon, Arsenal).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "LACAZETTE",
+      "anagramKey": "LACAZETTE",
+      "difficulty": "hard",
+      "difficultyReason": "9 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Edwin van der Sar",
+      "commonName": "Edwin van der Sar",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Van der Sar"
+      ],
+      "clubs": [
+        {
+          "name": "Ajax",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/",
+          "evidenceNote": "UEFA: Hollanda'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Ajax, Juventus, Fulham, Manchester United).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Juventus",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/",
+          "evidenceNote": "UEFA: Hollanda'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Ajax, Juventus, Fulham, Manchester United).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Manchester United",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/",
+          "evidenceNote": "UEFA: Hollanda'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Ajax, Juventus, Fulham, Manchester United).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "VANDERSAR",
+      "anagramKey": "VANDERSAR",
+      "difficulty": "hard",
+      "difficultyReason": "Soyadı üç parçalı; birleşik yazılır.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Ruud van Nistelrooy",
+      "commonName": "Ruud van Nistelrooy",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Van Nistelrooy",
+        "Nistelrooy"
+      ],
+      "clubs": [
+        {
+          "name": "Manchester United",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/",
+          "evidenceNote": "UEFA: Hollanda'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Heerenveen, PSV Eindhoven, Manchester United, Real Madrid, Hamburg).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Real Madrid",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/",
+          "evidenceNote": "UEFA: Hollanda'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Heerenveen, PSV Eindhoven, Manchester United, Real Madrid, Hamburg).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "NISTELROOY",
+      "anagramKey": "NISTELROOY",
+      "difficulty": "hard",
+      "difficultyReason": "10 harf ve çift O.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Marco van Basten",
+      "commonName": "Marco van Basten",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Van Basten"
+      ],
+      "clubs": [
+        {
+          "name": "Ajax",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/",
+          "evidenceNote": "UEFA: Hollanda'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Ajax, AC Milan).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "AC Milan",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/",
+          "evidenceNote": "UEFA: Hollanda'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Ajax, AC Milan).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "VANBASTEN",
+      "anagramKey": "VANBASTEN",
+      "difficulty": "hard",
+      "difficultyReason": "Birleşik yazılmış 9 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Maxwell",
+      "commonName": "Maxwell",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Maxwell Scherrer Cabelino Andrade"
+      ],
+      "clubs": [
+        {
+          "name": "Ajax",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+          "evidenceNote": "UEFA: Brezilya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Ajax, Inter, Barcelona, Paris).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Inter",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+          "evidenceNote": "UEFA: Brezilya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Ajax, Inter, Barcelona, Paris).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Barcelona",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+          "evidenceNote": "UEFA: Brezilya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Ajax, Inter, Barcelona, Paris).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+          "evidenceNote": "UEFA: Brezilya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Ajax, Inter, Barcelona, Paris).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "MAXWELL",
+      "anagramKey": "MAXWELL",
+      "difficulty": "medium",
+      "difficultyReason": "7 harf; tek adla tanınır.",
+      "ambiguityNote": "UEFA'nın Brezilya listesindeki sol bek (Ajax, Inter, Barcelona, Paris); tam ad bu oturumda kaynakla doğrulanmadı."
+    },
+    {
+      "fullName": "Kaká",
+      "commonName": "Kaká",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Kaka",
+        "Ricardo Kaká"
+      ],
+      "clubs": [
+        {
+          "name": "AC Milan",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+          "evidenceNote": "UEFA: Brezilya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (AC Milan, Real Madrid).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Real Madrid",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+          "evidenceNote": "UEFA: Brezilya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (AC Milan, Real Madrid).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "KAKÁ",
+      "anagramKey": "KAKA",
+      "difficulty": "easy",
+      "difficultyReason": "4 harf.",
+      "ambiguityNote": "UEFA'nın Brezilya listesindeki Kaká (AC Milan, Real Madrid)."
+    },
+    {
+      "fullName": "Casemiro",
+      "commonName": "Casemiro",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Carlos Henrique Casemiro"
+      ],
+      "clubs": [
+        {
+          "name": "Real Madrid",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+          "evidenceNote": "UEFA: Brezilya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Real Madrid, Porto, Manchester United).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Porto",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+          "evidenceNote": "UEFA: Brezilya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Real Madrid, Porto, Manchester United).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Manchester United",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+          "evidenceNote": "UEFA: Brezilya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Real Madrid, Porto, Manchester United).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "CASEMIRO",
+      "anagramKey": "CASEMIRO",
+      "difficulty": "medium",
+      "difficultyReason": "8 harf; tek adla tanınır.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Neymar",
+      "commonName": "Neymar",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Neymar Jr",
+        "Neymar Júnior"
+      ],
+      "clubs": [
+        {
+          "name": "Barcelona",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+          "evidenceNote": "UEFA: Brezilya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Barcelona, Paris).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+          "evidenceNote": "UEFA: Brezilya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Barcelona, Paris).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "NEYMAR",
+      "anagramKey": "NEYMAR",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf; dünyaca tanınır.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Rivaldo",
+      "commonName": "Rivaldo",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [],
+      "clubs": [
+        {
+          "name": "Barcelona",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+          "evidenceNote": "UEFA: Brezilya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Barcelona, AC Milan, Olympiacos, AEK Athens).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "AC Milan",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+          "evidenceNote": "UEFA: Brezilya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Barcelona, AC Milan, Olympiacos, AEK Athens).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "RIVALDO",
+      "anagramKey": "RIVALDO",
+      "difficulty": "medium",
+      "difficultyReason": "7 harf; tek adla tanınır.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Willian",
+      "commonName": "Willian",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Willian Borges da Silva"
+      ],
+      "clubs": [
+        {
+          "name": "Chelsea",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+          "evidenceNote": "UEFA: Brezilya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Shakhtar, Anji, Chelsea, Arsenal, Olympiacos).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Arsenal",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+          "evidenceNote": "UEFA: Brezilya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Shakhtar, Anji, Chelsea, Arsenal, Olympiacos).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "WILLIAN",
+      "anagramKey": "WILLIAN",
+      "difficulty": "medium",
+      "difficultyReason": "7 harf.",
+      "ambiguityNote": "WILLIAN başka Brezilyalı oyunculara da uyar (ör. Willian José); bu kayıt Chelsea ve Arsenal'de oynayan kanat oyuncusu."
+    },
+    {
+      "fullName": "Ricardo Carvalho",
+      "commonName": "Ricardo Carvalho",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Carvalho"
+      ],
+      "clubs": [
+        {
+          "name": "Porto",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+          "evidenceNote": "UEFA: Portekiz'in en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Porto, Chelsea, Real Madrid, Monaco).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Chelsea",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+          "evidenceNote": "UEFA: Portekiz'in en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Porto, Chelsea, Real Madrid, Monaco).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Real Madrid",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+          "evidenceNote": "UEFA: Portekiz'in en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Porto, Chelsea, Real Madrid, Monaco).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "CARVALHO",
+      "anagramKey": "CARVALHO",
+      "difficulty": "medium",
+      "difficultyReason": "8 harf.",
+      "ambiguityNote": "CARVALHO, William Carvalho gibi başka oyunculara da uyar (havuzda yok)."
+    },
+    {
+      "fullName": "Deco",
+      "commonName": "Deco",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Anderson Luís de Souza"
+      ],
+      "clubs": [
+        {
+          "name": "Porto",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+          "evidenceNote": "UEFA: Portekiz'in en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Porto, Barcelona, Chelsea).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Barcelona",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+          "evidenceNote": "UEFA: Portekiz'in en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Porto, Barcelona, Chelsea).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Chelsea",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+          "evidenceNote": "UEFA: Portekiz'in en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Porto, Barcelona, Chelsea).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "DECO",
+      "anagramKey": "DECO",
+      "difficulty": "easy",
+      "difficultyReason": "4 harf; tek adla tanınır.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Rúben Dias",
+      "commonName": "Rúben Dias",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Ruben Dias"
+      ],
+      "clubs": [
+        {
+          "name": "Benfica",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+          "evidenceNote": "UEFA: Portekiz'in en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Benfica, Manchester City).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Manchester City",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+          "evidenceNote": "UEFA: Portekiz'in en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Benfica, Manchester City).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "DIAS",
+      "anagramKey": "DIAS",
+      "difficulty": "easy",
+      "difficultyReason": "4 harf.",
+      "ambiguityNote": "DIAS yaygın Portekizce soyadı; Luis Díaz (anahtar DIAZ) ile karıştırılmamalı."
+    },
+    {
+      "fullName": "João Moutinho",
+      "commonName": "João Moutinho",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Joao Moutinho",
+        "Moutinho"
+      ],
+      "clubs": [
+        {
+          "name": "Sporting CP",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+          "evidenceNote": "UEFA: Portekiz'in en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Sporting CP, Porto, Monaco, Wolves, Braga).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Porto",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+          "evidenceNote": "UEFA: Portekiz'in en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Sporting CP, Porto, Monaco, Wolves, Braga).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "MOUTINHO",
+      "anagramKey": "MOUTINHO",
+      "difficulty": "medium",
+      "difficultyReason": "8 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Vítor Baía",
+      "commonName": "Vítor Baía",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Vitor Baia",
+        "Baía"
+      ],
+      "clubs": [
+        {
+          "name": "Porto",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+          "evidenceNote": "UEFA: Portekiz'in en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Porto, Barcelona).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Barcelona",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+          "evidenceNote": "UEFA: Portekiz'in en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Porto, Barcelona).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "BAÍA",
+      "anagramKey": "BAIA",
+      "difficulty": "easy",
+      "difficultyReason": "4 harf; eski dönem kalecisi.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Rui Costa",
+      "commonName": "Rui Costa",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Rui Manuel César Costa"
+      ],
+      "clubs": [
+        {
+          "name": "Benfica",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+          "evidenceNote": "UEFA: Portekiz'in en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Benfica, Fiorentina, AC Milan).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "AC Milan",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+          "evidenceNote": "UEFA: Portekiz'in en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Benfica, Fiorentina, AC Milan).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "RUICOSTA",
+      "anagramKey": "RUICOSTA",
+      "difficulty": "medium",
+      "difficultyReason": "Ad+soyad birleşik.",
+      "ambiguityNote": "COSTA tek başına Diego Costa, Douglas Costa gibi oyunculara da uyduğu için ad+soyad kullanıldı."
+    },
+    {
+      "fullName": "Bruno Fernandes",
+      "commonName": "Bruno Fernandes",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Bruno Miguel Borges Fernandes"
+      ],
+      "clubs": [
+        {
+          "name": "Sporting CP",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+          "evidenceNote": "UEFA: Portekiz'in en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Sporting CP, Manchester United).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Manchester United",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+          "evidenceNote": "UEFA: Portekiz'in en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Sporting CP, Manchester United).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "BRUNOFERNANDES",
+      "anagramKey": "BRUNOFERNANDES",
+      "difficulty": "hard",
+      "difficultyReason": "14 harf, ad+soyad.",
+      "ambiguityNote": "FERNANDES havuzdaki Gedson Fernandes ve Manuel Fernandes'e de uyduğu için ad+soyad kullanıldı."
+    },
+    {
+      "fullName": "Diego Godín",
+      "commonName": "Diego Godín",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Diego Godin",
+        "Godín"
+      ],
+      "clubs": [
+        {
+          "name": "Atlético Madrid",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0252-0d044f6082ee-2d26fd1c024f-1000--roberto-carlos-lionel-messi-neymar-edinson-cavani-who-are-so/",
+          "evidenceNote": "UEFA: Güney Amerika'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Villarreal, Atlético de Madrid, Inter).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Inter",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0252-0d044f6082ee-2d26fd1c024f-1000--roberto-carlos-lionel-messi-neymar-edinson-cavani-who-are-so/",
+          "evidenceNote": "UEFA: Güney Amerika'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Villarreal, Atlético de Madrid, Inter).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "GODÍN",
+      "anagramKey": "GODIN",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Claudio Pizarro",
+      "commonName": "Claudio Pizarro",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Pizarro"
+      ],
+      "clubs": [
+        {
+          "name": "Bayern Munich",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0252-0d044f6082ee-2d26fd1c024f-1000--roberto-carlos-lionel-messi-neymar-edinson-cavani-who-are-so/",
+          "evidenceNote": "UEFA: Güney Amerika'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Bremen, Bayern München, Chelsea).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Chelsea",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0252-0d044f6082ee-2d26fd1c024f-1000--roberto-carlos-lionel-messi-neymar-edinson-cavani-who-are-so/",
+          "evidenceNote": "UEFA: Güney Amerika'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Bremen, Bayern München, Chelsea).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "PIZARRO",
+      "anagramKey": "PIZARRO",
+      "difficulty": "medium",
+      "difficultyReason": "7 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Juan Cuadrado",
+      "commonName": "Juan Cuadrado",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Cuadrado"
+      ],
+      "clubs": [
+        {
+          "name": "Chelsea",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0252-0d044f6082ee-2d26fd1c024f-1000--roberto-carlos-lionel-messi-neymar-edinson-cavani-who-are-so/",
+          "evidenceNote": "UEFA: Güney Amerika'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Chelsea, Juventus, Inter, Atalanta).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Juventus",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0252-0d044f6082ee-2d26fd1c024f-1000--roberto-carlos-lionel-messi-neymar-edinson-cavani-who-are-so/",
+          "evidenceNote": "UEFA: Güney Amerika'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Chelsea, Juventus, Inter, Atalanta).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Inter",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0252-0d044f6082ee-2d26fd1c024f-1000--roberto-carlos-lionel-messi-neymar-edinson-cavani-who-are-so/",
+          "evidenceNote": "UEFA: Güney Amerika'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Chelsea, Juventus, Inter, Atalanta).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "CUADRADO",
+      "anagramKey": "CUADRADO",
+      "difficulty": "medium",
+      "difficultyReason": "8 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Filippo Inzaghi",
+      "commonName": "Filippo Inzaghi",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Pippo Inzaghi",
+        "Inzaghi"
+      ],
+      "clubs": [
+        {
+          "name": "Juventus",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+          "evidenceNote": "UEFA: İtalya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Parma, Juventus, AC Milan).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "AC Milan",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+          "evidenceNote": "UEFA: İtalya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Parma, Juventus, AC Milan).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "INZAGHI",
+      "anagramKey": "INZAGHI",
+      "difficulty": "medium",
+      "difficultyReason": "7 harf.",
+      "ambiguityNote": "INZAGHI kardeşi Simone Inzaghi'ye de uyar (Lazio; havuzda yok). Teknik direktörlük sayılmadı."
+    },
+    {
+      "fullName": "Gianluca Vialli",
+      "commonName": "Gianluca Vialli",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Vialli"
+      ],
+      "clubs": [
+        {
+          "name": "Juventus",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+          "evidenceNote": "UEFA: İtalya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Sampdoria, Juventus, Chelsea).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Chelsea",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+          "evidenceNote": "UEFA: İtalya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Sampdoria, Juventus, Chelsea).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "VIALLI",
+      "anagramKey": "VIALLI",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf; eski dönem forveti.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Roberto Baggio",
+      "commonName": "Roberto Baggio",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Baggio"
+      ],
+      "clubs": [
+        {
+          "name": "Juventus",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+          "evidenceNote": "UEFA: İtalya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Fiorentina, Juventus, AC Milan, Inter, Brescia).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "AC Milan",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+          "evidenceNote": "UEFA: İtalya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Fiorentina, Juventus, AC Milan, Inter, Brescia).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Inter",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+          "evidenceNote": "UEFA: İtalya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Fiorentina, Juventus, AC Milan, Inter, Brescia).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "BAGGIO",
+      "anagramKey": "BAGGIO",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf.",
+      "ambiguityNote": "BAGGIO, Juventus ve Inter'de de oynamış Dino Baggio'ya da uyar (havuzda yok)."
+    },
+    {
+      "fullName": "Bastian Schweinsteiger",
+      "commonName": "Bastian Schweinsteiger",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Schweinsteiger"
+      ],
+      "clubs": [
+        {
+          "name": "Bayern Munich",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+          "evidenceNote": "UEFA: Almanya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Bayern München, Manchester United).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Manchester United",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+          "evidenceNote": "UEFA: Almanya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Bayern München, Manchester United).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "SCHWEINSTEIGER",
+      "anagramKey": "SCHWEINSTEIGER",
+      "difficulty": "hard",
+      "difficultyReason": "14 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Michael Ballack",
+      "commonName": "Michael Ballack",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Ballack"
+      ],
+      "clubs": [
+        {
+          "name": "Bayern Munich",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+          "evidenceNote": "UEFA: Almanya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Kaiserslautern, Leverkusen, Bayern München, Chelsea).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Chelsea",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+          "evidenceNote": "UEFA: Almanya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Kaiserslautern, Leverkusen, Bayern München, Chelsea).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "BALLACK",
+      "anagramKey": "BALLACK",
+      "difficulty": "medium",
+      "difficultyReason": "7 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Mario Götze",
+      "commonName": "Mario Götze",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Mario Gotze",
+        "Götze"
+      ],
+      "clubs": [
+        {
+          "name": "Borussia Dortmund",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+          "evidenceNote": "UEFA: Almanya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Dortmund, Bayern München, PSV Eindhoven, Eintracht Frankfurt).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Bayern Munich",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+          "evidenceNote": "UEFA: Almanya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Dortmund, Bayern München, PSV Eindhoven, Eintracht Frankfurt).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "GÖTZE",
+      "anagramKey": "GOTZE",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Kai Havertz",
+      "commonName": "Kai Havertz",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Havertz"
+      ],
+      "clubs": [
+        {
+          "name": "Chelsea",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+          "evidenceNote": "UEFA: Almanya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Leverkusen, Chelsea, Arsenal).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Arsenal",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+          "evidenceNote": "UEFA: Almanya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Leverkusen, Chelsea, Arsenal).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "HAVERTZ",
+      "anagramKey": "HAVERTZ",
+      "difficulty": "medium",
+      "difficultyReason": "7 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Serge Gnabry",
+      "commonName": "Serge Gnabry",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Gnabry"
+      ],
+      "clubs": [
+        {
+          "name": "Arsenal",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+          "evidenceNote": "UEFA: Almanya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Arsenal, Bayern München).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Bayern Munich",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+          "evidenceNote": "UEFA: Almanya'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Arsenal, Bayern München).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "GNABRY",
+      "anagramKey": "GNABRY",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf; GN başlangıcı zorlaştırır.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Yaya Touré",
+      "commonName": "Yaya Touré",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Yaya Toure"
+      ],
+      "clubs": [
+        {
+          "name": "Barcelona",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+          "evidenceNote": "UEFA: Afrika'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Metalurh Donetsk, Olympiacos, Barcelona, Manchester City).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Manchester City",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+          "evidenceNote": "UEFA: Afrika'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Metalurh Donetsk, Olympiacos, Barcelona, Manchester City).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "YAYATOURÉ",
+      "anagramKey": "YAYATOURE",
+      "difficulty": "hard",
+      "difficultyReason": "Ad+soyad birleşik.",
+      "ambiguityNote": "TOURÉ havuzdaki ağabeyi Kolo Touré'ye (wd-Q147589) de uyduğu için ad+soyad kullanıldı."
+    },
+    {
+      "fullName": "Sadio Mané",
+      "commonName": "Sadio Mané",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Sadio Mane",
+        "Mané"
+      ],
+      "clubs": [
+        {
+          "name": "Liverpool",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+          "evidenceNote": "UEFA: Afrika'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Salzburg, Southampton, Liverpool, Bayern München).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Bayern Munich",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+          "evidenceNote": "UEFA: Afrika'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Salzburg, Southampton, Liverpool, Bayern München).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "MANÉ",
+      "anagramKey": "MANE",
+      "difficulty": "easy",
+      "difficultyReason": "4 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "fullName": "Sofiane Feghouli",
+      "commonName": "Sofiane Feghouli",
+      "birthDate": null,
+      "wikidataId": null,
+      "aliases": [
+        "Feghouli"
+      ],
+      "clubs": [
+        {
+          "name": "Valencia",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+          "evidenceNote": "UEFA: Afrika'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Valencia, West Ham, Galatasaray).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        },
+        {
+          "name": "Galatasaray",
+          "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+          "evidenceNote": "UEFA: Afrika'nın en iyi Şampiyonlar Ligi performansları: oyuncunun UEFA maçlarındaki kulüp listesinde yer alıyor (Valencia, West Ham, Galatasaray).",
+          "sourceType": "official",
+          "verificationStatus": "official_appearance_verified",
+          "appearanceDate": null,
+          "loan": null
+        }
+      ],
+      "anagramName": "FEGHOULI",
+      "anagramKey": "FEGHOULI",
+      "difficulty": "medium",
+      "difficultyReason": "8 harf.",
+      "ambiguityNote": "Galatasaray–Valencia bağlantısı."
+    }
+  ],
+  "existingPlayerNewLinks": [],
+  "anagramSuggestions": [
+    {
+      "existingPlayerId": "wd-Q313316",
+      "commonName": "Romelu Lukaku",
+      "anagramName": "LUKAKU",
+      "anagramKey": "LUKAKU",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf; çok tanınan forvet.",
+      "ambiguityNote": "LUKAKU kardeşi Jordan Lukaku'ya da uyar (havuzda yok)."
+    },
+    {
+      "existingPlayerId": "wd-Q129700",
+      "commonName": "Mario Balotelli",
+      "anagramName": "BALOTELLI",
+      "anagramKey": "BALOTELLI",
+      "difficulty": "hard",
+      "difficultyReason": "9 harf, çift L.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q311872",
+      "commonName": "Philippe Coutinho",
+      "anagramName": "COUTINHO",
+      "anagramKey": "COUTINHO",
+      "difficulty": "medium",
+      "difficultyReason": "8 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q185115",
+      "commonName": "Edgar Davids",
+      "anagramName": "DAVIDS",
+      "anagramKey": "DAVIDS",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q179334",
+      "commonName": "Henrik Larsson",
+      "anagramName": "LARSSON",
+      "anagramKey": "LARSSON",
+      "difficulty": "medium",
+      "difficultyReason": "7 harf.",
+      "ambiguityNote": "LARSSON, Sebastian Larsson gibi başka İsveçli oyunculara da uyar (havuzda yok)."
+    },
+    {
+      "existingPlayerId": "wd-Q208050",
+      "commonName": "Leonardo Bonucci",
+      "anagramName": "BONUCCI",
+      "anagramKey": "BONUCCI",
+      "difficulty": "medium",
+      "difficultyReason": "7 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q187171",
+      "commonName": "Mario Mandžukić",
+      "anagramName": "MANDŽUKIĆ",
+      "anagramKey": "MANDZUKIC",
+      "difficulty": "hard",
+      "difficultyReason": "9 harf, Hırvatça yazım.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q701297",
+      "commonName": "Mateo Kovačić",
+      "anagramName": "KOVAČIĆ",
+      "anagramKey": "KOVACIC",
+      "difficulty": "medium",
+      "difficultyReason": "7 harf.",
+      "ambiguityNote": "KOVACIC, Niko Kovač'ın soyadından farklıdır; havuzda başka Kovačić yok."
+    },
+    {
+      "existingPlayerId": "wd-Q22279773",
+      "commonName": "Christian Pulisic",
+      "anagramName": "PULISIC",
+      "anagramKey": "PULISIC",
+      "difficulty": "medium",
+      "difficultyReason": "7 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q30148558",
+      "commonName": "Jadon Sancho",
+      "anagramName": "SANCHO",
+      "anagramKey": "SANCHO",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q188696",
+      "commonName": "Christian Vieri",
+      "anagramName": "VIERI",
+      "anagramKey": "VIERI",
+      "difficulty": "easy",
+      "difficultyReason": "5 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q219248",
+      "commonName": "Marc Overmars",
+      "anagramName": "OVERMARS",
+      "anagramKey": "OVERMARS",
+      "difficulty": "medium",
+      "difficultyReason": "8 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q193625",
+      "commonName": "Marcel Desailly",
+      "anagramName": "DESAILLY",
+      "anagramKey": "DESAILLY",
+      "difficulty": "medium",
+      "difficultyReason": "8 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q252190",
+      "commonName": "Xherdan Shaqiri",
+      "anagramName": "SHAQIRI",
+      "anagramKey": "SHAQIRI",
+      "difficulty": "medium",
+      "difficultyReason": "7 harf; Q harfi ipucu verir.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q281734",
+      "commonName": "Yūto Nagatomo",
+      "anagramName": "NAGATOMO",
+      "anagramKey": "NAGATOMO",
+      "difficulty": "medium",
+      "difficultyReason": "8 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q222231",
+      "commonName": "Daniel Sturridge",
+      "anagramName": "STURRIDGE",
+      "anagramKey": "STURRIDGE",
+      "difficulty": "hard",
+      "difficultyReason": "9 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q208025",
+      "commonName": "Gervinho",
+      "anagramName": "GERVINHO",
+      "anagramKey": "GERVINHO",
+      "difficulty": "medium",
+      "difficultyReason": "8 harf; tek adla tanınır.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q20830808",
+      "commonName": "Gianluigi Donnarumma",
+      "anagramName": "DONNARUMMA",
+      "anagramKey": "DONNARUMMA",
+      "difficulty": "hard",
+      "difficultyReason": "10 harf.",
+      "ambiguityNote": "DONNARUMMA ağabeyi Antonio Donnarumma'ya da uyar (havuzda yok)."
+    },
+    {
+      "existingPlayerId": "wd-Q18962",
+      "commonName": "Adrien Rabiot",
+      "anagramName": "RABIOT",
+      "anagramKey": "RABIOT",
+      "difficulty": "medium",
+      "difficultyReason": "6 harf.",
+      "ambiguityNote": null
+    },
+    {
+      "existingPlayerId": "wd-Q45567",
+      "commonName": "Fernando Morientes",
+      "anagramName": "MORIENTES",
+      "anagramKey": "MORIENTES",
+      "difficulty": "hard",
+      "difficultyReason": "9 harf.",
+      "ambiguityNote": null
+    }
+  ],
+  "careerTrails": [
+    {
+      "existingPlayerId": "sneijder",
+      "commonName": "Wesley Sneijder",
+      "trail": [
+        {
+          "order": 1,
+          "club": "Ajax",
+          "supportedClubName": "Ajax",
+          "startYear": 2002,
+          "endYear": 2007,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 2,
+          "club": "Real Madrid",
+          "supportedClubName": "Real Madrid",
+          "startYear": 2007,
+          "endYear": 2009,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 3,
+          "club": "Inter",
+          "supportedClubName": "Inter",
+          "startYear": 2009,
+          "endYear": 2013,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 4,
+          "club": "Galatasaray",
+          "supportedClubName": "Galatasaray",
+          "startYear": 2013,
+          "endYear": 2017,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 5,
+          "club": "Nice",
+          "supportedClubName": null,
+          "startYear": 2017,
+          "endYear": 2018,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 6,
+          "club": "Al-Gharafa",
+          "supportedClubName": null,
+          "startYear": 2018,
+          "endYear": 2019,
+          "loan": false,
+          "note": null
+        }
+      ],
+      "completeness": "complete_per_source",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Wesley_Sneijder",
+          "sourceType": "secondary",
+          "note": "Wikipedia 'Senior career' tablosu; bu oturumda açılıp okundu. Yedek/altyapı takımları rotadan çıkarıldı."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "existingPlayerId": "drogba",
+      "commonName": "Didier Drogba",
+      "trail": [
+        {
+          "order": 1,
+          "club": "Le Mans",
+          "supportedClubName": null,
+          "startYear": 1998,
+          "endYear": 2002,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 2,
+          "club": "Guingamp",
+          "supportedClubName": null,
+          "startYear": 2002,
+          "endYear": 2003,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 3,
+          "club": "Marseille",
+          "supportedClubName": "Marseille",
+          "startYear": 2003,
+          "endYear": 2004,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 4,
+          "club": "Chelsea",
+          "supportedClubName": "Chelsea",
+          "startYear": 2004,
+          "endYear": 2012,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 5,
+          "club": "Shanghai Shenhua",
+          "supportedClubName": null,
+          "startYear": 2012,
+          "endYear": 2013,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 6,
+          "club": "Galatasaray",
+          "supportedClubName": "Galatasaray",
+          "startYear": 2013,
+          "endYear": 2014,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 7,
+          "club": "Chelsea",
+          "supportedClubName": "Chelsea",
+          "startYear": 2014,
+          "endYear": 2015,
+          "loan": false,
+          "note": "Chelsea'ye ikinci dönem"
+        },
+        {
+          "order": 8,
+          "club": "Montreal Impact",
+          "supportedClubName": null,
+          "startYear": 2015,
+          "endYear": 2016,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 9,
+          "club": "Phoenix Rising",
+          "supportedClubName": null,
+          "startYear": 2017,
+          "endYear": 2018,
+          "loan": false,
+          "note": null
+        }
+      ],
+      "completeness": "complete_per_source",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Didier_Drogba",
+          "sourceType": "secondary",
+          "note": "Wikipedia 'Senior career' tablosu; bu oturumda açılıp okundu. Yedek/altyapı takımları rotadan çıkarıldı."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "existingPlayerId": "wd-Q83488",
+      "commonName": "Mesut Özil",
+      "trail": [
+        {
+          "order": 1,
+          "club": "Schalke 04",
+          "supportedClubName": null,
+          "startYear": 2006,
+          "endYear": 2008,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 2,
+          "club": "Werder Bremen",
+          "supportedClubName": null,
+          "startYear": 2008,
+          "endYear": 2010,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 3,
+          "club": "Real Madrid",
+          "supportedClubName": "Real Madrid",
+          "startYear": 2010,
+          "endYear": 2013,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 4,
+          "club": "Arsenal",
+          "supportedClubName": "Arsenal",
+          "startYear": 2013,
+          "endYear": 2021,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 5,
+          "club": "Fenerbahçe",
+          "supportedClubName": "Fenerbahçe",
+          "startYear": 2021,
+          "endYear": 2022,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 6,
+          "club": "İstanbul Başakşehir",
+          "supportedClubName": null,
+          "startYear": 2022,
+          "endYear": 2023,
+          "loan": false,
+          "note": null
+        }
+      ],
+      "completeness": "complete_per_source",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mesut_%C3%96zil",
+          "sourceType": "secondary",
+          "note": "Wikipedia 'Senior career' tablosu; bu oturumda açılıp okundu. Yedek/altyapı takımları rotadan çıkarıldı."
+        }
+      ],
+      "notes": "Schalke 04 II (2005) yedek takım olduğu için çıkarıldı."
+    },
+    {
+      "existingPlayerId": "van-persie",
+      "commonName": "Robin van Persie",
+      "trail": [
+        {
+          "order": 1,
+          "club": "Feyenoord",
+          "supportedClubName": "Feyenoord",
+          "startYear": 2001,
+          "endYear": 2004,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 2,
+          "club": "Arsenal",
+          "supportedClubName": "Arsenal",
+          "startYear": 2004,
+          "endYear": 2012,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 3,
+          "club": "Manchester United",
+          "supportedClubName": "Manchester United",
+          "startYear": 2012,
+          "endYear": 2015,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 4,
+          "club": "Fenerbahçe",
+          "supportedClubName": "Fenerbahçe",
+          "startYear": 2015,
+          "endYear": 2018,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 5,
+          "club": "Feyenoord",
+          "supportedClubName": "Feyenoord",
+          "startYear": 2018,
+          "endYear": 2019,
+          "loan": false,
+          "note": "Feyenoord'a dönüş"
+        }
+      ],
+      "completeness": "complete_per_source",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Robin_van_Persie",
+          "sourceType": "secondary",
+          "note": "Wikipedia 'Senior career' tablosu; bu oturumda açılıp okundu. Yedek/altyapı takımları rotadan çıkarıldı."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "existingPlayerId": "wd-Q188241",
+      "commonName": "Ricardo Quaresma",
+      "trail": [
+        {
+          "order": 1,
+          "club": "Sporting CP",
+          "supportedClubName": "Sporting CP",
+          "startYear": 2001,
+          "endYear": 2003,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 2,
+          "club": "Barcelona",
+          "supportedClubName": "Barcelona",
+          "startYear": 2003,
+          "endYear": 2004,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 3,
+          "club": "Porto",
+          "supportedClubName": "Porto",
+          "startYear": 2004,
+          "endYear": 2008,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 4,
+          "club": "Inter",
+          "supportedClubName": "Inter",
+          "startYear": 2008,
+          "endYear": 2010,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 5,
+          "club": "Chelsea",
+          "supportedClubName": "Chelsea",
+          "startYear": 2009,
+          "endYear": 2009,
+          "loan": true,
+          "note": "Inter'den kiralık"
+        },
+        {
+          "order": 6,
+          "club": "Beşiktaş",
+          "supportedClubName": "Beşiktaş",
+          "startYear": 2010,
+          "endYear": 2012,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 7,
+          "club": "Al Ahli",
+          "supportedClubName": null,
+          "startYear": 2013,
+          "endYear": 2013,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 8,
+          "club": "Porto",
+          "supportedClubName": "Porto",
+          "startYear": 2014,
+          "endYear": 2015,
+          "loan": false,
+          "note": "Porto'ya dönüş"
+        },
+        {
+          "order": 9,
+          "club": "Beşiktaş",
+          "supportedClubName": "Beşiktaş",
+          "startYear": 2015,
+          "endYear": 2019,
+          "loan": false,
+          "note": "Beşiktaş'a dönüş"
+        },
+        {
+          "order": 10,
+          "club": "Kasımpaşa",
+          "supportedClubName": null,
+          "startYear": 2019,
+          "endYear": 2020,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 11,
+          "club": "Vitória Guimarães",
+          "supportedClubName": null,
+          "startYear": 2020,
+          "endYear": 2022,
+          "loan": false,
+          "note": null
+        }
+      ],
+      "completeness": "complete_per_source",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ricardo_Quaresma",
+          "sourceType": "secondary",
+          "note": "Wikipedia 'Senior career' tablosu; bu oturumda açılıp okundu. Yedek/altyapı takımları rotadan çıkarıldı."
+        }
+      ],
+      "notes": "Sporting CP B (2000–2001) yedek takım olduğu için çıkarıldı."
+    },
+    {
+      "existingPlayerId": "wd-Q1939",
+      "commonName": "Nicolas Anelka",
+      "trail": [
+        {
+          "order": 1,
+          "club": "Paris Saint-Germain",
+          "supportedClubName": "Paris Saint-Germain",
+          "startYear": 1996,
+          "endYear": 1997,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 2,
+          "club": "Arsenal",
+          "supportedClubName": "Arsenal",
+          "startYear": 1997,
+          "endYear": 1999,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 3,
+          "club": "Real Madrid",
+          "supportedClubName": "Real Madrid",
+          "startYear": 1999,
+          "endYear": 2000,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 4,
+          "club": "Paris Saint-Germain",
+          "supportedClubName": "Paris Saint-Germain",
+          "startYear": 2000,
+          "endYear": 2002,
+          "loan": false,
+          "note": "PSG'ye dönüş"
+        },
+        {
+          "order": 5,
+          "club": "Liverpool",
+          "supportedClubName": "Liverpool",
+          "startYear": 2001,
+          "endYear": 2002,
+          "loan": true,
+          "note": "PSG'den kiralık"
+        },
+        {
+          "order": 6,
+          "club": "Manchester City",
+          "supportedClubName": "Manchester City",
+          "startYear": 2002,
+          "endYear": 2005,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 7,
+          "club": "Fenerbahçe",
+          "supportedClubName": "Fenerbahçe",
+          "startYear": 2005,
+          "endYear": 2006,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 8,
+          "club": "Bolton Wanderers",
+          "supportedClubName": null,
+          "startYear": 2006,
+          "endYear": 2008,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 9,
+          "club": "Chelsea",
+          "supportedClubName": "Chelsea",
+          "startYear": 2008,
+          "endYear": 2012,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 10,
+          "club": "Shanghai Shenhua",
+          "supportedClubName": null,
+          "startYear": 2012,
+          "endYear": 2013,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 11,
+          "club": "Juventus",
+          "supportedClubName": "Juventus",
+          "startYear": 2013,
+          "endYear": 2013,
+          "loan": true,
+          "note": "Shanghai Shenhua'dan kiralık"
+        },
+        {
+          "order": 12,
+          "club": "West Bromwich Albion",
+          "supportedClubName": null,
+          "startYear": 2013,
+          "endYear": 2014,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 13,
+          "club": "Mumbai City",
+          "supportedClubName": null,
+          "startYear": 2014,
+          "endYear": 2015,
+          "loan": false,
+          "note": null
+        }
+      ],
+      "completeness": "complete_per_source",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nicolas_Anelka",
+          "sourceType": "secondary",
+          "note": "Wikipedia 'Senior career' tablosu; bu oturumda açılıp okundu. Yedek/altyapı takımları rotadan çıkarıldı."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "existingPlayerId": "wd-Q487459",
+      "commonName": "Arda Turan",
+      "trail": [
+        {
+          "order": 1,
+          "club": "Galatasaray",
+          "supportedClubName": "Galatasaray",
+          "startYear": 2005,
+          "endYear": 2011,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 2,
+          "club": "Manisaspor",
+          "supportedClubName": null,
+          "startYear": 2006,
+          "endYear": 2006,
+          "loan": true,
+          "note": "Galatasaray'dan kiralık"
+        },
+        {
+          "order": 3,
+          "club": "Atlético Madrid",
+          "supportedClubName": "Atlético Madrid",
+          "startYear": 2011,
+          "endYear": 2015,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 4,
+          "club": "Barcelona",
+          "supportedClubName": "Barcelona",
+          "startYear": 2015,
+          "endYear": 2020,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 5,
+          "club": "İstanbul Başakşehir",
+          "supportedClubName": null,
+          "startYear": 2018,
+          "endYear": 2020,
+          "loan": true,
+          "note": "Barcelona'dan kiralık"
+        },
+        {
+          "order": 6,
+          "club": "Galatasaray",
+          "supportedClubName": "Galatasaray",
+          "startYear": 2020,
+          "endYear": 2022,
+          "loan": false,
+          "note": "Galatasaray'a dönüş"
+        }
+      ],
+      "completeness": "complete_per_source",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Arda_Turan",
+          "sourceType": "secondary",
+          "note": "Wikipedia 'Senior career' tablosu; bu oturumda açılıp okundu. Yedek/altyapı takımları rotadan çıkarıldı."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "existingPlayerId": "emre",
+      "commonName": "Emre Belözoğlu",
+      "trail": [
+        {
+          "order": 1,
+          "club": "Galatasaray",
+          "supportedClubName": "Galatasaray",
+          "startYear": 1996,
+          "endYear": 2001,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 2,
+          "club": "Inter",
+          "supportedClubName": "Inter",
+          "startYear": 2001,
+          "endYear": 2005,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 3,
+          "club": "Newcastle United",
+          "supportedClubName": "Newcastle United",
+          "startYear": 2005,
+          "endYear": 2008,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 4,
+          "club": "Fenerbahçe",
+          "supportedClubName": "Fenerbahçe",
+          "startYear": 2008,
+          "endYear": 2012,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 5,
+          "club": "Atlético Madrid",
+          "supportedClubName": "Atlético Madrid",
+          "startYear": 2012,
+          "endYear": 2013,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 6,
+          "club": "Fenerbahçe",
+          "supportedClubName": "Fenerbahçe",
+          "startYear": 2013,
+          "endYear": 2015,
+          "loan": false,
+          "note": "Fenerbahçe'ye dönüş"
+        },
+        {
+          "order": 7,
+          "club": "İstanbul Başakşehir",
+          "supportedClubName": null,
+          "startYear": 2015,
+          "endYear": 2019,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 8,
+          "club": "Fenerbahçe",
+          "supportedClubName": "Fenerbahçe",
+          "startYear": 2019,
+          "endYear": 2020,
+          "loan": false,
+          "note": "Fenerbahçe'ye ikinci dönüş"
+        }
+      ],
+      "completeness": "complete_per_source",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Emre_Bel%C3%B6zo%C4%9Flu",
+          "sourceType": "secondary",
+          "note": "Wikipedia 'Senior career' tablosu; bu oturumda açılıp okundu. Yedek/altyapı takımları rotadan çıkarıldı."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "existingPlayerId": "wd-Q189892",
+      "commonName": "Gheorghe Hagi",
+      "trail": [
+        {
+          "order": 1,
+          "club": "FC Constanța",
+          "supportedClubName": null,
+          "startYear": 1982,
+          "endYear": 1983,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 2,
+          "club": "Sportul Studențesc",
+          "supportedClubName": null,
+          "startYear": 1983,
+          "endYear": 1986,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 3,
+          "club": "Steaua București",
+          "supportedClubName": null,
+          "startYear": 1986,
+          "endYear": 1990,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 4,
+          "club": "Real Madrid",
+          "supportedClubName": "Real Madrid",
+          "startYear": 1990,
+          "endYear": 1992,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 5,
+          "club": "Brescia",
+          "supportedClubName": null,
+          "startYear": 1992,
+          "endYear": 1994,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 6,
+          "club": "Barcelona",
+          "supportedClubName": "Barcelona",
+          "startYear": 1994,
+          "endYear": 1996,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 7,
+          "club": "Galatasaray",
+          "supportedClubName": "Galatasaray",
+          "startYear": 1996,
+          "endYear": 2001,
+          "loan": false,
+          "note": null
+        }
+      ],
+      "completeness": "complete_per_source",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Gheorghe_Hagi",
+          "sourceType": "secondary",
+          "note": "Wikipedia 'Senior career' tablosu; bu oturumda açılıp okundu. Yedek/altyapı takımları rotadan çıkarıldı."
+        }
+      ],
+      "notes": "Teknik direktörlük dönemleri rotaya dahil edilmedi."
+    },
+    {
+      "existingPlayerId": "wd-Q192974",
+      "commonName": "Hakan Şükür",
+      "trail": [
+        {
+          "order": 1,
+          "club": "Sakaryaspor",
+          "supportedClubName": null,
+          "startYear": 1987,
+          "endYear": 1990,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 2,
+          "club": "Bursaspor",
+          "supportedClubName": null,
+          "startYear": 1990,
+          "endYear": 1992,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 3,
+          "club": "Galatasaray",
+          "supportedClubName": "Galatasaray",
+          "startYear": 1992,
+          "endYear": 1995,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 4,
+          "club": "Torino",
+          "supportedClubName": null,
+          "startYear": 1995,
+          "endYear": 1995,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 5,
+          "club": "Galatasaray",
+          "supportedClubName": "Galatasaray",
+          "startYear": 1995,
+          "endYear": 2000,
+          "loan": false,
+          "note": "Galatasaray'a dönüş"
+        },
+        {
+          "order": 6,
+          "club": "Inter",
+          "supportedClubName": "Inter",
+          "startYear": 2000,
+          "endYear": 2002,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 7,
+          "club": "Parma",
+          "supportedClubName": null,
+          "startYear": 2002,
+          "endYear": 2002,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 8,
+          "club": "Blackburn Rovers",
+          "supportedClubName": null,
+          "startYear": 2002,
+          "endYear": 2003,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 9,
+          "club": "Galatasaray",
+          "supportedClubName": "Galatasaray",
+          "startYear": 2003,
+          "endYear": 2008,
+          "loan": false,
+          "note": "Galatasaray'a üçüncü dönem"
+        }
+      ],
+      "completeness": "complete_per_source",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Hakan_%C5%9E%C3%BCk%C3%BCr",
+          "sourceType": "secondary",
+          "note": "Wikipedia 'Senior career' tablosu; bu oturumda açılıp okundu. Yedek/altyapı takımları rotadan çıkarıldı."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "existingPlayerId": "wd-Q429039",
+      "commonName": "Roberto Carlos",
+      "trail": [
+        {
+          "order": 1,
+          "club": "União São João",
+          "supportedClubName": null,
+          "startYear": 1991,
+          "endYear": 1993,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 2,
+          "club": "Atlético Mineiro",
+          "supportedClubName": null,
+          "startYear": 1992,
+          "endYear": 1993,
+          "loan": true,
+          "note": "União São João'dan kiralık"
+        },
+        {
+          "order": 3,
+          "club": "Palmeiras",
+          "supportedClubName": null,
+          "startYear": 1993,
+          "endYear": 1995,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 4,
+          "club": "Inter",
+          "supportedClubName": "Inter",
+          "startYear": 1995,
+          "endYear": 1996,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 5,
+          "club": "Real Madrid",
+          "supportedClubName": "Real Madrid",
+          "startYear": 1996,
+          "endYear": 2007,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 6,
+          "club": "Fenerbahçe",
+          "supportedClubName": "Fenerbahçe",
+          "startYear": 2007,
+          "endYear": 2009,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 7,
+          "club": "Corinthians",
+          "supportedClubName": null,
+          "startYear": 2010,
+          "endYear": 2011,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 8,
+          "club": "Anzhi Makhachkala",
+          "supportedClubName": null,
+          "startYear": 2011,
+          "endYear": 2012,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 9,
+          "club": "Delhi Dynamos",
+          "supportedClubName": null,
+          "startYear": 2015,
+          "endYear": 2016,
+          "loan": false,
+          "note": "Kaynakta 3 lig maçı; aynı dönemde teknik görevi de vardı, oyunculuk kaydı olarak alındı."
+        }
+      ],
+      "completeness": "complete_per_source",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Roberto_Carlos",
+          "sourceType": "secondary",
+          "note": "Wikipedia 'Senior career' tablosu; bu oturumda açılıp okundu. Yedek/altyapı takımları rotadan çıkarıldı."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "existingPlayerId": "kuyt",
+      "commonName": "Dirk Kuyt",
+      "trail": [
+        {
+          "order": 1,
+          "club": "Utrecht",
+          "supportedClubName": null,
+          "startYear": 1998,
+          "endYear": 2003,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 2,
+          "club": "Feyenoord",
+          "supportedClubName": "Feyenoord",
+          "startYear": 2003,
+          "endYear": 2006,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 3,
+          "club": "Liverpool",
+          "supportedClubName": "Liverpool",
+          "startYear": 2006,
+          "endYear": 2012,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 4,
+          "club": "Fenerbahçe",
+          "supportedClubName": "Fenerbahçe",
+          "startYear": 2012,
+          "endYear": 2015,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 5,
+          "club": "Feyenoord",
+          "supportedClubName": "Feyenoord",
+          "startYear": 2015,
+          "endYear": 2017,
+          "loan": false,
+          "note": "Feyenoord'a dönüş"
+        }
+      ],
+      "completeness": "complete_per_source",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Dirk_Kuyt",
+          "sourceType": "secondary",
+          "note": "Wikipedia 'Senior career' tablosu; bu oturumda açılıp okundu. Yedek/altyapı takımları rotadan çıkarıldı."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "existingPlayerId": "wd-Q203665",
+      "commonName": "Simão Sabrosa",
+      "trail": [
+        {
+          "order": 1,
+          "club": "Sporting CP",
+          "supportedClubName": "Sporting CP",
+          "startYear": 1997,
+          "endYear": 1999,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 2,
+          "club": "Barcelona",
+          "supportedClubName": "Barcelona",
+          "startYear": 1999,
+          "endYear": 2001,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 3,
+          "club": "Benfica",
+          "supportedClubName": "Benfica",
+          "startYear": 2001,
+          "endYear": 2007,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 4,
+          "club": "Atlético Madrid",
+          "supportedClubName": "Atlético Madrid",
+          "startYear": 2007,
+          "endYear": 2010,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 5,
+          "club": "Beşiktaş",
+          "supportedClubName": "Beşiktaş",
+          "startYear": 2011,
+          "endYear": 2012,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 6,
+          "club": "Espanyol",
+          "supportedClubName": null,
+          "startYear": 2012,
+          "endYear": 2014,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 7,
+          "club": "NorthEast United",
+          "supportedClubName": null,
+          "startYear": 2015,
+          "endYear": 2015,
+          "loan": false,
+          "note": null
+        }
+      ],
+      "completeness": "complete_per_source",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sim%C3%A3o_Sabrosa",
+          "sourceType": "secondary",
+          "note": "Wikipedia 'Senior career' tablosu; bu oturumda açılıp okundu. Yedek/altyapı takımları rotadan çıkarıldı."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "existingPlayerId": "wd-Q313205",
+      "commonName": "Gheorghe Popescu",
+      "trail": [
+        {
+          "order": 1,
+          "club": "Dunărea Calafat",
+          "supportedClubName": null,
+          "startYear": 1982,
+          "endYear": 1984,
+          "loan": false,
+          "note": "Kaynakta maç sayısı yok; A takım resmi maçı doğrulanmadı."
+        },
+        {
+          "order": 2,
+          "club": "Universitatea Craiova",
+          "supportedClubName": null,
+          "startYear": 1985,
+          "endYear": 1990,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 3,
+          "club": "Steaua București",
+          "supportedClubName": null,
+          "startYear": 1988,
+          "endYear": 1988,
+          "loan": true,
+          "note": "Universitatea Craiova'dan kiralık"
+        },
+        {
+          "order": 4,
+          "club": "PSV",
+          "supportedClubName": null,
+          "startYear": 1990,
+          "endYear": 1994,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 5,
+          "club": "Tottenham Hotspur",
+          "supportedClubName": null,
+          "startYear": 1994,
+          "endYear": 1995,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 6,
+          "club": "Barcelona",
+          "supportedClubName": "Barcelona",
+          "startYear": 1995,
+          "endYear": 1997,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 7,
+          "club": "Galatasaray",
+          "supportedClubName": "Galatasaray",
+          "startYear": 1997,
+          "endYear": 2001,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 8,
+          "club": "Lecce",
+          "supportedClubName": null,
+          "startYear": 2001,
+          "endYear": 2002,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 9,
+          "club": "Dinamo București",
+          "supportedClubName": null,
+          "startYear": 2002,
+          "endYear": 2002,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 10,
+          "club": "Hannover 96",
+          "supportedClubName": null,
+          "startYear": 2002,
+          "endYear": 2003,
+          "loan": false,
+          "note": null
+        }
+      ],
+      "completeness": "complete_per_source_with_gap",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Gheorghe_Popescu",
+          "sourceType": "secondary",
+          "note": "Wikipedia 'Senior career' tablosu; bu oturumda açılıp okundu. Yedek/altyapı takımları rotadan çıkarıldı."
+        }
+      ],
+      "notes": "İlk durak (Dunărea Calafat) için maç kaydı yok; oyunda gösterilecekse belirsiz olarak işaretlenmeli."
+    },
+    {
+      "existingPlayerId": "wd-Q175296",
+      "commonName": "Raul Meireles",
+      "trail": [
+        {
+          "order": 1,
+          "club": "Boavista",
+          "supportedClubName": null,
+          "startYear": 2001,
+          "endYear": 2004,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 2,
+          "club": "Aves",
+          "supportedClubName": null,
+          "startYear": 2001,
+          "endYear": 2003,
+          "loan": true,
+          "note": "Boavista'dan kiralık"
+        },
+        {
+          "order": 3,
+          "club": "Porto",
+          "supportedClubName": "Porto",
+          "startYear": 2004,
+          "endYear": 2010,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 4,
+          "club": "Liverpool",
+          "supportedClubName": "Liverpool",
+          "startYear": 2010,
+          "endYear": 2011,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 5,
+          "club": "Chelsea",
+          "supportedClubName": "Chelsea",
+          "startYear": 2011,
+          "endYear": 2012,
+          "loan": false,
+          "note": null
+        },
+        {
+          "order": 6,
+          "club": "Fenerbahçe",
+          "supportedClubName": "Fenerbahçe",
+          "startYear": 2012,
+          "endYear": 2016,
+          "loan": false,
+          "note": null
+        }
+      ],
+      "completeness": "complete_per_source",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Raul_Meireles",
+          "sourceType": "secondary",
+          "note": "Wikipedia 'Senior career' tablosu; bu oturumda açılıp okundu. Yedek/altyapı takımları rotadan çıkarıldı."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "uncertainRecords": [
+    {
+      "player": "Ferran Torres",
+      "existingPlayerId": "wd-Q44297797",
+      "club": "Paris Saint-Germain",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Ferran_Torres",
+      "reason": "Mevcut havuzda kayıtlı bağlantı, kontrol edilen kaynaklarla desteklenmiyor: Wikipedia kariyer tablosunda (Valencia, Manchester City, Barcelona) PSG yok; UEFA İspanya listesi de Valencia, Manchester City, Barcelona gösteriyor. Havuzdaki bağlantı gözden geçirilmeli."
+    },
+    {
+      "player": "Rodri",
+      "existingPlayerId": "wd-Q20994118",
+      "club": "Barcelona",
+      "evidenceUrl": "https://en.wikipedia.org/wiki/Rodri_(footballer,_born_1996)",
+      "reason": "Mevcut havuzda kayıtlı bağlantı, kontrol edilen kaynakla desteklenmiyor: Wikipedia kariyer tablosunda Villarreal, Atlético Madrid, Manchester City var; Barcelona yok. Havuzdaki bağlantı gözden geçirilmeli."
+    },
+    {
+      "player": "Raúl González",
+      "club": "Real Madrid",
+      "evidenceUrl": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+      "reason": "Havuzda yok ama UEFA listelerinde desteklenen kulüplerden yalnızca Real Madrid görünüyor (Schalke listede yok). İki-kulüp oyununa alınmadı."
+    }
+  ]
+}

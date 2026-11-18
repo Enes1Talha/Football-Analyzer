@@ -1,6 +1,7 @@
 "use client";
 import {useEffect,useRef,useState} from 'react';
 import DifficultyPicker from './DifficultyPicker';
+import SoloCareer from './SoloCareer';
 import {answersFor,searchPlayers} from '../../../football-analyzer-mobile/game/data';
 import {durations,emptyRecord,isCorrect,makeRound,recordResult,validRecord,type Difficulty,type SoloKind,type SoloRecord,type SoloRound} from '@/lib/solo-game';
 
@@ -8,7 +9,7 @@ const button='rounded-lg bg-neon-green px-5 py-3 font-bold text-black';
 const secondary='rounded-lg border border-pitch-border px-4 py-3 text-sm text-zinc-300';
 const labels={easy:'Kolay · 5 sn',medium:'Orta · 10 sn',hard:'Zor · 20 sn'};
 export default function SoloGame({onActive}:{onActive:(active:boolean)=>void}) {
- const [kind,setKind]=useState<SoloKind>('anagram');
+ const [kind,setKind]=useState<SoloKind|'career'>('anagram');
  const [difficulty,setDifficulty]=useState<Difficulty>('easy');
  const [round,setRound]=useState<SoloRound|null>(null);
  const [phase,setPhase]=useState<'setup'|'countdown'|'playing'|'result'>('setup');
@@ -48,6 +49,7 @@ export default function SoloGame({onActive}:{onActive:(active:boolean)=>void}) {
  },[phase,round]);
  useEffect(()=>{if(phase==='playing')input.current?.focus();},[phase]);
  function begin() {
+  if(kind==='career')return;
   const next=makeRound(kind,difficulty,round?.key);
   start.current=performance.now()+3000;deadline.current=start.current+durations[difficulty]*1000;
   finished.current=false;setRound(next);setNow(performance.now());setAnswer('');setFeedback('');setConfirmExit(false);setPhase('countdown');onActive(true);
@@ -63,10 +65,11 @@ export default function SoloGame({onActive}:{onActive:(active:boolean)=>void}) {
   else setFeedback('Bu cevap olmadı. Tekrar dene.');
  }
  const suggestions=phase==='playing'&&kind==='clubs'?searchPlayers(answer):[];
+ if(kind==='career')return <SoloCareer onActive={onActive} onBack={()=>setKind('anagram')}/>;
  return <section className="card-glow p-5 sm:p-6 space-y-5">
   <div><h2 className="text-xl font-bold">{phase==='setup'?'Kendi rekorunu geç':kind==='anagram'?'Karışık Harfler':'İki Kulüp, Bir İsim'}</h2><p className="mt-2 text-xs text-zinc-400">Tek kişilik · Rekabet puanını etkilemez</p></div>
   {phase==='setup'&&<>
-   <div className="grid sm:grid-cols-2 gap-3">{([['anagram','Karışık Harfler','Süre dolmadan futbolcunun adını çöz.'],['clubs','İki Kulüp, Bir İsim','İki kulübün ortak futbolcusunu bul. Süre sınırı yok.']] as const).map(([id,title,description])=><button key={id} aria-pressed={kind===id} onClick={()=>{setKind(id);setRound(null);}} className={`rounded-xl border p-4 text-left ${kind===id?'border-neon-green bg-neon-green/5':'border-pitch-border'}`}><strong className="block">{title}</strong><span className="block mt-2 text-xs text-zinc-400">{description}</span></button>)}</div>
+   <div className="grid sm:grid-cols-3 gap-3">{([['anagram','Karışık Harfler','Süre dolmadan futbolcunun adını çöz.'],['clubs','İki Kulüp, Bir İsim','İki kulübün ortak futbolcusunu bul. Süre sınırı yok.'],['career','Kariyer Rotası','Kulüpler sırayla açılır. Bu futbolcu kim?']] as const).map(([id,title,description])=><button key={id} aria-pressed={kind===id} onClick={()=>{setKind(id);setRound(null);}} className={`rounded-xl border p-4 text-left ${kind===id?'border-neon-green bg-neon-green/5':'border-pitch-border'}`}><strong className="block">{title}</strong><span className="block mt-2 text-xs text-zinc-400">{description}</span></button>)}</div>
    {kind==='anagram'&&<DifficultyPicker value={difficulty} onChange={setDifficulty}/>}
    <p className="text-sm text-zinc-400">Her turdan sonra devam etmek sana kalmış. Yanlış denemede tekrar cevaplayabilirsin; pas geçmek veya sürenin bitmesi serini sıfırlar.</p>
   </>}

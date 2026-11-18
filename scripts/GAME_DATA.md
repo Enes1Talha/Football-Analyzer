@@ -1,5 +1,15 @@
 # Game data workflow
 
+## Batch three and Career Route (2026-11-17)
+
+Current total: 523 catalog players, 204 anagrams and 10 admitted career trails. Migrations 010–012 add the new catalog, 70 words and the career room implementation. Original results and released word difficulties are preserved. `football_players_batch3.json` retains the proposal; `batch-three-review.json` records admission decisions. The 113 new club connections are attributed to the researcher's official UEFA sources; they are partial European-competition histories, not independently audited complete careers.
+
+The ten career trails retain secondary Wikipedia provenance. Club returns and loans are displayed. Quaresma, Arda Turan, Roberto Carlos, Kuyt and Popescu are deferred because their proposed chronology, senior appearances or completeness needs further review. Meireles starts with the Aves loan, followed by his senior Boavista spell. Ferran Torres–PSG and Rodri–Barcelona were not removed merely on the proposal's uncertainty flags: current UEFA player pages corroborate those clubs. Sources: https://www.uefa.com/uefachampionsleague/clubs/players/250088320--ferran-torres/ and https://www.uefa.com/uefachampionsleague/clubs/players/250082664--rodri/.
+
+Solo starts with two clubs and manually reveals subsequent clues, with no deadline and browser-local practice records. Friend rooms reveal two clubs after the shared three-second countdown, then one club every eight seconds; the final club remains for twenty seconds. Only revealed stages are returned while playing; the full route, answer and source are returned after the round. Career tables are inaccessible directly to anonymous/authenticated clients. Server row locks, deadlines and the existing scoring flow determine the winner. The public solo catalog is practice content, not an anti-cheat secret; ranked opponents can research answers externally.
+
+Run `scripts/test-career.ts`, `scripts/test-game-db.mjs`, the existing solo/state tests and the production build before release. Refresh the research exclusion snapshot with `scripts/export-claude-research.ts`; it now includes admitted career trails. Real two-device acceptance testing remains separate from these automated checks.
+
 ## Batch two (2026-11-17)
 
 Current total: 473 catalog players, of which 469 have at least two supported clubs; 134 anagram words in both ranked and solo modes. Batch two adds 50 proposed new players, resolves Pepe and Davinson Sánchez, and admits Muslera/Mertens/Osimhen/Hamšík for anagrams only (one supported club; they create no two-club pairs). Diego Ribas retains `wd-Q109428` and gains Fenerbahçe. New records use local `research-` IDs rather than invented Wikidata identities.

@@ -1,5 +1,6 @@
 export interface RoomState {
-  gameKind?: "clubs" | "anagram"; difficulty?: "easy" | "medium" | "hard"; ready?: boolean;
+  gameKind?: "clubs" | "anagram" | "career"; difficulty?: "easy" | "medium" | "hard"; ready?: boolean;
+  career?: import('./career').CareerStage[]; totalClues?:number; careerSource?:string|null; nextClueAt?:number|null;
   puzzle?: string | null; serverMs?: number; startsAt?: number | null; endsAt?: number | null;
   code: string; status: "waiting" | "playing" | "finished" | "void";
   host: boolean; opponent: string | null; team: string | null; opponentTeam: string | null;

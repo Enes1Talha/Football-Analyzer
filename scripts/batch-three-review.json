@@ -1,0 +1,26 @@
+{
+  "newPlayers": 50,
+  "newAnagrams": 70,
+  "trails": 10,
+  "deferredTrails": [
+    "Ricardo Quaresma",
+    "Arda Turan",
+    "Roberto Carlos",
+    "Dirk Kuyt",
+    "Gheorghe Popescu"
+  ],
+  "preservedLinks": [
+    {
+      "player": "Ferran Torres",
+      "club": "Paris Saint-Germain",
+      "source": "https://www.uefa.com/uefachampionsleague/clubs/players/250088320--ferran-torres/"
+    },
+    {
+      "player": "Rodri",
+      "club": "Barcelona",
+      "source": "https://www.uefa.com/uefachampionsleague/clubs/players/250082664--rodri/"
+    }
+  ],
+  "careerCorrection": "Meireles: Aves 2001–2003 precedes Boavista senior appearances 2003–2004; checked Wikipedia narrative.",
+  "sourcePolicy": "New club links retain researcher-attributed UEFA evidence. Career sequences remain secondary sourced; not an official independent audit."
+}
