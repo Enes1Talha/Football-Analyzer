@@ -30,7 +30,7 @@ for(const p of batch.careerTrails) {
  if(p.commonName==='Raul Meireles')stages=[{...stages[1]}, {...stages[0],startYear:2003},...stages.slice(2)];
  for(let i=0;i<stages.length;i++){assert.ok(stages[i].club);assert.ok(stages[i].startYear<=stages[i].endYear);if(i)assert.ok(stages[i].startYear>=stages[i-1].startYear);}
  const short=p.commonName.split(' ').slice(-1)[0];
- const aliases=Array.from(new Set([existing.name,p.commonName,...(existing.aliases||[]),short,...(p.commonName==='Emre Belözoğlu'?['Emre']:[]),...(p.commonName==='Simão Sabrosa'?['Simão']:[])]));
+ const aliases=Array.from(new Set([existing.name,p.commonName,...(existing.aliases||[]),short,...(p.commonName==='Simão Sabrosa'?['Simão']:[])])).filter(name=>!(existing.id==='emre'&&normalizeName(name)==='emre'));
  trails.push({id:existing.id,playerName:existing.name,aliases,stages,source:p.sources[0].url,sourceType:'secondary',note:'Kaynakta yer alan A takım kulüp dönemleri. Kiralık dönemlerde yıllar örtüşebilir.'});
 }
 assert.equal(trails.length,10);

@@ -4,6 +4,9 @@ assert.deepEqual([2,3,4,5,6,7,8,9].map(n=>careerPoints(9,n)),[100,80,60,40,20,0,
 assert.deepEqual([2,3,4].map(n=>careerPoints(4,n)),[100,80,0]);
 assert.deepEqual([2,3].map(n=>careerPoints(3,n)),[100,0]);
 assert.equal(careerTrails.length,10);
+const emre=careerTrails.find(t=>t.id==='emre')!;
+for(const answer of ['Emre','EMRE',' emre '])assert.equal(careerCorrect(emre,answer),false);
+for(const answer of ['Emre Belözoğlu','emre belozoglu','Belözoğlu','BELOZOGLU'])assert.equal(careerCorrect(emre,answer),true);
 assert.equal(new Set(careerTrails.map(t=>t.id)).size,careerTrails.length);
 for(const trail of careerTrails){
  assert.ok(trail.stages.length>=3);

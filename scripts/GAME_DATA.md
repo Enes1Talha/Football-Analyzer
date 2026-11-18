@@ -1,5 +1,9 @@
 # Game data workflow
 
+## Career answer specificity (2026-11-18)
+
+Migration `202611180004_career_emre_answer.sql` removes the ambiguous standalone `Emre` answer from the career catalog and active room snapshots. Full `Emre Belözoğlu` and surname `Belözoğlu` remain valid, including their accent-free normalized forms. Search aliases in the broader player catalog are unchanged. Preparation filters the ambiguous alias so it cannot be reintroduced by that importer. Completed results and earned scores are preserved.
+
 ## Zero-point full reveal (2026-11-18)
 
 Migration `202611180003_career_zero_point_reveal.sql` supersedes the 20-point floor: awards now follow 100, 80, 60, 40, 20, 0 and remain zero. Revealing the last club always zeroes the award, including short routes. Solo can continue opening clues and answering at zero. Friend rounds still reveal clues together; a correct zero-point answer ends the round without increasing either match score or awarding a match win. Both players ready up for the next round as usual. Existing earned scores remain unchanged. Tests cover long-route zero floors, short-route final reveal, duplicate zero answers and continued match progression.
