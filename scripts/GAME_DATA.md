@@ -1,5 +1,9 @@
 # Game data workflow
 
+## Zero-point full reveal (2026-11-18)
+
+Migration `202611180003_career_zero_point_reveal.sql` supersedes the 20-point floor: awards now follow 100, 80, 60, 40, 20, 0 and remain zero. Revealing the last club always zeroes the award, including short routes. Solo can continue opening clues and answering at zero. Friend rounds still reveal clues together; a correct zero-point answer ends the round without increasing either match score or awarding a match win. Both players ready up for the next round as usual. Existing earned scores remain unchanged. Tests cover long-route zero floors, short-route final reveal, duplicate zero answers and continued match progression.
+
 ## Fixed clue deductions (2026-11-18)
 
 Migration `202611180002_career_fixed_point_steps.sql` replaces proportional scoring with the user's selected fixed steps: the first two clubs give 100 points, each additional club subtracts 20, with a floor of 20. Short routes do not force a larger final deduction (four total clubs give 60 at the end). Both solo and server scoring use this rule. Existing earned scores and finished match records are unchanged. The 300-point match target remains unchanged. This supersedes the proportional formula documented below.
