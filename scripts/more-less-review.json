@@ -1,0 +1,364 @@
+{
+  "reviewedAt": "2026-11-18",
+  "questionCount": 100,
+  "playerCount": 136,
+  "referencedPlayers": 136,
+  "answers": {
+    "A": 43,
+    "B": 42,
+    "equal": 15
+  },
+  "categories": {
+    "ucl_career_appearances": 27,
+    "ucl_career_goals": 25,
+    "uefa_club_career_appearances": 14,
+    "uefa_club_career_goals": 14,
+    "tournament_goals": 9,
+    "tournament_saves": 4,
+    "ucl_season_stats": 5,
+    "league_season_goals": 2
+  },
+  "metricFamilies": {
+    "appearances": 41,
+    "goals": 52,
+    "saves": 5,
+    "shots_on_target": 1,
+    "tackles": 1
+  },
+  "questionsByPublisher": {
+    "uefa.com": 98,
+    "tff.org": 2
+  },
+  "maxPairUsage": 2,
+  "maxPlayerUsage": 5,
+  "approvedCount": 20,
+  "pendingCount": 80,
+  "pending": [
+    {
+      "id": "more-less-001-001",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-002",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-003",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-004",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-005",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-006",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-007",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-008",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-009",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-010",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-011",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-012",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-013",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-014",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-015",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-016",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-017",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-018",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-019",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-020",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-021",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-022",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-023",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-024",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-025",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-026",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-027",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-028",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-029",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-030",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-031",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-032",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-033",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-034",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-035",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-036",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-037",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-038",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-039",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-040",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-041",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-042",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-043",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-044",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-045",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-046",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-047",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-048",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-049",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-050",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-051",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-052",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-053",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-054",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-055",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-056",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-057",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-058",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-059",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-060",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-061",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-062",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-063",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-064",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-065",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-066",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-067",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-068",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-069",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-070",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-071",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-072",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-073",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-074",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-075",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-076",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-077",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-078",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-079",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    },
+    {
+      "id": "more-less-001-080",
+      "reason": "Career values and common source cutoff require individual review. Retirement is not evidence of a cutoff."
+    }
+  ],
+  "warnings": [
+    "Structural checks do not establish factual accuracy. Only the explicit approved subset has independently checked values.",
+    "Goals and appearances each exceed the original 30% metric-family limit. Category diversity is not metric diversity.",
+    "Career source dates can exist: Spain UEFA article explicitly says Last updated 22:00 CET on 30/05/2026. Review other sources separately.",
+    "This is preparation data, not a released game or a database import. Reserve candidates and needsReview are not admitted."
+  ]
+}

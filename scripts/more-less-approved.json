@@ -1,0 +1,1148 @@
+{
+  "reviewedAt": "2026-11-18",
+  "players": [
+    {
+      "id": "arif-erdem",
+      "name": "Arif Erdem",
+      "aliases": [],
+      "birthDate": null,
+      "identitySourceUrl": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+      "identityNote": "TFF arşivinde 2001-02 ortak gol kralı."
+    },
+    {
+      "id": "arda-turan",
+      "name": "Arda Turan",
+      "aliases": [
+        "Arda"
+      ],
+      "birthDate": null,
+      "identitySourceUrl": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+      "identityNote": null
+    },
+    {
+      "id": "david-villa",
+      "name": "David Villa",
+      "aliases": [],
+      "birthDate": null,
+      "identitySourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2008/statistics/",
+      "identityNote": null
+    },
+    {
+      "id": "semih-senturk",
+      "name": "Semih Şentürk",
+      "aliases": [
+        "Semih",
+        "Semih Senturk"
+      ],
+      "birthDate": null,
+      "identitySourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2008/statistics/",
+      "identityNote": null
+    },
+    {
+      "id": "lukas-podolski",
+      "name": "Lukas Podolski",
+      "aliases": [],
+      "birthDate": null,
+      "identitySourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2008/statistics/",
+      "identityNote": null
+    },
+    {
+      "id": "roman-pavlyuchenko",
+      "name": "Roman Pavlyuchenko",
+      "aliases": [],
+      "birthDate": null,
+      "identitySourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2008/statistics/",
+      "identityNote": null
+    },
+    {
+      "id": "gareth-bale",
+      "name": "Gareth Bale",
+      "aliases": [],
+      "birthDate": null,
+      "identitySourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2016/statistics/",
+      "identityNote": null
+    },
+    {
+      "id": "antoine-griezmann",
+      "name": "Antoine Griezmann",
+      "aliases": [],
+      "birthDate": null,
+      "identitySourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2016/statistics/",
+      "identityNote": null
+    },
+    {
+      "id": "cristiano-ronaldo",
+      "name": "Cristiano Ronaldo",
+      "aliases": [],
+      "birthDate": null,
+      "identitySourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2016/statistics/",
+      "identityNote": null
+    },
+    {
+      "id": "patrik-schick",
+      "name": "Patrik Schick",
+      "aliases": [],
+      "birthDate": null,
+      "identitySourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/",
+      "identityNote": null
+    },
+    {
+      "id": "karim-benzema",
+      "name": "Karim Benzema",
+      "aliases": [],
+      "birthDate": null,
+      "identitySourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/",
+      "identityNote": null
+    },
+    {
+      "id": "emil-forsberg",
+      "name": "Emil Forsberg",
+      "aliases": [],
+      "birthDate": null,
+      "identitySourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/",
+      "identityNote": null
+    },
+    {
+      "id": "ugurcan-cakir",
+      "name": "Uğurcan Çakır",
+      "aliases": [
+        "Ugurcan Cakir"
+      ],
+      "birthDate": null,
+      "identitySourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/",
+      "identityNote": null
+    },
+    {
+      "id": "kasper-schmeichel",
+      "name": "Kasper Schmeichel",
+      "aliases": [],
+      "birthDate": null,
+      "identitySourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/",
+      "identityNote": null
+    },
+    {
+      "id": "yann-sommer",
+      "name": "Yann Sommer",
+      "aliases": [],
+      "birthDate": null,
+      "identitySourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/",
+      "identityNote": null
+    },
+    {
+      "id": "mike-maignan",
+      "name": "Mike Maignan",
+      "aliases": [],
+      "birthDate": null,
+      "identitySourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/",
+      "identityNote": null
+    },
+    {
+      "id": "mert-gunok",
+      "name": "Mert Günok",
+      "aliases": [
+        "Mert Gunok"
+      ],
+      "birthDate": null,
+      "identitySourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/",
+      "identityNote": null
+    },
+    {
+      "id": "jordan-pickford",
+      "name": "Jordan Pickford",
+      "aliases": [],
+      "birthDate": null,
+      "identitySourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/",
+      "identityNote": null
+    },
+    {
+      "id": "giorgi-mamardashvili",
+      "name": "Giorgi Mamardashvili",
+      "aliases": [],
+      "birthDate": null,
+      "identitySourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/",
+      "identityNote": null
+    },
+    {
+      "id": "kylian-mbappe",
+      "name": "Kylian Mbappé",
+      "aliases": [
+        "Mbappe"
+      ],
+      "birthDate": null,
+      "identitySourceUrl": "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/",
+      "identityNote": null
+    },
+    {
+      "id": "harry-kane",
+      "name": "Harry Kane",
+      "aliases": [],
+      "birthDate": null,
+      "identitySourceUrl": "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/",
+      "identityNote": null
+    },
+    {
+      "id": "erling-haaland",
+      "name": "Erling Haaland",
+      "aliases": [],
+      "birthDate": null,
+      "identitySourceUrl": "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/",
+      "identityNote": null
+    },
+    {
+      "id": "anthony-gordon",
+      "name": "Anthony Gordon",
+      "aliases": [],
+      "birthDate": null,
+      "identitySourceUrl": "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/",
+      "identityNote": null
+    },
+    {
+      "id": "victor-osimhen",
+      "name": "Victor Osimhen",
+      "aliases": [
+        "Osimhen"
+      ],
+      "birthDate": null,
+      "identitySourceUrl": "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/",
+      "identityNote": null
+    },
+    {
+      "id": "lucas-torreira",
+      "name": "Lucas Torreira",
+      "aliases": [
+        "Torreira"
+      ],
+      "birthDate": null,
+      "identitySourceUrl": "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/",
+      "identityNote": null
+    },
+    {
+      "id": "aurelien-tchouameni",
+      "name": "Aurélien Tchouaméni",
+      "aliases": [],
+      "birthDate": null,
+      "identitySourceUrl": "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/",
+      "identityNote": null
+    },
+    {
+      "id": "thibaut-courtois",
+      "name": "Thibaut Courtois",
+      "aliases": [
+        "Courtois"
+      ],
+      "birthDate": null,
+      "identitySourceUrl": "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/",
+      "identityNote": null
+    },
+    {
+      "id": "paul-onuachu",
+      "name": "Paul Onuachu",
+      "aliases": [
+        "Ebere Paul Onuachu"
+      ],
+      "birthDate": null,
+      "identitySourceUrl": "http://www.tff.org/default.aspx?pageID=545",
+      "identityNote": null
+    },
+    {
+      "id": "eldor-shomurodov",
+      "name": "Eldor Shomurodov",
+      "aliases": [],
+      "birthDate": null,
+      "identitySourceUrl": "http://www.tff.org/default.aspx?pageID=545",
+      "identityNote": null
+    },
+    {
+      "id": "ilhan-mansiz",
+      "name": "İlhan Mansız",
+      "aliases": [
+        "Ilhan Mansiz"
+      ],
+      "birthDate": null,
+      "identitySourceUrl": "http://www.tff.org/default.aspx?pageID=545",
+      "identityNote": null
+    }
+  ],
+  "questions": [
+    {
+      "id": "more-less-001-081",
+      "prompt": "EURO 2008 finallerinde hangisi daha fazla gol attı?",
+      "category": "tournament_goals",
+      "metric": "goals_tournament",
+      "unit": "gol",
+      "scope": {
+        "competition": "UEFA EURO",
+        "season": null,
+        "edition": "2008",
+        "startDate": null,
+        "endDate": null,
+        "stage": "final_tournament",
+        "team": null,
+        "definition": "UEFA EURO 2008 final turnuvası; eleme maçları hariç. UEFA turnuva istatistik sayfasındaki gol sıralaması (ilk 6) kullanıldı; penaltı atışları gol sayılmaz."
+      },
+      "playerAId": "david-villa",
+      "playerBId": "semih-senturk",
+      "valueA": 4,
+      "valueB": 3,
+      "correctAnswer": "A",
+      "difficulty": "hard",
+      "difficultyReason": "Fark yalnızca 1 gol.",
+      "revealText": "David Villa: 4 gol, Semih Şentürk: 3 gol. Fark 1.",
+      "evidence": [
+        {
+          "supports": [
+            "valueA",
+            "valueB"
+          ],
+          "url": "https://www.uefa.com/uefaeuro/history/seasons/2008/statistics/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-18",
+          "evidenceNote": "EURO 2008 istatistikleri tablosu (goals_tournament) şu değerleri gösteriyor: David Villa: 4 gol; Semih Şentürk: 3 gol."
+        }
+      ],
+      "review": {
+        "checkedAt": "2026-11-18",
+        "status": "values-verified",
+        "sourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2008/statistics/",
+        "note": "Official player statistics table checked; fixed season/tournament. Saves follows UEFA Saves definition; shoot-out treatment not independently established."
+      }
+    },
+    {
+      "id": "more-less-001-082",
+      "prompt": "EURO 2008 finallerinde hangisi daha fazla gol attı?",
+      "category": "tournament_goals",
+      "metric": "goals_tournament",
+      "unit": "gol",
+      "scope": {
+        "competition": "UEFA EURO",
+        "season": null,
+        "edition": "2008",
+        "startDate": null,
+        "endDate": null,
+        "stage": "final_tournament",
+        "team": null,
+        "definition": "UEFA EURO 2008 final turnuvası; eleme maçları hariç. UEFA turnuva istatistik sayfasındaki gol sıralaması (ilk 6) kullanıldı; penaltı atışları gol sayılmaz."
+      },
+      "playerAId": "arda-turan",
+      "playerBId": "semih-senturk",
+      "valueA": 2,
+      "valueB": 3,
+      "correctAnswer": "B",
+      "difficulty": "hard",
+      "difficultyReason": "Fark yalnızca 1 gol.",
+      "revealText": "Semih Şentürk: 3 gol, Arda Turan: 2 gol. Fark 1.",
+      "evidence": [
+        {
+          "supports": [
+            "valueA",
+            "valueB"
+          ],
+          "url": "https://www.uefa.com/uefaeuro/history/seasons/2008/statistics/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-18",
+          "evidenceNote": "EURO 2008 istatistikleri tablosu (goals_tournament) şu değerleri gösteriyor: Arda Turan: 2 gol; Semih Şentürk: 3 gol."
+        }
+      ],
+      "review": {
+        "checkedAt": "2026-11-18",
+        "status": "values-verified",
+        "sourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2008/statistics/",
+        "note": "Official player statistics table checked; fixed season/tournament. Saves follows UEFA Saves definition; shoot-out treatment not independently established."
+      }
+    },
+    {
+      "id": "more-less-001-083",
+      "prompt": "EURO 2008 finallerinde hangisi daha fazla gol attı?",
+      "category": "tournament_goals",
+      "metric": "goals_tournament",
+      "unit": "gol",
+      "scope": {
+        "competition": "UEFA EURO",
+        "season": null,
+        "edition": "2008",
+        "startDate": null,
+        "endDate": null,
+        "stage": "final_tournament",
+        "team": null,
+        "definition": "UEFA EURO 2008 final turnuvası; eleme maçları hariç. UEFA turnuva istatistik sayfasındaki gol sıralaması (ilk 6) kullanıldı; penaltı atışları gol sayılmaz."
+      },
+      "playerAId": "lukas-podolski",
+      "playerBId": "semih-senturk",
+      "valueA": 3,
+      "valueB": 3,
+      "correctAnswer": "equal",
+      "difficulty": "hard",
+      "difficultyReason": "Sayılar eşit; 'Eşit' seçeneğini düşünmek gerekiyor.",
+      "revealText": "Eşit! İkisinin de 3 gol var.",
+      "evidence": [
+        {
+          "supports": [
+            "valueA",
+            "valueB"
+          ],
+          "url": "https://www.uefa.com/uefaeuro/history/seasons/2008/statistics/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-18",
+          "evidenceNote": "EURO 2008 istatistikleri tablosu (goals_tournament) şu değerleri gösteriyor: Lukas Podolski: 3 gol; Semih Şentürk: 3 gol."
+        }
+      ],
+      "review": {
+        "checkedAt": "2026-11-18",
+        "status": "values-verified",
+        "sourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2008/statistics/",
+        "note": "Official player statistics table checked; fixed season/tournament. Saves follows UEFA Saves definition; shoot-out treatment not independently established."
+      }
+    },
+    {
+      "id": "more-less-001-084",
+      "prompt": "EURO 2008 finallerinde hangisi daha fazla gol attı?",
+      "category": "tournament_goals",
+      "metric": "goals_tournament",
+      "unit": "gol",
+      "scope": {
+        "competition": "UEFA EURO",
+        "season": null,
+        "edition": "2008",
+        "startDate": null,
+        "endDate": null,
+        "stage": "final_tournament",
+        "team": null,
+        "definition": "UEFA EURO 2008 final turnuvası; eleme maçları hariç. UEFA turnuva istatistik sayfasındaki gol sıralaması (ilk 6) kullanıldı; penaltı atışları gol sayılmaz."
+      },
+      "playerAId": "roman-pavlyuchenko",
+      "playerBId": "arda-turan",
+      "valueA": 3,
+      "valueB": 2,
+      "correctAnswer": "A",
+      "difficulty": "hard",
+      "difficultyReason": "Fark yalnızca 1 gol.",
+      "revealText": "Roman Pavlyuchenko: 3 gol, Arda Turan: 2 gol. Fark 1.",
+      "evidence": [
+        {
+          "supports": [
+            "valueA",
+            "valueB"
+          ],
+          "url": "https://www.uefa.com/uefaeuro/history/seasons/2008/statistics/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-18",
+          "evidenceNote": "EURO 2008 istatistikleri tablosu (goals_tournament) şu değerleri gösteriyor: Roman Pavlyuchenko: 3 gol; Arda Turan: 2 gol."
+        }
+      ],
+      "review": {
+        "checkedAt": "2026-11-18",
+        "status": "values-verified",
+        "sourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2008/statistics/",
+        "note": "Official player statistics table checked; fixed season/tournament. Saves follows UEFA Saves definition; shoot-out treatment not independently established."
+      }
+    },
+    {
+      "id": "more-less-001-085",
+      "prompt": "EURO 2016 finallerinde hangisi daha fazla gol attı?",
+      "category": "tournament_goals",
+      "metric": "goals_tournament",
+      "unit": "gol",
+      "scope": {
+        "competition": "UEFA EURO",
+        "season": null,
+        "edition": "2016",
+        "startDate": null,
+        "endDate": null,
+        "stage": "final_tournament",
+        "team": null,
+        "definition": "UEFA EURO 2016 final turnuvası; eleme maçları hariç. UEFA turnuva istatistik sayfasındaki gol sıralaması (ilk 6) kullanıldı; penaltı atışları gol sayılmaz."
+      },
+      "playerAId": "gareth-bale",
+      "playerBId": "antoine-griezmann",
+      "valueA": 3,
+      "valueB": 6,
+      "correctAnswer": "B",
+      "difficulty": "easy",
+      "difficultyReason": "Fark 3 gol; belirgin.",
+      "revealText": "Antoine Griezmann: 6 gol, Gareth Bale: 3 gol. Fark 3.",
+      "evidence": [
+        {
+          "supports": [
+            "valueA",
+            "valueB"
+          ],
+          "url": "https://www.uefa.com/uefaeuro/history/seasons/2016/statistics/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-18",
+          "evidenceNote": "EURO 2016 istatistikleri tablosu (goals_tournament) şu değerleri gösteriyor: Gareth Bale: 3 gol; Antoine Griezmann: 6 gol."
+        }
+      ],
+      "review": {
+        "checkedAt": "2026-11-18",
+        "status": "values-verified",
+        "sourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2016/statistics/",
+        "note": "Official player statistics table checked; fixed season/tournament. Saves follows UEFA Saves definition; shoot-out treatment not independently established."
+      }
+    },
+    {
+      "id": "more-less-001-086",
+      "prompt": "EURO 2016 finallerinde hangisi daha fazla gol attı?",
+      "category": "tournament_goals",
+      "metric": "goals_tournament",
+      "unit": "gol",
+      "scope": {
+        "competition": "UEFA EURO",
+        "season": null,
+        "edition": "2016",
+        "startDate": null,
+        "endDate": null,
+        "stage": "final_tournament",
+        "team": null,
+        "definition": "UEFA EURO 2016 final turnuvası; eleme maçları hariç. UEFA turnuva istatistik sayfasındaki gol sıralaması (ilk 6) kullanıldı; penaltı atışları gol sayılmaz."
+      },
+      "playerAId": "antoine-griezmann",
+      "playerBId": "cristiano-ronaldo",
+      "valueA": 6,
+      "valueB": 3,
+      "correctAnswer": "A",
+      "difficulty": "easy",
+      "difficultyReason": "Fark 3 gol; belirgin.",
+      "revealText": "Antoine Griezmann: 6 gol, Cristiano Ronaldo: 3 gol. Fark 3.",
+      "evidence": [
+        {
+          "supports": [
+            "valueA",
+            "valueB"
+          ],
+          "url": "https://www.uefa.com/uefaeuro/history/seasons/2016/statistics/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-18",
+          "evidenceNote": "EURO 2016 istatistikleri tablosu (goals_tournament) şu değerleri gösteriyor: Antoine Griezmann: 6 gol; Cristiano Ronaldo: 3 gol."
+        }
+      ],
+      "review": {
+        "checkedAt": "2026-11-18",
+        "status": "values-verified",
+        "sourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2016/statistics/",
+        "note": "Official player statistics table checked; fixed season/tournament. Saves follows UEFA Saves definition; shoot-out treatment not independently established."
+      }
+    },
+    {
+      "id": "more-less-001-087",
+      "prompt": "EURO 2020 finallerinde (2021'de oynandı) hangisi daha fazla gol attı?",
+      "category": "tournament_goals",
+      "metric": "goals_tournament",
+      "unit": "gol",
+      "scope": {
+        "competition": "UEFA EURO",
+        "season": null,
+        "edition": "2020",
+        "startDate": null,
+        "endDate": null,
+        "stage": "final_tournament",
+        "team": null,
+        "definition": "UEFA EURO 2020 final turnuvası (2021'de oynandı); eleme maçları hariç. UEFA turnuva istatistik sayfasındaki gol sıralaması (ilk 6) kullanıldı; penaltı atışları gol sayılmaz."
+      },
+      "playerAId": "cristiano-ronaldo",
+      "playerBId": "patrik-schick",
+      "valueA": 5,
+      "valueB": 5,
+      "correctAnswer": "equal",
+      "difficulty": "hard",
+      "difficultyReason": "Sayılar eşit; 'Eşit' seçeneğini düşünmek gerekiyor.",
+      "revealText": "Eşit! İkisinin de 5 gol var.",
+      "evidence": [
+        {
+          "supports": [
+            "valueA",
+            "valueB"
+          ],
+          "url": "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-18",
+          "evidenceNote": "EURO 2020 istatistikleri tablosu (goals_tournament) şu değerleri gösteriyor: Cristiano Ronaldo: 5 gol; Patrik Schick: 5 gol."
+        }
+      ],
+      "review": {
+        "checkedAt": "2026-11-18",
+        "status": "values-verified",
+        "sourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/",
+        "note": "Official player statistics table checked; fixed season/tournament. Saves follows UEFA Saves definition; shoot-out treatment not independently established."
+      }
+    },
+    {
+      "id": "more-less-001-088",
+      "prompt": "EURO 2020 finallerinde (2021'de oynandı) hangisi daha fazla gol attı?",
+      "category": "tournament_goals",
+      "metric": "goals_tournament",
+      "unit": "gol",
+      "scope": {
+        "competition": "UEFA EURO",
+        "season": null,
+        "edition": "2020",
+        "startDate": null,
+        "endDate": null,
+        "stage": "final_tournament",
+        "team": null,
+        "definition": "UEFA EURO 2020 final turnuvası (2021'de oynandı); eleme maçları hariç. UEFA turnuva istatistik sayfasındaki gol sıralaması (ilk 6) kullanıldı; penaltı atışları gol sayılmaz."
+      },
+      "playerAId": "karim-benzema",
+      "playerBId": "patrik-schick",
+      "valueA": 4,
+      "valueB": 5,
+      "correctAnswer": "B",
+      "difficulty": "hard",
+      "difficultyReason": "Fark yalnızca 1 gol.",
+      "revealText": "Patrik Schick: 5 gol, Karim Benzema: 4 gol. Fark 1.",
+      "evidence": [
+        {
+          "supports": [
+            "valueA",
+            "valueB"
+          ],
+          "url": "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-18",
+          "evidenceNote": "EURO 2020 istatistikleri tablosu (goals_tournament) şu değerleri gösteriyor: Karim Benzema: 4 gol; Patrik Schick: 5 gol."
+        }
+      ],
+      "review": {
+        "checkedAt": "2026-11-18",
+        "status": "values-verified",
+        "sourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/",
+        "note": "Official player statistics table checked; fixed season/tournament. Saves follows UEFA Saves definition; shoot-out treatment not independently established."
+      }
+    },
+    {
+      "id": "more-less-001-089",
+      "prompt": "EURO 2020 finallerinde (2021'de oynandı) hangisi daha fazla gol attı?",
+      "category": "tournament_goals",
+      "metric": "goals_tournament",
+      "unit": "gol",
+      "scope": {
+        "competition": "UEFA EURO",
+        "season": null,
+        "edition": "2020",
+        "startDate": null,
+        "endDate": null,
+        "stage": "final_tournament",
+        "team": null,
+        "definition": "UEFA EURO 2020 final turnuvası (2021'de oynandı); eleme maçları hariç. UEFA turnuva istatistik sayfasındaki gol sıralaması (ilk 6) kullanıldı; penaltı atışları gol sayılmaz."
+      },
+      "playerAId": "cristiano-ronaldo",
+      "playerBId": "emil-forsberg",
+      "valueA": 5,
+      "valueB": 4,
+      "correctAnswer": "A",
+      "difficulty": "hard",
+      "difficultyReason": "Fark yalnızca 1 gol.",
+      "revealText": "Cristiano Ronaldo: 5 gol, Emil Forsberg: 4 gol. Fark 1.",
+      "evidence": [
+        {
+          "supports": [
+            "valueA",
+            "valueB"
+          ],
+          "url": "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-18",
+          "evidenceNote": "EURO 2020 istatistikleri tablosu (goals_tournament) şu değerleri gösteriyor: Cristiano Ronaldo: 5 gol; Emil Forsberg: 4 gol."
+        }
+      ],
+      "review": {
+        "checkedAt": "2026-11-18",
+        "status": "values-verified",
+        "sourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/",
+        "note": "Official player statistics table checked; fixed season/tournament. Saves follows UEFA Saves definition; shoot-out treatment not independently established."
+      }
+    },
+    {
+      "id": "more-less-001-090",
+      "prompt": "EURO 2020 finallerinde hangi kaleci daha fazla kurtarış yaptı?",
+      "category": "tournament_saves",
+      "metric": "saves",
+      "unit": "kurtarış",
+      "scope": {
+        "competition": "UEFA EURO",
+        "season": null,
+        "edition": "2020",
+        "startDate": null,
+        "endDate": null,
+        "stage": "final_tournament",
+        "team": null,
+        "definition": "UEFA EURO 2020 final turnuvası; UEFA'nın resmî 'Saves' istatistiği (ilk 6 sıralama). Penaltı atışlarındaki kurtarışların dahil olup olmadığını sayfa belirtmiyor; iki kaleci için aynı tanım geçerli."
+      },
+      "playerAId": "ugurcan-cakir",
+      "playerBId": "kasper-schmeichel",
+      "valueA": 18,
+      "valueB": 18,
+      "correctAnswer": "equal",
+      "difficulty": "hard",
+      "difficultyReason": "Sayılar eşit; 'Eşit' seçeneğini düşünmek gerekiyor.",
+      "revealText": "Eşit! İkisinin de 18 kurtarış var.",
+      "evidence": [
+        {
+          "supports": [
+            "valueA",
+            "valueB"
+          ],
+          "url": "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-18",
+          "evidenceNote": "EURO 2020 istatistikleri tablosu (saves) şu değerleri gösteriyor: Uğurcan Çakır: 18 kurtarış; Kasper Schmeichel: 18 kurtarış."
+        }
+      ],
+      "review": {
+        "checkedAt": "2026-11-18",
+        "status": "values-verified",
+        "sourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/",
+        "note": "Official player statistics table checked; fixed season/tournament. Saves follows UEFA Saves definition; shoot-out treatment not independently established."
+      }
+    },
+    {
+      "id": "more-less-001-091",
+      "prompt": "EURO 2020 finallerinde hangi kaleci daha fazla kurtarış yaptı?",
+      "category": "tournament_saves",
+      "metric": "saves",
+      "unit": "kurtarış",
+      "scope": {
+        "competition": "UEFA EURO",
+        "season": null,
+        "edition": "2020",
+        "startDate": null,
+        "endDate": null,
+        "stage": "final_tournament",
+        "team": null,
+        "definition": "UEFA EURO 2020 final turnuvası; UEFA'nın resmî 'Saves' istatistiği (ilk 6 sıralama). Penaltı atışlarındaki kurtarışların dahil olup olmadığını sayfa belirtmiyor; iki kaleci için aynı tanım geçerli."
+      },
+      "playerAId": "ugurcan-cakir",
+      "playerBId": "yann-sommer",
+      "valueA": 18,
+      "valueB": 21,
+      "correctAnswer": "B",
+      "difficulty": "easy",
+      "difficultyReason": "Fark 3 kurtarış; belirgin.",
+      "revealText": "Yann Sommer: 21 kurtarış, Uğurcan Çakır: 18 kurtarış. Fark 3.",
+      "evidence": [
+        {
+          "supports": [
+            "valueA",
+            "valueB"
+          ],
+          "url": "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-18",
+          "evidenceNote": "EURO 2020 istatistikleri tablosu (saves) şu değerleri gösteriyor: Uğurcan Çakır: 18 kurtarış; Yann Sommer: 21 kurtarış."
+        }
+      ],
+      "review": {
+        "checkedAt": "2026-11-18",
+        "status": "values-verified",
+        "sourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/",
+        "note": "Official player statistics table checked; fixed season/tournament. Saves follows UEFA Saves definition; shoot-out treatment not independently established."
+      }
+    },
+    {
+      "id": "more-less-001-092",
+      "prompt": "EURO 2024 finallerinde hangi kaleci daha fazla kurtarış yaptı?",
+      "category": "tournament_saves",
+      "metric": "saves",
+      "unit": "kurtarış",
+      "scope": {
+        "competition": "UEFA EURO",
+        "season": null,
+        "edition": "2024",
+        "startDate": null,
+        "endDate": null,
+        "stage": "final_tournament",
+        "team": null,
+        "definition": "UEFA EURO 2024 final turnuvası; UEFA'nın resmî 'Saves' istatistiği (ilk 6 sıralama). Penaltı atışlarındaki kurtarışların dahil olup olmadığını sayfa belirtmiyor; iki kaleci için aynı tanım geçerli."
+      },
+      "playerAId": "mike-maignan",
+      "playerBId": "mert-gunok",
+      "valueA": 16,
+      "valueB": 15,
+      "correctAnswer": "A",
+      "difficulty": "hard",
+      "difficultyReason": "Fark yalnızca 1 kurtarış.",
+      "revealText": "Mike Maignan: 16 kurtarış, Mert Günok: 15 kurtarış. Fark 1.",
+      "evidence": [
+        {
+          "supports": [
+            "valueA",
+            "valueB"
+          ],
+          "url": "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-18",
+          "evidenceNote": "EURO 2024 istatistikleri tablosu (saves) şu değerleri gösteriyor: Mike Maignan: 16 kurtarış; Mert Günok: 15 kurtarış."
+        }
+      ],
+      "review": {
+        "checkedAt": "2026-11-18",
+        "status": "values-verified",
+        "sourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/",
+        "note": "Official player statistics table checked; fixed season/tournament. Saves follows UEFA Saves definition; shoot-out treatment not independently established."
+      }
+    },
+    {
+      "id": "more-less-001-093",
+      "prompt": "EURO 2024 finallerinde hangi kaleci daha fazla kurtarış yaptı?",
+      "category": "tournament_saves",
+      "metric": "saves",
+      "unit": "kurtarış",
+      "scope": {
+        "competition": "UEFA EURO",
+        "season": null,
+        "edition": "2024",
+        "startDate": null,
+        "endDate": null,
+        "stage": "final_tournament",
+        "team": null,
+        "definition": "UEFA EURO 2024 final turnuvası; UEFA'nın resmî 'Saves' istatistiği (ilk 6 sıralama). Penaltı atışlarındaki kurtarışların dahil olup olmadığını sayfa belirtmiyor; iki kaleci için aynı tanım geçerli."
+      },
+      "playerAId": "jordan-pickford",
+      "playerBId": "giorgi-mamardashvili",
+      "valueA": 17,
+      "valueB": 29,
+      "correctAnswer": "B",
+      "difficulty": "easy",
+      "difficultyReason": "Fark 12 kurtarış; belirgin.",
+      "revealText": "Giorgi Mamardashvili: 29 kurtarış, Jordan Pickford: 17 kurtarış. Fark 12.",
+      "evidence": [
+        {
+          "supports": [
+            "valueA",
+            "valueB"
+          ],
+          "url": "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-18",
+          "evidenceNote": "EURO 2024 istatistikleri tablosu (saves) şu değerleri gösteriyor: Jordan Pickford: 17 kurtarış; Giorgi Mamardashvili: 29 kurtarış."
+        }
+      ],
+      "review": {
+        "checkedAt": "2026-11-18",
+        "status": "values-verified",
+        "sourceUrl": "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/",
+        "note": "Official player statistics table checked; fixed season/tournament. Saves follows UEFA Saves definition; shoot-out treatment not independently established."
+      }
+    },
+    {
+      "id": "more-less-001-094",
+      "prompt": "2025/26 UEFA Şampiyonlar Ligi'nde hangisi daha fazla gol attı?",
+      "category": "ucl_season_stats",
+      "metric": "goals_season",
+      "unit": "gol",
+      "scope": {
+        "competition": "UEFA Champions League",
+        "season": "2025/26",
+        "edition": null,
+        "startDate": null,
+        "endDate": null,
+        "stage": "league_phase_to_final",
+        "team": null,
+        "definition": "Tamamlanmış 2025/26 sezonu (final 30 Mayıs 2026). UEFA sezon istatistik sayfasındaki gol sıralaması (ilk 6); eleme turları hariç, lig aşamasından finale."
+      },
+      "playerAId": "kylian-mbappe",
+      "playerBId": "harry-kane",
+      "valueA": 15,
+      "valueB": 14,
+      "correctAnswer": "A",
+      "difficulty": "hard",
+      "difficultyReason": "Fark yalnızca 1 gol.",
+      "revealText": "Kylian Mbappé: 15 gol, Harry Kane: 14 gol. Fark 1.",
+      "evidence": [
+        {
+          "supports": [
+            "valueA",
+            "valueB"
+          ],
+          "url": "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-18",
+          "evidenceNote": "2025/26 Şampiyonlar Ligi istatistikleri tablosu (goals_season) şu değerleri gösteriyor: Kylian Mbappé: 15 gol; Harry Kane: 14 gol."
+        }
+      ],
+      "review": {
+        "checkedAt": "2026-11-18",
+        "status": "values-verified",
+        "sourceUrl": "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/",
+        "note": "Official player statistics table checked; fixed season/tournament. Saves follows UEFA Saves definition; shoot-out treatment not independently established."
+      }
+    },
+    {
+      "id": "more-less-001-095",
+      "prompt": "2025/26 UEFA Şampiyonlar Ligi'nde hangisi daha fazla gol attı?",
+      "category": "ucl_season_stats",
+      "metric": "goals_season",
+      "unit": "gol",
+      "scope": {
+        "competition": "UEFA Champions League",
+        "season": "2025/26",
+        "edition": null,
+        "startDate": null,
+        "endDate": null,
+        "stage": "league_phase_to_final",
+        "team": null,
+        "definition": "Tamamlanmış 2025/26 sezonu (final 30 Mayıs 2026). UEFA sezon istatistik sayfasındaki gol sıralaması (ilk 6); eleme turları hariç, lig aşamasından finale."
+      },
+      "playerAId": "erling-haaland",
+      "playerBId": "anthony-gordon",
+      "valueA": 8,
+      "valueB": 10,
+      "correctAnswer": "B",
+      "difficulty": "easy",
+      "difficultyReason": "Fark 2 gol; belirgin.",
+      "revealText": "Anthony Gordon: 10 gol, Erling Haaland: 8 gol. Fark 2.",
+      "evidence": [
+        {
+          "supports": [
+            "valueA",
+            "valueB"
+          ],
+          "url": "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-18",
+          "evidenceNote": "2025/26 Şampiyonlar Ligi istatistikleri tablosu (goals_season) şu değerleri gösteriyor: Erling Haaland: 8 gol; Anthony Gordon: 10 gol."
+        }
+      ],
+      "review": {
+        "checkedAt": "2026-11-18",
+        "status": "values-verified",
+        "sourceUrl": "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/",
+        "note": "Official player statistics table checked; fixed season/tournament. Saves follows UEFA Saves definition; shoot-out treatment not independently established."
+      }
+    },
+    {
+      "id": "more-less-001-096",
+      "prompt": "2025/26 UEFA Şampiyonlar Ligi'nde hangisi daha fazla isabetli şut çekti?",
+      "category": "ucl_season_stats",
+      "metric": "shots_on_target",
+      "unit": "isabetli şut",
+      "scope": {
+        "competition": "UEFA Champions League",
+        "season": "2025/26",
+        "edition": null,
+        "startDate": null,
+        "endDate": null,
+        "stage": "league_phase_to_final",
+        "team": null,
+        "definition": "Tamamlanmış 2025/26 sezonu. UEFA sezon istatistik sayfasındaki 'Attempts on target' sıralaması (ilk 6)."
+      },
+      "playerAId": "victor-osimhen",
+      "playerBId": "harry-kane",
+      "valueA": 25,
+      "valueB": 23,
+      "correctAnswer": "A",
+      "difficulty": "medium",
+      "difficultyReason": "Fark 2 isabetli şut; yakın bir karşılaştırma.",
+      "revealText": "Victor Osimhen: 25 isabetli şut, Harry Kane: 23 isabetli şut. Fark 2.",
+      "evidence": [
+        {
+          "supports": [
+            "valueA",
+            "valueB"
+          ],
+          "url": "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-18",
+          "evidenceNote": "2025/26 Şampiyonlar Ligi istatistikleri tablosu (shots_on_target) şu değerleri gösteriyor: Victor Osimhen: 25 isabetli şut; Harry Kane: 23 isabetli şut."
+        }
+      ],
+      "review": {
+        "checkedAt": "2026-11-18",
+        "status": "values-verified",
+        "sourceUrl": "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/",
+        "note": "Official player statistics table checked; fixed season/tournament. Saves follows UEFA Saves definition; shoot-out treatment not independently established."
+      }
+    },
+    {
+      "id": "more-less-001-097",
+      "prompt": "2025/26 UEFA Şampiyonlar Ligi'nde hangisi daha fazla top kapma (tackle) yaptı?",
+      "category": "ucl_season_stats",
+      "metric": "tackles",
+      "unit": "top kapma (tackle)",
+      "scope": {
+        "competition": "UEFA Champions League",
+        "season": "2025/26",
+        "edition": null,
+        "startDate": null,
+        "endDate": null,
+        "stage": "league_phase_to_final",
+        "team": null,
+        "definition": "Tamamlanmış 2025/26 sezonu. UEFA sezon istatistik sayfasındaki 'Tackles' sıralaması (ilk 6)."
+      },
+      "playerAId": "lucas-torreira",
+      "playerBId": "aurelien-tchouameni",
+      "valueA": 36,
+      "valueB": 39,
+      "correctAnswer": "B",
+      "difficulty": "medium",
+      "difficultyReason": "Fark 3 top kapma (tackle); yakın bir karşılaştırma.",
+      "revealText": "Aurélien Tchouaméni: 39 top kapma (tackle), Lucas Torreira: 36 top kapma (tackle). Fark 3.",
+      "evidence": [
+        {
+          "supports": [
+            "valueA",
+            "valueB"
+          ],
+          "url": "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-18",
+          "evidenceNote": "2025/26 Şampiyonlar Ligi istatistikleri tablosu (tackles) şu değerleri gösteriyor: Lucas Torreira: 36 top kapma (tackle); Aurélien Tchouaméni: 39 top kapma (tackle)."
+        }
+      ],
+      "review": {
+        "checkedAt": "2026-11-18",
+        "status": "values-verified",
+        "sourceUrl": "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/",
+        "note": "Official player statistics table checked; fixed season/tournament. Saves follows UEFA Saves definition; shoot-out treatment not independently established."
+      }
+    },
+    {
+      "id": "more-less-001-098",
+      "prompt": "2025/26 UEFA Şampiyonlar Ligi'nde hangi kaleci daha fazla kurtarış yaptı?",
+      "category": "ucl_season_stats",
+      "metric": "saves",
+      "unit": "kurtarış",
+      "scope": {
+        "competition": "UEFA Champions League",
+        "season": "2025/26",
+        "edition": null,
+        "startDate": null,
+        "endDate": null,
+        "stage": "league_phase_to_final",
+        "team": null,
+        "definition": "Tamamlanmış 2025/26 sezonu. UEFA sezon istatistik sayfasındaki 'Saves' sıralaması (ilk 6)."
+      },
+      "playerAId": "thibaut-courtois",
+      "playerBId": "ugurcan-cakir",
+      "valueA": 56,
+      "valueB": 48,
+      "correctAnswer": "A",
+      "difficulty": "easy",
+      "difficultyReason": "Fark 8 kurtarış; belirgin.",
+      "revealText": "Thibaut Courtois: 56 kurtarış, Uğurcan Çakır: 48 kurtarış. Fark 8.",
+      "evidence": [
+        {
+          "supports": [
+            "valueA",
+            "valueB"
+          ],
+          "url": "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-18",
+          "evidenceNote": "2025/26 Şampiyonlar Ligi istatistikleri tablosu (saves) şu değerleri gösteriyor: Thibaut Courtois: 56 kurtarış; Uğurcan Çakır: 48 kurtarış."
+        }
+      ],
+      "review": {
+        "checkedAt": "2026-11-18",
+        "status": "values-verified",
+        "sourceUrl": "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/",
+        "note": "Official player statistics table checked; fixed season/tournament. Saves follows UEFA Saves definition; shoot-out treatment not independently established."
+      }
+    },
+    {
+      "id": "more-less-001-099",
+      "prompt": "2025-26 Süper Lig sezonunda hangisi daha fazla lig golü attı?",
+      "category": "league_season_goals",
+      "metric": "goals_league",
+      "unit": "gol",
+      "scope": {
+        "competition": "Trendyol Süper Lig",
+        "season": "2025-26",
+        "edition": null,
+        "startDate": null,
+        "endDate": null,
+        "stage": "league",
+        "team": null,
+        "definition": "Tamamlanmış 2025-26 Süper Lig sezonu, yalnızca lig maçları. TFF'nin gol kralları arşivi iki oyuncuyu ortak gol kralı olarak aynı sayıyla gösteriyor."
+      },
+      "playerAId": "paul-onuachu",
+      "playerBId": "eldor-shomurodov",
+      "valueA": 22,
+      "valueB": 22,
+      "correctAnswer": "equal",
+      "difficulty": "hard",
+      "difficultyReason": "Sayılar eşit; 'Eşit' seçeneğini düşünmek gerekiyor.",
+      "revealText": "Eşit! İkisinin de 22 gol var.",
+      "evidence": [
+        {
+          "supports": [
+            "valueA",
+            "valueB"
+          ],
+          "url": "http://www.tff.org/default.aspx?pageID=545",
+          "publisher": "Türkiye Futbol Federasyonu (TFF)",
+          "sourceType": "official",
+          "accessedAt": "2026-11-18",
+          "evidenceNote": "TFF Süper Lig gol kralları arşivi tablosu (goals_league) şu değerleri gösteriyor: Paul Onuachu: 22 gol; Eldor Shomurodov: 22 gol."
+        }
+      ],
+      "review": {
+        "checkedAt": "2026-11-18",
+        "status": "values-verified",
+        "sourceUrl": "https://www.tff.org/default.aspx?pageID=545",
+        "note": "Official player statistics table checked; fixed season/tournament. Saves follows UEFA Saves definition; shoot-out treatment not independently established."
+      }
+    },
+    {
+      "id": "more-less-001-100",
+      "prompt": "2001-02 Süper Lig sezonunda hangisi daha fazla lig golü attı?",
+      "category": "league_season_goals",
+      "metric": "goals_league",
+      "unit": "gol",
+      "scope": {
+        "competition": "Süper Lig",
+        "season": "2001-02",
+        "edition": null,
+        "startDate": null,
+        "endDate": null,
+        "stage": "league",
+        "team": null,
+        "definition": "Tamamlanmış 2001-02 Süper Lig sezonu, yalnızca lig maçları. TFF'nin gol kralları arşivi iki oyuncuyu ortak gol kralı olarak aynı sayıyla gösteriyor."
+      },
+      "playerAId": "arif-erdem",
+      "playerBId": "ilhan-mansiz",
+      "valueA": 21,
+      "valueB": 21,
+      "correctAnswer": "equal",
+      "difficulty": "hard",
+      "difficultyReason": "Sayılar eşit; 'Eşit' seçeneğini düşünmek gerekiyor.",
+      "revealText": "Eşit! İkisinin de 21 gol var.",
+      "evidence": [
+        {
+          "supports": [
+            "valueA",
+            "valueB"
+          ],
+          "url": "http://www.tff.org/default.aspx?pageID=545",
+          "publisher": "Türkiye Futbol Federasyonu (TFF)",
+          "sourceType": "official",
+          "accessedAt": "2026-11-18",
+          "evidenceNote": "TFF Süper Lig gol kralları arşivi tablosu (goals_league) şu değerleri gösteriyor: Arif Erdem: 21 gol; İlhan Mansız: 21 gol."
+        }
+      ],
+      "review": {
+        "checkedAt": "2026-11-18",
+        "status": "values-verified",
+        "sourceUrl": "https://www.tff.org/default.aspx?pageID=545",
+        "note": "Official player statistics table checked; fixed season/tournament. Saves follows UEFA Saves definition; shoot-out treatment not independently established."
+      }
+    }
+  ]
+}
