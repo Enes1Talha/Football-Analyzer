@@ -16,6 +16,7 @@ grant usage on schema auth to authenticated,anon;
 grant execute on function auth.uid() to authenticated,anon;`);
 const migrations = new URL('../supabase/migrations/', import.meta.url);
 for (const file of readdirSync(migrations).filter((name) => name.endsWith('.sql')).sort()) {
+  if(file==='202611180001_career_match_scoring.sql') continue; // Exercise legacy rooms before upgrading in place below.
   await db.exec(readFileSync(new URL(file, migrations), 'utf8'));
 }
 for (const role of ['anon','authenticated']) {
@@ -196,4 +197,62 @@ await db.exec('reset role');
 const careerFixture=JSON.parse(readFileSync(new URL('../src/lib/career-trails.json',import.meta.url),'utf8'));
 assert.deepEqual((await db.query('select data from public.game_careers order by id')).rows.map(r=>r.data),careerFixture.sort((a,b)=>a.id<b.id?-1:a.id>b.id?1:0));
 console.log('PASS: career shared clues, countdown secrecy, reveal progression, early/late answers, single score, rematch isolation and full route reveal.');
+await db.exec(readFileSync(new URL('202611180001_career_match_scoring.sql',migrations),'utf8'));
+for(let total=3;total<=15;total++) {
+ let previous=101;
+ for(let revealed=2;revealed<=total;revealed++) {
+  const actual=(await db.query('select public.career_points($1,$2) as points',[total,revealed])).rows[0].points;
+  const expected=100-Math.round(80*(revealed-2)/(total-2));
+  assert.equal(actual,expected);assert.ok(actual<previous);previous=actual;
+ }
+ assert.equal(previous,20);
+}
+await as(0);
+await assert.rejects(db.query("select public.game_room_before_match('state',$1,'')",[career.code]),/permission denied/);
+assert.equal((await rpc('state',career.code)).status,'finished'); // Existing games survive the upgrade.
+const baseCareerWins=(await dash()).byGame.find(g=>g.kind==='career').wins;
+const match=await rpc('create_career_match');assert.equal(match.myScore,0);assert.equal(match.careerMatch,true);
+await as(2);await assert.rejects(rpc('state',match.code),/dolu/);
+await as(1);await rpc('join',match.code);
+let round=0;
+async function nextCareerRound(code) {
+ await as(0);await rpc('career_ready',code,String(round));
+ await as(1);const next=await rpc('career_ready',code,String(round));round++;
+ assert.equal(next.round,round);assert.deepEqual(next.career,[]);assert.equal(next.answer,null);
+ await assert.rejects(rpc('career_answer',code,JSON.stringify({round,answer:'x'})),/Geri sayım/);
+ await db.exec('reset role');const secret=(await db.query('select career_data from public.game_rooms where code=$1',[code])).rows[0].career_data;
+ await start(code);return secret;
+}
+let trail=await nextCareerRound(match.code);
+await as(0);assert.equal((await rpc('state',match.code)).roundPoints,100);
+await assert.rejects(rpc('career_answer',match.code,JSON.stringify({round:0,answer:trail.playerName})),/önceki tura/);
+assert.equal((await rpc('career_answer',match.code,JSON.stringify({round,answer:'wrong'}))).incorrect,true);
+await assert.rejects(rpc('career_answer',match.code,JSON.stringify({round,answer:trail.playerName})),/kısa bir süre/);
+await db.exec('reset role');await db.query('update public.game_rooms set host_attempt=null where code=$1',[match.code]);
+await as(0);let scored=await rpc('career_answer',match.code,JSON.stringify({round,answer:trail.playerName,points:99999}));
+assert.equal(scored.myScore,100);assert.equal(scored.status,'playing');assert.equal(scored.roundDone,true);assert.deepEqual(scored.career,trail.stages);
+assert.equal((await dash()).byGame.find(g=>g.kind==='career').wins,baseCareerWins);
+await as(1);const duplicate=await rpc('career_answer',match.code,JSON.stringify({round,answer:trail.playerName}));assert.equal(duplicate.myScore,0);assert.equal(duplicate.opponentScore,100);
+const previousId=trail.id;trail=await nextCareerRound(match.code);assert.notEqual(trail.id,previousId);
+await db.exec('reset role');await db.query("update public.game_rooms set starts_at=clock_timestamp()-make_interval(secs=>$2), ends_at=clock_timestamp()+interval '20 seconds' where code=$1",[match.code,(trail.stages.length-2)*8+1]);
+await as(1);assert.equal((await rpc('state',match.code)).roundPoints,20);
+scored=await rpc('career_answer',match.code,JSON.stringify({round,answer:trail.aliases[0]}));assert.equal(scored.myScore,20);assert.equal(scored.opponentScore,100);
+trail=await nextCareerRound(match.code);
+await db.exec('reset role');await db.query("update public.game_rooms set ends_at=clock_timestamp()-interval '1 second' where code=$1",[match.code]);
+await as(0);const timed=await rpc('career_answer',match.code,JSON.stringify({round,answer:trail.playerName}));assert.equal(timed.roundDone,true);assert.equal(timed.status,'playing');assert.equal(timed.lastRoundPoints,0);assert.equal(timed.myScore,100);
+for(let score=200;score<=300;score+=100){trail=await nextCareerRound(match.code);await as(0);scored=await rpc('career_answer',match.code,JSON.stringify({round,answer:trail.playerName}));assert.equal(scored.myScore,score);}
+assert.equal(scored.status,'finished');assert.equal(scored.won,true);assert.equal(scored.opponentScore,20);
+await rpc('career_answer',match.code,JSON.stringify({round,answer:trail.playerName}));
+let dashboard=await dash();assert.equal(dashboard.byGame.find(g=>g.kind==='career').wins,baseCareerWins+1);
+assert.equal(dashboard.rivalsByGame.find(g=>g.kind==='career'&&g.opponent_id===users[1]).wins,baseCareerWins+1);
+assert.ok(dashboard.rivalsByGame.some(g=>g.kind==='anagram'));assert.ok(dashboard.rivalsByGame.some(g=>g.kind==='clubs'));
+const newMatch=await rpc('rematch',match.code);assert.equal(newMatch.myScore,0);assert.equal(newMatch.opponentScore,0);assert.equal(newMatch.round,0);
+await as(1);assert.equal((await rpc('rematch',match.code)).code,newMatch.code);
+round=0;trail=await nextCareerRound(newMatch.code);
+await as(0);await rpc('career_answer',newMatch.code,JSON.stringify({round,answer:trail.playerName}));
+assert.equal((await rpc('leave',newMatch.code)).won,false); // Leaving between rounds is still a match loss.
+await as(1);assert.equal((await rpc('state',newMatch.code)).won,true);
+await as(0);const canceled=await rpc('create_career_match');assert.equal((await rpc('leave',canceled.code)).status,'void');
+await db.exec('reset role');
+console.log('PASS: 100–20 scoring, 300-point match, timeout continuation, one match win, tamper protection, stale round rejection, rematch reset, surrender and separate friend records.');
 await db.close();

@@ -6,6 +6,7 @@ export function levelFor(wins: number) { return Math.min(10, levelWins.filter((n
 export interface GameProfile { id: string; username: string; wins: number; losses: number; rank: number }
 export interface PlayerDetails { username: string; display_name: string; bio: string; avatar: string; created_at: string }
 export interface GameDashboard {
+  rivalsByGame?: { opponent_id:string; opponent:string; kind:'clubs'|'anagram'|'career'; wins:number; losses:number }[];
   byGame?: { kind: "clubs" | "anagram" | "career"; wins: number; losses: number }[];
   profile: GameProfile | null; streak: number; leaderboard: GameProfile[];
   rivals: { opponent_id: string; opponent: string; wins: number; losses: number }[];

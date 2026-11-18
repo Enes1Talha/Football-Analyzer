@@ -1,5 +1,13 @@
 # Game data workflow
 
+## Career match scoring (2026-11-18)
+
+Migration `202611180001_career_match_scoring.sql` makes newly created career rooms multi-round matches. The first correct answer earns `100 - round(80 * (revealed - 2) / (total - 2))`, clamped to 20–100, calculated from server time and the stored route. First to at least 300 wins; overshoot is retained. A timed-out round earns zero and both players ready up for the next round. The match remains `playing` between rounds so only the final result contributes to win/loss and level calculations. Leaving after the first round begins, including between rounds or during subsequent countdowns, forfeits the match. Rematches start at zero. A round-number token rejects delayed answers; row locks prevent duplicate scoring. Used routes are excluded until the pool is exhausted, with no immediate repeat afterwards.
+
+Previously created career rooms retain their single-round rules and history. Their protected legacy RPC is no longer callable directly. The public wrapper applies authentication and delegates old games unchanged. Friend records are grouped independently by game; daily/weekly leaderboards are a separate future feature. Solo awards the same 20–100 practice points in browser-local storage while retaining old records; it never alters ranked scores. The 300 target applies to friend matches only.
+
+The database test suite first verifies legacy rooms, then applies the scoring upgrade and tests first/last-clue awards, score tampering, stale answers, cooldown, timeout continuation, single match result, forfeits and rematch resets. A production two-device playtest remains separate.
+
 ## Batch three and Career Route (2026-11-17)
 
 Current total: 523 catalog players, 204 anagrams and 10 admitted career trails. Migrations 010–012 add the new catalog, 70 words and the career room implementation. Original results and released word difficulties are preserved. `football_players_batch3.json` retains the proposal; `batch-three-review.json` records admission decisions. The 113 new club connections are attributed to the researcher's official UEFA sources; they are partial European-competition histories, not independently audited complete careers.

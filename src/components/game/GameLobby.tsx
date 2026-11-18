@@ -5,6 +5,7 @@ import { supabase } from "@/lib/supabase";
 import { GameDashboard, gameError, levelFor, levelWins, roomAction, RoomState, PlayerDetails } from "@/lib/game";
 import RankedDuel from "./RankedDuel";
 import AnagramDuel from "./AnagramDuel";
+import CareerDuel from "./CareerDuel";
 import ProfileAvatar from "./ProfileAvatar";
 import ProfileEditor from "./ProfileEditor";
 import DifficultyPicker, {type GameDifficulty} from './DifficultyPicker';
@@ -99,7 +100,7 @@ export default function GameLobby() {
   async function enter(action: "create" | "join") {
     setBusy(true); setError("");
     try {
-      const next = await roomAction(action==='create'&&gameKind!=='clubs'?(gameKind==='career'?'create_career':'create_anagram'):action, code.trim().toUpperCase(),gameKind==='anagram'?difficulty:'');
+      const next = await roomAction(action==='create'&&gameKind!=='clubs'?(gameKind==='career'?'create_career_match':'create_anagram'):action, code.trim().toUpperCase(),gameKind==='anagram'?difficulty:'');
       setRoom(next); history.replaceState(null, "", "/oyna?room=" + next.code);
     } catch (e) { setError((e as Error).message); }
     finally { setBusy(false); }
@@ -110,7 +111,10 @@ export default function GameLobby() {
   function exitRoom() {
     setRoom(null); setCode(""); setJoining(false); history.replaceState(null, "", "/oyna"); void refresh();
   }
-  if(room&&user) return (room.gameKind==='anagram'||room.gameKind==='career')?<AnagramDuel key={room.code} initial={room} onExit={exitRoom} onNext={next=>{setRoom(next);history.replaceState(null,'','/oyna?room='+next.code);}}/>:<RankedDuel key={room.code} initial={room} onExit={exitRoom}/>;
+  if(room&&user) {
+    const Duel=room.careerMatch?CareerDuel:AnagramDuel;
+    return (room.gameKind==='anagram'||room.gameKind==='career')?<Duel key={room.code} initial={room} onExit={exitRoom} onNext={next=>{setRoom(next);history.replaceState(null,'','/oyna?room='+next.code);}}/>:<RankedDuel key={room.code} initial={room} onExit={exitRoom}/>;
+  }
 
   return <div className="space-y-5">
     {error && <p role="alert" className="rounded-lg border border-neon-yellow/30 p-4 text-sm text-neon-yellow">{error}</p>}
@@ -155,7 +159,7 @@ export default function GameLobby() {
         {joining && <form onSubmit={(e) => { e.preventDefault(); void enter('join'); }} className="space-y-3"><label htmlFor="room-code" className="block text-sm">Oda kodu</label><input id="room-code" className={`${input} uppercase tracking-widest`} value={code} onChange={(e) => setCode(e.target.value.toUpperCase())} pattern="[A-Za-z0-9]{8}" maxLength={8} required placeholder="8 karakterlik kod" /><button disabled={busy} className={button}>Katıl / Odama dön</button></form>}
         <details className="text-sm text-zinc-400"><summary className="cursor-pointer">Puanlar ve seviyeler nasıl çalışır?</summary><p className="mt-3">İlk doğru cevap +1 galibiyet ve +3 puan. Rakibe +1 mağlubiyet. Pes etmek mağlubiyettir. Aynı takım, cevapsız eşleşme ve başlamadan kapanan oda puan vermez. Sıralama: galibiyet, ardından daha az mağlubiyet.</p><p className="mt-2">Seviye 1–10 galibiyet eşikleri: {levelWins.join(', ')}.</p><p className="mt-2">Bağlantı koparsa aynı oda koduyla dön. Tamamlanmayan odalar 24 saat sonra puansız kapanır.</p></details>
       </section>}
-      {tab==='rivals' && <section className="card-glow p-5 space-y-4"><h2 className="text-lg font-bold">Arkadaşlarınla skorun</h2><p className="text-xs text-zinc-400">Birlikte oyun tamamladığın kişiler burada görünür. G: senin galibiyetlerin, M: mağlubiyetlerin.</p>{!dashboard.rivals.length && <p className="text-zinc-400">İlk oyununu tamamla, rekabet burada başlasın.</p>}{dashboard.rivals.map((r) => <div key={r.opponent_id} className="flex justify-between gap-4 border-b border-pitch-border py-3"><span className="break-all">@{r.opponent}</span><span className="shrink-0 font-mono"><span className="text-neon-green">{r.wins} G</span> · {r.losses} M</span></div>)}</section>}
+      {tab==='rivals' && <section className="card-glow p-5 space-y-4"><h2 className="text-lg font-bold">Arkadaşlarınla skorun</h2><p className="text-xs text-zinc-400">Her oyunun maç sonuçları ayrı tutulur. G: senin galibiyetlerin, M: mağlubiyetlerin. Kariyer Rotası'nda turlar değil, tamamlanan 300 puanlık maç sayılır.</p>{!dashboard.rivals.length && <p className="text-zinc-400">İlk oyununu tamamla, rekabet burada başlasın.</p>}{dashboard.rivals.map(r=><div key={r.opponent_id} className="border-b border-pitch-border py-3 space-y-3"><p className="break-all font-bold">@{r.opponent}</p>{([['clubs','3-2-1 · İki Kulüp'],['anagram','Karışık Harfler'],['career','Kariyer Rotası']] as const).map(([kind,label])=>{const score=dashboard.rivalsByGame?.find(s=>s.opponent_id===r.opponent_id&&s.kind===kind);return <div key={kind} className="flex justify-between gap-3 text-sm"><span className="text-zinc-400">{label}</span><span className="font-mono"><span className="text-neon-green">{score?.wins||0} G</span> · {score?.losses||0} M</span></div>;})}</div>)}</section>}
       {tab==='leaderboard' && <section className="card-glow p-5 space-y-4"><h2 className="text-lg font-bold">Puan tablosu · İlk 50</h2><div className="overflow-x-auto"><table className="w-full text-sm text-left"><thead className="text-zinc-500"><tr>{['#','Oyuncu','Sv.','G / M','Puan'].map((h) => <th key={h} className="py-3 pr-3">{h}</th>)}</tr></thead><tbody>{dashboard.leaderboard.map((p) => <tr key={p.id} className={`border-t border-pitch-border ${p.id===user.id ? 'text-neon-green' : ''}`}><td className="py-3 pr-3">{p.rank}</td><td className="pr-3">@{p.username}</td><td className="pr-3">{levelFor(p.wins)}</td><td className="pr-3 whitespace-nowrap">{p.wins} / {p.losses}</td><td>{p.wins*3}</td></tr>)}</tbody></table></div></section>}
       {tab==='history' && <section className="card-glow p-5 space-y-4"><h2 className="text-lg font-bold">Son 20 oyun</h2>{!dashboard.history.length && <p className="text-zinc-400">Henüz tamamlanmış oyunun yok.</p>}{dashboard.history.map((h) => <article key={h.code} className="border-b border-pitch-border py-3 space-y-1"><div className="flex justify-between gap-3"><span className="break-all">@{h.opponent}</span><strong className={h.won ? 'text-neon-green' : 'text-zinc-400'}>{h.won ? 'Galibiyet' : 'Mağlubiyet'}</strong></div><p className="text-sm text-zinc-400">{h.reason.startsWith('Kariyer') ? 'Kariyer Rotası' : h.reason.startsWith('Anagram') ? 'Karışık Harfler' : h.host_team + ' × ' + h.guest_team}</p><p className="text-xs text-zinc-500">{h.answer || h.reason} · {new Date(h.finished_at).toLocaleString('tr-TR')}</p></article>)}</section>}
     </>}
