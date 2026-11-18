@@ -7,7 +7,7 @@ const clubs = Array.from(new Set(players.flatMap((player) => [...player.clubs]))
 const button = "rounded-lg bg-neon-green px-5 py-3 font-mono text-sm font-bold text-black disabled:opacity-40";
 const input = "w-full rounded-lg border border-pitch-border bg-pitch-dark p-4 text-white focus:outline-none focus:ring-1 focus:ring-neon-green";
 
-export default function RankedDuel({ initial, onExit }: { initial: RoomState; onExit: () => void }) {
+export default function RankedDuel({ initial, onExit, onNext }: { initial: RoomState; onExit: () => void; onNext:(room:RoomState)=>void }) {
   const [state, setState] = useState(initial);
   const [team, setTeam] = useState(initial.team || "");
   const [query, setQuery] = useState("");
@@ -36,6 +36,7 @@ export default function RankedDuel({ initial, onExit }: { initial: RoomState; on
     setBusy(true); setError("");
     try {
       const next = await roomAction(action, state.code, value);
+      if(action==='rematch'){onNext(next);return;}
       if (next.incorrect) setFeedback("Bu eşleşme için başka bir futbolcu dene.");
       else { accept(next); setFeedback(""); }
     } catch (e) { setError((e as Error).message); }
@@ -88,7 +89,8 @@ export default function RankedDuel({ initial, onExit }: { initial: RoomState; on
       <h2 className={`text-3xl font-black ${state.won ? "text-neon-green" : "text-neon-cyan"}`}>{state.status === "void" ? "Puan değişmedi" : state.won ? "Kazandın! +3 puan" : "Bu kez rakibin kazandı"}</h2>
       <p className="text-sm text-zinc-400">{state.reason}{state.answer ? ` · ${state.answer}` : ""}</p>
       {state.status === "finished" && <p className="text-sm">Sonuç iki hesabın geçmişine kaydedildi.</p>}
-      <button className={button} onClick={onExit}>Lobiye dön</button>
+      {state.opponent&&<button className={button} disabled={busy} onClick={()=>void act('rematch')}>Rövanş · Aynı rakiple tekrar oyna</button>}
+      <button className="block mx-auto text-sm text-zinc-400" onClick={onExit}>Lobiye dön</button>
     </div>}
     {!!error && <p role="alert" className="text-neon-yellow text-sm">{error}</p>}
   </section>;

@@ -287,4 +287,44 @@ assert.equal((await rpc('state',emreRoom.code)).myScore,beforePick);
 await as(1);const picked=await rpc('career_pick',emreRoom.code,JSON.stringify({round,playerId:'emre'}));assert.equal(picked.roundDone,true);assert.equal(picked.lastRoundPoints,100);
 assert.equal((await rpc('career_pick',emreRoom.code,JSON.stringify({round,playerId:'emre'}))).myScore,picked.myScore);
 console.log('PASS: selected player identity, invalid/forged choices, countdown, stale rounds, membership and duplicate pick protection.');
+await db.exec('reset role');
+await db.exec(readFileSync(new URL('202611180006_daily_groups_rematch.sql',migrations),'utf8'));
+async function daily(action='state',day='',player=''){return (await db.query('select public.game_daily($1,$2,$3) as data',[action,day,player])).rows[0].data;}
+async function group(action='list',code='',value='',kind='daily',previous=false){return (await db.query('select public.game_group($1,$2,$3,$4,$5) as data',[action,code,value,kind,previous])).rows[0].data;}
+await as(0);
+for(const table of ['game_daily_questions','game_daily_entries','game_groups','game_group_members'])await assert.rejects(db.query('select * from public.'+table),/permission denied/);
+const league=await group('create','','Test Friends');assert.equal(league.board.length,1);
+await as(2);await assert.rejects(group('board',league.code),/üyesi/);assert.equal((await group()).groups.length,0);
+await as(1);assert.equal((await group('join',league.code)).board.length,2);assert.equal((await group('join',league.code)).board.length,2);
+await as(0);const today=await daily();assert.equal(today.started,false);assert.deepEqual(today.teams,[]);assert.deepEqual(today.answers,[]);
+await assert.rejects(daily('start','2000-01-01'),/Yeni gün/);
+const started=await daily('start',today.day);assert.equal(started.started,true);assert.equal(started.teams.length,2);assert.deepEqual(started.answers,[]);
+await as(1);assert.deepEqual((await daily('start',today.day)).teams,started.teams);
+await db.exec('reset role');const question=(await db.query('select * from public.game_daily_questions where day=$1',[today.day])).rows[0];
+const wrongPlayer=players.find(p=>!question.answer_ids.includes(p.id)).id;
+await as(0);await assert.rejects(daily('answer',today.day,'not-an-id'),/Listeden/);assert.equal((await daily()).completed,false);
+const dailyWin=await daily('answer',today.day,question.answer_ids[0]);assert.equal(dailyWin.points,100);assert.equal(dailyWin.completed,true);assert.equal(dailyWin.streak,1);
+assert.equal((await daily('answer',today.day,wrongPlayer)).points,100);assert.equal((await daily('pass',today.day)).points,100);assert.equal((await daily('start',today.day)).points,100);
+await as(1);const dailyLoss=await daily('answer',today.day,wrongPlayer);assert.equal(dailyLoss.points,0);assert.equal((await daily('answer',today.day,question.answer_ids[0])).points,0);
+await as(0);let standings=await group('board',league.code);assert.equal(standings.board[0].id,users[0]);assert.equal(standings.board[0].points,100);
+assert.equal((await group('board',league.code,'','daily',true)).board[0].points,0);
+await as(2);await assert.rejects(daily('answer',today.day,question.answer_ids[0]),/Önce günlük/);await daily('start',today.day);assert.equal((await daily('pass',today.day)).points,0);
+await db.exec('reset role');
+await db.query("insert into public.game_daily_questions select day-1,team_a,team_b,answer_ids,answers from public.game_daily_questions where day=$1",[today.day]);
+await db.query("insert into public.game_daily_entries(user_id,day,completed_at,points) values($1,$2::date-1,clock_timestamp()-interval '1 day',0)",[users[0],today.day]);
+await as(0);assert.equal((await daily()).streak,2);
+// Seed completed group matches in the current week, separate from the existing history.
+await db.exec('reset role');
+await db.query("update public.game_group_members set joined_at=(date_trunc('week',clock_timestamp() at time zone 'Europe/Istanbul')-interval '1 day') at time zone 'Europe/Istanbul' where group_code=$1",[league.code]);
+for(let n=0;n<7;n++)await db.query("insert into public.game_rooms(code,host_id,guest_id,game_kind,status,winner_id,created_at,finished_at) values($1,$2,$3,'clubs','finished',$4,clock_timestamp(),clock_timestamp()+make_interval(secs=>$5))",['LEAGUE'+n,users[0],users[1],n===6?users[1]:users[0],n]);
+// Earlier tests used this same pair; isolate their fixtures from this week's group standings.
+await db.query("update public.game_rooms set created_at='2000-01-01',finished_at='2000-01-01' where code not like 'LEAGUE%' and status='finished'");
+await as(0);standings=await group('board',league.code,'','clubs');assert.equal(standings.board[0].points,15);assert.equal(standings.board[0].wins,5);assert.equal(standings.board[1].losses,5);
+assert.ok((await group('board',league.code,'','anagram')).board.every(p=>p.points===0));
+assert.ok((await group('board',league.code,'','clubs',true)).board.every(p=>p.points===0));
+const clubRematch=await rpc('rematch','LEAGUE0');assert.equal(clubRematch.status,'waiting');assert.equal(clubRematch.team,null);
+await as(1);assert.equal((await rpc('rematch','LEAGUE0')).code,clubRematch.code);
+await as(2);await assert.rejects(rpc('rematch','LEAGUE0'),/sana ait/);
+await db.exec('reset role');await db.exec('set role anon');await assert.rejects(db.query('select public.game_daily()'),/permission denied/);await assert.rejects(db.query('select public.game_group()'),/permission denied/);
+console.log('PASS: common daily question, answer secrecy, one result per account/day, rollover guard, participation streak, private groups, weekly scope, per-game separation, five-match cap and shared club rematch.');
 await db.close();

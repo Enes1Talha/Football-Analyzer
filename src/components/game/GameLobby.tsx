@@ -6,6 +6,7 @@ import { GameDashboard, gameError, levelFor, levelWins, roomAction, RoomState, P
 import RankedDuel from "./RankedDuel";
 import AnagramDuel from "./AnagramDuel";
 import CareerDuel from "./CareerDuel";
+import FriendGroups from './FriendGroups';
 import ProfileAvatar from "./ProfileAvatar";
 import ProfileEditor from "./ProfileEditor";
 import DifficultyPicker, {type GameDifficulty} from './DifficultyPicker';
@@ -20,7 +21,7 @@ export default function GameLobby() {
   const [details, setDetails] = useState<PlayerDetails | null>(null);
   const [room, setRoom] = useState<RoomState | null>(null);
   const [mode, setMode] = useState<"login" | "signup" | "reset" | "recovery">("login");
-  const [tab, setTab] = useState<"play" | "rivals" | "leaderboard" | "history" | "profile">("play");
+  const [tab, setTab] = useState<"play" | "rivals" | "leaderboard" | "history" | "profile" | "groups">("play");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [username, setUsername] = useState("");
@@ -55,6 +56,7 @@ export default function GameLobby() {
     });
     const invite = new URLSearchParams(location.search).get("room");
     if (invite) { setCode(invite.toUpperCase()); setJoining(true); }
+    if(new URLSearchParams(location.search).has('group'))setTab('groups');
     return () => { active = false; listener.subscription.unsubscribe(); };
   }, []);
 
@@ -113,7 +115,7 @@ export default function GameLobby() {
   }
   if(room&&user) {
     const Duel=room.careerMatch?CareerDuel:AnagramDuel;
-    return (room.gameKind==='anagram'||room.gameKind==='career')?<Duel key={room.code} initial={room} onExit={exitRoom} onNext={next=>{setRoom(next);history.replaceState(null,'','/oyna?room='+next.code);}}/>:<RankedDuel key={room.code} initial={room} onExit={exitRoom}/>;
+    return (room.gameKind==='anagram'||room.gameKind==='career')?<Duel key={room.code} initial={room} onExit={exitRoom} onNext={next=>{setRoom(next);history.replaceState(null,'','/oyna?room='+next.code);}}/>:<RankedDuel key={room.code} initial={room} onExit={exitRoom} onNext={next=>{setRoom(next);history.replaceState(null,'','/oyna?room='+next.code);}}/>;
   }
 
   return <div className="space-y-5">
@@ -145,8 +147,9 @@ export default function GameLobby() {
         <p className="text-xs text-zinc-400">{level===10 ? "En yüksek seviyedesin!" : `Seviye ${level+1} için ${levelWins[level]-profile.wins} galibiyet daha.`}</p>
       </section>
       <nav aria-label="Oyuncu menüsü" className="flex gap-2 overflow-x-auto pb-1">
-        {([['play','Oyna'],['rivals','Arkadaş rekabeti'],['leaderboard','Sıralama'],['history','Geçmiş'],['profile','Profilim']] as const).map(([id,label]) => <button key={id} aria-pressed={tab===id} onClick={() => { setTab(id); void refresh(); }} className={`flex-1 shrink-0 whitespace-nowrap rounded-lg px-3 py-3 text-sm ${tab===id ? 'bg-neon-green text-black font-bold' : 'bg-pitch-dark text-zinc-400'}`}>{label}</button>)}
+        {([['play','Oyna'],['rivals','Arkadaş rekabeti'],['groups','Arkadaş ligi'],['leaderboard','Sıralama'],['history','Geçmiş'],['profile','Profilim']] as const).map(([id,label]) => <button key={id} aria-pressed={tab===id} onClick={() => { setTab(id); void refresh(); }} className={`flex-1 shrink-0 whitespace-nowrap rounded-lg px-3 py-3 text-sm ${tab===id ? 'bg-neon-green text-black font-bold' : 'bg-pitch-dark text-zinc-400'}`}>{label}</button>)}
       </nav>
+      {tab==='groups'&&<FriendGroups userId={user.id}/>}
       {tab==='profile' && (details ? <ProfileEditor key={user.id} details={details} email={user.email} onSaved={(saved) => { setDetails(saved); setDashboard((previous) => previous && ({ ...previous, profile: previous.profile && { ...previous.profile, username: saved.username } })); void refresh(); }} /> : <section className="card-glow p-5"><p className="text-zinc-400">Profil bilgileri henüz yüklenemedi.</p><button className={`${button} mt-3`} onClick={() => void refresh()}>Tekrar dene</button></section>)}
       {tab==='play' && <section className="card-glow p-6 space-y-5">
         <h2 className="text-xl font-bold">Hangi oyunu oynayalım?</h2>

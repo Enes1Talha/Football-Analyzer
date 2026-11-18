@@ -1,0 +1,31 @@
+"use client";
+import {useEffect,useRef,useState} from 'react';
+import {supabase} from '@/lib/supabase';
+type Kind='daily'|'clubs'|'anagram'|'career';
+interface Group {code:string;name:string}
+interface Board {groups:Group[];code:string;name:string;weekStart:string;weekEnd:string;board:{id:string;username:string;rank:number;points:number;played:number;wins:number;losses:number}[]}
+const button='rounded-lg bg-neon-green px-4 py-3 font-bold text-black disabled:opacity-40';
+const input='w-full rounded-lg border border-pitch-border bg-pitch-dark p-3';
+export default function FriendGroups({userId}:{userId:string}){
+ const [groups,setGroups]=useState<Group[]>([]),[code,setCode]=useState(''),[invite,setInvite]=useState(''),[name,setName]=useState(''),[kind,setKind]=useState<Kind>('daily'),[previous,setPrevious]=useState(false),[board,setBoard]=useState<Board|null>(null),[error,setError]=useState(''),[notice,setNotice]=useState(''),[busy,setBusy]=useState(false);
+ const request=useRef(0);
+ useEffect(()=>{const shared=new URLSearchParams(location.search).get('group');if(shared)setInvite(shared.toUpperCase());let active=true;
+  void supabase.rpc('game_group').then(({data,error})=>{if(!active)return;if(error)setError(error.message);else{setGroups(data.groups);if(data.groups.length)setCode(data.groups[0].code);}});return()=>{active=false;};},[]);
+ useEffect(()=>{if(!code){setBoard(null);return;}let active=true;
+  async function refresh(){const id=++request.current;const result=await supabase.rpc('game_group',{p_action:'board',p_code:code,p_kind:kind,p_previous:previous});if(!active||id!==request.current)return;if(result.error)setError(result.error.message);else{setBoard(result.data);setGroups(result.data.groups);setError('');}}
+  setBoard(null);void refresh();const timer=setInterval(()=>{if(document.visibilityState==='visible')void refresh();},30000);
+  return()=>{active=false;clearInterval(timer);};
+ },[code,kind,previous]);
+ async function act(action:'create'|'join'){setBusy(true);setError('');try{const result=await supabase.rpc('game_group',{p_action:action,p_code:invite,p_value:name,p_kind:kind,p_previous:previous});if(result.error)throw result.error;setGroups(result.data.groups);setCode(result.data.code);setBoard(result.data);setName('');setInvite('');}catch(e){setError((e as Error).message);}finally{setBusy(false);}}
+ return <section className="card-glow p-5 space-y-5">
+  <div><h2 className="text-xl font-bold">Arkadaş ligi</h2><p className="mt-2 text-sm text-zinc-400">Grubunu kur, kodu arkadaşlarına gönder. Her pazartesi yeni hafta başlar; geçen haftanın tablosu da burada kalır.</p></div>
+  <div className="grid sm:grid-cols-2 gap-4"><form className="space-y-2" onSubmit={e=>{e.preventDefault();void act('create');}}><label htmlFor="group-name" className="text-sm">Yeni grup</label><input id="group-name" className={input} minLength={3} maxLength={32} required value={name} onChange={e=>setName(e.target.value)} placeholder="Örn. Halı Saha Ekibi"/><button className={button} disabled={busy}>Grup kur</button></form><form className="space-y-2" onSubmit={e=>{e.preventDefault();void act('join');}}><label htmlFor="group-invite" className="text-sm">Grup koduyla katıl</label><input id="group-invite" className={`${input} uppercase`} maxLength={8} pattern="[A-Za-z0-9]{8}" required value={invite} onChange={e=>setInvite(e.target.value.toUpperCase())} placeholder="8 karakterlik kod"/><button className={button} disabled={busy}>Gruba katıl</button></form></div>
+  {!!groups.length&&<><label htmlFor="selected-group" className="block text-sm">Grubun</label><select id="selected-group" className={input} value={code} onChange={e=>setCode(e.target.value)}>{groups.map(g=><option key={g.code} value={g.code}>{g.name}</option>)}</select><div className="flex flex-wrap gap-3 items-center"><span className="font-mono text-neon-cyan">Grup kodu: {code}</span><button className="text-sm text-neon-cyan" onClick={async()=>{try{await navigator.clipboard.writeText(`${location.origin}/oyna?group=${code}`);setNotice('Davet bağlantısı kopyalandı.');}catch{setNotice('Kodu ekrandan kopyalayabilirsin.');}}}>Davet bağlantısını kopyala</button></div>
+   <div className="flex flex-wrap gap-2">{([['daily','Günlük mücadele'],['clubs','3-2-1'],['anagram','Karışık Harfler'],['career','Kariyer Rotası']] as const).map(([id,label])=><button key={id} aria-pressed={kind===id} onClick={()=>setKind(id)} className={`rounded-lg px-3 py-2 text-sm ${kind===id?'bg-neon-green text-black':'bg-pitch-dark text-zinc-400'}`}>{label}</button>)}</div>
+   <div className="flex gap-4 text-sm"><button aria-pressed={!previous} className={!previous?'text-neon-cyan':'text-zinc-400'} onClick={()=>setPrevious(false)}>Bu hafta</button><button aria-pressed={previous} className={previous?'text-neon-cyan':'text-zinc-400'} onClick={()=>setPrevious(true)}>Geçen hafta</button></div>
+   {board?<><p className="text-xs text-zinc-400">{board.weekStart} – {board.weekEnd} · Türkiye saati · 30 saniyede yenilenir</p><div className="overflow-x-auto"><table className="w-full text-sm text-left"><thead className="text-zinc-500"><tr>{['#','Oyuncu',kind==='daily'?'Doğru / Gün':'G / M','Puan'].map(h=><th key={h} className="py-3 pr-3">{h}</th>)}</tr></thead><tbody>{board.board.map(p=><tr key={p.id} className={`border-t border-pitch-border ${p.id===userId?'text-neon-green':''}`}><td className="py-3 pr-3">{p.rank}</td><td className="pr-3">@{p.username}</td><td className="pr-3 whitespace-nowrap">{p.wins} / {kind==='daily'?p.played:p.losses}</td><td>{p.points}</td></tr>)}</tbody></table></div></>:<p className="text-sm text-zinc-400">Tablo yükleniyor…</p>}
+   <p className="text-xs text-zinc-500">{kind==='daily'?'Gruba katıldıktan sonra tamamladığın günlük mücadeleler sayılır. Günde bir sonuç: doğru 100, yanlış 0 puan.':'İkinizin de gruba katılmasından sonra açılan ve tamamlanan maçlar sayılır. Galibiyet 3 puan. Aynı rakiple bu oyunda günün ilk 5 maçı haftalık tabloya girer; fazlası genel geçmişte kalır. Kariyer turları değil, maç sonucu sayılır.'} Eşit sonuçlar aynı sırayı paylaşır. En fazla 5 grup, grup başına 50 kişi.</p>
+  </>}
+  {notice&&<p role="status" className="text-sm text-neon-cyan">{notice}</p>}{error&&<p role="alert" className="text-sm text-neon-yellow">{error}</p>}
+ </section>;
+}
