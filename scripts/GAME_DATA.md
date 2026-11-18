@@ -1,5 +1,9 @@
 # Game data workflow
 
+## Career player selection (2026-11-18)
+
+Solo and current multiplayer career matches now use the full shared player search catalog, starting at two characters. Choosing a result submits that player's stable ID immediately, as in 3-2-1. Suggestions are not filtered by the secret career or by the career-only pool. Solo compares IDs; migration `202611180005_career_player_selection.sql` adds `career_pick`, validates catalog membership and room membership, then delegates to the existing locked/timed round logic with a server-derived answer. Client names and points are ignored. Legacy free-text RPC behavior remains for already-open older clients; the previous ambiguous Emre alias stays removed. Tests cover search coverage, wrong IDs with forged correct text, invalid IDs, stale rounds, early and duplicate submissions.
+
 ## Career answer specificity (2026-11-18)
 
 Migration `202611180004_career_emre_answer.sql` removes the ambiguous standalone `Emre` answer from the career catalog and active room snapshots. Full `Emre Belözoğlu` and surname `Belözoğlu` remain valid, including their accent-free normalized forms. Search aliases in the broader player catalog are unchanged. Preparation filters the ambiguous alias so it cannot be reintroduced by that importer. Completed results and earned scores are preserved.

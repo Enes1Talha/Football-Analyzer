@@ -201,6 +201,7 @@ console.log('PASS: career shared clues, countdown secrecy, reveal progression, e
 await db.exec(readFileSync(new URL('202611180001_career_match_scoring.sql',migrations),'utf8'));
 await db.exec(readFileSync(new URL('202611180002_career_fixed_point_steps.sql',migrations),'utf8'));
 await db.exec(readFileSync(new URL('202611180003_career_zero_point_reveal.sql',migrations),'utf8'));
+await db.exec(readFileSync(new URL('202611180005_career_player_selection.sql',migrations),'utf8'));
 for(let total=3;total<=15;total++) {
  let previous=101;
  for(let revealed=2;revealed<=total;revealed++) {
@@ -271,4 +272,19 @@ await as(1);const fullEmre=await rpc('career_answer',emreRoom.code,JSON.stringif
 assert.equal(fullEmre.roundDone,true);assert.equal(fullEmre.myScore,100);
 await db.exec('reset role');
 console.log('PASS: ambiguous Emre rejected in career RPC; full name accepted without Turkish accents.');
+await nextCareerRound(emreRoom.code);
+await db.exec('reset role');
+await db.query("update public.game_rooms set career_data=(select data from public.game_careers where id='emre'),solution='Emre Belözoğlu',starts_at=clock_timestamp()+interval '3 seconds' where code=$1",[emreRoom.code]);
+await as(0);await assert.rejects(rpc('career_pick',emreRoom.code,JSON.stringify({round,playerId:'emre'})),/Geri sayım/);
+await start(emreRoom.code);
+await as(2);await assert.rejects(rpc('career_pick',emreRoom.code,JSON.stringify({round,playerId:'emre'})),/sana ait/);
+await as(0);await assert.rejects(db.query("select public.game_room_before_pick('state',$1,'')",[emreRoom.code]),/permission denied/);
+await assert.rejects(rpc('career_pick',emreRoom.code,JSON.stringify({round,playerId:'invented-player'})),/Listeden/);
+await assert.rejects(rpc('career_pick',emreRoom.code,JSON.stringify({round:round-1,playerId:'emre'})),/önceki tura/);
+const beforePick=(await rpc('state',emreRoom.code)).myScore;
+assert.equal((await rpc('career_pick',emreRoom.code,JSON.stringify({round,playerId:'sneijder',answer:'Emre Belözoğlu',points:1000}))).incorrect,true);
+assert.equal((await rpc('state',emreRoom.code)).myScore,beforePick);
+await as(1);const picked=await rpc('career_pick',emreRoom.code,JSON.stringify({round,playerId:'emre'}));assert.equal(picked.roundDone,true);assert.equal(picked.lastRoundPoints,100);
+assert.equal((await rpc('career_pick',emreRoom.code,JSON.stringify({round,playerId:'emre'}))).myScore,picked.myScore);
+console.log('PASS: selected player identity, invalid/forged choices, countdown, stale rounds, membership and duplicate pick protection.');
 await db.close();

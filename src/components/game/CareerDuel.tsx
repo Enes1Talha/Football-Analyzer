@@ -2,12 +2,12 @@
 import {useEffect,useRef,useState} from 'react';
 import {roomAction,type RoomState} from '@/lib/game';
 import CareerRoute from './CareerRoute';
+import CareerPlayerPicker from './CareerPlayerPicker';
 const primary='rounded-lg bg-neon-green px-5 py-3 font-bold text-black disabled:opacity-40';
 export default function CareerDuel({initial,onExit,onNext}:{initial:RoomState;onExit:()=>void;onNext:(room:RoomState)=>void}) {
- const [state,setState]=useState(initial),[answer,setAnswer]=useState(''),[error,setError]=useState(''),[busy,setBusy]=useState(false),[leave,setLeave]=useState(false);
+ const [state,setState]=useState(initial),[error,setError]=useState(''),[busy,setBusy]=useState(false),[leave,setLeave]=useState(false);
  const [now,setNow]=useState(initial.serverMs||Date.now());
  const anchor=useRef({server:initial.serverMs||Date.now(),local:performance.now()}),latest=useRef(initial.serverMs||0);
- const field=useRef<HTMLInputElement>(null);
  const finished=state.status==='finished'||state.status==='void';
  const waiting=state.status==='waiting'||!!state.roundDone;
  const open=!finished&&!waiting&&!!state.career?.length;
@@ -22,8 +22,7 @@ export default function CareerDuel({initial,onExit,onNext}:{initial:RoomState;on
   void poll();const clock=setInterval(()=>setNow(anchor.current.server+performance.now()-anchor.current.local),100);
   return()=>{active=false;clearTimeout(timer);clearInterval(clock);};
  },[initial.code,finished]);
- useEffect(()=>{setAnswer('');setError('');},[state.round]);
- useEffect(()=>{if(open)field.current?.focus();},[open]);
+ useEffect(()=>{setError('');},[state.round]);
  async function act(action:string,value=''){
   setBusy(true);setError('');try{const next=await roomAction(action,state.code,value);if(action==='rematch'){onNext(next);return;}accept(next);if(next.incorrect)setError('Bu oyuncu değil. Tekrar dene.');}
   catch(e){setError((e as Error).message);}finally{setBusy(false);}
@@ -38,7 +37,7 @@ export default function CareerDuel({initial,onExit,onNext}:{initial:RoomState;on
    <div className="flex justify-between items-center gap-3"><p className="text-neon-green font-bold">{state.roundPoints===0?'Puan kalmadı · Oyuncuyu bulmaya devam et':`Şimdi bilirsen +${state.roundPoints} puan`}</p><span role="timer" className="font-mono text-neon-cyan shrink-0">{seconds} sn</span></div>
    <CareerRoute stages={state.career||[]} total={state.totalClues||0}/>
    <p className="text-xs text-zinc-400">{state.nextClueAt?`Sonraki kulüp ${Math.max(0,Math.ceil((state.nextClueAt-now)/1000))} saniye sonra açılır.${state.career?.length===(state.totalClues||0)-1?' Son kulüp açılınca puan sıfırlanır.':''}`:'Tüm kulüpler açık · Bu tur artık 0 puan.'}</p>
-   <form className="flex flex-col sm:flex-row gap-3" onSubmit={e=>{e.preventDefault();void act('career_answer',JSON.stringify({round:state.round,answer}));}}><label htmlFor="career-duel-answer" className="sr-only">Cevabın</label><input ref={field} id="career-duel-answer" value={answer} maxLength={80} autoComplete="off" autoCorrect="off" spellCheck={false} onChange={e=>setAnswer(e.target.value)} className="min-w-0 flex-1 rounded-lg border border-pitch-border bg-pitch-dark p-3" placeholder="Futbolcunun adını yaz" disabled={seconds===0}/><button className={primary} disabled={busy||!answer.trim()||seconds===0}>Cevapla</button></form>
+   <CareerPlayerPicker key={state.round} id="career-duel-answer" disabled={busy||seconds===0} onSelect={playerId=>void act('career_pick',JSON.stringify({round:state.round,playerId}))}/>
   </>}
   {(state.roundDone||finished)&&<div className="space-y-4" aria-live="polite">
    <h3 className="text-2xl font-bold text-neon-green">{finished?(state.status==='void'?'Maç puansız kapandı':state.won?'Maçı kazandın!':'Rakibin maçı kazandı'):state.lastRoundPoints?`${state.roundWon?'Sen':'Rakibin'} +${state.lastRoundPoints} puan`:'Tur bitti · 0 puan'}</h3>

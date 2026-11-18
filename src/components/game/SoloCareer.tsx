@@ -1,7 +1,8 @@
 "use client";
 import {useEffect,useRef,useState} from 'react';
-import {careerCorrect,careerPoints,pickCareer,type CareerTrail} from '@/lib/career';
+import {careerPoints,pickCareer,type CareerTrail} from '@/lib/career';
 import CareerRoute from './CareerRoute';
+import CareerPlayerPicker from './CareerPlayerPicker';
 const primary='rounded-lg bg-neon-green px-5 py-3 font-bold text-black disabled:opacity-40';
 const secondary='rounded-lg border border-pitch-border px-4 py-3 text-sm text-zinc-300';
 const initial={played:0,correct:0,streak:0,bestStreak:0,bestClues:0,points:0};
@@ -9,13 +10,12 @@ export default function SoloCareer({onBack,onActive}:{onBack:()=>void;onActive:(
  const [trail,setTrail]=useState<CareerTrail|null>(null);
  const [phase,setPhase]=useState<'setup'|'countdown'|'playing'|'result'>('setup');
  const [revealed,setRevealed]=useState(2),[countdown,setCountdown]=useState(3);
- const [answer,setAnswer]=useState(''),[feedback,setFeedback]=useState(''),[won,setWon]=useState(false);
+ const [feedback,setFeedback]=useState(''),[won,setWon]=useState(false);
  const [stats,setStats]=useState(initial),[warning,setWarning]=useState(''),[confirm,setConfirm]=useState(false);
- const finished=useRef(true),readyAt=useRef(0),field=useRef<HTMLInputElement>(null);
+ const finished=useRef(true),readyAt=useRef(0);
  useEffect(()=>{try{const saved=JSON.parse(localStorage.getItem('football-solo-career-v1')||'null');const value=saved?{...initial,...saved}:null;if(value&&Object.keys(initial).every(key=>Number.isSafeInteger(value[key])&&value[key]>=0))setStats(value);}catch{setWarning('Rekorlar bu tarayıcıda kaydedilemiyor.');}},[]);
  useEffect(()=>{if(phase!=='countdown')return;const tick=()=>{const left=Math.ceil((readyAt.current-performance.now())/1000);setCountdown(Math.max(0,left));if(left<=0)setPhase('playing');};const timer=setInterval(tick,50);tick();return()=>clearInterval(timer);},[phase]);
- useEffect(()=>{if(phase==='playing')field.current?.focus();},[phase]);
- function begin(){setTrail(pickCareer(trail?.id));setAnswer('');setFeedback('');setRevealed(2);setConfirm(false);setWon(false);finished.current=false;readyAt.current=performance.now()+3000;setCountdown(3);setPhase('countdown');onActive(true);}
+ function begin(){setTrail(pickCareer(trail?.id));setFeedback('');setRevealed(2);setConfirm(false);setWon(false);finished.current=false;readyAt.current=performance.now()+3000;setCountdown(3);setPhase('countdown');onActive(true);}
  function finish(success:boolean){
   if(finished.current)return;finished.current=true;
   const streak=success?stats.streak+1:0;
@@ -34,10 +34,7 @@ export default function SoloCareer({onBack,onActive}:{onBack:()=>void;onActive:(
    <CareerRoute stages={phase==='result'?trail.stages:trail.stages.slice(0,revealed)} total={trail.stages.length}/>
    {phase==='playing'?<>
     <p className="font-bold text-neon-green">{careerPoints(trail.stages.length,revealed)===0?'Puan kalmadı · Oyuncuyu bulmaya devam et':`Şimdi bilirsen +${careerPoints(trail.stages.length,revealed)} puan`}</p>
-    <form className="space-y-3" onSubmit={e=>{e.preventDefault();if(finished.current)return;if(careerCorrect(trail,answer))finish(true);else setFeedback('Bu oyuncu değil. Tekrar dene veya bir ipucu aç.');}}>
-     <label htmlFor="career-solo-answer" className="block text-sm">Bu futbolcu kim?</label><input ref={field} id="career-solo-answer" autoComplete="off" autoCorrect="off" spellCheck={false} maxLength={80} value={answer} onChange={e=>{setAnswer(e.target.value);setFeedback('');}} className="w-full rounded-lg border border-pitch-border bg-pitch-dark p-3 focus:ring-1 focus:ring-neon-green focus:outline-none"/>
-     <button disabled={!answer.trim()} className={primary}>Cevapla</button>
-    </form>
+    <CareerPlayerPicker key={trail.id} id="career-solo-answer" onSelect={playerId=>{if(finished.current)return;if(playerId===trail.id)finish(true);else setFeedback('Bu oyuncu değil. Tekrar seç veya bir ipucu aç.');}}/>
     <div className="flex flex-wrap gap-3"><button disabled={revealed>=trail.stages.length} className={`${secondary} disabled:opacity-40`} onClick={()=>setRevealed(n=>Math.min(n+1,trail.stages.length))}>{revealed>=trail.stages.length?'Tüm kulüpler açık':revealed===trail.stages.length-1?'Tüm rotayı aç · 0 puan':careerPoints(trail.stages.length,revealed)===0?'Sonraki kulübü aç · 0 puan':`Sonraki kulübü aç · ${careerPoints(trail.stages.length,revealed+1)} puana düşer`}</button><button className={secondary} onClick={()=>finish(false)}>Pas geç · Cevabı gör</button></div>
    </>:<div className="space-y-3"><p className="text-neon-cyan">{won?`Doğru cevap! +${careerPoints(trail.stages.length,revealed)} puan`:'Pas · 0 puan'}</p><h3 className="text-2xl font-bold">{trail.playerName}</h3><p className="text-xs text-zinc-500">{trail.note} <a href={trail.source} target="_blank" rel="noreferrer" className="underline">Kariyer kaynağı</a></p><button onClick={begin} className={`${primary} w-full`}>Sonraki oyuncu</button></div>}
   </>}
