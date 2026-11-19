@@ -1,0 +1,253 @@
+[
+  {
+    "id": "research-luis-enrique-batch4",
+    "name": "Luis Enrique",
+    "aliases": [
+      "Luis Enrique Martínez"
+    ],
+    "clubs": [
+      "Real Madrid",
+      "Barcelona"
+    ],
+    "source": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/"
+  },
+  {
+    "id": "research-jesus-navas-batch4",
+    "name": "Jesús Navas",
+    "aliases": [
+      "Jesus Navas"
+    ],
+    "clubs": [
+      "Sevilla",
+      "Manchester City"
+    ],
+    "source": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/"
+  },
+  {
+    "id": "research-david-villa-batch4",
+    "name": "David Villa",
+    "aliases": [
+      "Villa"
+    ],
+    "clubs": [
+      "Valencia",
+      "Barcelona",
+      "Atlético Madrid"
+    ],
+    "source": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/"
+  },
+  {
+    "id": "research-michael-reiziger-batch4",
+    "name": "Michael Reiziger",
+    "aliases": [
+      "Reiziger"
+    ],
+    "clubs": [
+      "Ajax",
+      "AC Milan",
+      "Barcelona"
+    ],
+    "source": "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/"
+  },
+  {
+    "id": "research-roy-makaay-batch4",
+    "name": "Roy Makaay",
+    "aliases": [
+      "Makaay"
+    ],
+    "clubs": [
+      "Bayern Munich",
+      "Feyenoord"
+    ],
+    "source": "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/"
+  },
+  {
+    "id": "research-giovane-elber-batch4",
+    "name": "Giovane Elber",
+    "aliases": [
+      "Elber"
+    ],
+    "clubs": [
+      "Bayern Munich",
+      "Lyon"
+    ],
+    "source": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/"
+  },
+  {
+    "id": "research-raphael-guerreiro-batch4",
+    "name": "Raphaël Guerreiro",
+    "aliases": [
+      "Raphael Guerreiro"
+    ],
+    "clubs": [
+      "Borussia Dortmund",
+      "Bayern Munich"
+    ],
+    "source": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/"
+  },
+  {
+    "id": "research-vitinha-batch4",
+    "name": "Vitinha",
+    "aliases": [
+      "Vítor Ferreira"
+    ],
+    "clubs": [
+      "Porto",
+      "Paris Saint-Germain"
+    ],
+    "source": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/"
+  },
+  {
+    "id": "research-rui-patricio-batch4",
+    "name": "Rui Patrício",
+    "aliases": [
+      "Rui Patricio"
+    ],
+    "clubs": [
+      "Sporting CP",
+      "Roma"
+    ],
+    "source": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/"
+  },
+  {
+    "id": "research-marco-simone-batch4",
+    "name": "Marco Simone",
+    "aliases": [
+      "Simone"
+    ],
+    "clubs": [
+      "AC Milan",
+      "Paris Saint-Germain"
+    ],
+    "source": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/"
+  },
+  {
+    "id": "research-alessandro-altobelli-batch4",
+    "name": "Alessandro Altobelli",
+    "aliases": [
+      "Spillo Altobelli"
+    ],
+    "clubs": [
+      "Inter",
+      "Juventus"
+    ],
+    "source": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/"
+  },
+  {
+    "id": "research-karl-heinz-rummenigge-batch4",
+    "name": "Karl-Heinz Rummenigge",
+    "aliases": [
+      "Rummenigge"
+    ],
+    "clubs": [
+      "Bayern Munich",
+      "Inter"
+    ],
+    "source": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/"
+  },
+  {
+    "id": "research-marcus-rashford-batch4",
+    "name": "Marcus Rashford",
+    "aliases": [
+      "Rashford"
+    ],
+    "clubs": [
+      "Manchester United",
+      "Barcelona"
+    ],
+    "source": "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/"
+  },
+  {
+    "id": "research-samuel-kuffour-batch4",
+    "name": "Samuel Kuffour",
+    "aliases": [
+      "Kuffour"
+    ],
+    "clubs": [
+      "Bayern Munich",
+      "Roma"
+    ],
+    "source": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/"
+  },
+  {
+    "id": "research-benni-mccarthy-batch4",
+    "name": "Benni McCarthy",
+    "aliases": [
+      "McCarthy"
+    ],
+    "clubs": [
+      "Ajax",
+      "Porto"
+    ],
+    "source": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/"
+  },
+  {
+    "id": "research-frederic-kanoute-batch4",
+    "name": "Frédéric Kanouté",
+    "aliases": [
+      "Kanoute"
+    ],
+    "clubs": [
+      "Lyon",
+      "Sevilla"
+    ],
+    "source": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/"
+  },
+  {
+    "id": "research-emmanuel-adebayor-batch4",
+    "name": "Emmanuel Adebayor",
+    "aliases": [
+      "Adebayor"
+    ],
+    "clubs": [
+      "Arsenal",
+      "Manchester City",
+      "Real Madrid"
+    ],
+    "source": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/"
+  },
+  {
+    "id": "wd-Q1354960",
+    "name": "Muhammed Salah",
+    "aliases": [
+      "Mohamed Salah",
+      "Mohamed Salah Hamed Mahrous Ghaly",
+      "Mo Salah",
+      "Muhammed Salah Hamid Mahrus Gali"
+    ],
+    "clubs": [
+      "Chelsea",
+      "Liverpool",
+      "Roma",
+      "Trabzonspor"
+    ],
+    "source": "https://www.tff.org/Resources/Tamsaha/262/66-67/"
+  },
+  {
+    "id": "research-nihat-kahveci-career4",
+    "name": "Nihat Kahveci",
+    "aliases": [
+      "Nihat Kahveci"
+    ],
+    "clubs": [],
+    "source": "https://en.wikipedia.org/wiki/Nihat_Kahveci"
+  },
+  {
+    "id": "research-tuncay-sanli-career4",
+    "name": "Tuncay Şanlı",
+    "aliases": [
+      "Tuncay Şanlı"
+    ],
+    "clubs": [],
+    "source": "https://en.wikipedia.org/wiki/Tuncay_%C5%9Eanl%C4%B1"
+  },
+  {
+    "id": "research-alex-de-souza-career4",
+    "name": "Alex de Souza",
+    "aliases": [
+      "Alex de Souza"
+    ],
+    "clubs": [],
+    "source": "https://en.wikipedia.org/wiki/Alex_(footballer,_born_1977)"
+  }
+]

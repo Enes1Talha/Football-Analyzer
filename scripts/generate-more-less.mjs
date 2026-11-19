@@ -1,5 +1,6 @@
-import {readFileSync,writeFileSync} from 'node:fs';
+import {readFileSync,writeFileSync,existsSync} from 'node:fs';
 const root=new URL('../',import.meta.url);
+if(existsSync(new URL('supabase/migrations/202611190001_research_expansion_anagrams.sql',root))) throw new Error('Initial seed generator is frozen; use an additive migration for expanded questions.');
 const data=JSON.parse(readFileSync(new URL('scripts/more-less-approved.json',root),'utf8'));
 const rows=data.questions.map(q=>({id:q.id,prompt:q.prompt,playerA:data.players.find(p=>p.id===q.playerAId).name,playerB:data.players.find(p=>p.id===q.playerBId).name,valueA:q.valueA,valueB:q.valueB,correctAnswer:q.correctAnswer,unit:q.unit,period:q.scope.season??q.scope.edition,source:q.review.sourceUrl}));
 writeFileSync(new URL('src/lib/more-less-questions.json',root),JSON.stringify(rows,null,2)+'\n');

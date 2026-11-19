@@ -16,7 +16,7 @@ grant usage on schema auth to authenticated,anon;
 grant execute on function auth.uid() to authenticated,anon;`);
 const migrations = new URL('../supabase/migrations/', import.meta.url);
 for (const file of readdirSync(migrations).filter((name) => name.endsWith('.sql')).sort()) {
-  if(file.startsWith('20261118')) continue; // Exercise legacy rooms before upgrading in place below.
+  if(file.slice(0,8)>='20261118') continue; // Exercise legacy rooms before upgrading in place below.
   await db.exec(readFileSync(new URL(file, migrations), 'utf8'));
 }
 for (const role of ['anon','authenticated']) {
@@ -34,10 +34,13 @@ assert.ok(answersFor(['Beşiktaş','Feyenoord']).some(p=>p.name==='Orkun Kökç�
 assert.ok(answersFor(['Fenerbahçe','Juventus']).some(p=>p.id==='wd-Q109428'));
 assert.ok(!answersFor(['Galatasaray','Inter']).some(p=>p.name==='Caner Erkin'));
 assert.ok(players.find(p=>p.name==='Fernando Muslera').clubs.length===1);
+const expansionPlayers=JSON.parse(readFileSync(new URL('../football-analyzer-mobile/game/batch-four-players.json',import.meta.url),'utf8'));
+const expansionIds=new Set(expansionPlayers.filter(p=>p.id!=='wd-Q1354960').map(p=>p.id));
+const expansionWords=new Set(JSON.parse(readFileSync(new URL('./research-20261119/anagram_batch_next.json',import.meta.url),'utf8')).accepted.map(w=>w.normalizedAnswer));
 const practiceWords=JSON.parse(readFileSync(new URL('../src/lib/solo-anagrams.json',import.meta.url),'utf8'));
 assert.deepEqual((await db.query('select word,player_name,difficulty from public.game_anagrams order by word')).rows,
- practiceWords.map(({word,playerName,difficulty})=>({word,player_name:playerName,difficulty})).sort((a,b)=>a.word<b.word?-1:a.word>b.word?1:0));
-assert.deepEqual(catalog.rows, players.map(({id,name,clubs}) => ({id,name,clubs:[...clubs]})).sort((a,b) => a.id.localeCompare(b.id)));
+ practiceWords.filter(w=>!expansionWords.has(w.word)).map(({word,playerName,difficulty})=>({word,player_name:playerName,difficulty})).sort((a,b)=>a.word<b.word?-1:a.word>b.word?1:0));
+assert.deepEqual(catalog.rows, players.filter(p=>!expansionIds.has(p.id)).map(({id,name,clubs}) => ({id,name,clubs:clubs.filter(c=>id!=='wd-Q1354960'||c!=='Trabzonspor')})).sort((a,b) => a.id.localeCompare(b.id)));
 assert.equal(new Set(players.map(p => p.id)).size, players.length);
 for (const pair of pairs) assert.ok(answersFor(pair).length > 0);
 assert.equal(normalizeName('BEŞİKTAŞ'), normalizeName('besiktas'));
@@ -196,7 +199,7 @@ await as(0);const careerExpired=await rpc('answer',careerNext.code,'x');assert.e
 await db.exec('reset role');
 const careerFixture=JSON.parse(readFileSync(new URL('../src/lib/career-trails.json',import.meta.url),'utf8'));
 await db.exec(readFileSync(new URL('202611180004_career_emre_answer.sql',migrations),'utf8'));
-assert.deepEqual((await db.query('select data from public.game_careers order by id')).rows.map(r=>r.data),careerFixture.sort((a,b)=>a.id<b.id?-1:a.id>b.id?1:0));
+assert.deepEqual((await db.query('select data from public.game_careers order by id')).rows.map(r=>r.data),careerFixture.filter(t=>t.reviewedAt!=='2026-11-19').sort((a,b)=>a.id<b.id?-1:a.id>b.id?1:0));
 console.log('PASS: career shared clues, countdown secrecy, reveal progression, early/late answers, single score, rematch isolation and full route reveal.');
 await db.exec(readFileSync(new URL('202611180001_career_match_scoring.sql',migrations),'utf8'));
 await db.exec(readFileSync(new URL('202611180002_career_fixed_point_steps.sql',migrations),'utf8'));
@@ -365,4 +368,15 @@ await as(0);const unopened=await rpc('create_more_less');assert.equal((await rpc
 await db.exec('reset role');await db.exec('set role anon');await assert.rejects(db.query("select public.game_room('create_more_less','','')"),/permission denied/);
 console.log('PASS: more-less hidden answers, simultaneous start, immutable choices, membership, winner/draw/timeout, forfeit, rematch, separate stats and weekly group scores.');
 }
+await db.exec('reset role');
+await db.exec(readFileSync(new URL('202611190001_research_expansion_anagrams.sql',migrations),'utf8'));
+assert.deepEqual((await db.query('select id,name,clubs from public.game_players order by id')).rows,players.map(({id,name,clubs})=>({id,name,clubs:[...clubs]})).sort((a,b)=>a.id.localeCompare(b.id)));
+assert.deepEqual((await db.query('select word,player_name,difficulty from public.game_anagrams order by word')).rows,practiceWords.map(({word,playerName,difficulty})=>({word,player_name:playerName,difficulty})).sort((a,b)=>a.word<b.word?-1:a.word>b.word?1:0));
+assert.deepEqual((await db.query('select data from public.game_careers order by id')).rows.map(r=>r.data),careerFixture.sort((a,b)=>a.id<b.id?-1:a.id>b.id?1:0));
+const comparisonFixture=JSON.parse(readFileSync(new URL('../src/lib/more-less-questions.json',import.meta.url),'utf8'));
+assert.deepEqual((await db.query('select data from public.game_more_less_questions order by id')).rows.map(r=>r.data),comparisonFixture.sort((a,b)=>a.id.localeCompare(b.id)));
+assert.equal(players.length,543);assert.equal(practiceWords.length,264);assert.equal(careerFixture.length,34);assert.equal(comparisonFixture.length,160);
+assert.ok(answersFor(['Liverpool','Trabzonspor']).some(p=>p.id==='wd-Q1354960'));
+for(const route of careerFixture)assert.ok(searchPlayers(route.playerName).some(p=>p.id===route.id));
+console.log('PASS: expanded server/client catalogs match: 543 players, 264 anagrams, 34 career trails, 160 comparison questions; all career identities selectable.');
 await db.close();

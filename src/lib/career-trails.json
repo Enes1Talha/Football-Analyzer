@@ -592,5 +592,1606 @@
     "source": "https://en.wikipedia.org/wiki/Raul_Meireles",
     "sourceType": "secondary",
     "note": "Kaynakta yer alan A takım kulüp dönemleri. Kiralık dönemlerde yıllar örtüşebilir."
+  },
+  {
+    "id": "burak",
+    "playerName": "Burak Yılmaz",
+    "aliases": [
+      "Burak Yılmaz"
+    ],
+    "stages": [
+      {
+        "club": "Antalyaspor",
+        "startYear": 2002,
+        "endYear": 2006,
+        "loan": false
+      },
+      {
+        "club": "Beşiktaş",
+        "startYear": 2006,
+        "endYear": 2008,
+        "loan": false
+      },
+      {
+        "club": "Manisaspor",
+        "startYear": 2008,
+        "endYear": 2008,
+        "loan": false
+      },
+      {
+        "club": "Fenerbahçe",
+        "startYear": 2008,
+        "endYear": 2010,
+        "loan": false
+      },
+      {
+        "club": "Eskişehirspor",
+        "startYear": 2009,
+        "endYear": 2010,
+        "loan": true
+      },
+      {
+        "club": "Trabzonspor",
+        "startYear": 2010,
+        "endYear": 2012,
+        "loan": false
+      },
+      {
+        "club": "Galatasaray",
+        "startYear": 2012,
+        "endYear": 2016,
+        "loan": false
+      },
+      {
+        "club": "Beijing Guoan",
+        "startYear": 2016,
+        "endYear": 2017,
+        "loan": false
+      },
+      {
+        "club": "Trabzonspor",
+        "startYear": 2017,
+        "endYear": 2018,
+        "loan": false
+      },
+      {
+        "club": "Beşiktaş",
+        "startYear": 2018,
+        "endYear": 2020,
+        "loan": false
+      },
+      {
+        "club": "Lille",
+        "startYear": 2020,
+        "endYear": 2022,
+        "loan": false
+      },
+      {
+        "club": "Fortuna Sittard",
+        "startYear": 2022,
+        "endYear": 2023,
+        "loan": false
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Burak_Y%C4%B1lmaz",
+    "sourceType": "secondary",
+    "reviewedAt": "2026-11-19",
+    "note": "19 Kasım 2026 incelemesinde kaynakta yer alan A takım dönemleri. Wikipedia kaynaklıdır; kiralık dönemlerde yıllar örtüşebilir."
+  },
+  {
+    "id": "wd-Q348199",
+    "playerName": "Mehmet Topal",
+    "aliases": [
+      "Mehmet Topal"
+    ],
+    "stages": [
+      {
+        "club": "Dardanelspor",
+        "startYear": 2005,
+        "endYear": 2006,
+        "loan": false
+      },
+      {
+        "club": "Galatasaray",
+        "startYear": 2006,
+        "endYear": 2010,
+        "loan": false
+      },
+      {
+        "club": "Valencia",
+        "startYear": 2010,
+        "endYear": 2012,
+        "loan": false
+      },
+      {
+        "club": "Fenerbahçe",
+        "startYear": 2012,
+        "endYear": 2019,
+        "loan": false
+      },
+      {
+        "club": "İstanbul Başakşehir",
+        "startYear": 2019,
+        "endYear": 2021,
+        "loan": false
+      },
+      {
+        "club": "Beşiktaş",
+        "startYear": 2021,
+        "endYear": 2022,
+        "loan": false
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Mehmet_Topal",
+    "sourceType": "secondary",
+    "reviewedAt": "2026-11-19",
+    "note": "19 Kasım 2026 incelemesinde kaynakta yer alan A takım dönemleri. Wikipedia kaynaklıdır; kiralık dönemlerde yıllar örtüşebilir."
+  },
+  {
+    "id": "research-hamitaltintop-1982-12-08",
+    "playerName": "Hamit Altıntop",
+    "aliases": [
+      "Hamit Altıntop",
+      "Hamit Altintop"
+    ],
+    "stages": [
+      {
+        "club": "Wattenscheid 09",
+        "startYear": 2000,
+        "endYear": 2003,
+        "loan": false
+      },
+      {
+        "club": "Schalke 04",
+        "startYear": 2003,
+        "endYear": 2007,
+        "loan": false
+      },
+      {
+        "club": "Bayern Munich",
+        "startYear": 2007,
+        "endYear": 2011,
+        "loan": false
+      },
+      {
+        "club": "Real Madrid",
+        "startYear": 2011,
+        "endYear": 2012,
+        "loan": false
+      },
+      {
+        "club": "Galatasaray",
+        "startYear": 2012,
+        "endYear": 2017,
+        "loan": false
+      },
+      {
+        "club": "Darmstadt 98",
+        "startYear": 2017,
+        "endYear": 2018,
+        "loan": false
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Hamit_Alt%C4%B1ntop",
+    "sourceType": "secondary",
+    "reviewedAt": "2026-11-19",
+    "note": "19 Kasım 2026 incelemesinde kaynakta yer alan A takım dönemleri. Wikipedia kaynaklıdır; kiralık dönemlerde yıllar örtüşebilir."
+  },
+  {
+    "id": "research-nihat-kahveci-career4",
+    "playerName": "Nihat Kahveci",
+    "aliases": [
+      "Nihat Kahveci"
+    ],
+    "stages": [
+      {
+        "club": "Beşiktaş",
+        "startYear": 1997,
+        "endYear": 2002,
+        "loan": false
+      },
+      {
+        "club": "Real Sociedad",
+        "startYear": 2002,
+        "endYear": 2006,
+        "loan": false
+      },
+      {
+        "club": "Villarreal",
+        "startYear": 2006,
+        "endYear": 2009,
+        "loan": false
+      },
+      {
+        "club": "Beşiktaş",
+        "startYear": 2009,
+        "endYear": 2011,
+        "loan": false
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Nihat_Kahveci",
+    "sourceType": "secondary",
+    "reviewedAt": "2026-11-19",
+    "note": "19 Kasım 2026 incelemesinde kaynakta yer alan A takım dönemleri. Wikipedia kaynaklıdır; kiralık dönemlerde yıllar örtüşebilir."
+  },
+  {
+    "id": "research-tuncay-sanli-career4",
+    "playerName": "Tuncay Şanlı",
+    "aliases": [
+      "Tuncay Şanlı"
+    ],
+    "stages": [
+      {
+        "club": "Sakaryaspor",
+        "startYear": 2000,
+        "endYear": 2002,
+        "loan": false
+      },
+      {
+        "club": "Fenerbahçe",
+        "startYear": 2002,
+        "endYear": 2007,
+        "loan": false
+      },
+      {
+        "club": "Middlesbrough",
+        "startYear": 2007,
+        "endYear": 2009,
+        "loan": false
+      },
+      {
+        "club": "Stoke City",
+        "startYear": 2009,
+        "endYear": 2011,
+        "loan": false
+      },
+      {
+        "club": "VfL Wolfsburg",
+        "startYear": 2011,
+        "endYear": 2012,
+        "loan": false
+      },
+      {
+        "club": "Bolton Wanderers",
+        "startYear": 2011,
+        "endYear": 2012,
+        "loan": true
+      },
+      {
+        "club": "Bursaspor",
+        "startYear": 2012,
+        "endYear": 2014,
+        "loan": false
+      },
+      {
+        "club": "Umm Salal",
+        "startYear": 2014,
+        "endYear": 2015,
+        "loan": false
+      },
+      {
+        "club": "Pune City",
+        "startYear": 2015,
+        "endYear": 2015,
+        "loan": false
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Tuncay_%C5%9Eanl%C4%B1",
+    "sourceType": "secondary",
+    "reviewedAt": "2026-11-19",
+    "note": "19 Kasım 2026 incelemesinde kaynakta yer alan A takım dönemleri. Wikipedia kaynaklıdır; kiralık dönemlerde yıllar örtüşebilir."
+  },
+  {
+    "id": "wd-Q201900",
+    "playerName": "Rüştü Reçber",
+    "aliases": [
+      "Rüştü Reçber"
+    ],
+    "stages": [
+      {
+        "club": "Burdurgücü",
+        "startYear": 1988,
+        "endYear": 1991,
+        "loan": false
+      },
+      {
+        "club": "Antalyaspor",
+        "startYear": 1991,
+        "endYear": 1993,
+        "loan": false
+      },
+      {
+        "club": "Fenerbahçe",
+        "startYear": 1993,
+        "endYear": 2003,
+        "loan": false
+      },
+      {
+        "club": "Antalyaspor",
+        "startYear": 1993,
+        "endYear": 1994,
+        "loan": true
+      },
+      {
+        "club": "Barcelona",
+        "startYear": 2003,
+        "endYear": 2006,
+        "loan": false
+      },
+      {
+        "club": "Fenerbahçe",
+        "startYear": 2004,
+        "endYear": 2006,
+        "loan": true
+      },
+      {
+        "club": "Fenerbahçe",
+        "startYear": 2006,
+        "endYear": 2007,
+        "loan": false
+      },
+      {
+        "club": "Beşiktaş",
+        "startYear": 2007,
+        "endYear": 2012,
+        "loan": false
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/R%C3%BC%C5%9Ft%C3%BC_Re%C3%A7ber",
+    "sourceType": "secondary",
+    "reviewedAt": "2026-11-19",
+    "note": "19 Kasım 2026 incelemesinde kaynakta yer alan A takım dönemleri. Wikipedia kaynaklıdır; kiralık dönemlerde yıllar örtüşebilir."
+  },
+  {
+    "id": "research-alex-de-souza-career4",
+    "playerName": "Alex de Souza",
+    "aliases": [
+      "Alex de Souza"
+    ],
+    "stages": [
+      {
+        "club": "Coritiba",
+        "startYear": 1995,
+        "endYear": 1997,
+        "loan": false
+      },
+      {
+        "club": "Palmeiras",
+        "startYear": 1997,
+        "endYear": 2000,
+        "loan": false
+      },
+      {
+        "club": "Flamengo",
+        "startYear": 2000,
+        "endYear": 2000,
+        "loan": true
+      },
+      {
+        "club": "Palmeiras",
+        "startYear": 2001,
+        "endYear": 2001,
+        "loan": true
+      },
+      {
+        "club": "Cruzeiro",
+        "startYear": 2001,
+        "endYear": 2001,
+        "loan": true
+      },
+      {
+        "club": "Palmeiras",
+        "startYear": 2002,
+        "endYear": 2002,
+        "loan": true
+      },
+      {
+        "club": "Cruzeiro",
+        "startYear": 2002,
+        "endYear": 2004,
+        "loan": false
+      },
+      {
+        "club": "Fenerbahçe",
+        "startYear": 2004,
+        "endYear": 2012,
+        "loan": false
+      },
+      {
+        "club": "Coritiba",
+        "startYear": 2013,
+        "endYear": 2014,
+        "loan": false
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Alex_(footballer,_born_1977)",
+    "sourceType": "secondary",
+    "reviewedAt": "2026-11-19",
+    "note": "19 Kasım 2026 incelemesinde kaynakta yer alan A takım dönemleri. Wikipedia kaynaklıdır; kiralık dönemlerde yıllar örtüşebilir."
+  },
+  {
+    "id": "wd-Q180581",
+    "playerName": "Milan Baroš",
+    "aliases": [
+      "Milan Baroš",
+      "Milan Baros",
+      "Baroş",
+      "Milan Baroş",
+      "Baros",
+      "Baroš"
+    ],
+    "stages": [
+      {
+        "club": "Baník Ostrava",
+        "startYear": 1998,
+        "endYear": 2001,
+        "loan": false
+      },
+      {
+        "club": "Liverpool",
+        "startYear": 2001,
+        "endYear": 2005,
+        "loan": false
+      },
+      {
+        "club": "Aston Villa",
+        "startYear": 2005,
+        "endYear": 2007,
+        "loan": false
+      },
+      {
+        "club": "Lyon",
+        "startYear": 2007,
+        "endYear": 2008,
+        "loan": false
+      },
+      {
+        "club": "Portsmouth",
+        "startYear": 2008,
+        "endYear": 2008,
+        "loan": true
+      },
+      {
+        "club": "Galatasaray",
+        "startYear": 2008,
+        "endYear": 2013,
+        "loan": false
+      },
+      {
+        "club": "Baník Ostrava",
+        "startYear": 2013,
+        "endYear": 2013,
+        "loan": false
+      },
+      {
+        "club": "Antalyaspor",
+        "startYear": 2013,
+        "endYear": 2014,
+        "loan": false
+      },
+      {
+        "club": "Baník Ostrava",
+        "startYear": 2014,
+        "endYear": 2015,
+        "loan": false
+      },
+      {
+        "club": "Mladá Boleslav",
+        "startYear": 2015,
+        "endYear": 2016,
+        "loan": false
+      },
+      {
+        "club": "Slovan Liberec",
+        "startYear": 2016,
+        "endYear": 2017,
+        "loan": false
+      },
+      {
+        "club": "Baník Ostrava",
+        "startYear": 2017,
+        "endYear": 2020,
+        "loan": false
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Milan_Baro%C5%A1",
+    "sourceType": "secondary",
+    "reviewedAt": "2026-11-19",
+    "note": "19 Kasım 2026 incelemesinde kaynakta yer alan A takım dönemleri. Wikipedia kaynaklıdır; kiralık dönemlerde yıllar örtüşebilir."
+  },
+  {
+    "id": "wd-Q312659",
+    "playerName": "Pierre van Hooijdonk",
+    "aliases": [
+      "Pierre van Hooijdonk",
+      "Hooijdonk",
+      "Petrus Ferdinandus Johannes Pierre Paulus Wielaartus van Hooijdonk"
+    ],
+    "stages": [
+      {
+        "club": "RBC Roosendaal",
+        "startYear": 1989,
+        "endYear": 1991,
+        "loan": false
+      },
+      {
+        "club": "NAC Breda",
+        "startYear": 1991,
+        "endYear": 1995,
+        "loan": false
+      },
+      {
+        "club": "Celtic",
+        "startYear": 1995,
+        "endYear": 1997,
+        "loan": false
+      },
+      {
+        "club": "Nottingham Forest",
+        "startYear": 1997,
+        "endYear": 1999,
+        "loan": false
+      },
+      {
+        "club": "Vitesse",
+        "startYear": 1999,
+        "endYear": 2000,
+        "loan": false
+      },
+      {
+        "club": "Benfica",
+        "startYear": 2000,
+        "endYear": 2001,
+        "loan": false
+      },
+      {
+        "club": "Feyenoord",
+        "startYear": 2001,
+        "endYear": 2003,
+        "loan": false
+      },
+      {
+        "club": "Fenerbahçe",
+        "startYear": 2003,
+        "endYear": 2005,
+        "loan": false
+      },
+      {
+        "club": "NAC Breda",
+        "startYear": 2005,
+        "endYear": 2006,
+        "loan": false
+      },
+      {
+        "club": "Feyenoord",
+        "startYear": 2006,
+        "endYear": 2007,
+        "loan": false
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Pierre_van_Hooijdonk",
+    "sourceType": "secondary",
+    "reviewedAt": "2026-11-19",
+    "note": "19 Kasım 2026 incelemesinde kaynakta yer alan A takım dönemleri. Wikipedia kaynaklıdır; kiralık dönemlerde yıllar örtüşebilir."
+  },
+  {
+    "id": "podolski",
+    "playerName": "Lukas Podolski",
+    "aliases": [
+      "Lukas Podolski",
+      "Lukas Josef Podolski",
+      "Łukasz Podolski",
+      "Łukasz Józef Podolski",
+      "Lukasz Podolski"
+    ],
+    "stages": [
+      {
+        "club": "1. FC Köln",
+        "startYear": 2003,
+        "endYear": 2006,
+        "loan": false
+      },
+      {
+        "club": "Bayern Munich",
+        "startYear": 2006,
+        "endYear": 2009,
+        "loan": false
+      },
+      {
+        "club": "1. FC Köln",
+        "startYear": 2009,
+        "endYear": 2012,
+        "loan": false
+      },
+      {
+        "club": "Arsenal",
+        "startYear": 2012,
+        "endYear": 2015,
+        "loan": false
+      },
+      {
+        "club": "Inter",
+        "startYear": 2015,
+        "endYear": 2015,
+        "loan": true
+      },
+      {
+        "club": "Galatasaray",
+        "startYear": 2015,
+        "endYear": 2017,
+        "loan": false
+      },
+      {
+        "club": "Vissel Kobe",
+        "startYear": 2017,
+        "endYear": 2020,
+        "loan": false
+      },
+      {
+        "club": "Antalyaspor",
+        "startYear": 2020,
+        "endYear": 2021,
+        "loan": false
+      },
+      {
+        "club": "Górnik Zabrze",
+        "startYear": 2021,
+        "endYear": 2026,
+        "loan": false
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Lukas_Podolski",
+    "sourceType": "secondary",
+    "reviewedAt": "2026-11-19",
+    "note": "19 Kasım 2026 incelemesinde kaynakta yer alan A takım dönemleri. Wikipedia kaynaklıdır; kiralık dönemlerde yıllar örtüşebilir."
+  },
+  {
+    "id": "wd-Q204450",
+    "playerName": "Felipe Melo",
+    "aliases": [
+      "Felipe Melo",
+      "Felipe Melo de Carvalho"
+    ],
+    "stages": [
+      {
+        "club": "Flamengo",
+        "startYear": 2001,
+        "endYear": 2003,
+        "loan": false
+      },
+      {
+        "club": "Cruzeiro",
+        "startYear": 2003,
+        "endYear": 2004,
+        "loan": false
+      },
+      {
+        "club": "Grêmio",
+        "startYear": 2004,
+        "endYear": 2004,
+        "loan": false
+      },
+      {
+        "club": "Mallorca",
+        "startYear": 2005,
+        "endYear": 2005,
+        "loan": false
+      },
+      {
+        "club": "Racing Santander",
+        "startYear": 2005,
+        "endYear": 2007,
+        "loan": false
+      },
+      {
+        "club": "Almería",
+        "startYear": 2007,
+        "endYear": 2008,
+        "loan": false
+      },
+      {
+        "club": "Fiorentina",
+        "startYear": 2008,
+        "endYear": 2009,
+        "loan": false
+      },
+      {
+        "club": "Juventus",
+        "startYear": 2009,
+        "endYear": 2013,
+        "loan": false
+      },
+      {
+        "club": "Galatasaray",
+        "startYear": 2011,
+        "endYear": 2013,
+        "loan": true
+      },
+      {
+        "club": "Galatasaray",
+        "startYear": 2013,
+        "endYear": 2015,
+        "loan": false
+      },
+      {
+        "club": "Inter",
+        "startYear": 2015,
+        "endYear": 2017,
+        "loan": false
+      },
+      {
+        "club": "Palmeiras",
+        "startYear": 2017,
+        "endYear": 2021,
+        "loan": false
+      },
+      {
+        "club": "Fluminense",
+        "startYear": 2022,
+        "endYear": 2024,
+        "loan": false
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Felipe_Melo",
+    "sourceType": "secondary",
+    "reviewedAt": "2026-11-19",
+    "note": "19 Kasım 2026 incelemesinde kaynakta yer alan A takım dönemleri. Wikipedia kaynaklıdır; kiralık dönemlerde yıllar örtüşebilir."
+  },
+  {
+    "id": "zlatan",
+    "playerName": "Zlatan Ibrahimović",
+    "aliases": [
+      "Zlatan Ibrahimović",
+      "Zlatan Ibrahimovic",
+      "Ibra"
+    ],
+    "stages": [
+      {
+        "club": "Malmö FF",
+        "startYear": 1999,
+        "endYear": 2001,
+        "loan": false
+      },
+      {
+        "club": "Ajax",
+        "startYear": 2001,
+        "endYear": 2004,
+        "loan": false
+      },
+      {
+        "club": "Juventus",
+        "startYear": 2004,
+        "endYear": 2006,
+        "loan": false
+      },
+      {
+        "club": "Inter",
+        "startYear": 2006,
+        "endYear": 2009,
+        "loan": false
+      },
+      {
+        "club": "Barcelona",
+        "startYear": 2009,
+        "endYear": 2011,
+        "loan": false
+      },
+      {
+        "club": "AC Milan",
+        "startYear": 2010,
+        "endYear": 2011,
+        "loan": true
+      },
+      {
+        "club": "AC Milan",
+        "startYear": 2011,
+        "endYear": 2012,
+        "loan": false
+      },
+      {
+        "club": "Paris Saint-Germain",
+        "startYear": 2012,
+        "endYear": 2016,
+        "loan": false
+      },
+      {
+        "club": "Manchester United",
+        "startYear": 2016,
+        "endYear": 2018,
+        "loan": false
+      },
+      {
+        "club": "LA Galaxy",
+        "startYear": 2018,
+        "endYear": 2019,
+        "loan": false
+      },
+      {
+        "club": "AC Milan",
+        "startYear": 2019,
+        "endYear": 2023,
+        "loan": false
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Zlatan_Ibrahimovi%C4%87",
+    "sourceType": "secondary",
+    "reviewedAt": "2026-11-19",
+    "note": "19 Kasım 2026 incelemesinde kaynakta yer alan A takım dönemleri. Wikipedia kaynaklıdır; kiralık dönemlerde yıllar örtüşebilir."
+  },
+  {
+    "id": "wd-Q42731",
+    "playerName": "Fernando Torres",
+    "aliases": [
+      "Fernando Torres",
+      "Fernando José Torres Sanz",
+      "Fernando Jose Torres Sanz"
+    ],
+    "stages": [
+      {
+        "club": "Atlético Madrid",
+        "startYear": 2001,
+        "endYear": 2007,
+        "loan": false
+      },
+      {
+        "club": "Liverpool",
+        "startYear": 2007,
+        "endYear": 2011,
+        "loan": false
+      },
+      {
+        "club": "Chelsea",
+        "startYear": 2011,
+        "endYear": 2015,
+        "loan": false
+      },
+      {
+        "club": "AC Milan",
+        "startYear": 2014,
+        "endYear": 2015,
+        "loan": true
+      },
+      {
+        "club": "Atlético Madrid",
+        "startYear": 2015,
+        "endYear": 2016,
+        "loan": true
+      },
+      {
+        "club": "Atlético Madrid",
+        "startYear": 2016,
+        "endYear": 2018,
+        "loan": false
+      },
+      {
+        "club": "Sagan Tosu",
+        "startYear": 2018,
+        "endYear": 2019,
+        "loan": false
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Fernando_Torres",
+    "sourceType": "secondary",
+    "reviewedAt": "2026-11-19",
+    "note": "19 Kasım 2026 incelemesinde kaynakta yer alan A takım dönemleri. Wikipedia kaynaklıdır; kiralık dönemlerde yıllar örtüşebilir."
+  },
+  {
+    "id": "research-thierryhenry-batch3",
+    "playerName": "Thierry Henry",
+    "aliases": [
+      "Thierry Henry",
+      "Henry"
+    ],
+    "stages": [
+      {
+        "club": "Monaco",
+        "startYear": 1994,
+        "endYear": 1999,
+        "loan": false
+      },
+      {
+        "club": "Juventus",
+        "startYear": 1999,
+        "endYear": 1999,
+        "loan": false
+      },
+      {
+        "club": "Arsenal",
+        "startYear": 1999,
+        "endYear": 2007,
+        "loan": false
+      },
+      {
+        "club": "Barcelona",
+        "startYear": 2007,
+        "endYear": 2010,
+        "loan": false
+      },
+      {
+        "club": "New York Red Bulls",
+        "startYear": 2010,
+        "endYear": 2014,
+        "loan": false
+      },
+      {
+        "club": "Arsenal",
+        "startYear": 2012,
+        "endYear": 2012,
+        "loan": true
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Thierry_Henry",
+    "sourceType": "secondary",
+    "reviewedAt": "2026-11-19",
+    "note": "19 Kasım 2026 incelemesinde kaynakta yer alan A takım dönemleri. Wikipedia kaynaklıdır; kiralık dönemlerde yıllar örtüşebilir."
+  },
+  {
+    "id": "wd-Q179334",
+    "playerName": "Henrik Larsson",
+    "aliases": [
+      "Henrik Larsson",
+      "Edward Henrik Larsson"
+    ],
+    "stages": [
+      {
+        "club": "Högaborgs BK",
+        "startYear": 1989,
+        "endYear": 1991,
+        "loan": false
+      },
+      {
+        "club": "Helsingborgs IF",
+        "startYear": 1992,
+        "endYear": 1993,
+        "loan": false
+      },
+      {
+        "club": "Feyenoord",
+        "startYear": 1993,
+        "endYear": 1997,
+        "loan": false
+      },
+      {
+        "club": "Celtic",
+        "startYear": 1997,
+        "endYear": 2004,
+        "loan": false
+      },
+      {
+        "club": "Barcelona",
+        "startYear": 2004,
+        "endYear": 2006,
+        "loan": false
+      },
+      {
+        "club": "Helsingborgs IF",
+        "startYear": 2006,
+        "endYear": 2009,
+        "loan": false
+      },
+      {
+        "club": "Manchester United",
+        "startYear": 2007,
+        "endYear": 2007,
+        "loan": true
+      },
+      {
+        "club": "Råå IF",
+        "startYear": 2012,
+        "endYear": 2012,
+        "loan": false
+      },
+      {
+        "club": "Högaborgs BK",
+        "startYear": 2013,
+        "endYear": 2013,
+        "loan": false
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Henrik_Larsson",
+    "sourceType": "secondary",
+    "reviewedAt": "2026-11-19",
+    "note": "19 Kasım 2026 incelemesinde kaynakta yer alan A takım dönemleri. Wikipedia kaynaklıdır; kiralık dönemlerde yıllar örtüşebilir."
+  },
+  {
+    "id": "wd-Q1255625",
+    "playerName": "Samuel Eto'o",
+    "aliases": [
+      "Samuel Eto'o",
+      "Samuel Eto'o Fils",
+      "Samuel Etoo",
+      "Eto'o",
+      "Samuel Eto"
+    ],
+    "stages": [
+      {
+        "club": "Real Madrid",
+        "startYear": 1997,
+        "endYear": 2000,
+        "loan": false
+      },
+      {
+        "club": "Leganés",
+        "startYear": 1997,
+        "endYear": 1998,
+        "loan": true
+      },
+      {
+        "club": "Espanyol",
+        "startYear": 1999,
+        "endYear": 1999,
+        "loan": true
+      },
+      {
+        "club": "Mallorca",
+        "startYear": 2000,
+        "endYear": 2000,
+        "loan": true
+      },
+      {
+        "club": "Mallorca",
+        "startYear": 2000,
+        "endYear": 2004,
+        "loan": false
+      },
+      {
+        "club": "Barcelona",
+        "startYear": 2004,
+        "endYear": 2009,
+        "loan": false
+      },
+      {
+        "club": "Inter",
+        "startYear": 2009,
+        "endYear": 2011,
+        "loan": false
+      },
+      {
+        "club": "Anzhi Makhachkala",
+        "startYear": 2011,
+        "endYear": 2013,
+        "loan": false
+      },
+      {
+        "club": "Chelsea",
+        "startYear": 2013,
+        "endYear": 2014,
+        "loan": false
+      },
+      {
+        "club": "Everton",
+        "startYear": 2014,
+        "endYear": 2015,
+        "loan": false
+      },
+      {
+        "club": "Sampdoria",
+        "startYear": 2015,
+        "endYear": 2015,
+        "loan": false
+      },
+      {
+        "club": "Antalyaspor",
+        "startYear": 2015,
+        "endYear": 2018,
+        "loan": false
+      },
+      {
+        "club": "Konyaspor",
+        "startYear": 2018,
+        "endYear": 2018,
+        "loan": false
+      },
+      {
+        "club": "Qatar SC",
+        "startYear": 2018,
+        "endYear": 2019,
+        "loan": false
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Samuel_Eto%27o",
+    "sourceType": "secondary",
+    "reviewedAt": "2026-11-19",
+    "note": "19 Kasım 2026 incelemesinde kaynakta yer alan A takım dönemleri. Wikipedia kaynaklıdır; kiralık dönemlerde yıllar örtüşebilir."
+  },
+  {
+    "id": "research-andriyshevchenko-batch3",
+    "playerName": "Andriy Shevchenko",
+    "aliases": [
+      "Andriy Shevchenko",
+      "Shevchenko",
+      "Andriy Şevçenko",
+      "Andrei Shevchenko"
+    ],
+    "stages": [
+      {
+        "club": "Dynamo Kyiv",
+        "startYear": 1993,
+        "endYear": 1999,
+        "loan": false
+      },
+      {
+        "club": "AC Milan",
+        "startYear": 1999,
+        "endYear": 2006,
+        "loan": false
+      },
+      {
+        "club": "Chelsea",
+        "startYear": 2006,
+        "endYear": 2009,
+        "loan": false
+      },
+      {
+        "club": "AC Milan",
+        "startYear": 2008,
+        "endYear": 2009,
+        "loan": true
+      },
+      {
+        "club": "Dynamo Kyiv",
+        "startYear": 2009,
+        "endYear": 2012,
+        "loan": false
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Andriy_Shevchenko",
+    "sourceType": "secondary",
+    "reviewedAt": "2026-11-19",
+    "note": "19 Kasım 2026 incelemesinde kaynakta yer alan A takım dönemleri. Wikipedia kaynaklıdır; kiralık dönemlerde yıllar örtüşebilir."
+  },
+  {
+    "id": "wd-Q189686",
+    "playerName": "Patrick Kluivert",
+    "aliases": [
+      "Patrick Kluivert",
+      "Patrick Stephan Kluivert"
+    ],
+    "stages": [
+      {
+        "club": "Ajax",
+        "startYear": 1994,
+        "endYear": 1997,
+        "loan": false
+      },
+      {
+        "club": "AC Milan",
+        "startYear": 1997,
+        "endYear": 1998,
+        "loan": false
+      },
+      {
+        "club": "Barcelona",
+        "startYear": 1998,
+        "endYear": 2004,
+        "loan": false
+      },
+      {
+        "club": "Newcastle United",
+        "startYear": 2004,
+        "endYear": 2005,
+        "loan": false
+      },
+      {
+        "club": "Valencia",
+        "startYear": 2005,
+        "endYear": 2006,
+        "loan": false
+      },
+      {
+        "club": "PSV",
+        "startYear": 2006,
+        "endYear": 2007,
+        "loan": false
+      },
+      {
+        "club": "Lille",
+        "startYear": 2007,
+        "endYear": 2008,
+        "loan": false
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Patrick_Kluivert",
+    "sourceType": "secondary",
+    "reviewedAt": "2026-11-19",
+    "note": "19 Kasım 2026 incelemesinde kaynakta yer alan A takım dönemleri. Wikipedia kaynaklıdır; kiralık dönemlerde yıllar örtüşebilir."
+  },
+  {
+    "id": "research-rivaldo-batch3",
+    "playerName": "Rivaldo",
+    "aliases": [
+      "Rivaldo"
+    ],
+    "stages": [
+      {
+        "club": "Santa Cruz",
+        "startYear": 1988,
+        "endYear": 1992,
+        "loan": false
+      },
+      {
+        "club": "Mogi Mirim",
+        "startYear": 1992,
+        "endYear": 1994,
+        "loan": false
+      },
+      {
+        "club": "Corinthians",
+        "startYear": 1993,
+        "endYear": 1994,
+        "loan": true
+      },
+      {
+        "club": "Palmeiras",
+        "startYear": 1994,
+        "endYear": 1996,
+        "loan": false
+      },
+      {
+        "club": "Deportivo La Coruña",
+        "startYear": 1996,
+        "endYear": 1997,
+        "loan": false
+      },
+      {
+        "club": "Barcelona",
+        "startYear": 1997,
+        "endYear": 2002,
+        "loan": false
+      },
+      {
+        "club": "AC Milan",
+        "startYear": 2002,
+        "endYear": 2003,
+        "loan": false
+      },
+      {
+        "club": "Cruzeiro",
+        "startYear": 2004,
+        "endYear": 2004,
+        "loan": false
+      },
+      {
+        "club": "Olympiacos",
+        "startYear": 2004,
+        "endYear": 2007,
+        "loan": false
+      },
+      {
+        "club": "AEK Athens",
+        "startYear": 2007,
+        "endYear": 2008,
+        "loan": false
+      },
+      {
+        "club": "Bunyodkor",
+        "startYear": 2008,
+        "endYear": 2011,
+        "loan": false
+      },
+      {
+        "club": "São Paulo",
+        "startYear": 2011,
+        "endYear": 2011,
+        "loan": true
+      },
+      {
+        "club": "Kabuscorp",
+        "startYear": 2012,
+        "endYear": 2012,
+        "loan": false
+      },
+      {
+        "club": "São Caetano",
+        "startYear": 2013,
+        "endYear": 2013,
+        "loan": false
+      },
+      {
+        "club": "Mogi Mirim",
+        "startYear": 2014,
+        "endYear": 2015,
+        "loan": false
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Rivaldo",
+    "sourceType": "secondary",
+    "reviewedAt": "2026-11-19",
+    "note": "19 Kasım 2026 incelemesinde kaynakta yer alan A takım dönemleri. Wikipedia kaynaklıdır; kiralık dönemlerde yıllar örtüşebilir."
+  },
+  {
+    "id": "wd-Q484909",
+    "playerName": "Clarence Seedorf",
+    "aliases": [
+      "Clarence Seedorf",
+      "Clarence Clyde Seedorf"
+    ],
+    "stages": [
+      {
+        "club": "Ajax",
+        "startYear": 1992,
+        "endYear": 1995,
+        "loan": false
+      },
+      {
+        "club": "Sampdoria",
+        "startYear": 1995,
+        "endYear": 1996,
+        "loan": false
+      },
+      {
+        "club": "Real Madrid",
+        "startYear": 1996,
+        "endYear": 2000,
+        "loan": false
+      },
+      {
+        "club": "Inter",
+        "startYear": 2000,
+        "endYear": 2002,
+        "loan": false
+      },
+      {
+        "club": "AC Milan",
+        "startYear": 2002,
+        "endYear": 2012,
+        "loan": false
+      },
+      {
+        "club": "Botafogo",
+        "startYear": 2012,
+        "endYear": 2014,
+        "loan": false
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Clarence_Seedorf",
+    "sourceType": "secondary",
+    "reviewedAt": "2026-11-19",
+    "note": "19 Kasım 2026 incelemesinde kaynakta yer alan A takım dönemleri. Wikipedia kaynaklıdır; kiralık dönemlerde yıllar örtüşebilir."
+  },
+  {
+    "id": "wd-Q185115",
+    "playerName": "Edgar Davids",
+    "aliases": [
+      "Edgar Davids"
+    ],
+    "stages": [
+      {
+        "club": "Ajax",
+        "startYear": 1991,
+        "endYear": 1996,
+        "loan": false
+      },
+      {
+        "club": "AC Milan",
+        "startYear": 1996,
+        "endYear": 1997,
+        "loan": false
+      },
+      {
+        "club": "Juventus",
+        "startYear": 1997,
+        "endYear": 2004,
+        "loan": false
+      },
+      {
+        "club": "Barcelona",
+        "startYear": 2004,
+        "endYear": 2004,
+        "loan": true
+      },
+      {
+        "club": "Inter",
+        "startYear": 2004,
+        "endYear": 2005,
+        "loan": false
+      },
+      {
+        "club": "Tottenham Hotspur",
+        "startYear": 2005,
+        "endYear": 2007,
+        "loan": false
+      },
+      {
+        "club": "Ajax",
+        "startYear": 2007,
+        "endYear": 2009,
+        "loan": false
+      },
+      {
+        "club": "Crystal Palace",
+        "startYear": 2010,
+        "endYear": 2010,
+        "loan": false
+      },
+      {
+        "club": "Barnet",
+        "startYear": 2012,
+        "endYear": 2014,
+        "loan": false
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Edgar_Davids",
+    "sourceType": "secondary",
+    "reviewedAt": "2026-11-19",
+    "note": "19 Kasım 2026 incelemesinde kaynakta yer alan A takım dönemleri. Wikipedia kaynaklıdır; kiralık dönemlerde yıllar örtüşebilir."
+  },
+  {
+    "id": "wd-Q969520",
+    "playerName": "Michael Essien",
+    "aliases": [
+      "Michael Essien"
+    ],
+    "stages": [
+      {
+        "club": "Bastia",
+        "startYear": 2000,
+        "endYear": 2003,
+        "loan": false
+      },
+      {
+        "club": "Lyon",
+        "startYear": 2003,
+        "endYear": 2005,
+        "loan": false
+      },
+      {
+        "club": "Chelsea",
+        "startYear": 2005,
+        "endYear": 2014,
+        "loan": false
+      },
+      {
+        "club": "Real Madrid",
+        "startYear": 2012,
+        "endYear": 2013,
+        "loan": true
+      },
+      {
+        "club": "AC Milan",
+        "startYear": 2014,
+        "endYear": 2015,
+        "loan": false
+      },
+      {
+        "club": "Panathinaikos",
+        "startYear": 2015,
+        "endYear": 2016,
+        "loan": false
+      },
+      {
+        "club": "Persib Bandung",
+        "startYear": 2017,
+        "endYear": 2018,
+        "loan": false
+      },
+      {
+        "club": "Sabail",
+        "startYear": 2019,
+        "endYear": 2020,
+        "loan": false
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Michael_Essien",
+    "sourceType": "secondary",
+    "reviewedAt": "2026-11-19",
+    "note": "19 Kasım 2026 incelemesinde kaynakta yer alan A takım dönemleri. Wikipedia kaynaklıdır; kiralık dönemlerde yıllar örtüşebilir."
+  },
+  {
+    "id": "wd-Q487459",
+    "playerName": "Arda Turan",
+    "aliases": [
+      "Arda Turan"
+    ],
+    "stages": [
+      {
+        "club": "Galatasaray",
+        "startYear": 2005,
+        "endYear": 2011,
+        "loan": false
+      },
+      {
+        "club": "Manisaspor",
+        "startYear": 2006,
+        "endYear": 2006,
+        "loan": true
+      },
+      {
+        "club": "Atlético Madrid",
+        "startYear": 2011,
+        "endYear": 2015,
+        "loan": false
+      },
+      {
+        "club": "Barcelona",
+        "startYear": 2015,
+        "endYear": 2020,
+        "loan": false
+      },
+      {
+        "club": "İstanbul Başakşehir",
+        "startYear": 2018,
+        "endYear": 2020,
+        "loan": true
+      },
+      {
+        "club": "Galatasaray",
+        "startYear": 2020,
+        "endYear": 2022,
+        "loan": false
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Arda_Turan",
+    "sourceType": "secondary",
+    "reviewedAt": "2026-11-19",
+    "note": "19 Kasım 2026 incelemesinde kaynakta yer alan A takım dönemleri. Wikipedia kaynaklıdır; kiralık dönemlerde yıllar örtüşebilir."
+  },
+  {
+    "id": "wd-Q429039",
+    "playerName": "Roberto Carlos",
+    "aliases": [
+      "Roberto Carlos",
+      "Roberto Carlos da Silva Rocha"
+    ],
+    "stages": [
+      {
+        "club": "União São João",
+        "startYear": 1991,
+        "endYear": 1993,
+        "loan": false
+      },
+      {
+        "club": "Atlético Mineiro",
+        "startYear": 1992,
+        "endYear": 1993,
+        "loan": true
+      },
+      {
+        "club": "Palmeiras",
+        "startYear": 1993,
+        "endYear": 1995,
+        "loan": false
+      },
+      {
+        "club": "Inter",
+        "startYear": 1995,
+        "endYear": 1996,
+        "loan": false
+      },
+      {
+        "club": "Real Madrid",
+        "startYear": 1996,
+        "endYear": 2007,
+        "loan": false
+      },
+      {
+        "club": "Fenerbahçe",
+        "startYear": 2007,
+        "endYear": 2009,
+        "loan": false
+      },
+      {
+        "club": "Corinthians",
+        "startYear": 2010,
+        "endYear": 2011,
+        "loan": false
+      },
+      {
+        "club": "Anzhi Makhachkala",
+        "startYear": 2011,
+        "endYear": 2012,
+        "loan": false
+      },
+      {
+        "club": "Delhi Dynamos",
+        "startYear": 2015,
+        "endYear": 2016,
+        "loan": false
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/Roberto_Carlos",
+    "sourceType": "secondary",
+    "reviewedAt": "2026-11-19",
+    "note": "19 Kasım 2026 incelemesinde kaynakta yer alan A takım dönemleri. Wikipedia kaynaklıdır; kiralık dönemlerde yıllar örtüşebilir."
   }
 ]

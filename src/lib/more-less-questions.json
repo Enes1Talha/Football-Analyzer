@@ -238,5 +238,3616 @@
     "unit": "gol",
     "period": "2001-02",
     "source": "https://www.tff.org/default.aspx?pageID=545"
+  },
+  {
+    "id": "more-less-001-001",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Iker Casillas",
+    "playerB": "Gianluigi Buffon",
+    "valueA": 177,
+    "valueB": 124,
+    "correctAnswer": "A",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+      "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-002",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Andrés Iniesta",
+    "playerB": "Xavi Hernández",
+    "valueA": 130,
+    "valueB": 151,
+    "correctAnswer": "B",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-003",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Raúl González",
+    "playerB": "Thierry Henry",
+    "valueA": 142,
+    "valueB": 112,
+    "correctAnswer": "A",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+      "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-004",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Philipp Lahm",
+    "playerB": "Carles Puyol",
+    "valueA": 112,
+    "valueB": 115,
+    "correctAnswer": "B",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+      "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-005",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Paolo Maldini",
+    "playerB": "Andrea Pirlo",
+    "valueA": 116,
+    "valueB": 108,
+    "correctAnswer": "A",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-006",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Roberto Carlos",
+    "playerB": "Clarence Seedorf",
+    "valueA": 120,
+    "valueB": 125,
+    "correctAnswer": "B",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+      "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-007",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Arjen Robben",
+    "playerB": "Franck Ribéry",
+    "valueA": 110,
+    "valueB": 87,
+    "correctAnswer": "A",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/",
+      "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-008",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Edwin van der Sar",
+    "playerB": "Oliver Kahn",
+    "valueA": 98,
+    "valueB": 103,
+    "correctAnswer": "B",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+      "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-009",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Hakan Şükür",
+    "playerB": "Hamit Altıntop",
+    "valueA": 42,
+    "valueB": 41,
+    "correctAnswer": "A",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-010",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Bülent Korkmaz",
+    "playerB": "Arif Erdem",
+    "valueA": 54,
+    "valueB": 55,
+    "correctAnswer": "B",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-011",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Ergün Penbe",
+    "playerB": "Hasan Şaş",
+    "valueA": 51,
+    "valueB": 47,
+    "correctAnswer": "A",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-012",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Gary Neville",
+    "playerB": "Paul Scholes",
+    "valueA": 110,
+    "valueB": 124,
+    "correctAnswer": "B",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-013",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "John Terry",
+    "playerB": "Ashley Cole",
+    "valueA": 109,
+    "valueB": 108,
+    "correctAnswer": "A",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-014",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Frank Lampard",
+    "playerB": "David Beckham",
+    "valueA": 105,
+    "valueB": 107,
+    "correctAnswer": "B",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-015",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Didier Drogba",
+    "playerB": "Michael Essien",
+    "valueA": 92,
+    "valueB": 76,
+    "correctAnswer": "A",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-016",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Emmanuel Eboué",
+    "playerB": "Samuel Eto'o",
+    "valueA": 66,
+    "valueB": 78,
+    "correctAnswer": "B",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-017",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Yaya Touré",
+    "playerB": "Kolo Touré",
+    "valueA": 70,
+    "valueB": 67,
+    "correctAnswer": "A",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-018",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Lúcio",
+    "playerB": "Kaká",
+    "valueA": 83,
+    "valueB": 86,
+    "correctAnswer": "B",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-019",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Luís Figo",
+    "playerB": "Ricardo Carvalho",
+    "valueA": 103,
+    "valueB": 86,
+    "correctAnswer": "A",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-020",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Alessandro Del Piero",
+    "playerB": "Alessandro Nesta",
+    "valueA": 89,
+    "valueB": 99,
+    "correctAnswer": "B",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-021",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Bastian Schweinsteiger",
+    "playerB": "Michael Ballack",
+    "valueA": 95,
+    "valueB": 93,
+    "correctAnswer": "A",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-022",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Edgar Davids",
+    "playerB": "Phillip Cocu",
+    "valueA": 74,
+    "valueB": 79,
+    "correctAnswer": "B",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-023",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Filippo Inzaghi",
+    "playerB": "Gennaro Gattuso",
+    "valueA": 81,
+    "valueB": 79,
+    "correctAnswer": "A",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-024",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Robert Pirès",
+    "playerB": "Florent Malouda",
+    "valueA": 82,
+    "valueB": 83,
+    "correctAnswer": "B",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-025",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Wesley Sneijder",
+    "playerB": "Mark van Bommel",
+    "valueA": 76,
+    "valueB": 76,
+    "correctAnswer": "equal",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-026",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Vítor Baía",
+    "playerB": "José Bosingwa",
+    "valueA": 64,
+    "valueB": 64,
+    "correctAnswer": "equal",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-027",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Emre Belözoğlu",
+    "playerB": "Burak Yılmaz",
+    "valueA": 40,
+    "valueB": 40,
+    "correctAnswer": "equal",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-028",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Raúl González",
+    "playerB": "Thierry Henry",
+    "valueA": 71,
+    "valueB": 50,
+    "correctAnswer": "A",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+      "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-029",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Filippo Inzaghi",
+    "playerB": "Ruud van Nistelrooy",
+    "valueA": 46,
+    "valueB": 56,
+    "correctAnswer": "B",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+      "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-030",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Didier Drogba",
+    "playerB": "Alessandro Del Piero",
+    "valueA": 44,
+    "valueB": 42,
+    "correctAnswer": "A",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+      "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-031",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Kaká",
+    "playerB": "Fernando Morientes",
+    "valueA": 30,
+    "valueB": 33,
+    "correctAnswer": "B",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+      "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-032",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Wayne Rooney",
+    "playerB": "David Trezeguet",
+    "valueA": 30,
+    "valueB": 29,
+    "correctAnswer": "A",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/",
+      "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-033",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Rivaldo",
+    "playerB": "Samuel Eto'o",
+    "valueA": 27,
+    "valueB": 30,
+    "correctAnswer": "B",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+      "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-034",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Arjen Robben",
+    "playerB": "Mario Gómez",
+    "valueA": 31,
+    "valueB": 26,
+    "correctAnswer": "A",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+      "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-035",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Luís Figo",
+    "playerB": "Robin van Persie",
+    "valueA": 24,
+    "valueB": 25,
+    "correctAnswer": "B",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/",
+      "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-036",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Paul Scholes",
+    "playerB": "Frank Lampard",
+    "valueA": 24,
+    "valueB": 23,
+    "correctAnswer": "A",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-037",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Steven Gerrard",
+    "playerB": "Marco Simone",
+    "valueA": 21,
+    "valueB": 23,
+    "correctAnswer": "B",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/",
+      "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-038",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Michael Ballack",
+    "playerB": "Hakan Şükür",
+    "valueA": 16,
+    "valueB": 13,
+    "correctAnswer": "A",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+      "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-039",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Arda Turan",
+    "playerB": "Ricardo Quaresma",
+    "valueA": 9,
+    "valueB": 10,
+    "correctAnswer": "B",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+      "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-040",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Oktay Derelioğlu",
+    "playerB": "Ümit Davala",
+    "valueA": 6,
+    "valueB": 5,
+    "correctAnswer": "A",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-041",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Tuncay Şanlı",
+    "playerB": "Arif Erdem",
+    "valueA": 5,
+    "valueB": 6,
+    "correctAnswer": "B",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-042",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Nicolas Anelka",
+    "playerB": "Francesco Totti",
+    "valueA": 20,
+    "valueB": 17,
+    "correctAnswer": "A",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/",
+      "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-043",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Deco",
+    "playerB": "Klaas-Jan Huntelaar",
+    "valueA": 13,
+    "valueB": 14,
+    "correctAnswer": "B",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/",
+      "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-044",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Luis Enrique",
+    "playerB": "Franck Ribéry",
+    "valueA": 19,
+    "valueB": 18,
+    "correctAnswer": "A",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+      "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-045",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "David Beckham",
+    "playerB": "Andy Cole",
+    "valueA": 16,
+    "valueB": 18,
+    "correctAnswer": "B",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-046",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Wesley Sneijder",
+    "playerB": "Alberto Gilardino",
+    "valueA": 12,
+    "valueB": 11,
+    "correctAnswer": "A",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+      "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-047",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Simone Inzaghi",
+    "playerB": "Filippo Inzaghi",
+    "valueA": 15,
+    "valueB": 46,
+    "correctAnswer": "B",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-048",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Rivaldo",
+    "playerB": "Giovane Elber",
+    "valueA": 27,
+    "valueB": 25,
+    "correctAnswer": "A",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-049",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Cesc Fàbregas",
+    "playerB": "Fernando Torres",
+    "valueA": 20,
+    "valueB": 20,
+    "correctAnswer": "equal",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-050",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Guti",
+    "playerB": "Roberto Soldado",
+    "valueA": 16,
+    "valueB": 16,
+    "correctAnswer": "equal",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-051",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Patrick Kluivert",
+    "playerB": "Roy Makaay",
+    "valueA": 29,
+    "valueB": 29,
+    "correctAnswer": "equal",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-052",
+    "prompt": "UEFA Şampiyonlar Ligi'nde (grup/lig aşamasından finale) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Hakan Şükür",
+    "playerB": "Burak Yılmaz",
+    "valueA": 13,
+    "valueB": 13,
+    "correctAnswer": "equal",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "group_stage_to_final",
+      "team": null,
+      "definition": "UEFA Şampiyonlar Ligi ana turnuvası, grup aşaması/lig aşamasından finale; eleme turları hariç. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-053",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Paolo Maldini",
+    "playerB": "Iker Casillas",
+    "valueA": 174,
+    "valueB": 188,
+    "correctAnswer": "B",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+      "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-054",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Emre Belözoğlu",
+    "playerB": "Mehmet Topal",
+    "valueA": 114,
+    "valueB": 105,
+    "correctAnswer": "A",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-055",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Hakan Şükür",
+    "playerB": "Bülent Korkmaz",
+    "valueA": 94,
+    "valueB": 101,
+    "correctAnswer": "B",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-056",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Arda Turan",
+    "playerB": "Volkan Demirel",
+    "valueA": 91,
+    "valueB": 88,
+    "correctAnswer": "A",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-057",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Hasan Şaş",
+    "playerB": "Arif Erdem",
+    "valueA": 83,
+    "valueB": 87,
+    "correctAnswer": "B",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-058",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Volkan Demirel",
+    "playerB": "Okan Buruk",
+    "valueA": 88,
+    "valueB": 81,
+    "correctAnswer": "A",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-059",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Jamie Carragher",
+    "playerB": "Clarence Seedorf",
+    "valueA": 150,
+    "valueB": 163,
+    "correctAnswer": "B",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/",
+      "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-060",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Oliver Kahn",
+    "playerB": "Thierry Henry",
+    "valueA": 142,
+    "valueB": 140,
+    "correctAnswer": "A",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/",
+      "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-061",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Seydou Keita",
+    "playerB": "Samuel Eto'o",
+    "valueA": 111,
+    "valueB": 113,
+    "correctAnswer": "B",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-062",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Javier Zanetti",
+    "playerB": "Dani Alves",
+    "valueA": 160,
+    "valueB": 155,
+    "correctAnswer": "A",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+      "https://www.uefa.com/uefachampionsleague/news/0252-0d044f6082ee-2d26fd1c024f-1000--roberto-carlos-lionel-messi-neymar-edinson-cavani-who-are-so/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-063",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Steven Gerrard",
+    "playerB": "Frank Lampard",
+    "valueA": 130,
+    "valueB": 132,
+    "correctAnswer": "B",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-064",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Ricardo Quaresma",
+    "playerB": "Simão Sabrosa",
+    "valueA": 116,
+    "valueB": 109,
+    "correctAnswer": "A",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-065",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Luís Figo",
+    "playerB": "Pepe",
+    "valueA": 142,
+    "valueB": 142,
+    "correctAnswer": "equal",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-066",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla maça çıktı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Samuel Kuffour",
+    "playerB": "Kolo Touré",
+    "valueA": 90,
+    "valueB": 90,
+    "correctAnswer": "equal",
+    "unit": "maç",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Maç sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-067",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Hami Mandıralı",
+    "playerB": "Hakan Şükür",
+    "valueA": 24,
+    "valueB": 38,
+    "correctAnswer": "B",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-068",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Arda Turan",
+    "playerB": "Metin Oktay",
+    "valueA": 19,
+    "valueB": 15,
+    "correctAnswer": "A",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-069",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Burak Yılmaz",
+    "playerB": "Hami Mandıralı",
+    "valueA": 16,
+    "valueB": 24,
+    "correctAnswer": "B",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-070",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Gerd Müller",
+    "playerB": "Didier Drogba",
+    "valueA": 62,
+    "valueB": 50,
+    "correctAnswer": "A",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+      "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-071",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Samuel Eto'o",
+    "playerB": "Alfredo Di Stéfano",
+    "valueA": 48,
+    "valueB": 50,
+    "correctAnswer": "B",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+      "https://www.uefa.com/uefachampionsleague/news/0252-0d044f6082ee-2d26fd1c024f-1000--roberto-carlos-lionel-messi-neymar-edinson-cavani-who-are-so/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-072",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Steven Gerrard",
+    "playerB": "Wayne Rooney",
+    "valueA": 41,
+    "valueB": 40,
+    "correctAnswer": "A",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-073",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Filippo Inzaghi",
+    "playerB": "Raúl González",
+    "valueA": 70,
+    "valueB": 77,
+    "correctAnswer": "B",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+      "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-074",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "George Weah",
+    "playerB": "Roberto Baggio",
+    "valueA": 35,
+    "valueB": 32,
+    "correctAnswer": "A",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+      "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-075",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Claudio Pizarro",
+    "playerB": "Sergio Agüero",
+    "valueA": 48,
+    "valueB": 63,
+    "correctAnswer": "B",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0252-0d044f6082ee-2d26fd1c024f-1000--roberto-carlos-lionel-messi-neymar-edinson-cavani-who-are-so/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0252-0d044f6082ee-2d26fd1c024f-1000--roberto-carlos-lionel-messi-neymar-edinson-cavani-who-are-so/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-076",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Jupp Heynckes",
+    "playerB": "Jean-Pierre Papin",
+    "valueA": 45,
+    "valueB": 40,
+    "correctAnswer": "A",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/",
+      "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-077",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Mário Jardel",
+    "playerB": "Ronaldo (Nazário)",
+    "valueA": 36,
+    "valueB": 37,
+    "correctAnswer": "B",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-078",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Alan Shearer",
+    "playerB": "Frédéric Kanouté",
+    "valueA": 32,
+    "valueB": 31,
+    "correctAnswer": "A",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+      "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-079",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Metin Oktay",
+    "playerB": "Oktay Derelioğlu",
+    "valueA": 15,
+    "valueB": 16,
+    "correctAnswer": "B",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-001-080",
+    "prompt": "Tüm UEFA kulüp turnuvalarında (eleme turları dahil) hangisi daha fazla gol attı (UEFA verisi, 30 Mayıs 2026 itibarıyla)?",
+    "playerA": "Alessandro Altobelli",
+    "playerB": "Francesco Totti",
+    "valueA": 38,
+    "valueB": 38,
+    "correctAnswer": "equal",
+    "unit": "gol",
+    "period": "30 Mayıs 2026 itibarıyla",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/"
+    ],
+    "scope": {
+      "competition": "UEFA club competitions",
+      "season": null,
+      "edition": null,
+      "startDate": null,
+      "endDate": "2026-05-30",
+      "stage": "all_rounds",
+      "team": null,
+      "definition": "Tüm UEFA kulüp turnuvaları, tüm turlar (eleme dahil): Şampiyonlar Ligi/Avrupa Kupası, Avrupa Ligi/UEFA Kupası, Konferans Ligi, Kupa Galipleri Kupası, Süper Kupa, Intertoto. Gol sayısı. Veri kesim tarihi: 30/05/2026."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-001",
+    "prompt": "EURO 2024 turnuvasında hangi kaleci daha fazla kurtarış yaptı?",
+    "playerA": "Giorgi Mamardashvili",
+    "playerB": "Bart Verbruggen",
+    "valueA": 29,
+    "valueB": 18,
+    "correctAnswer": "A",
+    "unit": "kurtarış",
+    "period": "2024",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2024",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2024 istatistik sayfasındaki 'Saves' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-002",
+    "prompt": "EURO 2024 turnuvasında hangi kaleci daha fazla kurtarış yaptı?",
+    "playerA": "Florin Niță",
+    "playerB": "Mike Maignan",
+    "valueA": 16,
+    "valueB": 16,
+    "correctAnswer": "equal",
+    "unit": "kurtarış",
+    "period": "2024",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2024",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2024 istatistik sayfasındaki 'Saves' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-003",
+    "prompt": "EURO 2024 turnuvasında hangi kaleci daha fazla kurtarış yaptı?",
+    "playerA": "Mert Günok",
+    "playerB": "Jordan Pickford",
+    "valueA": 15,
+    "valueB": 17,
+    "correctAnswer": "B",
+    "unit": "kurtarış",
+    "period": "2024",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2024",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2024 istatistik sayfasındaki 'Saves' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-004",
+    "prompt": "EURO 2020 (2021'de oynandı) turnuvasında hangi kaleci daha fazla kurtarış yaptı?",
+    "playerA": "Yann Sommer",
+    "playerB": "Jordan Pickford",
+    "valueA": 21,
+    "valueB": 16,
+    "correctAnswer": "A",
+    "unit": "kurtarış",
+    "period": "2020",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2020",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2020 (2021'de oynandı) istatistik sayfasındaki 'Saves' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-005",
+    "prompt": "EURO 2020 (2021'de oynandı) turnuvasında hangi kaleci daha fazla kurtarış yaptı?",
+    "playerA": "Kasper Schmeichel",
+    "playerB": "Danny Ward",
+    "valueA": 18,
+    "valueB": 18,
+    "correctAnswer": "equal",
+    "unit": "kurtarış",
+    "period": "2020",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2020",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2020 (2021'de oynandı) istatistik sayfasındaki 'Saves' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-006",
+    "prompt": "EURO 2020 (2021'de oynandı) turnuvasında hangi kaleci daha fazla kurtarış yaptı?",
+    "playerA": "Heorhiy Bushchan",
+    "playerB": "Uğurcan Çakır",
+    "valueA": 15,
+    "valueB": 18,
+    "correctAnswer": "B",
+    "unit": "kurtarış",
+    "period": "2020",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2020",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2020 (2021'de oynandı) istatistik sayfasındaki 'Saves' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-007",
+    "prompt": "EURO 2016 turnuvasında hangi kaleci daha fazla kurtarış yaptı?",
+    "playerA": "Rui Patrício",
+    "playerB": "Thibaut Courtois",
+    "valueA": 20,
+    "valueB": 20,
+    "correctAnswer": "equal",
+    "unit": "kurtarış",
+    "period": "2016",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2016/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2016/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2016",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2016 istatistik sayfasındaki 'Saves' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-008",
+    "prompt": "EURO 2016 turnuvasında hangi kaleci daha fazla kurtarış yaptı?",
+    "playerA": "Hannes Þór Halldórsson",
+    "playerB": "Łukasz Fabiański",
+    "valueA": 27,
+    "valueB": 19,
+    "correctAnswer": "A",
+    "unit": "kurtarış",
+    "period": "2016",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2016/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2016/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2016",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2016 istatistik sayfasındaki 'Saves' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-009",
+    "prompt": "2025/26 UEFA Şampiyonlar Ligi turnuvasında hangi kaleci daha fazla kurtarış yaptı?",
+    "playerA": "Thibaut Courtois",
+    "playerB": "Nikita Haikin",
+    "valueA": 56,
+    "valueB": 68,
+    "correctAnswer": "B",
+    "unit": "kurtarış",
+    "period": "2025/26",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": "2025/26",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2025/26 UEFA Şampiyonlar Ligi istatistik sayfasındaki 'Saves' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-010",
+    "prompt": "2025/26 UEFA Şampiyonlar Ligi turnuvasında hangi kaleci daha fazla kurtarış yaptı?",
+    "playerA": "Uğurcan Çakır",
+    "playerB": "Mateusz Kochalski",
+    "valueA": 48,
+    "valueB": 45,
+    "correctAnswer": "A",
+    "unit": "kurtarış",
+    "period": "2025/26",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": "2025/26",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2025/26 UEFA Şampiyonlar Ligi istatistik sayfasındaki 'Saves' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-011",
+    "prompt": "2024/25 UEFA Şampiyonlar Ligi turnuvasında hangi kaleci daha fazla kurtarış yaptı?",
+    "playerA": "Thibaut Courtois",
+    "playerB": "Yann Sommer",
+    "valueA": 52,
+    "valueB": 54,
+    "correctAnswer": "B",
+    "unit": "kurtarış",
+    "period": "2024/25",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2025/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/history/seasons/2025/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": "2024/25",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2024/25 UEFA Şampiyonlar Ligi istatistik sayfasındaki 'Saves' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-012",
+    "prompt": "2024/25 UEFA Şampiyonlar Ligi turnuvasında hangi kaleci daha fazla kurtarış yaptı?",
+    "playerA": "Emiliano Martínez",
+    "playerB": "Kasper Schmeichel",
+    "valueA": 50,
+    "valueB": 41,
+    "correctAnswer": "A",
+    "unit": "kurtarış",
+    "period": "2024/25",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2025/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/history/seasons/2025/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": "2024/25",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2024/25 UEFA Şampiyonlar Ligi istatistik sayfasındaki 'Saves' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-013",
+    "prompt": "2023/24 UEFA Şampiyonlar Ligi turnuvasında hangi kaleci daha fazla kurtarış yaptı?",
+    "playerA": "Jan Oblak",
+    "playerB": "Gregor Kobel",
+    "valueA": 40,
+    "valueB": 46,
+    "correctAnswer": "B",
+    "unit": "kurtarış",
+    "period": "2023/24",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2024/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/history/seasons/2024/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": "2023/24",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2023/24 UEFA Şampiyonlar Ligi istatistik sayfasındaki 'Saves' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-014",
+    "prompt": "2023/24 UEFA Şampiyonlar Ligi turnuvasında hangi kaleci daha fazla kurtarış yaptı?",
+    "playerA": "Andriy Lunin",
+    "playerB": "Gianluigi Donnarumma",
+    "valueA": 38,
+    "valueB": 37,
+    "correctAnswer": "A",
+    "unit": "kurtarış",
+    "period": "2023/24",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2024/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/history/seasons/2024/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": "2023/24",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2023/24 UEFA Şampiyonlar Ligi istatistik sayfasındaki 'Saves' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-015",
+    "prompt": "2024/25 UEFA Avrupa Ligi turnuvasında hangi kaleci daha fazla kurtarış yaptı?",
+    "playerA": "Remko Pasveer",
+    "playerB": "Nikita Haikin",
+    "valueA": 36,
+    "valueB": 65,
+    "correctAnswer": "B",
+    "unit": "kurtarış",
+    "period": "2024/25",
+    "source": "https://www.uefa.com/uefaeuropaleague/history/seasons/2025/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuropaleague/history/seasons/2025/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Europa League",
+      "season": "2024/25",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2024/25 UEFA Avrupa Ligi istatistik sayfasındaki 'Saves' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-016",
+    "prompt": "EURO 2024 turnuvasında hangisi daha fazla tackle yaptı?",
+    "playerA": "Jude Bellingham",
+    "playerB": "Declan Rice",
+    "valueA": 24,
+    "valueB": 15,
+    "correctAnswer": "A",
+    "unit": "tackle",
+    "period": "2024",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2024",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2024 istatistik sayfasındaki 'Tackles' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-017",
+    "prompt": "EURO 2024 turnuvasında hangisi daha fazla tackle yaptı?",
+    "playerA": "Eduardo Camavinga",
+    "playerB": "João Palhinha",
+    "valueA": 13,
+    "valueB": 16,
+    "correctAnswer": "B",
+    "unit": "tackle",
+    "period": "2024",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2024",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2024 istatistik sayfasındaki 'Tackles' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-018",
+    "prompt": "EURO 2024 turnuvasında hangisi daha fazla tackle yaptı?",
+    "playerA": "Pierre-Emile Højbjerg",
+    "playerB": "Giorgi Chakvetadze",
+    "valueA": 15,
+    "valueB": 13,
+    "correctAnswer": "A",
+    "unit": "tackle",
+    "period": "2024",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2024",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2024 istatistik sayfasındaki 'Tackles' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-019",
+    "prompt": "EURO 2020 (2021'de oynandı) turnuvasında hangisi daha fazla tackle yaptı?",
+    "playerA": "Manuel Locatelli",
+    "playerB": "Marco Verratti",
+    "valueA": 15,
+    "valueB": 30,
+    "correctAnswer": "B",
+    "unit": "tackle",
+    "period": "2020",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2020",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2020 (2021'de oynandı) istatistik sayfasındaki 'Tackles' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-020",
+    "prompt": "EURO 2020 (2021'de oynandı) turnuvasında hangisi daha fazla tackle yaptı?",
+    "playerA": "Stefan Lainer",
+    "playerB": "Sergio Busquets",
+    "valueA": 14,
+    "valueB": 14,
+    "correctAnswer": "equal",
+    "unit": "tackle",
+    "period": "2020",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2020",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2020 (2021'de oynandı) istatistik sayfasındaki 'Tackles' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-021",
+    "prompt": "EURO 2016 turnuvasında hangisi daha fazla tackle yaptı?",
+    "playerA": "Antoine Griezmann",
+    "playerB": "Paul Pogba",
+    "valueA": 13,
+    "valueB": 12,
+    "correctAnswer": "A",
+    "unit": "tackle",
+    "period": "2016",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2016/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2016/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2016",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2016 istatistik sayfasındaki 'Tackles' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-022",
+    "prompt": "EURO 2016 turnuvasında hangisi daha fazla tackle yaptı?",
+    "playerA": "Zoltán Gera",
+    "playerB": "Jakub Błaszczykowski",
+    "valueA": 10,
+    "valueB": 11,
+    "correctAnswer": "B",
+    "unit": "tackle",
+    "period": "2016",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2016/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2016/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2016",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2016 istatistik sayfasındaki 'Tackles' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-023",
+    "prompt": "2025/26 UEFA Şampiyonlar Ligi turnuvasında hangisi daha fazla tackle yaptı?",
+    "playerA": "Moisés Caicedo",
+    "playerB": "Manuel Locatelli",
+    "valueA": 41,
+    "valueB": 41,
+    "correctAnswer": "equal",
+    "unit": "tackle",
+    "period": "2025/26",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": "2025/26",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2025/26 UEFA Şampiyonlar Ligi istatistik sayfasındaki 'Tackles' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-024",
+    "prompt": "2025/26 UEFA Şampiyonlar Ligi turnuvasında hangisi daha fazla tackle yaptı?",
+    "playerA": "Lucas Torreira",
+    "playerB": "Kevin Van De Perre",
+    "valueA": 36,
+    "valueB": 32,
+    "correctAnswer": "A",
+    "unit": "tackle",
+    "period": "2025/26",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": "2025/26",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2025/26 UEFA Şampiyonlar Ligi istatistik sayfasındaki 'Tackles' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-025",
+    "prompt": "2024/25 UEFA Şampiyonlar Ligi turnuvasında hangisi daha fazla tackle yaptı?",
+    "playerA": "Jude Bellingham",
+    "playerB": "João Neves",
+    "valueA": 42,
+    "valueB": 47,
+    "correctAnswer": "B",
+    "unit": "tackle",
+    "period": "2024/25",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2025/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/history/seasons/2025/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": "2024/25",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2024/25 UEFA Şampiyonlar Ligi istatistik sayfasındaki 'Tackles' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-026",
+    "prompt": "2024/25 UEFA Şampiyonlar Ligi turnuvasında hangisi daha fazla tackle yaptı?",
+    "playerA": "Florentino Luís",
+    "playerB": "Nuno Mendes",
+    "valueA": 40,
+    "valueB": 37,
+    "correctAnswer": "A",
+    "unit": "tackle",
+    "period": "2024/25",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2025/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/history/seasons/2025/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": "2024/25",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2024/25 UEFA Şampiyonlar Ligi istatistik sayfasındaki 'Tackles' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-027",
+    "prompt": "2023/24 UEFA Şampiyonlar Ligi turnuvasında hangisi daha fazla tackle yaptı?",
+    "playerA": "Eduardo Camavinga",
+    "playerB": "Mats Hummels",
+    "valueA": 39,
+    "valueB": 57,
+    "correctAnswer": "B",
+    "unit": "tackle",
+    "period": "2023/24",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2024/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/history/seasons/2024/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": "2023/24",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2023/24 UEFA Şampiyonlar Ligi istatistik sayfasındaki 'Tackles' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-028",
+    "prompt": "2023/24 UEFA Şampiyonlar Ligi turnuvasında hangisi daha fazla tackle yaptı?",
+    "playerA": "Nico Schlotterbeck",
+    "playerB": "Jude Bellingham",
+    "valueA": 36,
+    "valueB": 27,
+    "correctAnswer": "A",
+    "unit": "tackle",
+    "period": "2023/24",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2024/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/history/seasons/2024/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": "2023/24",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2023/24 UEFA Şampiyonlar Ligi istatistik sayfasındaki 'Tackles' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-029",
+    "prompt": "2024/25 UEFA Avrupa Ligi turnuvasında hangisi daha fazla tackle yaptı?",
+    "playerA": "Nicolas Raskin",
+    "playerB": "Casemiro",
+    "valueA": 30,
+    "valueB": 32,
+    "correctAnswer": "B",
+    "unit": "tackle",
+    "period": "2024/25",
+    "source": "https://www.uefa.com/uefaeuropaleague/history/seasons/2025/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuropaleague/history/seasons/2025/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Europa League",
+      "season": "2024/25",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2024/25 UEFA Avrupa Ligi istatistik sayfasındaki 'Tackles' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-030",
+    "prompt": "2024/25 UEFA Avrupa Ligi turnuvasında hangisi daha fazla tackle yaptı?",
+    "playerA": "Noussair Mazraoui",
+    "playerB": "Kevin Mac Allister",
+    "valueA": 32,
+    "valueB": 27,
+    "correctAnswer": "A",
+    "unit": "tackle",
+    "period": "2024/25",
+    "source": "https://www.uefa.com/uefaeuropaleague/history/seasons/2025/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuropaleague/history/seasons/2025/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Europa League",
+      "season": "2024/25",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2024/25 UEFA Avrupa Ligi istatistik sayfasındaki 'Tackles' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-031",
+    "prompt": "EURO 2024 turnuvasında hangisi daha fazla top kazandı (balls recovered)?",
+    "playerA": "Marc Guéhi",
+    "playerB": "Declan Rice",
+    "valueA": 44,
+    "valueB": 46,
+    "correctAnswer": "B",
+    "unit": "top kazanımı",
+    "period": "2024",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2024",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2024 istatistik sayfasındaki 'Balls recovered' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-032",
+    "prompt": "EURO 2024 turnuvasında hangisi daha fazla top kazandı (balls recovered)?",
+    "playerA": "Jules Koundé",
+    "playerB": "Antonio Rüdiger",
+    "valueA": 41,
+    "valueB": 38,
+    "correctAnswer": "A",
+    "unit": "top kazanımı",
+    "period": "2024",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2024",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2024 istatistik sayfasındaki 'Balls recovered' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-033",
+    "prompt": "EURO 2024 turnuvasında hangisi daha fazla top kazandı (balls recovered)?",
+    "playerA": "Manuel Akanji",
+    "playerB": "Aymeric Laporte",
+    "valueA": 37,
+    "valueB": 37,
+    "correctAnswer": "equal",
+    "unit": "top kazanımı",
+    "period": "2024",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2024",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2024 istatistik sayfasındaki 'Balls recovered' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-034",
+    "prompt": "EURO 2020 (2021'de oynandı) turnuvasında hangisi daha fazla top kazandı (balls recovered)?",
+    "playerA": "Mykola Matviyenko",
+    "playerB": "Jorginho",
+    "valueA": 44,
+    "valueB": 46,
+    "correctAnswer": "B",
+    "unit": "top kazanımı",
+    "period": "2020",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2020",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2020 (2021'de oynandı) istatistik sayfasındaki 'Balls recovered' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-035",
+    "prompt": "EURO 2020 (2021'de oynandı) turnuvasında hangisi daha fazla top kazandı (balls recovered)?",
+    "playerA": "Giovanni Di Lorenzo",
+    "playerB": "Simon Kjær",
+    "valueA": 40,
+    "valueB": 39,
+    "correctAnswer": "A",
+    "unit": "top kazanımı",
+    "period": "2020",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2020",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2020 (2021'de oynandı) istatistik sayfasındaki 'Balls recovered' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-036",
+    "prompt": "EURO 2016 turnuvasında hangisi daha fazla top kazandı (balls recovered)?",
+    "playerA": "Jérôme Boateng",
+    "playerB": "Pepe",
+    "valueA": 56,
+    "valueB": 60,
+    "correctAnswer": "B",
+    "unit": "top kazanımı",
+    "period": "2016",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2016/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2016/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2016",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2016 istatistik sayfasındaki 'Balls recovered' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-037",
+    "prompt": "EURO 2016 turnuvasında hangisi daha fazla top kazandı (balls recovered)?",
+    "playerA": "James Chester",
+    "playerB": "Laurent Koscielny",
+    "valueA": 55,
+    "valueB": 44,
+    "correctAnswer": "A",
+    "unit": "top kazanımı",
+    "period": "2016",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2016/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2016/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2016",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2016 istatistik sayfasındaki 'Balls recovered' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-038",
+    "prompt": "EURO 2016 turnuvasında hangisi daha fazla top kazandı (balls recovered)?",
+    "playerA": "Mats Hummels",
+    "playerB": "Ashley Williams",
+    "valueA": 43,
+    "valueB": 49,
+    "correctAnswer": "B",
+    "unit": "top kazanımı",
+    "period": "2016",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2016/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2016/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2016",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2016 istatistik sayfasındaki 'Balls recovered' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-039",
+    "prompt": "2025/26 UEFA Şampiyonlar Ligi turnuvasında hangisi daha fazla top kazandı (balls recovered)?",
+    "playerA": "Willian Pacho",
+    "playerB": "Nuno Mendes",
+    "valueA": 105,
+    "valueB": 87,
+    "correctAnswer": "A",
+    "unit": "top kazanımı",
+    "period": "2025/26",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": "2025/26",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2025/26 UEFA Şampiyonlar Ligi istatistik sayfasındaki 'Balls recovered' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-040",
+    "prompt": "2025/26 UEFA Şampiyonlar Ligi turnuvasında hangisi daha fazla top kazandı (balls recovered)?",
+    "playerA": "Leandro Paredes",
+    "playerB": "Vitinha",
+    "valueA": 77,
+    "valueB": 80,
+    "correctAnswer": "B",
+    "unit": "top kazanımı",
+    "period": "2025/26",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": "2025/26",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2025/26 UEFA Şampiyonlar Ligi istatistik sayfasındaki 'Balls recovered' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-041",
+    "prompt": "2024/25 UEFA Şampiyonlar Ligi turnuvasında hangisi daha fazla top kazandı (balls recovered)?",
+    "playerA": "Marquinhos",
+    "playerB": "João Neves",
+    "valueA": 109,
+    "valueB": 87,
+    "correctAnswer": "A",
+    "unit": "top kazanımı",
+    "period": "2024/25",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2025/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/history/seasons/2025/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": "2024/25",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2024/25 UEFA Şampiyonlar Ligi istatistik sayfasındaki 'Balls recovered' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-042",
+    "prompt": "2024/25 UEFA Şampiyonlar Ligi turnuvasında hangisi daha fazla top kazandı (balls recovered)?",
+    "playerA": "Kim Min-jae",
+    "playerB": "Nuno Mendes",
+    "valueA": 87,
+    "valueB": 87,
+    "correctAnswer": "equal",
+    "unit": "top kazanımı",
+    "period": "2024/25",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2025/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/history/seasons/2025/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": "2024/25",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2024/25 UEFA Şampiyonlar Ligi istatistik sayfasındaki 'Balls recovered' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-043",
+    "prompt": "2023/24 UEFA Şampiyonlar Ligi turnuvasında hangisi daha fazla top kazandı (balls recovered)?",
+    "playerA": "Nico Schlotterbeck",
+    "playerB": "Mats Hummels",
+    "valueA": 82,
+    "valueB": 120,
+    "correctAnswer": "B",
+    "unit": "top kazanımı",
+    "period": "2023/24",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2024/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/history/seasons/2024/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": "2023/24",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2023/24 UEFA Şampiyonlar Ligi istatistik sayfasındaki 'Balls recovered' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-044",
+    "prompt": "2023/24 UEFA Şampiyonlar Ligi turnuvasında hangisi daha fazla top kazandı (balls recovered)?",
+    "playerA": "Kim Min-jae",
+    "playerB": "Marquinhos",
+    "valueA": 69,
+    "valueB": 67,
+    "correctAnswer": "A",
+    "unit": "top kazanımı",
+    "period": "2023/24",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2024/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/history/seasons/2024/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": "2023/24",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2023/24 UEFA Şampiyonlar Ligi istatistik sayfasındaki 'Balls recovered' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-045",
+    "prompt": "2024/25 UEFA Avrupa Ligi turnuvasında hangisi daha fazla top kazandı (balls recovered)?",
+    "playerA": "Noussair Mazraoui",
+    "playerB": "Patrick Berg",
+    "valueA": 93,
+    "valueB": 112,
+    "correctAnswer": "B",
+    "unit": "top kazanımı",
+    "period": "2024/25",
+    "source": "https://www.uefa.com/uefaeuropaleague/history/seasons/2025/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuropaleague/history/seasons/2025/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Europa League",
+      "season": "2024/25",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2024/25 UEFA Avrupa Ligi istatistik sayfasındaki 'Balls recovered' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-046",
+    "prompt": "EURO 2024 turnuvasında hangisi daha fazla isabetli şut çekti?",
+    "playerA": "Kai Havertz",
+    "playerB": "Lamine Yamal",
+    "valueA": 11,
+    "valueB": 7,
+    "correctAnswer": "A",
+    "unit": "isabetli şut",
+    "period": "2024",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2024",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2024 istatistik sayfasındaki 'Attempts on target' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-047",
+    "prompt": "EURO 2024 turnuvasında hangisi daha fazla isabetli şut çekti?",
+    "playerA": "Cristiano Ronaldo",
+    "playerB": "Kylian Mbappé",
+    "valueA": 9,
+    "valueB": 9,
+    "correctAnswer": "equal",
+    "unit": "isabetli şut",
+    "period": "2024",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2024",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2024 istatistik sayfasındaki 'Attempts on target' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-048",
+    "prompt": "EURO 2016 turnuvasında hangisi daha fazla isabetli şut çekti?",
+    "playerA": "Antoine Griezmann",
+    "playerB": "Gareth Bale",
+    "valueA": 14,
+    "valueB": 16,
+    "correctAnswer": "B",
+    "unit": "isabetli şut",
+    "period": "2016",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2016/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2016/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2016",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2016 istatistik sayfasındaki 'Attempts on target' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-049",
+    "prompt": "EURO 2016 turnuvasında hangisi daha fazla isabetli şut çekti?",
+    "playerA": "Cristiano Ronaldo",
+    "playerB": "Kevin De Bruyne",
+    "valueA": 12,
+    "valueB": 10,
+    "correctAnswer": "A",
+    "unit": "isabetli şut",
+    "period": "2016",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2016/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2016/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2016",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2016 istatistik sayfasındaki 'Attempts on target' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-050",
+    "prompt": "EURO 2016 turnuvasında hangisi daha fazla isabetli şut çekti?",
+    "playerA": "Álvaro Morata",
+    "playerB": "Nani",
+    "valueA": 7,
+    "valueB": 9,
+    "correctAnswer": "B",
+    "unit": "isabetli şut",
+    "period": "2016",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2016/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2016/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2016",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2016 istatistik sayfasındaki 'Attempts on target' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-051",
+    "prompt": "EURO 2020 (2021'de oynandı) turnuvasında hangisi daha fazla isabetli şut çekti?",
+    "playerA": "Patrik Schick",
+    "playerB": "Álvaro Morata",
+    "valueA": 9,
+    "valueB": 9,
+    "correctAnswer": "equal",
+    "unit": "isabetli şut",
+    "period": "2020",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2020",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2020 (2021'de oynandı) istatistik sayfasındaki 'Attempts on target' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-052",
+    "prompt": "EURO 2020 (2021'de oynandı) turnuvasında hangisi daha fazla isabetli şut çekti?",
+    "playerA": "Harry Kane",
+    "playerB": "Dani Olmo",
+    "valueA": 8,
+    "valueB": 7,
+    "correctAnswer": "A",
+    "unit": "isabetli şut",
+    "period": "2020",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuro/history/seasons/2020/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA EURO",
+      "season": null,
+      "edition": "2020",
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın EURO 2020 (2021'de oynandı) istatistik sayfasındaki 'Attempts on target' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-053",
+    "prompt": "2025/26 UEFA Şampiyonlar Ligi turnuvasında hangisi daha fazla isabetli şut çekti?",
+    "playerA": "Julián Alvarez",
+    "playerB": "Kylian Mbappé",
+    "valueA": 23,
+    "valueB": 30,
+    "correctAnswer": "B",
+    "unit": "isabetli şut",
+    "period": "2025/26",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": "2025/26",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2025/26 UEFA Şampiyonlar Ligi istatistik sayfasındaki 'Attempts on target' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-054",
+    "prompt": "2025/26 UEFA Şampiyonlar Ligi turnuvasında hangisi daha fazla isabetli şut çekti?",
+    "playerA": "Erling Haaland",
+    "playerB": "Michael Olise",
+    "valueA": 20,
+    "valueB": 19,
+    "correctAnswer": "A",
+    "unit": "isabetli şut",
+    "period": "2025/26",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/history/seasons/2026/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": "2025/26",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2025/26 UEFA Şampiyonlar Ligi istatistik sayfasındaki 'Attempts on target' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-055",
+    "prompt": "2024/25 UEFA Şampiyonlar Ligi turnuvasında hangisi daha fazla isabetli şut çekti?",
+    "playerA": "Serhou Guirassy",
+    "playerB": "Kylian Mbappé",
+    "valueA": 24,
+    "valueB": 27,
+    "correctAnswer": "B",
+    "unit": "isabetli şut",
+    "period": "2024/25",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2025/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/history/seasons/2025/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": "2024/25",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2024/25 UEFA Şampiyonlar Ligi istatistik sayfasındaki 'Attempts on target' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-056",
+    "prompt": "2024/25 UEFA Şampiyonlar Ligi turnuvasında hangisi daha fazla isabetli şut çekti?",
+    "playerA": "Lamine Yamal",
+    "playerB": "Ousmane Dembélé",
+    "valueA": 25,
+    "valueB": 23,
+    "correctAnswer": "A",
+    "unit": "isabetli şut",
+    "period": "2024/25",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2025/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/history/seasons/2025/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": "2024/25",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2024/25 UEFA Şampiyonlar Ligi istatistik sayfasındaki 'Attempts on target' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-057",
+    "prompt": "2023/24 UEFA Şampiyonlar Ligi turnuvasında hangisi daha fazla isabetli şut çekti?",
+    "playerA": "Rodrygo",
+    "playerB": "Erling Haaland",
+    "valueA": 19,
+    "valueB": 22,
+    "correctAnswer": "B",
+    "unit": "isabetli şut",
+    "period": "2023/24",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2024/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/history/seasons/2024/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": "2023/24",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2023/24 UEFA Şampiyonlar Ligi istatistik sayfasındaki 'Attempts on target' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-058",
+    "prompt": "2023/24 UEFA Şampiyonlar Ligi turnuvasında hangisi daha fazla isabetli şut çekti?",
+    "playerA": "Harry Kane",
+    "playerB": "Raphinha",
+    "valueA": 16,
+    "valueB": 14,
+    "correctAnswer": "A",
+    "unit": "isabetli şut",
+    "period": "2023/24",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2024/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefachampionsleague/history/seasons/2024/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Champions League",
+      "season": "2023/24",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2023/24 UEFA Şampiyonlar Ligi istatistik sayfasındaki 'Attempts on target' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-059",
+    "prompt": "2024/25 UEFA Avrupa Ligi turnuvasında hangisi daha fazla isabetli şut çekti?",
+    "playerA": "Youssef En-Nesyri",
+    "playerB": "Victor Osimhen",
+    "valueA": 15,
+    "valueB": 20,
+    "correctAnswer": "B",
+    "unit": "isabetli şut",
+    "period": "2024/25",
+    "source": "https://www.uefa.com/uefaeuropaleague/history/seasons/2025/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuropaleague/history/seasons/2025/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Europa League",
+      "season": "2024/25",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2024/25 UEFA Avrupa Ligi istatistik sayfasındaki 'Attempts on target' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
+  },
+  {
+    "id": "more-less-002-060",
+    "prompt": "2024/25 UEFA Avrupa Ligi turnuvasında hangisi daha fazla isabetli şut çekti?",
+    "playerA": "Alejandro Garnacho",
+    "playerB": "Rayan Cherki",
+    "valueA": 14,
+    "valueB": 13,
+    "correctAnswer": "A",
+    "unit": "isabetli şut",
+    "period": "2024/25",
+    "source": "https://www.uefa.com/uefaeuropaleague/history/seasons/2025/statistics/",
+    "sources": [
+      "https://www.uefa.com/uefaeuropaleague/history/seasons/2025/statistics/"
+    ],
+    "scope": {
+      "competition": "UEFA Europa League",
+      "season": "2024/25",
+      "edition": null,
+      "startDate": null,
+      "endDate": null,
+      "stage": "as_listed_by_uefa_stats_page",
+      "definition": "UEFA'nın 2024/25 UEFA Avrupa Ligi istatistik sayfasındaki 'Attempts on target' oyuncu tablosu (toplam, maç başı değil). Sayfa, tablonun eleme maçlarını içerip içermediğini belirtmiyor; iki oyuncu aynı tablodan alındı. Tablo yalnızca ilk 6 sırayı gösteriyor."
+    },
+    "verification": "researcher-reviewed-official-tables"
   }
 ]

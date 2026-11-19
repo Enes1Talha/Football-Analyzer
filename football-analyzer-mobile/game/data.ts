@@ -2,6 +2,7 @@ import importedPlayers from "./imported-players.json";
 import reviewedPlayers from "./reviewed-players.json";
 import batchTwoPlayers from "./batch-two-players.json";
 import batchThreePlayers from "./batch-three-players.json";
+import batchFourPlayers from "./batch-four-players.json";
 export interface GamePlayer { id: string; name: string; clubs: readonly string[]; source: string; aliases?: readonly string[] }
 // Curated senior-club links, not exhaustive careers. Each entry keeps its evidence.
 const curatedPlayers = [
@@ -30,11 +31,12 @@ const basePlayers: GamePlayer[] = [
   ...importedPlayers.filter(p => !curatedPlayers.some(c => importedMatches(p, c))),
   ...reviewedPlayers.filter(p => !importedPlayers.some(i => i.id === p.id) && !curatedPlayers.some(c => importedMatches(p, c))),
 ];
-export const players: GamePlayer[] = [
+const beforeBatchFour: GamePlayer[] = [
   ...basePlayers.map(p=>batchTwoPlayers.find(next=>next.id===p.id)||p),
   ...batchTwoPlayers.filter(p=>!basePlayers.some(existing=>existing.id===p.id)),
   ...batchThreePlayers,
 ];
+export const players: GamePlayer[] = [...beforeBatchFour.map(p=>batchFourPlayers.find(next=>next.id===p.id)||p),...batchFourPlayers.filter(p=>!beforeBatchFour.some(old=>old.id===p.id))];
 
 export const pairs = [
   ["Manchester United", "Real Madrid"],

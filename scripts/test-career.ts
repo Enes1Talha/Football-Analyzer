@@ -4,7 +4,7 @@ import {searchPlayers,players} from '../football-analyzer-mobile/game/data';
 assert.deepEqual([2,3,4,5,6,7,8,9].map(n=>careerPoints(9,n)),[100,80,60,40,20,0,0,0]);
 assert.deepEqual([2,3,4].map(n=>careerPoints(4,n)),[100,80,0]);
 assert.deepEqual([2,3].map(n=>careerPoints(3,n)),[100,0]);
-assert.equal(careerTrails.length,10);
+assert.equal(careerTrails.length,34);
 const emre=careerTrails.find(t=>t.id==='emre')!;
 for(const answer of ['Emre','EMRE',' emre '])assert.equal(careerCorrect(emre,answer),false);
 for(const answer of ['Emre Belözoğlu','emre belozoglu','Belözoğlu','BELOZOGLU'])assert.equal(careerCorrect(emre,answer),true);

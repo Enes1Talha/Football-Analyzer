@@ -80,6 +80,14 @@ The checked-in evidence snapshot retains statement URLs and retrieval time. It d
 
 ## Claude batch one (2026-11-17)
 
+### Expansion applied 2026-11-19
+
+Migration `202611190001_research_expansion_anagrams.sql` adds 20 selectable player identities, updates Salah's club links, and adds 60 anagrams, 24 career routes and 140 comparison questions. Totals: 543 players, 264 anagrams, 34 routes and 160 comparison questions. Existing results are untouched. `research-20261119/admission.json` records admissions and six deferred routes.
+
+Career routes retain Wikipedia provenance and a review date, without asserting verified retirement. Three career-only identities have empty two-club lists. Club/statistical evidence retains researcher attribution; not every submitted source was independently rechecked. Career comparison totals use the documented 2026-05-30 cutoff, rather than an assumption that retired players' totals cannot change. Multiple comparison evidence links are retained and shown after answering. Solo question assets are public and are not an anti-cheat boundary.
+
+The initial more-less seed generator is frozen to avoid overwriting applied migrations or replacing the expanded pool. Use additive migrations for later batches. The research export includes all four current pools.
+
 Solo practice uses the shared player catalog and a public word snapshot at `src/lib/solo-anagrams.json`. After adding anagram seed migrations, run `node scripts/generate-solo-anagrams.mjs` and `npx tsx scripts/test-game-db.mjs` to verify it matches the migrated database. The generator handles additive literal seeds only; edits/removals require a reviewed update. Local practice records are browser-local, separated by game and difficulty; they never call the ranked score RPCs. Manual two-device testing remains separate from solo code tests (`npx tsx scripts/test-solo-game.ts`).
 
 `football_players_batch1.json` is the original untrusted research proposal: 50 players and 335 career links, plus reserves and uncertain records. Do not import it wholesale. `claude-batch1-review.json` captures the pre-import comparison: 30 existing players, 20 new candidates, and no new supported-club links for the existing players.

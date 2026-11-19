@@ -1,0 +1,27 @@
+{
+  "newPlayers": 20,
+  "updatedPlayers": 1,
+  "newAnagrams": 60,
+  "newTrails": 24,
+  "newComparisonQuestions": 140,
+  "totals": {
+    "players": 543,
+    "anagrams": 264,
+    "careerTrails": 34,
+    "moreLess": 160
+  },
+  "sourcePolicy": "Club and statistical evidence retains researcher attribution. Salah report independently checked. Career trails explicitly secondary; no retirement inference displayed.",
+  "deferredCareerRoutes": [
+    "Mário Jardel",
+    "Radamel Falcao",
+    "Edin Džeko",
+    "Dirk Kuyt",
+    "Gheorghe Popescu",
+    "Ricardo Quaresma"
+  ],
+  "careerOnlyPlayers": [
+    "Nihat Kahveci",
+    "Tuncay Şanlı",
+    "Alex de Souza"
+  ]
+}
