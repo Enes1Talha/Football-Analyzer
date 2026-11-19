@@ -1,0 +1,202 @@
+{
+  "reviewDate": "2026-11-19",
+  "status": "pre-import-review-only",
+  "currentPool": {
+    "players": 523,
+    "clubs": 29,
+    "anagrams": 204,
+    "careerTrails": 10
+  },
+  "researcherReportedPool": {
+    "snapshotDate": "2026-11-17",
+    "players": 473,
+    "clubs": 29,
+    "anagrams": 134
+  },
+  "twoClubs": [
+    {
+      "name": "Luis Enrique",
+      "matchedPlayerId": null,
+      "newLinks": [
+        "Real Madrid",
+        "Barcelona"
+      ]
+    },
+    {
+      "name": "Jesús Navas",
+      "matchedPlayerId": null,
+      "newLinks": [
+        "Sevilla",
+        "Manchester City"
+      ]
+    },
+    {
+      "name": "David Villa",
+      "matchedPlayerId": null,
+      "newLinks": [
+        "Valencia",
+        "Barcelona",
+        "Atlético Madrid"
+      ]
+    },
+    {
+      "name": "Michael Reiziger",
+      "matchedPlayerId": null,
+      "newLinks": [
+        "Ajax",
+        "AC Milan",
+        "Barcelona"
+      ]
+    },
+    {
+      "name": "Roy Makaay",
+      "matchedPlayerId": null,
+      "newLinks": [
+        "Bayern Munich",
+        "Feyenoord"
+      ]
+    },
+    {
+      "name": "Giovane Elber",
+      "matchedPlayerId": null,
+      "newLinks": [
+        "Bayern Munich",
+        "Lyon"
+      ]
+    },
+    {
+      "name": "Raphaël Guerreiro",
+      "matchedPlayerId": null,
+      "newLinks": [
+        "Borussia Dortmund",
+        "Bayern Munich"
+      ]
+    },
+    {
+      "name": "Vitinha",
+      "matchedPlayerId": null,
+      "newLinks": [
+        "Porto",
+        "Paris Saint-Germain"
+      ]
+    },
+    {
+      "name": "Rui Patrício",
+      "matchedPlayerId": null,
+      "newLinks": [
+        "Sporting CP",
+        "Roma"
+      ]
+    },
+    {
+      "name": "Marco Simone",
+      "matchedPlayerId": null,
+      "newLinks": [
+        "AC Milan",
+        "Paris Saint-Germain"
+      ]
+    },
+    {
+      "name": "Alessandro Altobelli",
+      "matchedPlayerId": null,
+      "newLinks": [
+        "Inter",
+        "Juventus"
+      ]
+    },
+    {
+      "name": "Karl-Heinz Rummenigge",
+      "matchedPlayerId": null,
+      "newLinks": [
+        "Bayern Munich",
+        "Inter"
+      ]
+    },
+    {
+      "name": "Marcus Rashford",
+      "matchedPlayerId": null,
+      "newLinks": [
+        "Manchester United",
+        "Barcelona"
+      ]
+    },
+    {
+      "name": "Samuel Kuffour",
+      "matchedPlayerId": null,
+      "newLinks": [
+        "Bayern Munich",
+        "Roma"
+      ]
+    },
+    {
+      "name": "Benni McCarthy",
+      "matchedPlayerId": null,
+      "newLinks": [
+        "Ajax",
+        "Porto"
+      ]
+    },
+    {
+      "name": "Frédéric Kanouté",
+      "matchedPlayerId": null,
+      "newLinks": [
+        "Lyon",
+        "Sevilla"
+      ]
+    },
+    {
+      "name": "Emmanuel Adebayor",
+      "matchedPlayerId": null,
+      "newLinks": [
+        "Arsenal",
+        "Manchester City",
+        "Real Madrid"
+      ]
+    },
+    {
+      "name": "Muhammed Salah",
+      "matchedPlayerId": "wd-Q1354960",
+      "newLinks": [
+        "Trabzonspor"
+      ]
+    }
+  ],
+  "anagrams": {
+    "candidates": 60,
+    "duplicateWords": []
+  },
+  "moreLess": {
+    "newQuestions": 60,
+    "duplicateComparisons": [],
+    "answers": {
+      "A": 26,
+      "equal": 9,
+      "B": 25
+    },
+    "metrics": {
+      "saves": 15,
+      "tackles": 15,
+      "balls_recovered": 15,
+      "attempts_on_target": 15
+    },
+    "maxPairUse": 1,
+    "maxPlayerUse": 3,
+    "auditedCareerQuestions": 80,
+    "changedValues": [],
+    "normalization": "attempts_on_target and shots_on_target treated as equivalent; season separators normalized"
+  },
+  "careerRoutes": {
+    "accepted": 0,
+    "pending": 25
+  },
+  "sourceChecks": {
+    "SalahTrabzonspor": "UEFA player URL timed out twice; not independently verified in this review.",
+    "FerranPSG": "Current UEFA 2026/27 profile shows Paris and 4 matches; do not remove based on May 2026 historical table.",
+    "RodriBarcelona": "Current UEFA 2026/27 profile shows Barcelona and 4 matches; do not remove based on historical table."
+  },
+  "limitations": [
+    "Structural checks are not an independent verification of all source values.",
+    "No candidate has been imported by this review.",
+    "The previous report lacks per-player reasons for five deferred careers; do not invent those reasons."
+  ]
+}

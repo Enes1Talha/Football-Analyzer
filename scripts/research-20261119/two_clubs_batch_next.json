@@ -1,0 +1,1826 @@
+{
+  "meta": {
+    "game": "İki Kulüp, Bir İsim",
+    "researchedAt": "2026-11-19",
+    "basedOnPool": {
+      "snapshotDate": "2026-11-17",
+      "players": 473,
+      "clubs": 29,
+      "anagrams": 134
+    },
+    "supportedClubsSource": "mevcut-oyun-havuzu.json supportedClubs (29 kulüp); yeni kulüp eklenmedi.",
+    "counts": {
+      "acceptedRecords": 18,
+      "newPlayers": 17,
+      "existingPlayerNewLinks": 1,
+      "acceptedClubLinks": 38,
+      "needsReview": 5,
+      "corrections": 2,
+      "pairsOpenedFromZero": 2,
+      "pairsStrengthened": 24
+    },
+    "dedupScope": "Havuzdaki 473 oyuncunun ad + takma adları ve üçüncü partide teslim edilen (havuza henüz eklenmemiş) 50 oyuncu, aksan/Türkçe karakter/boşluk normalize edilerek karşılaştırıldı.",
+    "targetStatus": "Hedef (40 yeni oyuncu veya 60 yeni bağlantı) karşılanmadı; sayılar counts alanında.",
+    "limitations": [
+      "Yeni oyuncuların kanıtı UEFA'nın ülke bazlı istatistik tablolarıdır: kulübün listede olması UEFA kulüp turnuvası maçını gösterir, ancak maç tarihi ve kiralık bilgisi vermez (loan: null).",
+      "Yalnızca lig/kupa maçı oynanan desteklenen kulüpler bu kaynaklarda görünmez; bu oyuncuların başka desteklenen kulüpleri olabilir.",
+      "Sıfır cevaplı dört Trabzonspor çiftinden yalnızca Feyenoord–Trabzonspor için aday bulundu; resmî maç kanıtı açılamadığı için inceleme listesinde."
+    ]
+  },
+  "accepted": [
+    {
+      "id": "luis-enrique",
+      "existingPlayerId": null,
+      "name": "Luis Enrique",
+      "aliases": [
+        "Luis Enrique Martínez"
+      ],
+      "birthDate": null,
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-19",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "İspanyol oyuncular makalesi, UEFA Şampiyonlar Ligi gol tablosu (grup/lig aşamasından finale): Oyuncu adı ve kulüpleri tabloda: Real Madrid, Barcelona.",
+          "shortQuote": null
+        }
+      ],
+      "identityNote": "Oyunculuk kaydı; teknik direktörlük dönemleri dahil edilmedi.",
+      "recordType": "newPlayer",
+      "clubs": [
+        {
+          "clubId": "real-madrid",
+          "clubName": "Real Madrid",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-07-19",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Real Madrid"
+              ],
+              "evidenceNote": "İspanyol oyuncular makalesi, UEFA Şampiyonlar Ligi gol tablosu (grup/lig aşamasından finale): Luis Enrique = 19; oyuncunun kulüp listesi: Real Madrid, Barcelona. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "19 | Luis Enrique | (Real Madrid, Barcelona)"
+            }
+          ]
+        },
+        {
+          "clubId": "barcelona",
+          "clubName": "Barcelona",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-07-19",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Barcelona"
+              ],
+              "evidenceNote": "İspanyol oyuncular makalesi, UEFA Şampiyonlar Ligi gol tablosu (grup/lig aşamasından finale): Luis Enrique = 19; oyuncunun kulüp listesi: Real Madrid, Barcelona. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "19 | Luis Enrique | (Real Madrid, Barcelona)"
+            }
+          ]
+        }
+      ],
+      "previouslyMentioned": "Üçüncü partide meta.verifiedReserveCandidates içinde aday olarak listelenmişti; kabul edilmiş kayıt değildi."
+    },
+    {
+      "id": "jesus-navas",
+      "existingPlayerId": null,
+      "name": "Jesús Navas",
+      "aliases": [
+        "Jesus Navas"
+      ],
+      "birthDate": null,
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-19",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "İspanyol oyuncular makalesi, UEFA kulüp turnuvaları maç tablosu (tüm turlar): Oyuncu adı ve kulüpleri tabloda: Sevilla, Manchester City.",
+          "shortQuote": null
+        }
+      ],
+      "identityNote": null,
+      "recordType": "newPlayer",
+      "clubs": [
+        {
+          "clubId": "sevilla",
+          "clubName": "Sevilla",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-07-19",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Sevilla"
+              ],
+              "evidenceNote": "İspanyol oyuncular makalesi, UEFA kulüp turnuvaları maç tablosu (tüm turlar): Jesús Navas = 147; oyuncunun kulüp listesi: Sevilla, Manchester City. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "147 | Jesús Navas | (Sevilla, Manchester City)"
+            }
+          ]
+        },
+        {
+          "clubId": "manchester-city",
+          "clubName": "Manchester City",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-07-19",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Manchester City"
+              ],
+              "evidenceNote": "İspanyol oyuncular makalesi, UEFA kulüp turnuvaları maç tablosu (tüm turlar): Jesús Navas = 147; oyuncunun kulüp listesi: Sevilla, Manchester City. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "147 | Jesús Navas | (Sevilla, Manchester City)"
+            }
+          ]
+        }
+      ],
+      "previouslyMentioned": "Üçüncü partide meta.verifiedReserveCandidates içinde aday olarak listelenmişti; kabul edilmiş kayıt değildi."
+    },
+    {
+      "id": "david-villa",
+      "existingPlayerId": null,
+      "name": "David Villa",
+      "aliases": [
+        "Villa"
+      ],
+      "birthDate": null,
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-19",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "İspanyol oyuncular makalesi, UEFA kulüp turnuvaları gol tablosu (tüm turlar): Oyuncu adı ve kulüpleri tabloda: Zaragoza, Valencia, Barcelona, Atlético de Madrid.",
+          "shortQuote": null
+        }
+      ],
+      "identityNote": null,
+      "recordType": "newPlayer",
+      "clubs": [
+        {
+          "clubId": "valencia",
+          "clubName": "Valencia",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-07-19",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Valencia"
+              ],
+              "evidenceNote": "İspanyol oyuncular makalesi, UEFA kulüp turnuvaları gol tablosu (tüm turlar): David Villa = 28; oyuncunun kulüp listesi: Zaragoza, Valencia, Barcelona, Atlético de Madrid. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "28 | David Villa | (Zaragoza, Valencia, Barcelona, Atlético de Madrid)"
+            }
+          ]
+        },
+        {
+          "clubId": "barcelona",
+          "clubName": "Barcelona",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-07-19",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Barcelona"
+              ],
+              "evidenceNote": "İspanyol oyuncular makalesi, UEFA kulüp turnuvaları gol tablosu (tüm turlar): David Villa = 28; oyuncunun kulüp listesi: Zaragoza, Valencia, Barcelona, Atlético de Madrid. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "28 | David Villa | (Zaragoza, Valencia, Barcelona, Atlético de Madrid)"
+            }
+          ]
+        },
+        {
+          "clubId": "atletico-madrid",
+          "clubName": "Atlético Madrid",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-07-19",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Atlético Madrid"
+              ],
+              "evidenceNote": "İspanyol oyuncular makalesi, UEFA kulüp turnuvaları gol tablosu (tüm turlar): David Villa = 28; oyuncunun kulüp listesi: Zaragoza, Valencia, Barcelona, Atlético de Madrid. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "28 | David Villa | (Zaragoza, Valencia, Barcelona, Atlético de Madrid)"
+            }
+          ]
+        }
+      ],
+      "previouslyMentioned": "Üçüncü partide meta.verifiedReserveCandidates içinde aday olarak listelenmişti; kabul edilmiş kayıt değildi."
+    },
+    {
+      "id": "michael-reiziger",
+      "existingPlayerId": null,
+      "name": "Michael Reiziger",
+      "aliases": [
+        "Reiziger"
+      ],
+      "birthDate": null,
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-06-29",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Hollandalı oyuncular makalesi, UEFA Şampiyonlar Ligi maç tablosu (grup/lig aşamasından finale): Oyuncu adı ve kulüpleri tabloda: Ajax, AC Milan, Barcelona, PSV Eindhoven.",
+          "shortQuote": null
+        }
+      ],
+      "identityNote": null,
+      "recordType": "newPlayer",
+      "clubs": [
+        {
+          "clubId": "ajax",
+          "clubName": "Ajax",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-06-29",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Ajax"
+              ],
+              "evidenceNote": "Hollandalı oyuncular makalesi, UEFA Şampiyonlar Ligi maç tablosu (grup/lig aşamasından finale): Michael Reiziger = 74; oyuncunun kulüp listesi: Ajax, AC Milan, Barcelona, PSV Eindhoven. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "74 | Michael Reiziger | (Ajax, AC Milan, Barcelona, PSV Eindhoven)"
+            }
+          ]
+        },
+        {
+          "clubId": "ac-milan",
+          "clubName": "AC Milan",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-06-29",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.AC Milan"
+              ],
+              "evidenceNote": "Hollandalı oyuncular makalesi, UEFA Şampiyonlar Ligi maç tablosu (grup/lig aşamasından finale): Michael Reiziger = 74; oyuncunun kulüp listesi: Ajax, AC Milan, Barcelona, PSV Eindhoven. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "74 | Michael Reiziger | (Ajax, AC Milan, Barcelona, PSV Eindhoven)"
+            }
+          ]
+        },
+        {
+          "clubId": "barcelona",
+          "clubName": "Barcelona",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-06-29",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Barcelona"
+              ],
+              "evidenceNote": "Hollandalı oyuncular makalesi, UEFA Şampiyonlar Ligi maç tablosu (grup/lig aşamasından finale): Michael Reiziger = 74; oyuncunun kulüp listesi: Ajax, AC Milan, Barcelona, PSV Eindhoven. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "74 | Michael Reiziger | (Ajax, AC Milan, Barcelona, PSV Eindhoven)"
+            }
+          ]
+        }
+      ],
+      "previouslyMentioned": "Üçüncü partide meta.verifiedReserveCandidates içinde aday olarak listelenmişti; kabul edilmiş kayıt değildi."
+    },
+    {
+      "id": "roy-makaay",
+      "existingPlayerId": null,
+      "name": "Roy Makaay",
+      "aliases": [
+        "Makaay"
+      ],
+      "birthDate": null,
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-06-29",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Hollandalı oyuncular makalesi, UEFA kulüp turnuvaları gol tablosu (tüm turlar): Oyuncu adı ve kulüpleri tabloda: Deportivo La Coruña, Bayern München, Feyenoord.",
+          "shortQuote": null
+        }
+      ],
+      "identityNote": null,
+      "recordType": "newPlayer",
+      "clubs": [
+        {
+          "clubId": "bayern-munich",
+          "clubName": "Bayern Munich",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-06-29",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Bayern Munich"
+              ],
+              "evidenceNote": "Hollandalı oyuncular makalesi, UEFA kulüp turnuvaları gol tablosu (tüm turlar): Roy Makaay = 32; oyuncunun kulüp listesi: Deportivo La Coruña, Bayern München, Feyenoord. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "32 | Roy Makaay | (Deportivo La Coruña, Bayern München, Feyenoord)"
+            }
+          ]
+        },
+        {
+          "clubId": "feyenoord",
+          "clubName": "Feyenoord",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-06-29",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Feyenoord"
+              ],
+              "evidenceNote": "Hollandalı oyuncular makalesi, UEFA kulüp turnuvaları gol tablosu (tüm turlar): Roy Makaay = 32; oyuncunun kulüp listesi: Deportivo La Coruña, Bayern München, Feyenoord. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "32 | Roy Makaay | (Deportivo La Coruña, Bayern München, Feyenoord)"
+            }
+          ]
+        }
+      ],
+      "previouslyMentioned": "Üçüncü partide meta.verifiedReserveCandidates içinde aday olarak listelenmişti; kabul edilmiş kayıt değildi."
+    },
+    {
+      "id": "giovane-elber",
+      "existingPlayerId": null,
+      "name": "Giovane Elber",
+      "aliases": [
+        "Elber"
+      ],
+      "birthDate": null,
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-06-19",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Brezilyalı oyuncular makalesi, UEFA Şampiyonlar Ligi gol tablosu (grup/lig aşamasından finale): Oyuncu adı ve kulüpleri tabloda: Bayern München, Lyon.",
+          "shortQuote": null
+        }
+      ],
+      "identityNote": null,
+      "recordType": "newPlayer",
+      "clubs": [
+        {
+          "clubId": "bayern-munich",
+          "clubName": "Bayern Munich",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-06-19",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Bayern Munich"
+              ],
+              "evidenceNote": "Brezilyalı oyuncular makalesi, UEFA Şampiyonlar Ligi gol tablosu (grup/lig aşamasından finale): Giovane Elber = 25; oyuncunun kulüp listesi: Bayern München, Lyon. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "25 | Giovane Elber | (Bayern München, Lyon)"
+            }
+          ]
+        },
+        {
+          "clubId": "lyon",
+          "clubName": "Lyon",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-06-19",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Lyon"
+              ],
+              "evidenceNote": "Brezilyalı oyuncular makalesi, UEFA Şampiyonlar Ligi gol tablosu (grup/lig aşamasından finale): Giovane Elber = 25; oyuncunun kulüp listesi: Bayern München, Lyon. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "25 | Giovane Elber | (Bayern München, Lyon)"
+            }
+          ]
+        }
+      ],
+      "previouslyMentioned": "Üçüncü partide meta.verifiedReserveCandidates içinde aday olarak listelenmişti; kabul edilmiş kayıt değildi."
+    },
+    {
+      "id": "raphael-guerreiro",
+      "existingPlayerId": null,
+      "name": "Raphaël Guerreiro",
+      "aliases": [
+        "Raphael Guerreiro"
+      ],
+      "birthDate": null,
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-06",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Portekizli oyuncular makalesi, UEFA Şampiyonlar Ligi gol tablosu (grup/lig aşamasından finale): Oyuncu adı ve kulüpleri tabloda: Dortmund, Bayern München.",
+          "shortQuote": null
+        }
+      ],
+      "identityNote": null,
+      "recordType": "newPlayer",
+      "clubs": [
+        {
+          "clubId": "borussia-dortmund",
+          "clubName": "Borussia Dortmund",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-07-06",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Borussia Dortmund"
+              ],
+              "evidenceNote": "Portekizli oyuncular makalesi, UEFA Şampiyonlar Ligi gol tablosu (grup/lig aşamasından finale): Raphaël Guerreiro = 11; oyuncunun kulüp listesi: Dortmund, Bayern München. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "11 | Raphaël Guerreiro | (Dortmund, Bayern München)"
+            }
+          ]
+        },
+        {
+          "clubId": "bayern-munich",
+          "clubName": "Bayern Munich",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-07-06",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Bayern Munich"
+              ],
+              "evidenceNote": "Portekizli oyuncular makalesi, UEFA Şampiyonlar Ligi gol tablosu (grup/lig aşamasından finale): Raphaël Guerreiro = 11; oyuncunun kulüp listesi: Dortmund, Bayern München. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "11 | Raphaël Guerreiro | (Dortmund, Bayern München)"
+            }
+          ]
+        }
+      ],
+      "previouslyMentioned": "Üçüncü partide meta.verifiedReserveCandidates içinde aday olarak listelenmişti; kabul edilmiş kayıt değildi."
+    },
+    {
+      "id": "vitinha",
+      "existingPlayerId": null,
+      "name": "Vitinha",
+      "aliases": [
+        "Vítor Ferreira"
+      ],
+      "birthDate": null,
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-06",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Portekizli oyuncular makalesi, UEFA Şampiyonlar Ligi gol tablosu (grup/lig aşamasından finale): Oyuncu adı ve kulüpleri tabloda: Porto, Paris Saint-Germain.",
+          "shortQuote": null
+        }
+      ],
+      "identityNote": "UEFA Portekiz tablosundaki Porto/PSG orta saha oyuncusu; aynı takma adı kullanan forvet Vitinha (Braga, Marseille) ayrı kişidir.",
+      "recordType": "newPlayer",
+      "clubs": [
+        {
+          "clubId": "porto",
+          "clubName": "Porto",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-07-06",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Porto"
+              ],
+              "evidenceNote": "Portekizli oyuncular makalesi, UEFA Şampiyonlar Ligi gol tablosu (grup/lig aşamasından finale): Vitinha = 10; oyuncunun kulüp listesi: Porto, Paris Saint-Germain. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "10 | Vitinha | (Porto, Paris Saint-Germain)"
+            }
+          ]
+        },
+        {
+          "clubId": "paris-saint-germain",
+          "clubName": "Paris Saint-Germain",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-07-06",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Paris Saint-Germain"
+              ],
+              "evidenceNote": "Portekizli oyuncular makalesi, UEFA Şampiyonlar Ligi gol tablosu (grup/lig aşamasından finale): Vitinha = 10; oyuncunun kulüp listesi: Porto, Paris Saint-Germain. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "10 | Vitinha | (Porto, Paris Saint-Germain)"
+            }
+          ]
+        }
+      ],
+      "previouslyMentioned": "Üçüncü partide meta.verifiedReserveCandidates içinde aday olarak listelenmişti; kabul edilmiş kayıt değildi."
+    },
+    {
+      "id": "rui-patricio",
+      "existingPlayerId": null,
+      "name": "Rui Patrício",
+      "aliases": [
+        "Rui Patricio"
+      ],
+      "birthDate": null,
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-06",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Portekizli oyuncular makalesi, UEFA kulüp turnuvaları maç tablosu (tüm turlar): Oyuncu adı ve kulüpleri tabloda: Sporting CP, Wolves, Roma, Atalanta.",
+          "shortQuote": null
+        }
+      ],
+      "identityNote": null,
+      "recordType": "newPlayer",
+      "clubs": [
+        {
+          "clubId": "sporting-cp",
+          "clubName": "Sporting CP",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-07-06",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Sporting CP"
+              ],
+              "evidenceNote": "Portekizli oyuncular makalesi, UEFA kulüp turnuvaları maç tablosu (tüm turlar): Rui Patrício = 137; oyuncunun kulüp listesi: Sporting CP, Wolves, Roma, Atalanta. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "137 | Rui Patrício | (Sporting CP, Wolves, Roma, Atalanta)"
+            }
+          ]
+        },
+        {
+          "clubId": "roma",
+          "clubName": "Roma",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-07-06",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Roma"
+              ],
+              "evidenceNote": "Portekizli oyuncular makalesi, UEFA kulüp turnuvaları maç tablosu (tüm turlar): Rui Patrício = 137; oyuncunun kulüp listesi: Sporting CP, Wolves, Roma, Atalanta. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "137 | Rui Patrício | (Sporting CP, Wolves, Roma, Atalanta)"
+            }
+          ]
+        }
+      ],
+      "previouslyMentioned": "Üçüncü partide meta.verifiedReserveCandidates içinde aday olarak listelenmişti; kabul edilmiş kayıt değildi."
+    },
+    {
+      "id": "marco-simone",
+      "existingPlayerId": null,
+      "name": "Marco Simone",
+      "aliases": [
+        "Simone"
+      ],
+      "birthDate": null,
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-05-30",
+          "statsCutoff": "2026-05-30 (saat yok)",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "İtalyan oyuncular makalesi, UEFA Şampiyonlar Ligi gol tablosu (grup/lig aşamasından finale): Oyuncu adı ve kulüpleri tabloda: AC Milan, Paris, Monaco.",
+          "shortQuote": null
+        }
+      ],
+      "identityNote": null,
+      "recordType": "newPlayer",
+      "clubs": [
+        {
+          "clubId": "ac-milan",
+          "clubName": "AC Milan",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-05-30",
+              "statsCutoff": "2026-05-30 (saat yok)",
+              "supports": [
+                "clubs.AC Milan"
+              ],
+              "evidenceNote": "İtalyan oyuncular makalesi, UEFA Şampiyonlar Ligi gol tablosu (grup/lig aşamasından finale): Marco Simone = 23; oyuncunun kulüp listesi: AC Milan, Paris, Monaco. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "23 | Marco Simone | (AC Milan, Paris, Monaco)"
+            }
+          ]
+        },
+        {
+          "clubId": "paris-saint-germain",
+          "clubName": "Paris Saint-Germain",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-05-30",
+              "statsCutoff": "2026-05-30 (saat yok)",
+              "supports": [
+                "clubs.Paris Saint-Germain"
+              ],
+              "evidenceNote": "İtalyan oyuncular makalesi, UEFA Şampiyonlar Ligi gol tablosu (grup/lig aşamasından finale): Marco Simone = 23; oyuncunun kulüp listesi: AC Milan, Paris, Monaco. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "23 | Marco Simone | (AC Milan, Paris, Monaco)"
+            }
+          ]
+        }
+      ],
+      "previouslyMentioned": "Üçüncü partide meta.verifiedReserveCandidates içinde aday olarak listelenmişti; kabul edilmiş kayıt değildi."
+    },
+    {
+      "id": "alessandro-altobelli",
+      "existingPlayerId": null,
+      "name": "Alessandro Altobelli",
+      "aliases": [
+        "Spillo Altobelli"
+      ],
+      "birthDate": null,
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-05-30",
+          "statsCutoff": "2026-05-30 (saat yok)",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "İtalyan oyuncular makalesi, UEFA kulüp turnuvaları gol tablosu (tüm turlar): Oyuncu adı ve kulüpleri tabloda: Inter, Juventus.",
+          "shortQuote": null
+        }
+      ],
+      "identityNote": null,
+      "recordType": "newPlayer",
+      "clubs": [
+        {
+          "clubId": "inter",
+          "clubName": "Inter",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-05-30",
+              "statsCutoff": "2026-05-30 (saat yok)",
+              "supports": [
+                "clubs.Inter"
+              ],
+              "evidenceNote": "İtalyan oyuncular makalesi, UEFA kulüp turnuvaları gol tablosu (tüm turlar): Alessandro Altobelli = 38; oyuncunun kulüp listesi: Inter, Juventus. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "38 | Alessandro Altobelli | (Inter, Juventus)"
+            }
+          ]
+        },
+        {
+          "clubId": "juventus",
+          "clubName": "Juventus",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-05-30",
+              "statsCutoff": "2026-05-30 (saat yok)",
+              "supports": [
+                "clubs.Juventus"
+              ],
+              "evidenceNote": "İtalyan oyuncular makalesi, UEFA kulüp turnuvaları gol tablosu (tüm turlar): Alessandro Altobelli = 38; oyuncunun kulüp listesi: Inter, Juventus. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "38 | Alessandro Altobelli | (Inter, Juventus)"
+            }
+          ]
+        }
+      ],
+      "previouslyMentioned": "Üçüncü partide meta.verifiedReserveCandidates içinde aday olarak listelenmişti; kabul edilmiş kayıt değildi."
+    },
+    {
+      "id": "karl-heinz-rummenigge",
+      "existingPlayerId": null,
+      "name": "Karl-Heinz Rummenigge",
+      "aliases": [
+        "Rummenigge"
+      ],
+      "birthDate": null,
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-06-29",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Alman oyuncular makalesi, UEFA kulüp turnuvaları gol tablosu (tüm turlar): Oyuncu adı ve kulüpleri tabloda: Bayern München, Inter, Servette.",
+          "shortQuote": null
+        }
+      ],
+      "identityNote": null,
+      "recordType": "newPlayer",
+      "clubs": [
+        {
+          "clubId": "bayern-munich",
+          "clubName": "Bayern Munich",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-06-29",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Bayern Munich"
+              ],
+              "evidenceNote": "Alman oyuncular makalesi, UEFA kulüp turnuvaları gol tablosu (tüm turlar): Karl-Heinz Rummenigge = 39; oyuncunun kulüp listesi: Bayern München, Inter, Servette. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "39 | Karl-Heinz Rummenigge | (Bayern München, Inter, Servette)"
+            }
+          ]
+        },
+        {
+          "clubId": "inter",
+          "clubName": "Inter",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-06-29",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Inter"
+              ],
+              "evidenceNote": "Alman oyuncular makalesi, UEFA kulüp turnuvaları gol tablosu (tüm turlar): Karl-Heinz Rummenigge = 39; oyuncunun kulüp listesi: Bayern München, Inter, Servette. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "39 | Karl-Heinz Rummenigge | (Bayern München, Inter, Servette)"
+            }
+          ]
+        }
+      ],
+      "previouslyMentioned": "Üçüncü partide meta.verifiedReserveCandidates içinde aday olarak listelenmişti; kabul edilmiş kayıt değildi."
+    },
+    {
+      "id": "marcus-rashford",
+      "existingPlayerId": null,
+      "name": "Marcus Rashford",
+      "aliases": [
+        "Rashford"
+      ],
+      "birthDate": null,
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-15",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "İngiliz oyuncular makalesi, UEFA Şampiyonlar Ligi gol tablosu (grup/lig aşamasından finale): Oyuncu adı ve kulüpleri tabloda: Manchester United, Aston Villa, Barcelona.",
+          "shortQuote": null
+        }
+      ],
+      "identityNote": null,
+      "recordType": "newPlayer",
+      "clubs": [
+        {
+          "clubId": "manchester-united",
+          "clubName": "Manchester United",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-07-15",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Manchester United"
+              ],
+              "evidenceNote": "İngiliz oyuncular makalesi, UEFA Şampiyonlar Ligi gol tablosu (grup/lig aşamasından finale): Marcus Rashford = 17; oyuncunun kulüp listesi: Manchester United, Aston Villa, Barcelona. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "17 | Marcus Rashford | (Manchester United, Aston Villa, Barcelona)"
+            }
+          ]
+        },
+        {
+          "clubId": "barcelona",
+          "clubName": "Barcelona",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-07-15",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Barcelona"
+              ],
+              "evidenceNote": "İngiliz oyuncular makalesi, UEFA Şampiyonlar Ligi gol tablosu (grup/lig aşamasından finale): Marcus Rashford = 17; oyuncunun kulüp listesi: Manchester United, Aston Villa, Barcelona. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "17 | Marcus Rashford | (Manchester United, Aston Villa, Barcelona)"
+            }
+          ]
+        }
+      ],
+      "previouslyMentioned": "Üçüncü partide meta.verifiedReserveCandidates içinde aday olarak listelenmişti; kabul edilmiş kayıt değildi."
+    },
+    {
+      "id": "samuel-kuffour",
+      "existingPlayerId": null,
+      "name": "Samuel Kuffour",
+      "aliases": [
+        "Kuffour"
+      ],
+      "birthDate": null,
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-09",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Afrikalı oyuncular makalesi, UEFA Şampiyonlar Ligi maç tablosu (grup/lig aşamasından finale): Oyuncu adı ve kulüpleri tabloda: Bayern München.",
+          "shortQuote": null
+        }
+      ],
+      "identityNote": "Afrikalı oyuncular tablosunda (GHA) yer alan Samuel Kuffour.",
+      "recordType": "newPlayer",
+      "clubs": [
+        {
+          "clubId": "bayern-munich",
+          "clubName": "Bayern Munich",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-07-09",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Bayern Munich"
+              ],
+              "evidenceNote": "Afrikalı oyuncular makalesi, UEFA Şampiyonlar Ligi maç tablosu (grup/lig aşamasından finale): Samuel Kuffour = 72; oyuncunun kulüp listesi: Bayern München. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "72 | Samuel Kuffour | (Bayern München)"
+            }
+          ]
+        },
+        {
+          "clubId": "roma",
+          "clubName": "Roma",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-07-09",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Roma"
+              ],
+              "evidenceNote": "Afrikalı oyuncular makalesi, UEFA kulüp turnuvaları maç tablosu (tüm turlar): Samuel Kuffour = 90; oyuncunun kulüp listesi: Bayern München, Roma, Livorno. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "90 | Samuel Kuffour | (Bayern München, Roma, Livorno)"
+            }
+          ]
+        }
+      ],
+      "previouslyMentioned": "Üçüncü partide meta.verifiedReserveCandidates içinde aday olarak listelenmişti; kabul edilmiş kayıt değildi."
+    },
+    {
+      "id": "benni-mccarthy",
+      "existingPlayerId": null,
+      "name": "Benni McCarthy",
+      "aliases": [
+        "McCarthy"
+      ],
+      "birthDate": null,
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-09",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Afrikalı oyuncular makalesi, UEFA kulüp turnuvaları gol tablosu (tüm turlar): Oyuncu adı ve kulüpleri tabloda: Ajax, Celta, Porto, Blackburn.",
+          "shortQuote": null
+        }
+      ],
+      "identityNote": null,
+      "recordType": "newPlayer",
+      "clubs": [
+        {
+          "clubId": "ajax",
+          "clubName": "Ajax",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-07-09",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Ajax"
+              ],
+              "evidenceNote": "Afrikalı oyuncular makalesi, UEFA kulüp turnuvaları gol tablosu (tüm turlar): Benni McCarthy = 32; oyuncunun kulüp listesi: Ajax, Celta, Porto, Blackburn. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "32 | Benni McCarthy | (Ajax, Celta, Porto, Blackburn)"
+            }
+          ]
+        },
+        {
+          "clubId": "porto",
+          "clubName": "Porto",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-07-09",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Porto"
+              ],
+              "evidenceNote": "Afrikalı oyuncular makalesi, UEFA kulüp turnuvaları gol tablosu (tüm turlar): Benni McCarthy = 32; oyuncunun kulüp listesi: Ajax, Celta, Porto, Blackburn. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "32 | Benni McCarthy | (Ajax, Celta, Porto, Blackburn)"
+            }
+          ]
+        }
+      ],
+      "previouslyMentioned": "Üçüncü partide meta.verifiedReserveCandidates içinde aday olarak listelenmişti; kabul edilmiş kayıt değildi."
+    },
+    {
+      "id": "frederic-kanoute",
+      "existingPlayerId": null,
+      "name": "Frédéric Kanouté",
+      "aliases": [
+        "Kanoute"
+      ],
+      "birthDate": null,
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-09",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Afrikalı oyuncular makalesi, UEFA kulüp turnuvaları gol tablosu (tüm turlar): Oyuncu adı ve kulüpleri tabloda: Lyon, Sevilla.",
+          "shortQuote": null
+        }
+      ],
+      "identityNote": null,
+      "recordType": "newPlayer",
+      "clubs": [
+        {
+          "clubId": "lyon",
+          "clubName": "Lyon",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-07-09",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Lyon"
+              ],
+              "evidenceNote": "Afrikalı oyuncular makalesi, UEFA kulüp turnuvaları gol tablosu (tüm turlar): Frédéric Kanouté = 31; oyuncunun kulüp listesi: Lyon, Sevilla. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "31 | Frédéric Kanouté | (Lyon, Sevilla)"
+            }
+          ]
+        },
+        {
+          "clubId": "sevilla",
+          "clubName": "Sevilla",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-07-09",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Sevilla"
+              ],
+              "evidenceNote": "Afrikalı oyuncular makalesi, UEFA kulüp turnuvaları gol tablosu (tüm turlar): Frédéric Kanouté = 31; oyuncunun kulüp listesi: Lyon, Sevilla. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "31 | Frédéric Kanouté | (Lyon, Sevilla)"
+            }
+          ]
+        }
+      ],
+      "previouslyMentioned": "Üçüncü partide meta.verifiedReserveCandidates içinde aday olarak listelenmişti; kabul edilmiş kayıt değildi."
+    },
+    {
+      "id": "emmanuel-adebayor",
+      "existingPlayerId": null,
+      "name": "Emmanuel Adebayor",
+      "aliases": [
+        "Adebayor"
+      ],
+      "birthDate": null,
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-09",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Afrikalı oyuncular makalesi, UEFA kulüp turnuvaları gol tablosu (tüm turlar): Oyuncu adı ve kulüpleri tabloda: Monaco, Arsenal, Manchester City, Real Madrid, Tottenham, Istanbul Başakşehir.",
+          "shortQuote": null
+        }
+      ],
+      "identityNote": null,
+      "recordType": "newPlayer",
+      "clubs": [
+        {
+          "clubId": "arsenal",
+          "clubName": "Arsenal",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-07-09",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Arsenal"
+              ],
+              "evidenceNote": "Afrikalı oyuncular makalesi, UEFA kulüp turnuvaları gol tablosu (tüm turlar): Emmanuel Adebayor = 26; oyuncunun kulüp listesi: Monaco, Arsenal, Manchester City, Real Madrid, Tottenham, Istanbul Başakşehir. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "26 | Emmanuel Adebayor | (Monaco, Arsenal, Manchester City, Real Madrid, Tottenham, Istanbul Başakşehir)"
+            }
+          ]
+        },
+        {
+          "clubId": "manchester-city",
+          "clubName": "Manchester City",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-07-09",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Manchester City"
+              ],
+              "evidenceNote": "Afrikalı oyuncular makalesi, UEFA kulüp turnuvaları gol tablosu (tüm turlar): Emmanuel Adebayor = 26; oyuncunun kulüp listesi: Monaco, Arsenal, Manchester City, Real Madrid, Tottenham, Istanbul Başakşehir. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "26 | Emmanuel Adebayor | (Monaco, Arsenal, Manchester City, Real Madrid, Tottenham, Istanbul Başakşehir)"
+            }
+          ]
+        },
+        {
+          "clubId": "real-madrid",
+          "clubName": "Real Madrid",
+          "loan": null,
+          "appearanceEvidence": "UEFA resmî istatistik tablosunda bu kulüple kayıtlı UEFA kulüp turnuvası maç/gol(ler)i (tarih belirtilmemiş).",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": "2026-07-09",
+              "statsCutoff": "2026-05-30T22:00+01:00",
+              "supports": [
+                "clubs.Real Madrid"
+              ],
+              "evidenceNote": "Afrikalı oyuncular makalesi, UEFA kulüp turnuvaları gol tablosu (tüm turlar): Emmanuel Adebayor = 26; oyuncunun kulüp listesi: Monaco, Arsenal, Manchester City, Real Madrid, Tottenham, Istanbul Başakşehir. Kulübün listede olması, oyuncunun o kulüple bu kapsamda en az bir resmî UEFA maçına çıktığını gösterir.",
+              "shortQuote": "26 | Emmanuel Adebayor | (Monaco, Arsenal, Manchester City, Real Madrid, Tottenham, Istanbul Başakşehir)"
+            }
+          ]
+        }
+      ],
+      "previouslyMentioned": "Üçüncü partide meta.verifiedReserveCandidates içinde aday olarak listelenmişti; kabul edilmiş kayıt değildi."
+    },
+    {
+      "id": "wd-Q1354960",
+      "existingPlayerId": "wd-Q1354960",
+      "name": "Muhammed Salah",
+      "aliases": [
+        "Mohamed Salah",
+        "Mohamed Salah Hamed Mahrous Ghaly",
+        "Mo Salah",
+        "Muhammed Salah Hamid Mahrus Gali"
+      ],
+      "birthDate": "1992-06-15",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefaeuropaleague/clubs/players/250052469--mohamed-salah/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": null,
+          "supports": [
+            "birthDate",
+            "name"
+          ],
+          "evidenceNote": "UEFA oyuncu sayfası: Mohamed Salah, Mısır, doğum tarihi 15/6/1992, kulübü Trabzonspor.",
+          "shortQuote": "Date of birth 15/6/1992 (34)"
+        }
+      ],
+      "recordType": "existingPlayerNewLink",
+      "clubs": [
+        {
+          "clubId": "trabzonspor",
+          "clubName": "Trabzonspor",
+          "loan": false,
+          "appearanceEvidence": "2026/27 UEFA Avrupa Ligi'nde 2 maç (154 dk) ve 2026/27 Konferans Ligi'nde 3 maç.",
+          "evidence": [
+            {
+              "url": "https://www.uefa.com/uefaeuropaleague/clubs/players/250052469--mohamed-salah/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": null,
+              "supports": [
+                "clubs.Trabzonspor"
+              ],
+              "evidenceNote": "UEFA oyuncu sayfası 2026/27: kulüp Trabzonspor, UEFA Avrupa Ligi 2 maç, 154 dakika.",
+              "shortQuote": "Matches played 2"
+            },
+            {
+              "url": "https://www.uefa.com/uefaconferenceleague/clubs/52731--trabzonspor/squad/",
+              "publisher": "UEFA",
+              "sourceType": "official",
+              "accessedAt": "2026-11-19",
+              "sourceUpdatedAt": null,
+              "supports": [
+                "clubs.Trabzonspor"
+              ],
+              "evidenceNote": "Trabzonspor UEFA Konferans Ligi 2026/27 kadro sayfası: Mohamed Salah MP 3, G 2.",
+              "shortQuote": "Mohamed Salah | Forward | EGY | 34 | 3 | 2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "needsReview": [
+    {
+      "name": "Fabinho (Fabio Henrique Tavares olduğu ikincil haberlere göre)",
+      "clubs": [
+        "Trabzonspor",
+        "Liverpool"
+      ],
+      "status": "needsReview",
+      "reason": "Trabzonspor bağlantısı resmî: UEFA Konferans Ligi 2026/27 kadro sayfasında Fabinho (BRA, 33) 3 maç; UEFA oyuncu sayfasında doğum tarihi 23 Ekim 1993. Liverpool bağlantısı için bu oturumda resmî kaynak açılmadı (yalnızca ikincil haberler). Oyuncu havuzda yok; iki-kulüp şartı resmî kaynakla karşılanmadı.",
+      "evidence": [
+        {
+          "url": "https://www.uefa.com/uefaconferenceleague/clubs/52731--trabzonspor/squad/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": null,
+          "supports": [
+            "clubs.Trabzonspor"
+          ],
+          "evidenceNote": "Fabinho, Midfielder, BRA, 33, MP 3.",
+          "shortQuote": null
+        },
+        {
+          "url": "https://fr.uefa.com/uefaconferenceleague/clubs/players/250053907--fabinho/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": null,
+          "supports": [
+            "birthDate"
+          ],
+          "evidenceNote": "UEFA oyuncu sayfası: Fabinho, Brezilya, orta saha, 23 Ekim 1993, Trabzonspor, 3 maç.",
+          "shortQuote": null
+        }
+      ]
+    },
+    {
+      "name": "Edgar Ié",
+      "clubs": [
+        "Feyenoord",
+        "Trabzonspor"
+      ],
+      "status": "needsReview",
+      "reason": "Sıfır cevaplı Feyenoord–Trabzonspor çifti için aday. UEFA sayfaları onu Feyenoord (2019/20 Avrupa Ligi ön bilgi yazısı) ve Trabzonspor (2021/22 Konferans Ligi resmî kadro listesi) oyuncusu olarak gösteriyor; ancak açılan maç sayfalarında ilk 11/değişiklik bilgisi yoktu ('Official line-ups not yet available'). Kadro listesi maça çıkma kanıtı değildir.",
+      "evidence": [
+        {
+          "url": "https://www.uefa.com/uefaeuropaconferenceleague/match/2033161--roma-vs-trabzonspor/lineups/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": null,
+          "supports": [],
+          "evidenceNote": "Resmî kadro listesinde Edgar Ié (Trabzonspor); dizilişler sayfada yok.",
+          "shortQuote": null
+        }
+      ]
+    },
+    {
+      "name": "Bilal Başacıkoğlu",
+      "clubs": [
+        "Feyenoord",
+        "Trabzonspor"
+      ],
+      "status": "needsReview",
+      "reason": "Feyenoord–Trabzonspor için aday. Arama sonucunda UEFA maç özetinde Feyenoord formasıyla oyuna girdiği görünüyor, ancak açılan maç sayfasında diziliş yüklenmedi; Trabzonspor maçı için resmî kaynak bulunamadı. Arama özeti kanıt sayılmadı.",
+      "evidence": [
+        {
+          "url": "https://www.uefa.com/uefaeuropaleague/season=2017/matches/round=2000792/match=2019474/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": null,
+          "supports": [],
+          "evidenceNote": "Sayfa açıldı; Man Utd 4-0 Feyenoord (2016/17) bilgisi var, diziliş yok.",
+          "shortQuote": null
+        }
+      ]
+    },
+    {
+      "name": "Ozan Tufan",
+      "clubs": [
+        "Trabzonspor",
+        "Fenerbahçe"
+      ],
+      "status": "needsReview",
+      "reason": "Trabzonspor 2026/27 Konferans Ligi kadro sayfasında 3 maç (resmî). Fenerbahçe bağlantısı için bu oturumda resmî kaynak açılmadı.",
+      "evidence": [
+        {
+          "url": "https://www.uefa.com/uefaconferenceleague/clubs/52731--trabzonspor/squad/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": null,
+          "supports": [
+            "clubs.Trabzonspor"
+          ],
+          "evidenceNote": "Ozan Tufan, Midfielder, TUR, 31, MP 3.",
+          "shortQuote": null
+        }
+      ]
+    },
+    {
+      "name": "Juventus–Trabzonspor, Newcastle United–Trabzonspor, Real Madrid–Trabzonspor",
+      "status": "unresolvedPair",
+      "reason": "Aramalarda yalnızca transfer söylentileri ve iptal edilen transferler çıktı (ör. Martín Cáceres'in sağlık kontrolünden kalması, Amauri ve Milik söylentileri). Resmî maç kanıtı olan oyuncu bulunamadı. Sıfır cevap, böyle bir oyuncu olmadığı anlamına gelmez."
+    }
+  ],
+  "corrections": [
+    {
+      "existingPlayerId": "wd-Q44297797",
+      "name": "Ferran Torres",
+      "club": "Paris Saint-Germain",
+      "proposal": "Bağlantıyı kaldırmayı veya resmî kaynakla doğrulamayı değerlendirin.",
+      "reason": "UEFA İspanya tablosu (30/05/2026 kesimli) oyuncunun Şampiyonlar Ligi kulüplerini Valencia, Manchester City, Barcelona olarak listeliyor; 17 Kasım'da açılan Wikipedia kariyer tablosunda da PSG yok. Bu, PSG'de hiç maç oynamadığını kesin kanıtlamaz; bu yüzden düzeltme önerisi olarak bırakıldı.",
+      "evidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-19",
+          "supports": [],
+          "evidenceNote": "Gol tablosu: 18 | Ferran Torres | (Valencia, Manchester City, Barcelona).",
+          "shortQuote": null
+        }
+      ]
+    },
+    {
+      "existingPlayerId": "wd-Q20994118",
+      "name": "Rodri",
+      "club": "Barcelona",
+      "proposal": "Bağlantıyı resmî kaynakla doğrulayın veya kaldırın.",
+      "reason": "17 Kasım'da açılan Wikipedia kariyer tablosunda Villarreal, Atlético Madrid, Manchester City var; Barcelona yok. Bu oturumda resmî kaynak açılmadı.",
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Rodri_(footballer,_born_1996)",
+          "publisher": "Wikipedia",
+          "sourceType": "secondary",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": null,
+          "supports": [],
+          "evidenceNote": "Kariyer tablosunda Barcelona yok (erişim 2026-11-17).",
+          "shortQuote": null
+        }
+      ]
+    }
+  ],
+  "pairCoverageChanges": [
+    {
+      "clubs": [
+        "Ajax",
+        "Porto"
+      ],
+      "before": 0,
+      "after": 1,
+      "addedBy": [
+        "Benni McCarthy"
+      ],
+      "priorityPair": false
+    },
+    {
+      "clubs": [
+        "Bayern Munich",
+        "Feyenoord"
+      ],
+      "before": 0,
+      "after": 1,
+      "addedBy": [
+        "Roy Makaay"
+      ],
+      "priorityPair": false
+    },
+    {
+      "clubs": [
+        "Bayern Munich",
+        "Lyon"
+      ],
+      "before": 2,
+      "after": 3,
+      "addedBy": [
+        "Giovane Elber"
+      ],
+      "priorityPair": false
+    },
+    {
+      "clubs": [
+        "Roma",
+        "Trabzonspor"
+      ],
+      "before": 2,
+      "after": 3,
+      "addedBy": [
+        "Muhammed Salah"
+      ],
+      "priorityPair": true
+    },
+    {
+      "clubs": [
+        "Bayern Munich",
+        "Roma"
+      ],
+      "before": 3,
+      "after": 4,
+      "addedBy": [
+        "Samuel Kuffour"
+      ],
+      "priorityPair": false
+    },
+    {
+      "clubs": [
+        "Liverpool",
+        "Trabzonspor"
+      ],
+      "before": 3,
+      "after": 4,
+      "addedBy": [
+        "Muhammed Salah"
+      ],
+      "priorityPair": false
+    },
+    {
+      "clubs": [
+        "Lyon",
+        "Sevilla"
+      ],
+      "before": 3,
+      "after": 4,
+      "addedBy": [
+        "Frédéric Kanouté"
+      ],
+      "priorityPair": false
+    },
+    {
+      "clubs": [
+        "Roma",
+        "Sporting CP"
+      ],
+      "before": 3,
+      "after": 4,
+      "addedBy": [
+        "Rui Patrício"
+      ],
+      "priorityPair": false
+    },
+    {
+      "clubs": [
+        "Paris Saint-Germain",
+        "Porto"
+      ],
+      "before": 4,
+      "after": 5,
+      "addedBy": [
+        "Vitinha"
+      ],
+      "priorityPair": false
+    },
+    {
+      "clubs": [
+        "Atlético Madrid",
+        "Valencia"
+      ],
+      "before": 5,
+      "after": 6,
+      "addedBy": [
+        "David Villa"
+      ],
+      "priorityPair": false
+    },
+    {
+      "clubs": [
+        "Chelsea",
+        "Trabzonspor"
+      ],
+      "before": 5,
+      "after": 6,
+      "addedBy": [
+        "Muhammed Salah"
+      ],
+      "priorityPair": false
+    },
+    {
+      "clubs": [
+        "Manchester City",
+        "Sevilla"
+      ],
+      "before": 5,
+      "after": 6,
+      "addedBy": [
+        "Jesús Navas"
+      ],
+      "priorityPair": false
+    },
+    {
+      "clubs": [
+        "Arsenal",
+        "Real Madrid"
+      ],
+      "before": 6,
+      "after": 7,
+      "addedBy": [
+        "Emmanuel Adebayor"
+      ],
+      "priorityPair": false
+    },
+    {
+      "clubs": [
+        "Barcelona",
+        "Manchester United"
+      ],
+      "before": 6,
+      "after": 7,
+      "addedBy": [
+        "Marcus Rashford"
+      ],
+      "priorityPair": false
+    },
+    {
+      "clubs": [
+        "Arsenal",
+        "Manchester City"
+      ],
+      "before": 8,
+      "after": 9,
+      "addedBy": [
+        "Emmanuel Adebayor"
+      ],
+      "priorityPair": false
+    },
+    {
+      "clubs": [
+        "Bayern Munich",
+        "Borussia Dortmund"
+      ],
+      "before": 8,
+      "after": 9,
+      "addedBy": [
+        "Raphaël Guerreiro"
+      ],
+      "priorityPair": false
+    },
+    {
+      "clubs": [
+        "Bayern Munich",
+        "Inter"
+      ],
+      "before": 8,
+      "after": 9,
+      "addedBy": [
+        "Karl-Heinz Rummenigge"
+      ],
+      "priorityPair": false
+    },
+    {
+      "clubs": [
+        "Manchester City",
+        "Real Madrid"
+      ],
+      "before": 8,
+      "after": 9,
+      "addedBy": [
+        "Emmanuel Adebayor"
+      ],
+      "priorityPair": false
+    },
+    {
+      "clubs": [
+        "Barcelona",
+        "Real Madrid"
+      ],
+      "before": 9,
+      "after": 10,
+      "addedBy": [
+        "Luis Enrique"
+      ],
+      "priorityPair": false
+    },
+    {
+      "clubs": [
+        "AC Milan",
+        "Ajax"
+      ],
+      "before": 12,
+      "after": 13,
+      "addedBy": [
+        "Michael Reiziger"
+      ],
+      "priorityPair": false
+    },
+    {
+      "clubs": [
+        "AC Milan",
+        "Barcelona"
+      ],
+      "before": 13,
+      "after": 14,
+      "addedBy": [
+        "Michael Reiziger"
+      ],
+      "priorityPair": false
+    },
+    {
+      "clubs": [
+        "AC Milan",
+        "Paris Saint-Germain"
+      ],
+      "before": 13,
+      "after": 14,
+      "addedBy": [
+        "Marco Simone"
+      ],
+      "priorityPair": false
+    },
+    {
+      "clubs": [
+        "Barcelona",
+        "Valencia"
+      ],
+      "before": 13,
+      "after": 14,
+      "addedBy": [
+        "David Villa"
+      ],
+      "priorityPair": false
+    },
+    {
+      "clubs": [
+        "Ajax",
+        "Barcelona"
+      ],
+      "before": 14,
+      "after": 15,
+      "addedBy": [
+        "Michael Reiziger"
+      ],
+      "priorityPair": false
+    },
+    {
+      "clubs": [
+        "Atlético Madrid",
+        "Barcelona"
+      ],
+      "before": 14,
+      "after": 15,
+      "addedBy": [
+        "David Villa"
+      ],
+      "priorityPair": false
+    },
+    {
+      "clubs": [
+        "Inter",
+        "Juventus"
+      ],
+      "before": 21,
+      "after": 22,
+      "addedBy": [
+        "Alessandro Altobelli"
+      ],
+      "priorityPair": false
+    }
+  ],
+  "newClubProposals": []
+}

@@ -1,0 +1,89 @@
+{
+  "researchedAt": "2026-11-19",
+  "inputsRead": {
+    "mevcut-oyun-havuzu.json": "okundu (473 oyuncu, 29 kulüp, 134 anagram; 17 Kasım sürümüyle bayt düzeyinde aynı)",
+    "football_more_less_batch1.json": "okundu (100 soru)",
+    "more-less-review.json": "okundu (80 bekleyen soru)",
+    "football_players_batch3.json": "kendi teslimim; havuza eklenmemiş olduğu için yalnızca tekrar kontrolünde kullanıldı"
+  },
+  "missingInputs": [
+    "Kabul edilmiş 10 kariyer rotasının dosyası (liste, 15 rotadan ertelenen 5'i çıkarılarak çıkarıldı)",
+    "Ertelenen 5 rotanın inceleme gerekçeleri",
+    "İkinci ve üçüncü partilerin iki-kulüp ve anagram inceleme raporları"
+  ],
+  "games": {
+    "two_clubs": {
+      "file": "two_clubs_batch_next.json",
+      "acceptedRecords": 18,
+      "newPlayers": 17,
+      "existingPlayerNewLinks": 1,
+      "acceptedClubLinks": 38,
+      "needsReview": 5,
+      "corrections": 2,
+      "pairsOpenedFromZero": 2,
+      "pairsStrengthened": 24,
+      "officialAccepted": 38,
+      "target": "40 yeni oyuncu veya 60 bağlantı",
+      "targetMet": false
+    },
+    "anagram": {
+      "file": "anagram_batch_next.json",
+      "accepted": 60,
+      "distribution": {
+        "easy": 20,
+        "medium": 25,
+        "hard": 15
+      },
+      "officialIdentity": 60,
+      "target": "60 (20/25/15)",
+      "targetMet": true
+    },
+    "career_routes": {
+      "file": "career_routes_batch_next.json",
+      "accepted": 0,
+      "needsReview": 25,
+      "target": 25,
+      "targetMet": false,
+      "reason": "Rotaların tamamı Wikipedia'ya dayanıyor; resmî tam kariyer kaynağı bulunamadı."
+    },
+    "more_less": {
+      "file": "more_less_batch_next.json",
+      "audit": {
+        "pendingReviewed": 80,
+        "verified": 0,
+        "corrected": 80,
+        "unresolved": 0,
+        "valuesChanged": 0,
+        "method": "11 UEFA ülke makalesi 19 Kasım'da yeniden açıldı; her sayfadaki 'Last updated' istatistik notu ve dört tablo okundu; 80 sorunun değerleri bu çıktılarla elle karşılaştırıldı. Otomatik kontrol, ilk parti dosyası ile tablo transkripsiyonu arasındaki uyumu ve kaynak sayfa eşleşmesini kapsar."
+      },
+      "newQuestions": 60,
+      "newQuestionsOfficial": 60,
+      "target": "80 denetim + 60 yeni soru",
+      "targetMet": true,
+      "difficultyTarget": "%40/%40/%20",
+      "difficultyActual": {
+        "easy": 25,
+        "hard": 12,
+        "medium": 23
+      }
+    }
+  },
+  "corrections": {
+    "twoClubs": [
+      "Ferran Torres – Paris Saint-Germain",
+      "Rodri – Barcelona"
+    ],
+    "moreLessBatch1": "80 kariyer sorusuna veri kesim tarihi eklenmesi; 11 sezon/turnuva sorusunda tanım metni düzeltmesi"
+  },
+  "inaccessibleOrUnverifiable": [
+    "UEFA maç sayfalarında eski sezonların dizilişleri yüklenmedi (Edgar Ié, Başacıkoğlu)",
+    "UEFA istatistik sayfalarındaki 'Full ranking' listeleri",
+    "TFF oyuncu sayfalarında maç listesi",
+    "FIFA istatistik sayfaları denenmedi"
+  ],
+  "unresolved": [
+    "Juventus–Trabzonspor, Newcastle United–Trabzonspor, Real Madrid–Trabzonspor: aday bulunamadı",
+    "Feyenoord–Trabzonspor: 2 aday, resmî maç kanıtı yok",
+    "Fabinho, Ozan Tufan: yalnızca Trabzonspor bağlantısı resmî"
+  ]
+}

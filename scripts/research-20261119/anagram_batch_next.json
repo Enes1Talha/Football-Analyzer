@@ -1,0 +1,1600 @@
+{
+  "meta": {
+    "game": "Karışık Harfler",
+    "researchedAt": "2026-11-19",
+    "normalization": "normalizedAnswer: Unicode NFKD ile aksanlar ayrıldı, ı→i, İ→I, ø→o yapıldı, A–Z dışındaki karakterler (boşluk, tire, kesme) silindi, büyük harfe çevrildi. Örn. Çalhanoğlu → CALHANOGLU, Şentürk → SENTURK.",
+    "dedupScope": "Havuzdaki 134 kelime ve üçüncü partide teslim edilip henüz havuza girmemiş 70 kelimeyle çakışma yok.",
+    "counts": {
+      "accepted": 60,
+      "needsReview": 0
+    },
+    "automatedChecks": {
+      "count": 60,
+      "distribution": {
+        "easy": 20,
+        "medium": 25,
+        "hard": 15
+      },
+      "noDuplicateNormalized": true,
+      "noClashWithPool134": true,
+      "noClashWithBatch3Pending": true,
+      "allA_Z": true,
+      "everyRecordHasOfficialIdentityEvidence": true
+    },
+    "limitations": [
+      "Kimlik kanıtı, oyuncunun resmî UEFA/TFF tablosunda adı ve kulüpleriyle yer almasıdır; doğum tarihi bu kayıtlara eklenmedi.",
+      "Zorluk sınıfları editoryaldir: harf sayısı yanında Türkiye'deki tanınırlık da dikkate alındı."
+    ]
+  },
+  "accepted": [
+    {
+      "playerId": "xavi-hernandez",
+      "existingPlayerId": null,
+      "name": "Xavi Hernández",
+      "answerText": "XAVI",
+      "normalizedAnswer": "XAVI",
+      "acceptedAliases": [
+        "Xavi Hernández"
+      ],
+      "difficulty": "easy",
+      "difficultyReason": "4 harf; dünyaca tanınan orta saha.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-19",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın İspanyol oyuncular istatistik makalesinde (xavi-hernandez-raul-gonzalez-iker-casill...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "carles-puyol",
+      "existingPlayerId": null,
+      "name": "Carles Puyol",
+      "answerText": "PUYOL",
+      "normalizedAnswer": "PUYOL",
+      "acceptedAliases": [],
+      "difficulty": "easy",
+      "difficultyReason": "5 harf; çok tanınan defans oyuncusu.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-19",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın İspanyol oyuncular istatistik makalesinde (xavi-hernandez-raul-gonzalez-iker-casill...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "andres-iniesta",
+      "existingPlayerId": null,
+      "name": "Andrés Iniesta",
+      "answerText": "INIESTA",
+      "normalizedAnswer": "INIESTA",
+      "acceptedAliases": [],
+      "difficulty": "easy",
+      "difficultyReason": "7 harf ama çok tanınır.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-19",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın İspanyol oyuncular istatistik makalesinde (xavi-hernandez-raul-gonzalez-iker-casill...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "koke",
+      "existingPlayerId": null,
+      "name": "Koke",
+      "answerText": "KOKE",
+      "normalizedAnswer": "KOKE",
+      "acceptedAliases": [],
+      "difficulty": "easy",
+      "difficultyReason": "4 harf, tekrar eden harf.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-19",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın İspanyol oyuncular istatistik makalesinde (xavi-hernandez-raul-gonzalez-iker-casill...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "francesco-totti",
+      "existingPlayerId": null,
+      "name": "Francesco Totti",
+      "answerText": "TOTTI",
+      "normalizedAnswer": "TOTTI",
+      "acceptedAliases": [],
+      "difficulty": "easy",
+      "difficultyReason": "5 harf; çok tanınan isim.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-05-30",
+          "statsCutoff": "2026-05-30 (saat yok)",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın İtalyan oyuncular istatistik makalesinde (gianluigi-buffon-paolo-maldini-andrea-pi...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "alessandro-nesta",
+      "existingPlayerId": null,
+      "name": "Alessandro Nesta",
+      "answerText": "NESTA",
+      "normalizedAnswer": "NESTA",
+      "acceptedAliases": [],
+      "difficulty": "easy",
+      "difficultyReason": "5 harf.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-05-30",
+          "statsCutoff": "2026-05-30 (saat yok)",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın İtalyan oyuncular istatistik makalesinde (gianluigi-buffon-paolo-maldini-andrea-pi...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "paolo-maldini",
+      "existingPlayerId": null,
+      "name": "Paolo Maldini",
+      "answerText": "MALDINI",
+      "normalizedAnswer": "MALDINI",
+      "acceptedAliases": [],
+      "difficulty": "easy",
+      "difficultyReason": "7 harf ama efsane isim.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-05-30",
+          "statsCutoff": "2026-05-30 (saat yok)",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın İtalyan oyuncular istatistik makalesinde (gianluigi-buffon-paolo-maldini-andrea-pi...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": "Cesare ve Daniel Maldini de futbolcudur; cevap Paolo Maldini için verildi."
+    },
+    {
+      "playerId": "manuel-neuer",
+      "existingPlayerId": null,
+      "name": "Manuel Neuer",
+      "answerText": "NEUER",
+      "normalizedAnswer": "NEUER",
+      "acceptedAliases": [],
+      "difficulty": "easy",
+      "difficultyReason": "5 harf; çok tanınan kaleci.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-06-29",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Alman oyuncular istatistik makalesinde (thomas-muller-toni-kroos-manuel-neuer-wh...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "oliver-kahn",
+      "existingPlayerId": null,
+      "name": "Oliver Kahn",
+      "answerText": "KAHN",
+      "normalizedAnswer": "KAHN",
+      "acceptedAliases": [],
+      "difficulty": "easy",
+      "difficultyReason": "4 harf.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-06-29",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Alman oyuncular istatistik makalesinde (thomas-muller-toni-kroos-manuel-neuer-wh...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "philipp-lahm",
+      "existingPlayerId": null,
+      "name": "Philipp Lahm",
+      "answerText": "LAHM",
+      "normalizedAnswer": "LAHM",
+      "acceptedAliases": [],
+      "difficulty": "easy",
+      "difficultyReason": "4 harf.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-06-29",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Alman oyuncular istatistik makalesinde (thomas-muller-toni-kroos-manuel-neuer-wh...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "miroslav-klose",
+      "existingPlayerId": null,
+      "name": "Miroslav Klose",
+      "answerText": "KLOSE",
+      "normalizedAnswer": "KLOSE",
+      "acceptedAliases": [],
+      "difficulty": "easy",
+      "difficultyReason": "5 harf; Dünya Kupası rekortmeni.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-06-29",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Alman oyuncular istatistik makalesinde (thomas-muller-toni-kroos-manuel-neuer-wh...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "marco-reus",
+      "existingPlayerId": null,
+      "name": "Marco Reus",
+      "answerText": "REUS",
+      "normalizedAnswer": "REUS",
+      "acceptedAliases": [],
+      "difficulty": "easy",
+      "difficultyReason": "4 harf.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-06-29",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Alman oyuncular istatistik makalesinde (thomas-muller-toni-kroos-manuel-neuer-wh...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "wayne-rooney",
+      "existingPlayerId": null,
+      "name": "Wayne Rooney",
+      "answerText": "ROONEY",
+      "normalizedAnswer": "ROONEY",
+      "acceptedAliases": [],
+      "difficulty": "easy",
+      "difficultyReason": "6 harf ama çok tanınır.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-15",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın İngiliz oyuncular istatistik makalesinde (harry-kane-phil-foden-david-beckham-paul...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "john-terry",
+      "existingPlayerId": null,
+      "name": "John Terry",
+      "answerText": "TERRY",
+      "normalizedAnswer": "TERRY",
+      "acceptedAliases": [],
+      "difficulty": "easy",
+      "difficultyReason": "5 harf.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-15",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın İngiliz oyuncular istatistik makalesinde (harry-kane-phil-foden-david-beckham-paul...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "harry-kane",
+      "existingPlayerId": null,
+      "name": "Harry Kane",
+      "answerText": "KANE",
+      "normalizedAnswer": "KANE",
+      "acceptedAliases": [],
+      "difficulty": "easy",
+      "difficultyReason": "4 harf; güncel yıldız.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-15",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın İngiliz oyuncular istatistik makalesinde (harry-kane-phil-foden-david-beckham-paul...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "hulk",
+      "existingPlayerId": null,
+      "name": "Hulk",
+      "answerText": "HULK",
+      "normalizedAnswer": "HULK",
+      "acceptedAliases": [],
+      "difficulty": "easy",
+      "difficultyReason": "4 harf, tanınan takma ad.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-06-19",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Brezilyalı oyuncular istatistik makalesinde (neymar-roberto-carlos-thiago-silva-who-a...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "tanju-colak",
+      "existingPlayerId": null,
+      "name": "Tanju Çolak",
+      "answerText": "TANJU",
+      "normalizedAnswer": "TANJU",
+      "acceptedAliases": [],
+      "difficulty": "easy",
+      "difficultyReason": "5 harf; Türkiye'de efsane golcü.",
+      "identityEvidence": [
+        {
+          "url": "http://www.tff.org/default.aspx?pageID=545",
+          "publisher": "Türkiye Futbol Federasyonu (TFF)",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": null,
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "TFF Süper Lig gol kralları arşivinde sezon ve kulübüyle listeleniyor.",
+          "shortQuote": "1987-1988 | Tanju Çolak | Galatasaray | 39"
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "aykut-kocaman",
+      "existingPlayerId": null,
+      "name": "Aykut Kocaman",
+      "answerText": "KOCAMAN",
+      "normalizedAnswer": "KOCAMAN",
+      "acceptedAliases": [
+        "Aykut"
+      ],
+      "difficulty": "easy",
+      "difficultyReason": "7 harf ama Türkiye'de çok tanınır.",
+      "identityEvidence": [
+        {
+          "url": "http://www.tff.org/default.aspx?pageID=545",
+          "publisher": "Türkiye Futbol Federasyonu (TFF)",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": null,
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "TFF Süper Lig gol kralları arşivinde sezon ve kulübüyle listeleniyor.",
+          "shortQuote": "1994-1995 | Aykut Kocaman | Fenerbahçe | 27"
+        }
+      ],
+      "ambiguityNote": "AYKUT tek başına Aykut Yiğit (TFF gol kralı, 1984-85) ile çakıştığı için soyadı kullanıldı."
+    },
+    {
+      "playerId": "volkan-demirel",
+      "existingPlayerId": null,
+      "name": "Volkan Demirel",
+      "answerText": "DEMIREL",
+      "normalizedAnswer": "DEMIREL",
+      "acceptedAliases": [
+        "Volkan"
+      ],
+      "difficulty": "easy",
+      "difficultyReason": "7 harf; Fenerbahçe'nin uzun yıllık kalecisi.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-06-25",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Türk oyuncular istatistik makalesinde (arda-guler-hakan-calhanoglu-burak-yilmaz...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": "VOLKAN birden çok futbolcuya uyduğu için soyadı kullanıldı."
+    },
+    {
+      "playerId": "lamine-yamal",
+      "existingPlayerId": null,
+      "name": "Lamine Yamal",
+      "answerText": "YAMAL",
+      "normalizedAnswer": "YAMAL",
+      "acceptedAliases": [],
+      "difficulty": "easy",
+      "difficultyReason": "5 harf; güncel yıldız.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": null,
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "UEFA EURO 2024 istatistik sayfasında takımıyla listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "sergio-busquets",
+      "existingPlayerId": null,
+      "name": "Sergio Busquets",
+      "answerText": "BUSQUETS",
+      "normalizedAnswer": "BUSQUETS",
+      "acceptedAliases": [],
+      "difficulty": "medium",
+      "difficultyReason": "8 harf.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-19",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın İspanyol oyuncular istatistik makalesinde (xavi-hernandez-raul-gonzalez-iker-casill...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "michel-platini",
+      "existingPlayerId": null,
+      "name": "Michel Platini",
+      "answerText": "PLATINI",
+      "normalizedAnswer": "PLATINI",
+      "acceptedAliases": [],
+      "difficulty": "medium",
+      "difficultyReason": "7 harf; eski dönem efsanesi.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-14",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Fransız oyuncular istatistik makalesinde (kylian-mbappe-antoine-griezmann-ousmane-...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "david-trezeguet",
+      "existingPlayerId": null,
+      "name": "David Trezeguet",
+      "answerText": "TREZEGUET",
+      "normalizedAnswer": "TREZEGUET",
+      "acceptedAliases": [],
+      "difficulty": "medium",
+      "difficultyReason": "9 harf ama tanınan isim.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-14",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Fransız oyuncular istatistik makalesinde (kylian-mbappe-antoine-griezmann-ousmane-...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": "TREZEGUET takma adını kullanan Mısırlı Mahmoud Trezeguet (Trabzonspor) de vardır; iki oyuncu da kabul edilmeli veya ipucu verilmeli."
+    },
+    {
+      "playerId": "wd-Q177343",
+      "existingPlayerId": "wd-Q177343",
+      "name": "Mikaël Silvestre",
+      "answerText": "SILVESTRE",
+      "normalizedAnswer": "SILVESTRE",
+      "acceptedAliases": [],
+      "difficulty": "medium",
+      "difficultyReason": "9 harf.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0266-1190ecaf35c9-0d3e4c5a230e-1000--kylian-mbappe-antoine-griezmann-ousmane-dembele-karim-benzem/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-14",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Fransız oyuncular istatistik makalesinde (kylian-mbappe-antoine-griezmann-ousmane-...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "phillip-cocu",
+      "existingPlayerId": null,
+      "name": "Phillip Cocu",
+      "answerText": "COCU",
+      "normalizedAnswer": "COCU",
+      "acceptedAliases": [],
+      "difficulty": "medium",
+      "difficultyReason": "4 harf ama yeni nesil için daha az tanınır.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-06-29",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Hollandalı oyuncular istatistik makalesinde (clarence-seedorf-arjen-robben-ruud-van-n...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "marcelo",
+      "existingPlayerId": null,
+      "name": "Marcelo",
+      "answerText": "MARCELO",
+      "normalizedAnswer": "MARCELO",
+      "acceptedAliases": [],
+      "difficulty": "medium",
+      "difficultyReason": "7 harf.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-06-19",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Brezilyalı oyuncular istatistik makalesinde (neymar-roberto-carlos-thiago-silva-who-a...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": "MARCELO birçok Brezilyalı oyuncunun adıdır; cevap Real Madrid'in sol beki Marcelo için."
+    },
+    {
+      "playerId": "marquinhos",
+      "existingPlayerId": null,
+      "name": "Marquinhos",
+      "answerText": "MARQUINHOS",
+      "normalizedAnswer": "MARQUINHOS",
+      "acceptedAliases": [],
+      "difficulty": "medium",
+      "difficultyReason": "10 harf ama tanınan PSG kaptanı.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-06-19",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Brezilyalı oyuncular istatistik makalesinde (neymar-roberto-carlos-thiago-silva-who-a...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "roberto-firmino",
+      "existingPlayerId": null,
+      "name": "Roberto Firmino",
+      "answerText": "FIRMINO",
+      "normalizedAnswer": "FIRMINO",
+      "acceptedAliases": [],
+      "difficulty": "medium",
+      "difficultyReason": "7 harf.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-06-19",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Brezilyalı oyuncular istatistik makalesinde (neymar-roberto-carlos-thiago-silva-who-a...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "rodrygo",
+      "existingPlayerId": null,
+      "name": "Rodrygo",
+      "answerText": "RODRYGO",
+      "normalizedAnswer": "RODRYGO",
+      "acceptedAliases": [],
+      "difficulty": "medium",
+      "difficultyReason": "7 harf; Y harfi ipucu.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/027c-16dec5d3607f-e40e8954f229-1000--neymar-roberto-carlos-thiago-silva-who-are-brazil-s-top-ue/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-06-19",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Brezilyalı oyuncular istatistik makalesinde (neymar-roberto-carlos-thiago-silva-who-a...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "eusebio",
+      "existingPlayerId": null,
+      "name": "Eusébio",
+      "answerText": "EUSEBIO",
+      "normalizedAnswer": "EUSEBIO",
+      "acceptedAliases": [
+        "Eusébio"
+      ],
+      "difficulty": "medium",
+      "difficultyReason": "7 harf; Benfica efsanesi.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0246-0e98e228fe16-d5ff2a10c737-1000--cristiano-ronaldo-bernardo-silva-bruno-fernandes-joao-mout/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-06",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Portekizli oyuncular istatistik makalesinde (cristiano-ronaldo-bernardo-silva-bruno-f...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "gennaro-gattuso",
+      "existingPlayerId": null,
+      "name": "Gennaro Gattuso",
+      "answerText": "GATTUSO",
+      "normalizedAnswer": "GATTUSO",
+      "acceptedAliases": [],
+      "difficulty": "medium",
+      "difficultyReason": "7 harf.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-05-30",
+          "statsCutoff": "2026-05-30 (saat yok)",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın İtalyan oyuncular istatistik makalesinde (gianluigi-buffon-paolo-maldini-andrea-pi...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "alessandro-del-piero",
+      "existingPlayerId": null,
+      "name": "Alessandro Del Piero",
+      "answerText": "DELPIERO",
+      "normalizedAnswer": "DELPIERO",
+      "acceptedAliases": [
+        "Del Piero"
+      ],
+      "difficulty": "medium",
+      "difficultyReason": "Birleşik yazılmış 8 harf.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-05-30",
+          "statsCutoff": "2026-05-30 (saat yok)",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın İtalyan oyuncular istatistik makalesinde (gianluigi-buffon-paolo-maldini-andrea-pi...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "marco-verratti",
+      "existingPlayerId": null,
+      "name": "Marco Verratti",
+      "answerText": "VERRATTI",
+      "normalizedAnswer": "VERRATTI",
+      "acceptedAliases": [],
+      "difficulty": "medium",
+      "difficultyReason": "8 harf.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-05-30",
+          "statsCutoff": "2026-05-30 (saat yok)",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın İtalyan oyuncular istatistik makalesinde (gianluigi-buffon-paolo-maldini-andrea-pi...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "joshua-kimmich",
+      "existingPlayerId": null,
+      "name": "Joshua Kimmich",
+      "answerText": "KIMMICH",
+      "normalizedAnswer": "KIMMICH",
+      "acceptedAliases": [],
+      "difficulty": "medium",
+      "difficultyReason": "7 harf, çift M.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-06-29",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Alman oyuncular istatistik makalesinde (thomas-muller-toni-kroos-manuel-neuer-wh...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "paul-scholes",
+      "existingPlayerId": null,
+      "name": "Paul Scholes",
+      "answerText": "SCHOLES",
+      "normalizedAnswer": "SCHOLES",
+      "acceptedAliases": [],
+      "difficulty": "medium",
+      "difficultyReason": "7 harf.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-15",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın İngiliz oyuncular istatistik makalesinde (harry-kane-phil-foden-david-beckham-paul...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "steven-gerrard",
+      "existingPlayerId": null,
+      "name": "Steven Gerrard",
+      "answerText": "GERRARD",
+      "normalizedAnswer": "GERRARD",
+      "acceptedAliases": [],
+      "difficulty": "medium",
+      "difficultyReason": "7 harf.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-15",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın İngiliz oyuncular istatistik makalesinde (harry-kane-phil-foden-david-beckham-paul...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "alan-shearer",
+      "existingPlayerId": null,
+      "name": "Alan Shearer",
+      "answerText": "SHEARER",
+      "normalizedAnswer": "SHEARER",
+      "acceptedAliases": [],
+      "difficulty": "medium",
+      "difficultyReason": "7 harf.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-15",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın İngiliz oyuncular istatistik makalesinde (harry-kane-phil-foden-david-beckham-paul...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "phil-foden",
+      "existingPlayerId": null,
+      "name": "Phil Foden",
+      "answerText": "FODEN",
+      "normalizedAnswer": "FODEN",
+      "acceptedAliases": [],
+      "difficulty": "medium",
+      "difficultyReason": "5 harf ama Türkiye'de daha az tanınır.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-15",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın İngiliz oyuncular istatistik makalesinde (harry-kane-phil-foden-david-beckham-paul...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "riyad-mahrez",
+      "existingPlayerId": null,
+      "name": "Riyad Mahrez",
+      "answerText": "MAHREZ",
+      "normalizedAnswer": "MAHREZ",
+      "acceptedAliases": [],
+      "difficulty": "medium",
+      "difficultyReason": "6 harf.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-09",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Afrikalı oyuncular istatistik makalesinde (mohamed-salah-sadio-mane-didier-drogba-p...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "javier-zanetti",
+      "existingPlayerId": null,
+      "name": "Javier Zanetti",
+      "answerText": "ZANETTI",
+      "normalizedAnswer": "ZANETTI",
+      "acceptedAliases": [],
+      "difficulty": "medium",
+      "difficultyReason": "7 harf.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0252-0d044f6082ee-2d26fd1c024f-1000--roberto-carlos-lionel-messi-neymar-edinson-cavani-who-are-so/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-04",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Güney Amerikalı oyuncular istatistik makalesinde (roberto-carlos-lionel-messi-neymar-edins...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "bulent-korkmaz",
+      "existingPlayerId": null,
+      "name": "Bülent Korkmaz",
+      "answerText": "KORKMAZ",
+      "normalizedAnswer": "KORKMAZ",
+      "acceptedAliases": [],
+      "difficulty": "medium",
+      "difficultyReason": "7 harf; Galatasaray efsanesi ama yeni nesil için daha az tanınır.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-06-25",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Türk oyuncular istatistik makalesinde (arda-guler-hakan-calhanoglu-burak-yilmaz...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": "BÜLENT tek başına Bülent Uygun (TFF gol kralı 1993-94) ile çakıştığı için soyadı kullanıldı."
+    },
+    {
+      "playerId": "tuncay-sanli",
+      "existingPlayerId": null,
+      "name": "Tuncay Şanlı",
+      "answerText": "TUNCAY",
+      "normalizedAnswer": "TUNCAY",
+      "acceptedAliases": [
+        "Tuncay Şanlı"
+      ],
+      "difficulty": "medium",
+      "difficultyReason": "6 harf; adıyla tanınır.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-06-25",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Türk oyuncular istatistik makalesinde (arda-guler-hakan-calhanoglu-burak-yilmaz...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": "TUNCAY yaygın bir ad; cevap Tuncay Şanlı için."
+    },
+    {
+      "playerId": "feyyaz-ucar",
+      "existingPlayerId": null,
+      "name": "Feyyaz Uçar",
+      "answerText": "FEYYAZ",
+      "normalizedAnswer": "FEYYAZ",
+      "acceptedAliases": [],
+      "difficulty": "medium",
+      "difficultyReason": "6 harf, çift Y; eski dönem golcüsü.",
+      "identityEvidence": [
+        {
+          "url": "http://www.tff.org/default.aspx?pageID=545",
+          "publisher": "Türkiye Futbol Federasyonu (TFF)",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": null,
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "TFF Süper Lig gol kralları arşivinde sezon ve kulübüyle listeleniyor.",
+          "shortQuote": "1989-1990 | Feyyaz Uçar | Beşiktaş | 28"
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "fatih-tekke",
+      "existingPlayerId": null,
+      "name": "Fatih Tekke",
+      "answerText": "TEKKE",
+      "normalizedAnswer": "TEKKE",
+      "acceptedAliases": [],
+      "difficulty": "medium",
+      "difficultyReason": "5 harf ama yeni nesil için daha az tanınır.",
+      "identityEvidence": [
+        {
+          "url": "http://www.tff.org/default.aspx?pageID=545",
+          "publisher": "Türkiye Futbol Federasyonu (TFF)",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": null,
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "TFF Süper Lig gol kralları arşivinde sezon ve kulübüyle listeleniyor.",
+          "shortQuote": "2004-2005 | Fatih Tekke | Trabzonspor | 31"
+        }
+      ],
+      "ambiguityNote": "FATİH birden çok oyuncuya uyduğu için soyadı kullanıldı."
+    },
+    {
+      "playerId": "semih-senturk",
+      "existingPlayerId": null,
+      "name": "Semih Şentürk",
+      "answerText": "SENTURK",
+      "normalizedAnswer": "SENTURK",
+      "acceptedAliases": [
+        "Şentürk"
+      ],
+      "difficulty": "medium",
+      "difficultyReason": "7 harf; EURO 2008 golleriyle tanınır.",
+      "identityEvidence": [
+        {
+          "url": "http://www.tff.org/default.aspx?pageID=545",
+          "publisher": "Türkiye Futbol Federasyonu (TFF)",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": null,
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "TFF Süper Lig gol kralları arşivinde sezon ve kulübüyle listeleniyor.",
+          "shortQuote": "2007-2008 | Semih Şentürk | Fenerbahçe | 17"
+        }
+      ],
+      "ambiguityNote": "SEMİH, Semih Kılıçsoy ile çakıştığı için soyadı kullanıldı."
+    },
+    {
+      "playerId": "carlos-santillana",
+      "existingPlayerId": null,
+      "name": "Carlos Santillana",
+      "answerText": "SANTILLANA",
+      "normalizedAnswer": "SANTILLANA",
+      "acceptedAliases": [],
+      "difficulty": "hard",
+      "difficultyReason": "10 harf; eski dönem oyuncusu.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-19",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın İspanyol oyuncular istatistik makalesinde (xavi-hernandez-raul-gonzalez-iker-casill...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "aritz-aduriz",
+      "existingPlayerId": null,
+      "name": "Aritz Aduriz",
+      "answerText": "ADURIZ",
+      "normalizedAnswer": "ADURIZ",
+      "acceptedAliases": [],
+      "difficulty": "hard",
+      "difficultyReason": "6 harf ama az tanınır.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0266-118ae97c2773-d8735a218d6b-1000--xavi-hernandez-raul-gonzalez-iker-casillas-fernando-morient/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-19",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın İspanyol oyuncular istatistik makalesinde (xavi-hernandez-raul-gonzalez-iker-casill...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "michael-reiziger",
+      "existingPlayerId": null,
+      "name": "Michael Reiziger",
+      "answerText": "REIZIGER",
+      "normalizedAnswer": "REIZIGER",
+      "acceptedAliases": [],
+      "difficulty": "hard",
+      "difficultyReason": "8 harf, Z ve iki I.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-06-29",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Hollandalı oyuncular istatistik makalesinde (clarence-seedorf-arjen-robben-ruud-van-n...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "rob-rensenbrink",
+      "existingPlayerId": null,
+      "name": "Rob Rensenbrink",
+      "answerText": "RENSENBRINK",
+      "normalizedAnswer": "RENSENBRINK",
+      "acceptedAliases": [],
+      "difficulty": "hard",
+      "difficultyReason": "11 harf, eski dönem.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0244-0e98ba4865f5-638b28f0a449-1000--clarence-seedorf-arjen-robben-ruud-van-nistelrooy-who-are-th/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-06-29",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Hollandalı oyuncular istatistik makalesinde (clarence-seedorf-arjen-robben-ruud-van-n...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "massimo-ambrosini",
+      "existingPlayerId": null,
+      "name": "Massimo Ambrosini",
+      "answerText": "AMBROSINI",
+      "normalizedAnswer": "AMBROSINI",
+      "acceptedAliases": [],
+      "difficulty": "hard",
+      "difficultyReason": "9 harf.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-05-30",
+          "statsCutoff": "2026-05-30 (saat yok)",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın İtalyan oyuncular istatistik makalesinde (gianluigi-buffon-paolo-maldini-andrea-pi...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "alessandro-costacurta",
+      "existingPlayerId": null,
+      "name": "Alessandro Costacurta",
+      "answerText": "COSTACURTA",
+      "normalizedAnswer": "COSTACURTA",
+      "acceptedAliases": [],
+      "difficulty": "hard",
+      "difficultyReason": "10 harf.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-05-30",
+          "statsCutoff": "2026-05-30 (saat yok)",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın İtalyan oyuncular istatistik makalesinde (gianluigi-buffon-paolo-maldini-andrea-pi...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "alberto-gilardino",
+      "existingPlayerId": null,
+      "name": "Alberto Gilardino",
+      "answerText": "GILARDINO",
+      "normalizedAnswer": "GILARDINO",
+      "acceptedAliases": [],
+      "difficulty": "hard",
+      "difficultyReason": "9 harf.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0295-1cd2108caa82-1bc515a174ed-1000--gianluigi-buffon-paolo-maldini-andrea-pirlo-alessandro-del-piero-who-are-italys-top-uefa-champions-league-performers/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-05-30",
+          "statsCutoff": "2026-05-30 (saat yok)",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın İtalyan oyuncular istatistik makalesinde (gianluigi-buffon-paolo-maldini-andrea-pi...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "jupp-heynckes",
+      "existingPlayerId": null,
+      "name": "Jupp Heynckes",
+      "answerText": "HEYNCKES",
+      "normalizedAnswer": "HEYNCKES",
+      "acceptedAliases": [],
+      "difficulty": "hard",
+      "difficultyReason": "8 harf, oyunculuğu az bilinir.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-06-29",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Alman oyuncular istatistik makalesinde (thomas-muller-toni-kroos-manuel-neuer-wh...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": "Teknik direktör olarak daha tanınır; cevap oyunculuk kaydına dayanır."
+    },
+    {
+      "playerId": "karl-heinz-rummenigge",
+      "existingPlayerId": null,
+      "name": "Karl-Heinz Rummenigge",
+      "answerText": "RUMMENIGGE",
+      "normalizedAnswer": "RUMMENIGGE",
+      "acceptedAliases": [],
+      "difficulty": "hard",
+      "difficultyReason": "10 harf, çift M ve G.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0266-118920ae91ee-a1079c47e9e0-1000--thomas-muller-toni-kroos-manuel-neuer-who-are-germany-s-t/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-06-29",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Alman oyuncular istatistik makalesinde (thomas-muller-toni-kroos-manuel-neuer-wh...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": "RUMMENIGGE, kardeşi Michael Rummenigge'ye de uyar (o da Bayern'de oynadı); cevap Karl-Heinz için."
+    },
+    {
+      "playerId": "jamie-carragher",
+      "existingPlayerId": null,
+      "name": "Jamie Carragher",
+      "answerText": "CARRAGHER",
+      "normalizedAnswer": "CARRAGHER",
+      "acceptedAliases": [],
+      "difficulty": "hard",
+      "difficultyReason": "9 harf.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0250-0e999e845059-84f1e30be8f9-1000--harry-kane-phil-foden-david-beckham-paul-scholes-who-are-e/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-15",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın İngiliz oyuncular istatistik makalesinde (harry-kane-phil-foden-david-beckham-paul...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "kalidou-koulibaly",
+      "existingPlayerId": null,
+      "name": "Kalidou Koulibaly",
+      "answerText": "KOULIBALY",
+      "normalizedAnswer": "KOULIBALY",
+      "acceptedAliases": [],
+      "difficulty": "hard",
+      "difficultyReason": "9 harf.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-09",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Afrikalı oyuncular istatistik makalesinde (mohamed-salah-sadio-mane-didier-drogba-p...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "serhou-guirassy",
+      "existingPlayerId": null,
+      "name": "Serhou Guirassy",
+      "answerText": "GUIRASSY",
+      "normalizedAnswer": "GUIRASSY",
+      "acceptedAliases": [],
+      "difficulty": "hard",
+      "difficultyReason": "8 harf, çift S.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/0227-0e9256d3f31f-2c54224782ca-1000--mohamed-salah-sadio-mane-didier-drogba-pierre-emerick-auba/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-07-09",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Afrikalı oyuncular istatistik makalesinde (mohamed-salah-sadio-mane-didier-drogba-p...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "giorgi-mamardashvili",
+      "existingPlayerId": null,
+      "name": "Giorgi Mamardashvili",
+      "answerText": "MAMARDASHVILI",
+      "normalizedAnswer": "MAMARDASHVILI",
+      "acceptedAliases": [],
+      "difficulty": "hard",
+      "difficultyReason": "13 harf.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefaeuro/history/seasons/2024/statistics/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": null,
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "UEFA EURO 2024 istatistik sayfasında takımıyla listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": null
+    },
+    {
+      "playerId": "hakan-calhanoglu",
+      "existingPlayerId": null,
+      "name": "Hakan Çalhanoğlu",
+      "answerText": "CALHANOGLU",
+      "normalizedAnswer": "CALHANOGLU",
+      "acceptedAliases": [
+        "Çalhanoğlu"
+      ],
+      "difficulty": "hard",
+      "difficultyReason": "10 harf; Türkçe karakterler normalize edilince yazım zorlaşır.",
+      "identityEvidence": [
+        {
+          "url": "https://www.uefa.com/uefachampionsleague/news/021f-0e8fa1bf34c8-19dac14734d8-1000--arda-guler-hakan-calhanoglu-burak-yilmaz-who-are-turkiye-s-t/",
+          "publisher": "UEFA",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": "2026-06-25",
+          "statsCutoff": "2026-05-30T22:00+01:00",
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "Oyuncu, UEFA'nın Türk oyuncular istatistik makalesinde (arda-guler-hakan-calhanoglu-burak-yilmaz...) kulüpleriyle birlikte listeleniyor.",
+          "shortQuote": null
+        }
+      ],
+      "ambiguityNote": "HAKAN tek başına Hakan Şükür ile çakıştığı için soyadı kullanıldı."
+    },
+    {
+      "playerId": "eldor-shomurodov",
+      "existingPlayerId": null,
+      "name": "Eldor Shomurodov",
+      "answerText": "SHOMURODOV",
+      "normalizedAnswer": "SHOMURODOV",
+      "acceptedAliases": [],
+      "difficulty": "hard",
+      "difficultyReason": "10 harf; TFF arşivinde 'Shomurodov' yazımıyla.",
+      "identityEvidence": [
+        {
+          "url": "http://www.tff.org/default.aspx?pageID=545",
+          "publisher": "Türkiye Futbol Federasyonu (TFF)",
+          "sourceType": "official",
+          "accessedAt": "2026-11-19",
+          "sourceUpdatedAt": null,
+          "supports": [
+            "name"
+          ],
+          "evidenceNote": "TFF Süper Lig gol kralları arşivinde sezon ve kulübüyle listeleniyor.",
+          "shortQuote": "2025-2026 | ... / Eldor Shomurodov | ... / RAMS Başakşehir | 22"
+        }
+      ],
+      "ambiguityNote": null
+    }
+  ],
+  "needsReview": []
+}
