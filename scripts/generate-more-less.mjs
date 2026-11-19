@@ -1,0 +1,14 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+const root=new URL('../',import.meta.url);
+const data=JSON.parse(readFileSync(new URL('scripts/more-less-approved.json',root),'utf8'));
+const rows=data.questions.map(q=>({id:q.id,prompt:q.prompt,playerA:data.players.find(p=>p.id===q.playerAId).name,playerB:data.players.find(p=>p.id===q.playerBId).name,valueA:q.valueA,valueB:q.valueB,correctAnswer:q.correctAnswer,unit:q.unit,period:q.scope.season??q.scope.edition,source:q.review.sourceUrl}));
+writeFileSync(new URL('src/lib/more-less-questions.json',root),JSON.stringify(rows,null,2)+'\n');
+const seed=rows.map(q=>`('${q.id}', '${JSON.stringify(q).replaceAll("'","''")}')`).join(',\n');
+const template=readFileSync(new URL('scripts/more-less-room.sql',root),'utf8');
+const groups=readFileSync(new URL('supabase/migrations/202611180006_daily_groups_rematch.sql',root),'utf8');
+const start=groups.indexOf('create function public.game_group(');
+const end=groups.indexOf('-- Add the missing',start);
+if(start<0||end<0)throw Error('Group function not found');
+const groupSql=groups.slice(start,end).replace('create function','create or replace function').replace("'daily','clubs','anagram','career'","'daily','clubs','anagram','career','more_less'");
+writeFileSync(new URL('supabase/migrations/202611180007_more_less.sql',root),template.replace('-- QUESTION_SEED',`insert into public.game_more_less_questions(id,data) values\n${seed};`).replace('-- GROUP_FUNCTION',()=>groupSql));
+console.log(`Prepared ${rows.length} questions and migration.`);

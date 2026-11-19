@@ -1,7 +1,8 @@
 export interface RoomState {
+  question?:import('@/components/game/MoreLess').ComparisonQuestion|null; myChoice?:string|null; opponentChoice?:string|null; opponentAnswered?:boolean;
   careerMatch?:boolean; round?:number; roundDone?:boolean; myScore?:number; opponentScore?:number; targetScore?:number;
   roundPoints?:number|null; lastRoundPoints?:number|null; roundWon?:boolean|null;
-  gameKind?: "clubs" | "anagram" | "career"; difficulty?: "easy" | "medium" | "hard"; ready?: boolean;
+  gameKind?: "clubs" | "anagram" | "career" | "more_less"; difficulty?: "easy" | "medium" | "hard"; ready?: boolean;
   career?: import('./career').CareerStage[]; totalClues?:number; careerSource?:string|null; nextClueAt?:number|null;
   puzzle?: string | null; serverMs?: number; startsAt?: number | null; endsAt?: number | null;
   code: string; status: "waiting" | "playing" | "finished" | "void";

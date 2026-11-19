@@ -327,4 +327,42 @@ await as(1);assert.equal((await rpc('rematch','LEAGUE0')).code,clubRematch.code)
 await as(2);await assert.rejects(rpc('rematch','LEAGUE0'),/sana ait/);
 await db.exec('reset role');await db.exec('set role anon');await assert.rejects(db.query('select public.game_daily()'),/permission denied/);await assert.rejects(db.query('select public.game_group()'),/permission denied/);
 console.log('PASS: common daily question, answer secrecy, one result per account/day, rollover guard, participation streak, private groups, weekly scope, per-game separation, five-match cap and shared club rematch.');
+await db.exec('reset role');
+{
+await db.exec(readFileSync(new URL('202611180007_more_less.sql',migrations),'utf8'));
+assert.equal((await db.query('select count(*)::int as n from public.game_more_less_questions')).rows[0].n,20);
+await as(0);
+await assert.rejects(db.query('select * from public.game_more_less_questions'),/permission denied/);
+await assert.rejects(db.query("select public.game_room_before_more_less('state','','')"),/permission denied/);
+// Previous tests intentionally left open rooms. Close those before testing room limits.
+await db.exec('reset role');await db.exec("update public.game_rooms set status='void' where status in ('waiting','playing')");
+await as(0);let ml=await rpc('create_more_less');assert.equal(ml.gameKind,'more_less');assert.equal(ml.question,null);
+await as(1);await rpc('join',ml.code);await rpc('ready',ml.code);
+await as(0);ml=await rpc('ready',ml.code);assert.equal(ml.question,null);
+await assert.rejects(rpc('more_less_answer',ml.code,'A'),/Geri sayımı/);
+await as(2);await assert.rejects(rpc('state',ml.code),/sana ait/);
+await as(0);await start(ml.code);ml=await rpc('state',ml.code);
+assert.ok(ml.question.playerA);assert.equal(ml.question.valueA,undefined);assert.equal(ml.question.correctAnswer,undefined);assert.equal(ml.question.source,undefined);
+await assert.rejects(rpc('more_less_answer',ml.code,'forged'),/seç/);
+await db.exec('reset role');const mlq=(await db.query('select comparison_data from public.game_rooms where code=$1',[ml.code])).rows[0].comparison_data;
+const wrong=mlq.correctAnswer==='A'?'B':'A';
+await as(0);let locked=await rpc('more_less_answer',ml.code,mlq.correctAnswer);assert.equal(locked.status,'playing');assert.equal(locked.question.valueA,undefined);
+assert.equal((await rpc('more_less_answer',ml.code,wrong)).myChoice,mlq.correctAnswer);
+await as(1);locked=await rpc('state',ml.code);assert.equal(locked.opponentAnswered,true);assert.equal(locked.opponentChoice,null);
+let result=await rpc('more_less_answer',ml.code,wrong);assert.equal(result.status,'finished');assert.equal(result.won,false);assert.equal(result.question.valueA,mlq.valueA);
+assert.equal((await rpc('more_less_answer',ml.code,mlq.correctAnswer)).won,false);
+await as(0);assert.equal((await dash()).byGame.find(g=>g.kind==='more_less').wins,1);
+assert.equal((await group('board',league.code,'','more_less')).board.find(p=>p.id===users[0]).points,3);
+let repeat=await rpc('rematch',ml.code);await as(1);assert.equal((await rpc('rematch',ml.code)).code,repeat.code);
+await rpc('ready',repeat.code);await as(0);await rpc('ready',repeat.code);await start(repeat.code);
+let next=await rpc('state',repeat.code);assert.notEqual(next.question.id,mlq.id);
+await rpc('more_less_answer',repeat.code,'equal');await as(1);result=await rpc('more_less_answer',repeat.code,'equal');assert.equal(result.status,'void');assert.equal(result.won,null);assert.equal((await dash()).history.find(item=>item.code===repeat.code).won,null);
+await as(0);const timeout=await rpc('rematch',repeat.code);await rpc('ready',timeout.code);await as(1);await rpc('ready',timeout.code);
+await db.exec('reset role');await db.query("update public.game_rooms set starts_at=clock_timestamp()-interval '30 seconds',ends_at=clock_timestamp()-interval '1 second' where code=$1",[timeout.code]);
+await as(1);result=await rpc('more_less_answer',timeout.code,'A');assert.equal(result.status,'void');assert.equal(result.myChoice,null);
+await as(0);const quit=await rpc('rematch',timeout.code);await rpc('ready',quit.code);await as(1);await rpc('ready',quit.code);await start(quit.code);assert.equal((await rpc('leave',quit.code)).won,false);
+await as(0);const unopened=await rpc('create_more_less');assert.equal((await rpc('leave',unopened.code)).status,'void');
+await db.exec('reset role');await db.exec('set role anon');await assert.rejects(db.query("select public.game_room('create_more_less','','')"),/permission denied/);
+console.log('PASS: more-less hidden answers, simultaneous start, immutable choices, membership, winner/draw/timeout, forfeit, rematch, separate stats and weekly group scores.');
+}
 await db.close();

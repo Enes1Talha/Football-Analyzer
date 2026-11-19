@@ -6,11 +6,11 @@ export function levelFor(wins: number) { return Math.min(10, levelWins.filter((n
 export interface GameProfile { id: string; username: string; wins: number; losses: number; rank: number }
 export interface PlayerDetails { username: string; display_name: string; bio: string; avatar: string; created_at: string }
 export interface GameDashboard {
-  rivalsByGame?: { opponent_id:string; opponent:string; kind:'clubs'|'anagram'|'career'; wins:number; losses:number }[];
-  byGame?: { kind: "clubs" | "anagram" | "career"; wins: number; losses: number }[];
+  rivalsByGame?: { opponent_id:string; opponent:string; kind:'clubs'|'anagram'|'career'|'more_less'; wins:number; losses:number }[];
+  byGame?: { kind: "clubs" | "anagram" | "career" | "more_less"; wins: number; losses: number }[];
   profile: GameProfile | null; streak: number; leaderboard: GameProfile[];
   rivals: { opponent_id: string; opponent: string; wins: number; losses: number }[];
-  history: { code: string; opponent: string; won: boolean; finished_at: string; host_team: string; guest_team: string; answer: string | null; reason: string }[];
+  history: { kind?:string; code: string; opponent: string; won: boolean|null; finished_at: string; host_team: string; guest_team: string; answer: string | null; reason: string }[];
 }
 export function gameError(error: { message?: string; code?: string }) {
   if (error.code === "PGRST202" || error.code === "42P01") return "Hesap ve oyun kayıt sistemi henüz etkinleştirilmedi. Lütfen daha sonra tekrar dene.";

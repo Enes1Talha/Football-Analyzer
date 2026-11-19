@@ -29,11 +29,42 @@ The script performs offline structural validation; it does not re-fetch sources.
   assumed unavailable. Do not use the page's publication/retrieval date as the
   data cutoff without evidence.
 
-This change only prepares research data. It does not release a fourth game,
-change existing points, import database records or enable new questions in UI.
-The approved subset also remains goal-heavy; a diverse production pool needs
+The approved subset remains goal-heavy; a diverse production pool needs
 more non-goal/non-appearance questions. Reserves and `needsReview` are excluded.
 
 Next research priority: completed-tournament saves, shots on target, tackles and
 other explicitly defined metrics; provide exact table sections and cutoffs for
 the 80 career questions. Keep A/B/equal balanced and avoid repeating pairs.
+
+## Fourth game implementation (2026-11-19)
+
+`generate-more-less.mjs` prepares the solo snapshot and migration
+`202611180007_more_less.sql` from the 20 approved questions. The migration was
+applied to the live project and its 20-row seed verified in SQL Editor.
+Do not rerun that migration on an already upgraded database; future changes
+must use a new migration. `more-less-room.sql` is its generation template.
+
+Solo: one choice per question, unlimited time, pass reveals the answer. Correct,
+played, streak and best streak persist locally under `football-solo-more-less-v1`.
+No ranked points are awarded. Questions do not repeat within the current pool
+cycle and the cycle boundary avoids an immediate repeat.
+
+Friends: standard room code and accounts, both ready, 3-second countdown,
+20-second answer window, one immutable A/B/equal choice per player. The server
+reveals values after both answers or timeout. Only one correct player wins
+(one win / three ranking points); otherwise it is a draw. A missing answer is
+incorrect. Forfeit after countdown awards the opponent a win. Draws appear in
+history but do not affect win/loss or weekly ranking points. Rematch uses the
+same opponent and excludes the immediately previous question.
+
+New kind `more_less` has separate profile/rival/weekly group statistics. Existing
+daily challenges and other games retain their rules. Private-table access,
+early/late answers, answer locks, membership, timeout, draw, forfeit, rematch,
+history and score separation are covered by `test-game-db.mjs`. Production
+build and local browser solo answer/reveal were checked. Real two-device testing
+has not been performed.
+
+Solo practice intentionally ships a public question snapshot, consistent with
+the existing practice games. Server response redaction prevents early disclosure
+through ranked room state, but this is not an anti-cheat guarantee against
+inspecting the practice bundle or learning the small pool.
