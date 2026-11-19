@@ -1,0 +1,38 @@
+{
+  "reviewedAt": "2026-11-19",
+  "imported": false,
+  "poolHashMatches": true,
+  "candidateRoutes": 24,
+  "newPlayerRecordsRequired": [
+    "Nihat Kahveci",
+    "Tuncay Sanli",
+    "Alex de Souza"
+  ],
+  "canonicalIdRemappingRequired": [
+    "Thierry Henry",
+    "Andriy Shevchenko",
+    "Rivaldo",
+    "Arda Turan",
+    "Roberto Carlos"
+  ],
+  "checksPassed": [
+    "Existing player IDs resolve in current pool",
+    "Canonical route IDs unique and do not overlap existing 10 trails",
+    "Stage start years sorted; end years not before start years"
+  ],
+  "salahEvidence": {
+    "status": "independently-read-official-match-report",
+    "url": "https://www.tff.org/Resources/Tamsaha/262/66-67/",
+    "finding": "Report names Muhammed Salah in Trabzonspor starting eleven against Ferencvaros on 20 August 2026; also describes arrival from Liverpool."
+  },
+  "careerPolicy": {
+    "secondarySources": "Preserve secondary provenance, never label Wikipedia routes officially verified.",
+    "amateurSeniorMatches": "Eligible under existing official senior appearance rule; do not exclude solely for amateur status.",
+    "retirementInference": "Do not require inferred retirement as proof of a complete lifetime career; label coverage date and review gaps."
+  },
+  "limitations": [
+    "24 routes structurally checked, not individually source-verified in this review.",
+    "Kuyt eligibility resolved by rule; precise periods still require source check.",
+    "No application data or production records changed."
+  ]
+}
